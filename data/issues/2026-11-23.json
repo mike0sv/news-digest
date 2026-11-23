@@ -1,0 +1,473 @@
+{
+  "version": 1,
+  "id": "2026-11-23",
+  "date": "2026-11-23",
+  "created_at": "2026-11-23T22:10:10.546926+00:00",
+  "title": "Утренний обзор",
+  "intro": "Выпуск за 23 ноября 2026 года. Главный приоритет — AI-агенты: релизы Claude Code, Agents SDK и Codex, а также Claude Ship. Из остальных групп включены только события, где есть конкретные факты и источники.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "Claude Code v2.1.331: Code Mode на облачных платформах и проверка доступа к API",
+      "summary": "Вышла Claude Code v2.1.331. Code Mode теперь поддерживается в терминальных сессиях на Amazon Bedrock, Google Cloud Agent Platform, Microsoft Foundry и Claude Platform on AWS; команда claude doctor получила раздел проверки доступности API. Также добавлены трассировки gen_ai.* для claude_code.llm_request и исправлены ошибки, включая зависания MCP-вызовов до 30 минут. Текст релиза в источнике обрывается, поэтому список изменений неполный.",
+      "why_it_matters": "Команды, которые запускают Claude Code через Bedrock, Foundry или шлюз, получают Code Mode на своей платформе и средство диагностики подключения к API.",
+      "id": "4957baf3af581983",
+      "group": "agents",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "a9972b90c90a6092227e",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+          "source": "Claude Code releases",
+          "title": "v2.1.331",
+          "published_at": "2026-11-23T21:34:41+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI Agents SDK v1.0.0-alpha.2: возобновление сессий, хуки инструментов и редакция текста",
+      "summary": "OpenAI выпустила Agents SDK v1.0.0-alpha.2 в виде GitHub-превью с установкой через wheel. Версия добавляет ResumableSession для сохранения истории и ожидающих подтверждений при смене воркера, настраиваемые хуки выполнения инструментов (prepare_tool_input, prepare_tool_output, prepare_tool_declaration), опциональную редакцию текста через redact_text и подробную трассировку операций. Alpha.2 пишет новый формат состояния RunState (схема 1.24), который alpha.1 не читает; восстановление нативных подтверждений Codex поддерживает только одно ожидающее exec_command или apply_patch.",
+      "why_it_matters": "Для долгоживущих агентов появилось восстановление после падения воркера, но переход с alpha.1 на alpha.2 необратим для снимков состояния.",
+      "id": "0f3b7fb23a0ef61e",
+      "group": "agents",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "11ec5a54f8f917714e42",
+          "url": "https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.2",
+          "source": "OpenAI Agents SDK",
+          "title": "Agents SDK v1.0.0-alpha.2",
+          "published_at": "2026-11-23T20:11:07+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Codex: выпущены альфа-версии 0.171.0-alpha.13.2 и 0.172.0-alpha.2.1",
+      "summary": "23 ноября вышли две альфа-версии Codex: 0.172.0-alpha.2.1 (около 18:07 UTC) и 0.171.0-alpha.13.2 (около 19:43 UTC). В источниках указаны только номера версий, описание изменений отсутствует.",
+      "why_it_matters": "По имеющемуся тексту нельзя определить, какие функции или исправления вошли в эти сборки; для оценки нужен полный список изменений.",
+      "id": "a8a5137e8796d49b",
+      "group": "agents",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "9281e402e80ec3c67a7a",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13.2",
+          "source": "Codex releases",
+          "title": "0.171.0-alpha.13.2",
+          "published_at": "2026-11-23T19:43:27+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "470a905d1d5de2eab081",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.2.1",
+          "source": "Codex releases",
+          "title": "0.172.0-alpha.2.1",
+          "published_at": "2026-11-23T18:07:33+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic запустил Claude Ship: агенты PR Steward и Claude Approvals для код-ревью",
+      "summary": "Anthropic анонсировал продукт Claude Ship, в рамках которого Claude может проверять, исправлять и одобрять pull request'ы. В бета-версии запущены агенты PR Steward, который реагирует на падающие CI-проверки, конфликты слияния и замечания ревьюеров, и Claude Approvals; функция Code Review, анонсированная в марте, стала общедоступной в октябре.",
+      "why_it_matters": "Агенты переходят от комментариев к исправлению и одобрению кода в процессе слияния, но пока в бета-статусе, и ограничения и надёжность в источнике не описаны.",
+      "id": "f8b9b2efb55a02ba",
+      "group": "agents",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "6545db87281ad58ecc44",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+          "source": "The Verge",
+          "title": "Claude AI can review pull requests and ship fixes on its own now",
+          "published_at": "2026-11-23T20:00:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Ladybird выпустил первую альфа-версию браузера; проект сообщает о вкладе ИИ-агентов",
+      "summary": "Проект Ladybird опубликовал первую альфа-версию браузера для macOS и Linux, которую можно установить без сборки; Simon Willison отмечает высокую скорость и работу большинства сайтов, но Datasette Lite не запускается из-за ошибки в service worker. По словам проекта, ИИ-агентов направили на Web Platform Tests и поручили дописывать недостающую функциональность, и в конце октября их правки дали основную часть прироста примерно с 2,12 до 2,18 млн прохождений subtest'ов.",
+      "why_it_matters": "Крупный открытый проект публично связывает заметную часть прогресса с работой ИИ-агентов; сами разработчики предупреждают, что безопасность альфа-версии не гарантирована, поэтому для чувствительных аккаунтов её не рекомендуют.",
+      "id": "9e8476e97940eb61",
+      "group": "agents",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "e59fe8be067f4ab68ffc",
+          "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+          "source": "Simon Willison",
+          "title": "Ladybird's first alpha release",
+          "published_at": "2026-11-23T21:46:35+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia вернула Дженсена Хуанга на пост гендиректора",
+      "summary": "Совет директоров Nvidia 23 ноября вернул Дженсена Хуанга на пост гендиректора менее чем через две недели после его отставки 12 ноября, которая последовала за скандалом с его личными отношениями. Совет сослался на «вклад с высших уровней правительства США», а Трамп заявил, что это «лучшее» решение для компании; по данным NYT, рассматривалась связь одного из близких Хуангу людей с передачей информации Китаю.",
+      "why_it_matters": "Решение происходит на фоне расследований и интереса Конгресса к экспорту AI-чипов в Китай: Хуанг должен выступить перед законодателями 1 декабря, а по сообщениям СМИ, SEC и генпрокурор Калифорнии проверяют компанию.",
+      "id": "c5402f98eef52c42",
+      "group": "technology",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "2c11c808192d075870d5",
+          "url": "https://www.bbc.com/russian/articles/cqx2xj782wyyo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "Nvidia снова назначила Дженсена Хуанга гендиректором. Трамп заявил, что это его заслуга",
+          "published_at": "2026-11-23T16:58:25+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "72c65d25e7ff950d5228",
+          "url": "https://www.theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return",
+          "source": "The Verge",
+          "title": "Jensen Huang says he’ll be a ‘better CEO’ as staff applauds his return",
+          "published_at": "2026-11-23T19:58:27+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "ba7fe03235f718d9453a",
+          "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+          "source": "The Verge",
+          "title": "How Jensen Huang ended up as Nvidia CEO again",
+          "published_at": "2026-11-23T19:57:18+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "38ea5b66d259522356b1",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+          "source": "The Verge",
+          "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+          "published_at": "2026-11-23T22:08:37+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Штаты Виргиния и Орегон подали иск к SpaceX из-за Grok",
+      "summary": "Виргиния и Орегон первыми подали иски к SpaceX, купившей xAI, обвиняя Grok в создании сексуализированных изображений реальных женщин и детей. Генеральные прокуроры утверждают, что заявления компании о новых защитных мерах «вводят в заблуждение», а Grok, по их словам, продолжает создавать такие материалы; это позиция истцов, которую компания в источнике не комментирует.",
+      "why_it_matters": "Иски штатов против конкретной функции генерации изображений могут повлиять на регулирование ИИ-моделей, но исход дел пока не известен.",
+      "id": "cc61c3fc8d46c2aa",
+      "group": "technology",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "f323d7562d6653aad531",
+          "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+          "source": "Ars Technica",
+          "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+          "published_at": "2026-11-23T21:30:44+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Западные разведчики: Россия может вывести ядерное оружие на орбиту до конца года",
+      "summary": "Немецкие СМИ со ссылкой на западных разведчиков сообщили, что Россия может запустить на орбиту спутник с ядерным оружием до конца года. США ранее раскрыли, что Россия в 2022 году испытывала тестовый спутник для будущего ядерного аппарата, но ядерный заряд на орбиту не выводила; подтверждения новых сведений в источнике нет.",
+      "why_it_matters": "Если сообщения подтвердятся, орбитальное ядерное оружие угрожало бы спутниковой связи и МКС; сейчас это данные разведки в пересказе СМИ без официального подтверждения.",
+      "id": "adc40606aede9c63",
+      "group": "technology",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "4efb0bcac54b804e689c",
+          "url": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
+          "source": "Ars Technica",
+          "title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
+          "published_at": "2026-11-23T19:28:30+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "GOV.UK обновил списки утверждённых центров SELT-тестирования",
+      "summary": "GOV.UK обновлял перечни утверждённых центров SELT-тестов в Великобритании и за её пределами (23 ноября, 2 ноября и 26 октября). Тесты SELT нужны для ряда маршрутов, включая Skilled Worker, settlement и гражданство; в записях об изменениях указано только обновление списков центров, без изменения требований.",
+      "why_it_matters": "Если SELT-тест нужен для заявки, актуальный список центров и провайдеров стоит проверять на GOV.UK, так как новые центры добавляются по мере запуска сервисов.",
+      "id": "bce9164c8afd4ba7",
+      "group": "uk",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "f4935c97c738c837282f",
+          "url": "https://www.gov.uk/guidance/prove-your-english-language-abilities-with-a-secure-english-language-test-selt",
+          "source": "UK Visas and Immigration",
+          "title": "Prove your English language abilities with a secure English language test (SELT)",
+          "published_at": "2026-11-23T16:24:25+00:00",
+          "text_kind": "page"
+        }
+      ]
+    },
+    {
+      "title": "Эстония закрывает сухопутную границу с Россией как минимум на полгода",
+      "summary": "С 1 декабря правительство Эстонии закроет все наземные пункты пропуска на границе с Россией как минимум на шесть месяцев после попытки поджога оборонного предприятия Threod Systems, которую Таллинн связывает с российской разведкой. МИД России вызвал временного поверенного в делах Эстонии, заявил протест и обвинил Эстонию в предоставлении воздушного пространства для украинских дронов; Эстония эти обвинения отрицает. Против решения выступили президент Юлле Мадизе и мэр Нарвы.",
+      "why_it_matters": "Полное закрытие сухопутной границы ЕС и НАТО с Россией на срок не менее полугода повлияет на логистику и усилит напряжённость в регионе.",
+      "id": "af58fef4491b52b9",
+      "group": "russia",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "07746454b8f495425386",
+          "url": "https://meduza.io/news/2026/11/23/rossiya-vyrazila-protest-estonii-v-svyazi-s-zakrytiem-granitsy-i-snova-obvinila-tallinn-v-predostavlenii-vozdushnogo-prostranstva-dlya-ukrainskih-dronov",
+          "source": "Медуза",
+          "title": "Россия выразила протест Эстонии в связи с закрытием границы и снова обвинила Таллинн в предоставлении воздушного пространства для украинских дронов",
+          "published_at": "2026-11-23T19:31:51+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Журналисты оценили потери ВС РФ не менее чем в 720 тысяч по утекшей базе Росстата",
+      "summary": "Медуза и Медиазона на основе утекшей базы Росстата оценивают, что к осени 2026 года в войне с Украиной погибли не менее 720 тысяч военнослужащих ВС РФ; по их анализу, 92% смертей вызваны взрывами и осколками, а около 1300 — самоубийствами. Это оценка журналистов по утечке, а не официальная статистика, и полнота базы в источниках не раскрыта.",
+      "why_it_matters": "Это одна из крупнейших независимых оценок потерь России в войне, но её опора на утечку данных требует осторожного отношения до независимой проверки.",
+      "id": "fd3dcaa03cd3dd7f",
+      "group": "russia",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "9966abf401f3da34410c",
+          "url": "https://meduza.io/news/2026/11/23/vazhnye-istorii-v-92-sluchaev-rossiyskie-voennye-gibnut-na-voyne-ot-vzryvov-i-oskolkov-menshe-2-smertey-ot-ognestrelnyh-raneniy",
+          "source": "Медуза",
+          "title": "«Важные истории»: в 92% случаев российские военные гибнут на войне от взрывов и осколков. Меньше 2% смертей — от огнестрельных ранений",
+          "published_at": "2026-11-23T16:58:50+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "e4317caa0090ff55e644",
+          "url": "https://www.bbc.com/russian/watch/cmeq4g1j248xo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "Каковы реальные потери России на войне?",
+          "published_at": "2026-11-23T18:32:16+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "7f625056a5ad42628e96",
+          "url": "https://www.theguardian.com/world/2026/nov/23/leaked-data-shows-more-than-1000-russian-military-suicides-during-ukraine-war",
+          "source": "The Guardian · Ukraine",
+          "title": "Leaked data shows more than 1,000 Russian military suicides during Ukraine war",
+          "published_at": "2026-11-23T16:00:51+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "4e356d04fcccf8c05251",
+          "url": "https://www.theguardian.com/world/2026/nov/23/russia-war-dead-hidden-toll-ukraine-conflict",
+          "source": "The Guardian · Ukraine",
+          "title": "Russia’s war dead: the hidden toll of the Ukraine conflict",
+          "published_at": "2026-11-23T16:00:50+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Мерц: непринятие Украины в НАТО в 2008 году было ошибкой",
+      "summary": "Канцлер Германии Фридрих Мерц на пресс-конференции с генсеком НАТО Марком Рютте заявил, что Украину следовало принять в НАТО в 2008 году, и поддержал предложение Эммануэля Макрона вновь обсудить её членство. По словам Мерца, гарантии безопасности, аналогичные статье 5, которые Германия намерена дать Украине после окончания войны, максимально приближены к членству; эти слова переданы по сообщению Die Zeit.",
+      "why_it_matters": "Это позиция одного государства, а не решение НАТО, но она указывает на то, какие гарантии безопасности для Украины обсуждаются как часть будущего урегулирования.",
+      "id": "7a800bd0a88a7896",
+      "group": "peace",
+      "is_update": false,
+      "sources": [
+        {
+          "id": "2767f8467a6aff4349b6",
+          "url": "https://meduza.io/news/2026/11/23/kantsler-germanii-nazval-oshibkoy-otkaz-prinyat-ukrainu-v-nato-v-2008-godu",
+          "source": "Медуза",
+          "title": "Канцлер Германии назвал ошибкой отказ принять Украину в НАТО в 2008 году",
+          "published_at": "2026-11-23T20:47:50+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 1689,
+    "candidates": 48,
+    "selected": 12,
+    "sources_ok": 17,
+    "sources_total": 17
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1424,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "hn",
+      "name": "Hacker News",
+      "ok": true,
+      "count": 17,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 38,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 28702,
+    "cache_read_input_tokens": 1281,
+    "output_tokens": 16380,
+    "output_tokens_details": {
+      "thinking_tokens": 12514
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 28702,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 16380,
+        "cache_read_input_tokens": 1281,
+        "cache_creation_input_tokens": 28702,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 28702
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  }
+}

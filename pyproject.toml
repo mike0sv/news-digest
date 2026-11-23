@@ -1,0 +1,9 @@
+[project]
+name = "morning-digest"
+version = "0.1.0"
+description = "A small, provider-independent news digest on GitHub Actions and Pages"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.ruff]
+line-length = 100

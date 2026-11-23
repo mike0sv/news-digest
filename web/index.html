@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Утренний дайджест: важные события, короткие сводки и ссылки на оригиналы.">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'self'; object-src 'none'; form-action 'none'">
+  <title>Утро — новостной обзор</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#content">К новостям</a>
+  <div class="shell">
+    <aside class="sidebar" aria-label="Навигация по архиву">
+      <a class="brand" href="./" aria-label="Утро, последний выпуск"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 23h26M8 20a8 8 0 0 1 16 0M16 3v5M4 9l4 4M28 9l-4 4"/></svg><span>утро<span class="brand-dot">.</span></span></a>
+      <p class="tagline">Новости, на которые есть время.</p>
+      <div class="nav-section">
+        <p class="eyebrow">БИБЛИОТЕКА</p>
+        <button id="latest" class="nav-button active" type="button">Последний выпуск <span id="latest-count">—</span></button>
+        <button id="all" class="nav-button" type="button">Весь архив <span id="archive-count">0</span></button>
+        <button id="saved" class="nav-button" type="button">Сохранённое <span id="saved-count">0</span></button>
+      </div>
+      <div class="nav-section">
+        <p class="eyebrow">ПО ТЕМАМ</p>
+        <div id="group-nav"></div>
+      </div>
+      <div class="nav-section archive-section">
+        <p class="eyebrow">ВЫПУСКИ</p>
+        <div id="issue-nav"></div>
+      </div>
+      <div class="sidebar-footer"><span class="schedule-mark">◷</span><div>Утренний выпуск<p id="schedule">По расписанию</p></div><a href="feed.json" aria-label="JSON Feed">RSS</a></div>
+    </aside>
+    <main id="content" tabindex="-1">
+      <header class="topbar"><span id="today-label">Личный новостной обзор</span><button id="sources-toggle" class="text-button" type="button" aria-expanded="false" aria-controls="sources-panel">Источники <span id="source-count"></span></button></header>
+      <section id="sources-panel" class="sources-panel" aria-label="Состояние источников" hidden></section>
+      <section class="masthead">
+        <div class="edition-label"><span class="sun-mark" aria-hidden="true"></span><span id="edition-label">ВАШ УТРЕННИЙ ОБЗОР</span></div>
+        <div class="heading-row"><h1 id="page-title">Хорошего утра.</h1><a id="download" class="outline-button" href="#" download>Скачать выпуск</a></div>
+        <p id="intro" class="intro">Загружаем последние новости…</p>
+        <div id="issue-meta" class="issue-meta"></div>
+      </section>
+      <section class="toolbar" aria-label="Фильтры новостей">
+        <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span class="sr-only">Поиск по всему архиву</span><input id="search" type="search" placeholder="Поиск по всему архиву" autocomplete="off"></label>
+        <label class="group-select"><span class="sr-only">Тема</span><select id="group-filter"><option value="">Все темы</option></select></label>
+        <label class="provider-select"><span class="sr-only">Провайдер</span><select id="provider"><option value="">Все провайдеры</option></select></label>
+      </section>
+      <div class="result-bar"><span id="result-count" role="status" aria-live="polite"></span><button id="reset" class="text-button" type="button" hidden>Сбросить фильтры</button></div>
+      <div id="stories" aria-busy="true"></div>
+      <div id="empty" class="empty" hidden><h2>Пока ничего нет</h2><p>Попробуйте другую тему или поисковый запрос.</p></div>
+      <footer class="page-footer"><span>Меньше шума. Больше контекста.</span><span id="last-updated"></span></footer>
+      <noscript><p>Для интерактивного архива нужен JavaScript. Выпуски также доступны в <a href="feed.json">JSON Feed</a>.</p></noscript>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

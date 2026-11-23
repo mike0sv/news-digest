@@ -1,0 +1,169 @@
+{
+  "title": "Утро",
+  "description": "Личный обзор новостей со ссылками на источники",
+  "language": "Russian",
+  "timezone": "Europe/London",
+  "morning_hour": 8,
+  "provider": "links",
+  "model": "",
+  "max_stories": 16,
+  "max_candidates": 80,
+  "max_per_source": 8,
+  "lookback_hours": 48,
+  "history_days": 14,
+  "fetch_full_text": false,
+  "instructions": "Главный приоритет — AI-агенты и агентская разработка. Подробно: релизы и новые функции Claude Code/Cowork, Codex, Gemini CLI, Cursor, флагманских моделей, агентских SDK; версии, конкретные возможности, ограничения, доступность, практический эффект. В этой группе допускаются 3–5 содержательных предложений на сюжет; выделяй отдельно важные релизы разных продуктов. Отслеживай новые популярные подходы и инструменты разработки агентов, отделяй реальный интерес сообщества от рекламы. На агентов отводи примерно половину выпуска, до 8 сюжетов. Затем глобальные технологические события (до 3). UK: изменения иммиграционных правил, виз, ILR/settlement, гражданства, сборов и сроков, только по существу (до 2–3); различай действующие правила, утверждённые изменения с датой вступления, предложения и консультации. Не давай персональных юридических советов. Россия: только самые важные события с масштабными последствиями (до 1–2). Война России против Украины: приоритет переговорам, мирным инициативам, условиям соглашений, прекращению огня и дипломатии (до 2–3); не включай ежедневные сводки с фронта без крупного поворотного события. Указывай, чьё это заявление, если нет независимого подтверждения. Ничего не добавляй ради заполнения группы. Пиши по-русски, сохраняй названия продуктов и номера версий.",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "sources": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "url": "https://github.com/openai/codex/releases.atom",
+      "group": "agents"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases.atom",
+      "group": "agents"
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "url": "https://github.com/google-gemini/gemini-cli/releases.atom",
+      "group": "agents"
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "url": "https://github.com/openai/openai-agents-python/releases.atom",
+      "group": "agents"
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "url": "https://github.com/langchain-ai/langgraph/releases.atom",
+      "group": "agents"
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "group": "agents"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "group": "agents"
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "url": "https://blog.google/technology/ai/rss/",
+      "group": "agents"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "group": "agents",
+      "type": "html",
+      "link_pattern": "/news/[^/?#]+$",
+      "exclude_paths": [
+        "/news/announcements",
+        "/news/features",
+        "/news/policy",
+        "/news/research",
+        "/news/product"
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "url": "https://cursor.com/changelog",
+      "group": "agents",
+      "type": "html",
+      "link_pattern": "/changelog/[^/?#]+$"
+    },
+    {
+      "id": "hn",
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage?points=100",
+      "group": "technology"
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "group": "technology"
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "group": "technology"
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "url": "https://www.gov.uk/government/organisations/uk-visas-and-immigration.atom",
+      "group": "uk"
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "url": "https://feeds.bbci.co.uk/russian/rss.xml",
+      "group": "russia"
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "url": "https://meduza.io/rss/all",
+      "group": "russia"
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "url": "https://www.theguardian.com/world/ukraine/rss",
+      "group": "peace"
+    }
+  ],
+  "telegram": {
+    "enabled": true,
+    "allow_links": false
+  },
+  "max_candidates_by_group": {
+    "agents": 36,
+    "technology": 14,
+    "uk": 10,
+    "russia": 10,
+    "peace": 10
+  }
+}

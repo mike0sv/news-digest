@@ -1,0 +1,124 @@
+{
+  "last_success": "2026-11-23T22:10:10.546926+00:00",
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1424,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "hn",
+      "name": "Hacker News",
+      "ok": true,
+      "count": 17,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 38,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    }
+  ]
+}
