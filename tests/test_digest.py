@@ -47,6 +47,15 @@ class FeedTests(unittest.TestCase):
         items = parse_feed(xml, {'id':'x','name':'X','url':'https://example.org/feed','group':'agents'}, NOW)
         self.assertEqual(items[0]['url'], 'https://example.org/release')
 
+    def test_updated_govuk_document_has_a_new_identity_at_the_same_url(self):
+        template = '<feed xmlns="http://www.w3.org/2005/Atom"><entry><title>Rules</title><link href="https://www.gov.uk/rules"/><published>2026-11-01T09:00:00Z</published><updated>{}</updated></entry></feed>'
+        source={'id':'ukvi','name':'GOV.UK','url':'https://www.gov.uk/feed','group':'uk','track_updates':True}
+        first=parse_feed(template.format('2026-11-22T09:00:00Z'),source,NOW)[0]
+        updated=parse_feed(template.format('2026-11-23T09:00:00Z'),source,NOW)[0]
+        self.assertEqual(first['url'],updated['url'])
+        self.assertNotEqual(first['id'],updated['id'])
+        self.assertEqual(updated['published_at'],'2026-11-23T09:00:00+00:00')
+
     def test_entity_declarations_rejected(self):
         with self.assertRaises(ValueError):
             parse_feed('<!DOCTYPE rss [<!ENTITY x "y">]><rss/>', {}, NOW)
@@ -73,6 +82,8 @@ class PipelineTests(unittest.TestCase):
         (self.root/'config').mkdir()
         (self.root/'config/settings.json').write_text((ROOT/'config/settings.json').read_text())
         self.config = load_config(self.root)
+        self.config["provider"]="links"
+        write_json(self.root/"config/settings.json",self.config)
         (self.root/'web').mkdir()
         (self.root/'web/index.html').write_text('<h1>Test</h1>')
 
@@ -207,12 +218,25 @@ class PipelineTests(unittest.TestCase):
         self.assertNotIn('<script>', html)
         self.assertIn('&lt;script&gt;', html)
 
+    def test_telegram_preserves_all_groups_and_escapes_model_html(self):
+        self.prepare(); issue=generate_issue(self.root)
+        issue['stories']=[]
+        for group in issue['groups']:
+            story={'title':'<script>bad</script>', 'summary':'x'*1000, 'group':group['id'],
+                   'sources':[{'url':'https://example.org/'+('x'*300)}]}
+            issue['stories'] += [deepcopy(story) for _ in range(3)]
+        message=telegram_text(issue,'https://example.org/')
+        for group in issue['groups']: self.assertIn(group['name'],message)
+        self.assertEqual(message.count('&lt;script&gt;'),len(issue['stories']))
+        self.assertLessEqual(len(plain_text(message)),3500)
+        self.assertNotIn('<script>',message)
+
     def test_telegram_message_is_bounded_and_retains_archive_link(self):
         self.prepare(); issue = generate_issue(self.root)
         story = deepcopy(issue['stories'][0]); story['title']='x'*200; story['summary']='y'*1000
         issue['stories'] = [story]*20
         message = telegram_text(issue, 'https://example.org/')
-        self.assertLessEqual(len(message),3500)
+        self.assertLessEqual(len(plain_text(message)),3500)
         self.assertIn('?issue=2026-11-23',message)
 
 

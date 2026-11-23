@@ -51,8 +51,9 @@ def canonical_url(url):
                        urlencode(sorted(query)), ""))
 
 
-def article_id(url):
-    return sha256(canonical_url(url).encode()).hexdigest()[:20]
+def article_id(url, revision=""):
+    identity = canonical_url(url) + ("\n" + revision if revision else "")
+    return sha256(identity.encode()).hexdigest()[:20]
 
 
 def parse_date(raw):
@@ -108,10 +109,13 @@ def parse_feed(xml, source, now):
             url = canonical_url(urljoin(source["url"], url))
         except ValueError:
             continue
-        published = parse_date(child_text(item, ["published", "pubDate", "date", "updated"]))
+        date_fields = (["updated", "published", "pubDate", "date"] if source.get("track_updates")
+                       else ["published", "pubDate", "date", "updated"])
+        published = parse_date(child_text(item, date_fields))
+        revision = published.isoformat() if source.get("track_updates") and published else ""
         text = plain_text(child_text(item, ["encoded", "content", "description", "summary"]))
         result.append({
-            "id": article_id(url), "url": url, "title": title[:400],
+            "id": article_id(url, revision), "url": url, "title": title[:400],
             "source": source["name"], "source_id": source["id"], "group": source["group"],
             "published_at": published.isoformat() if published else None,
             "discovered_at": now.isoformat(), "text": text[:6000], "text_kind": "feed",

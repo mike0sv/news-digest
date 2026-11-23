@@ -1,6 +1,7 @@
 """Export only public archive data; deliver an optional bounded Telegram message."""
 from datetime import datetime, timezone
-from html import escape
+from html import escape, unescape
+import re
 import json
 import os
 from pathlib import Path
@@ -81,21 +82,33 @@ def build(root, output=None):
 
 
 def telegram_text(issue, site_url=""):
-    header = f"Утро · {issue['date']}\n\n"
-    footer = "\n\nПолный выпуск: " + site_url + "?issue=" + issue["id"] if site_url else ""
-    parts = []
-    for story in issue["stories"]:
-        # Keep the complete message in one API request; no partial multi-part deliveries.
-        title = story["title"][:180]
-        summary = story["summary"][:180]
-        parts.append(f"{title}\n{summary}\n{story['sources'][0]['url']}")
-    text = header + ("\n\n".join(parts) or issue["intro"]) + footer
-    while len(text) > 3500 and parts:
-        parts.pop()
-        text = header + "\n\n".join(parts) + "\n\nОстальное — в архиве." + footer
-    if len(text) > 3500 or (not parts and issue["stories"] and not site_url):
-        raise ValueError("Telegram message too large; configure DIGEST_SITE_URL")
-    return text
+    """Telegram's limit applies after HTML entities are parsed, not to URL markup."""
+    def visible_length(value):
+        return len(unescape(re.sub(r"<[^>]*>", "", value)).encode("utf-16-le")) // 2
+
+    for title_limit, summary_limit in [(160, 140), (110, 70), (100, 0)]:
+        parts = [f"<b>Утро · {escape(issue['date'])}</b>"]
+        if not issue["stories"]:
+            parts.append(escape(issue["intro"][:1000]))
+        for group in issue["groups"]:
+            stories = [story for story in issue["stories"] if story["group"] == group["id"]]
+            if not stories:
+                continue
+            parts.append("<b>" + escape(group["name"]) + "</b>")
+            for story in stories:
+                title = escape(story["title"][:title_limit])
+                url = escape(story["sources"][0]["url"], quote=True)
+                line = f'<a href="{url}">{title}</a>'
+                if summary_limit:
+                    line += "\n" + escape(story["summary"][:summary_limit])
+                parts.append(line)
+        if site_url:
+            url = escape(site_url + "?issue=" + issue["id"], quote=True)
+            parts.append(f'<a href="{url}">Полный выпуск и все источники</a>')
+        text = "\n\n".join(parts)
+        if visible_length(text) <= 3500:
+            return text
+    raise ValueError("Telegram message too large; reduce max_stories")
 
 
 def deliver(root):
@@ -125,7 +138,7 @@ def deliver(root):
         response = post_json(
             "https://api.telegram.org/bot" + token + "/sendMessage",
             {"chat_id": chat, "text": telegram_text(issue, os.environ.get("DIGEST_SITE_URL", "")),
-             "link_preview_options": {"is_disabled": True}}, {}, retries=0,
+             "parse_mode": "HTML", "link_preview_options": {"is_disabled": True}}, {}, retries=0,
         )
         if response.get("ok") is not True:
             raise RuntimeError("Telegram did not confirm delivery")

@@ -4,7 +4,7 @@
   "language": "Russian",
   "timezone": "Europe/London",
   "morning_hour": 8,
-  "provider": "links",
+  "provider": "claude-cli",
   "model": "",
   "max_stories": 16,
   "max_candidates": 80,
@@ -134,7 +134,8 @@
       "id": "ukvi",
       "name": "UK Visas and Immigration",
       "url": "https://www.gov.uk/government/organisations/uk-visas-and-immigration.atom",
-      "group": "uk"
+      "group": "uk",
+      "track_updates": true
     },
     {
       "id": "bbc-ru",
