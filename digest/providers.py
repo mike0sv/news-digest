@@ -139,6 +139,27 @@ def openai(prompt, schema, model):
     return Result(parse_json(text), data.get("usage", {}))
 
 
+def cli_error(process, provider):
+    """Classify failures without publishing CLI output, prompts or credentials."""
+    detail = (process.stdout + "\n" + process.stderr).casefold()
+    categories = [
+        (("invalid api key", "invalid authentication", "invalid bearer", "invalid oauth",
+          "unauthorized", "authentication failed", "token has expired", "token expired",
+          "please run /login", "not logged in"), "authentication rejected; check the OAuth token"),
+        (("unknown option", "unknown argument", "unrecognized argument", "invalid option",
+          "not a valid option"), "installed CLI does not support a configured option"),
+        (("rate limit", "usage limit", "hit your limit", "credit balance", "insufficient_quota"),
+         "provider usage limit or balance exhausted"),
+        (("model not found", "invalid model", "does not exist or you do not have access"),
+         "configured model is unavailable"),
+        (("enotfound", "econnrefused", "connection error", "unable to connect", "fetch failed"),
+         "CLI network connection failed"),
+    ]
+    reason = next((reason for markers, reason in categories if any(m in detail for m in markers)),
+                  "unclassified CLI failure; raw output withheld")
+    return f"{provider} exited with code {process.returncode}: {reason}"
+
+
 def cli(prompt, schema, model, provider):
     # No repository, settings, shell commands, or MCP tools are needed to summarize input.
     # Only selected authentication is inherited; GitHub and Telegram tokens stay out.
@@ -146,6 +167,10 @@ def cli(prompt, schema, model, provider):
     auth = ({"ANTHROPIC_API_KEY", "CLAUDE_CODE_OAUTH_TOKEN"} if provider == "claude-cli"
             else {"CODEX_API_KEY", "OPENAI_API_KEY", "CODEX_HOME"})
     env = {key: value for key, value in os.environ.items() if key in common | auth}
+    oauth = env.get("CLAUDE_CODE_OAUTH_TOKEN", "")
+    if provider == "claude-cli" and oauth and (
+            not oauth.startswith("sk-ant-oat") or any(c.isspace() for c in oauth)):
+        raise ValueError("CLAUDE_CODE_OAUTH_TOKEN must contain only the token from claude setup-token")
     with tempfile.TemporaryDirectory(prefix="digest-model-") as folder:
         directory = Path(folder)
         if provider == "claude-cli":
@@ -172,7 +197,7 @@ def cli(prompt, schema, model, provider):
         except subprocess.TimeoutExpired:
             raise RuntimeError(f"{provider} timed out") from None
         if process.returncode:
-            raise RuntimeError(f"{provider} exited with code {process.returncode}; check authentication")
+            raise RuntimeError(cli_error(process, provider))
         if provider == "codex":
             output = directory / "result.json"
             if not output.exists():

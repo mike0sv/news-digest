@@ -411,6 +411,22 @@ class ProviderTests(unittest.TestCase):
         self.assertEqual(command[command.index('--tools')+1],'')
         self.assertNotIn('TELEGRAM_BOT_TOKEN',run.call_args.kwargs['env'])
 
+    def test_cli_failure_diagnostics_never_repeat_output_or_secrets(self):
+        import subprocess
+        for output, expected in [('Invalid API key: private-value','authentication rejected'),
+                                 ('error: unknown option --flag private-value','configured option'),
+                                 ('Unexpected private-value','unclassified CLI failure')]:
+            process=subprocess.CompletedProcess([],1,output,'')
+            diagnostic=providers.cli_error(process,'claude-cli')
+            self.assertIn(expected,diagnostic)
+            self.assertNotIn('private-value',diagnostic)
+
+    def test_claude_rejects_pasting_an_export_command_instead_of_token(self):
+        with patch.dict('os.environ',{'CLAUDE_CODE_OAUTH_TOKEN':'export CLAUDE_CODE_OAUTH_TOKEN=secret'}), patch('digest.providers.subprocess.run') as run:
+            with self.assertRaisesRegex(ValueError,'only the token'):
+                providers.cli('p',self.schema,'haiku','claude-cli')
+        run.assert_not_called()
+
     def test_codex_reads_final_output_instead_of_progress(self):
         import subprocess
         def execute(command, **kwargs):

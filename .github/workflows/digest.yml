@@ -51,7 +51,9 @@ jobs:
           PY
       - name: Install Claude Code when selected
         if: steps.prepare.outputs.needs_model == 'true' && steps.prepare.outputs.provider == 'claude-cli'
-        run: npm install --global @anthropic-ai/claude-code
+        run: |
+          npm install --global @anthropic-ai/claude-code
+          claude --version
       - name: Curate with Codex
         if: steps.prepare.outputs.needs_model == 'true' && steps.prepare.outputs.provider == 'codex'
         uses: openai/codex-action@54e817e77767f274e7e9ceb9da755fb5c62ce25d # v1
