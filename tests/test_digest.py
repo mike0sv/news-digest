@@ -416,6 +416,8 @@ class ProviderTests(unittest.TestCase):
         for output, expected in [('Invalid API key: private-value','authentication rejected'),
                                  ('error: unknown option --flag private-value','configured option'),
                                  ('Unexpected private-value','unclassified CLI failure'),
+                                 ('This model does not support the effort parameter. private-value','effort setting'),
+                                 ('Unexpected effort counter: private-value','unclassified CLI failure'),
                                  ('Failed to authenticate. API Error: 401 OAuth access token is invalid. private-value','authentication rejected'),
                                  (json.dumps({'api_error_status':401,'result':'private-value'}),'HTTP 401')]:
             process=subprocess.CompletedProcess([],1,output,'')

@@ -156,7 +156,9 @@ def cli_error(process, provider):
          "account or organization policy rejected access"),
         (("region", "country", "api error: 403", "http 403"),
          "provider denied access; check region or account policy"),
-        (("effort",), "CLI rejected the configured effort setting"),
+        (("does not support the effort parameter", "effort is not supported",
+          "effort parameter is not supported", "invalid effort"),
+         "CLI rejected the configured effort setting"),
         (("unknown option", "unknown argument", "unrecognized argument", "invalid option",
           "not a valid option"), "installed CLI does not support a configured option"),
         (("rate limit", "usage limit", "hit your limit", "credit balance", "insufficient_quota"),
@@ -192,7 +194,7 @@ def cli(prompt, schema, model, provider):
     env = {key: value for key, value in os.environ.items() if key in common | auth}
     oauth = env.get("CLAUDE_CODE_OAUTH_TOKEN", "")
     if provider == "claude-cli" and oauth and (
-            not oauth.startswith("sk-ant-oat") or any(c.isspace() for c in oauth)):
+            not re.fullmatch(r"sk-ant-oat\d{2}-[A-Za-z0-9_-]{20,}", oauth)):
         raise ValueError("CLAUDE_CODE_OAUTH_TOKEN must contain only the token from claude setup-token")
     with tempfile.TemporaryDirectory(prefix="digest-model-") as folder:
         directory = Path(folder)
