@@ -142,10 +142,21 @@ def openai(prompt, schema, model):
 def cli_error(process, provider):
     """Classify failures without publishing CLI output, prompts or credentials."""
     detail = (process.stdout + "\n" + process.stderr).casefold()
+    try:
+        envelope = json.loads(process.stdout)
+        envelope = envelope if isinstance(envelope, dict) else {}
+    except (ValueError, TypeError):
+        envelope = {}
     categories = [
         (("invalid api key", "invalid authentication", "invalid bearer", "invalid oauth",
           "unauthorized", "authentication failed", "token has expired", "token expired",
-          "please run /login", "not logged in"), "authentication rejected; check the OAuth token"),
+          "please run /login", "not logged in", "failed to authenticate",
+          "authentication_error", "oauth access token", "api error: 401"), "authentication rejected; check the OAuth token"),
+        (("organization has disabled", "subscription access", "not allowed to use claude"),
+         "account or organization policy rejected access"),
+        (("region", "country", "api error: 403", "http 403"),
+         "provider denied access; check region or account policy"),
+        (("effort",), "CLI rejected the configured effort setting"),
         (("unknown option", "unknown argument", "unrecognized argument", "invalid option",
           "not a valid option"), "installed CLI does not support a configured option"),
         (("rate limit", "usage limit", "hit your limit", "credit balance", "insufficient_quota"),
@@ -157,7 +168,19 @@ def cli_error(process, provider):
     ]
     reason = next((reason for markers, reason in categories if any(m in detail for m in markers)),
                   "unclassified CLI failure; raw output withheld")
-    return f"{provider} exited with code {process.returncode}: {reason}"
+    status = re.search(r"(?:api error:?\s*|http\s+)([45]\d\d)\b", detail)
+    code = envelope.get("api_error_status")
+    code = code if type(code) is int and 400 <= code <= 599 else int(status[1]) if status else None
+    if code == 401:
+        reason = "authentication rejected; check the OAuth token"
+    elif code == 403:
+        reason = "provider denied access; check region or account policy"
+    suffix = f" (HTTP {code})" if code else ""
+    subtype = envelope.get("subtype")
+    if subtype in {"error_max_structured_output_retries", "error_max_turns",
+                   "error_during_execution", "error_max_budget_usd"}:
+        suffix += f" [{subtype}]"
+    return f"{provider} exited with code {process.returncode}: {reason}{suffix}"
 
 
 def cli(prompt, schema, model, provider):
