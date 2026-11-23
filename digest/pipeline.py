@@ -58,11 +58,15 @@ def issue_files(root):
     return sorted((root / "data/issues").glob("*.json"), reverse=True)
 
 
-def recent_history(root, now, days):
+def recent_history(root, now, days, timezone_name="UTC"):
+    now = now.astimezone(ZoneInfo(timezone_name))
     cutoff = (now - timedelta(days=days)).date().isoformat()
-    issues = [read_json(path) for path in issue_files(root) if path.stem[:10] >= cutoff]
-    return [{"date": issue["date"], "title": story["title"], "summary": story["summary"],
-             "group": story["group"]} for issue in issues[:30] for story in issue["stories"]][:150]
+    issues = [read_json(path) for path in issue_files(root)
+              if cutoff <= path.stem[:10] < now.date().isoformat()]
+    return [{"ref": issue["id"] + "/" + story["id"], "issue_id": issue["id"],
+             "story_id": story["id"], "date": issue["date"], "title": story["title"],
+             "summary": story["summary"], "group": story["group"]}
+            for issue in issues[:30] for story in issue["stories"]][:150]
 
 
 def fair_take(articles, groups, maximum):
@@ -80,14 +84,18 @@ def fair_take(articles, groups, maximum):
 def select_candidates(articles, state, config, now):
     cutoff = now - timedelta(hours=config["lookback_hours"])
     per_source, seen_titles, candidates = defaultdict(int), set(), []
+    source_limits = {s["id"]: s.get("candidate_limit", config["max_per_source"]) for s in config["sources"]}
     for article in sorted(articles, key=lambda a: a["published_at"] or a["discovered_at"], reverse=True):
         published = parse_date(article["published_at"] or article["discovered_at"])
-        if published < cutoff or published > now + timedelta(minutes=15):
+        if not published or published < cutoff or published > now:
+            continue
+        if config.get("historical") and (not article["published_at"] or
+                article.get("date_kind") == "discovery"):
             continue
         if article["id"] in state["selected"]:
             continue
         title = re.sub(r"\W+", " ", article["title"].casefold()).strip()
-        if title in seen_titles or per_source[article["source_id"]] >= config["max_per_source"]:
+        if title in seen_titles or per_source[article["source_id"]] >= source_limits.get(article["source_id"], config["max_per_source"]):
             continue
         candidates.append(article)
         seen_titles.add(title)
@@ -110,6 +118,17 @@ def make_prompt(candidates, history, config):
         "Each article ID must appear in at most ONE story in the entire output. Copy IDs exactly. "
         "Compare with previous stories: omit repeats; if a material development occurred, explain "
         "what changed and set is_update=true. Do not label an update without relevant history. "
+        "For a genuine continuation of the SAME event, put exact previous_stories ref values in "
+        "previous_story_refs (at most 3); otherwise use []. is_update must equal bool(previous_story_refs). "
+        "Same company, product or broad theme alone is NOT a continuation. Explain the new development. "
+        "Mark important=true for consequential concrete events. Examples (NOT an exhaustive whitelist): flagship model launches, major "
+        "new usable coding harness capabilities, IPOs, enacted significant laws or a real diplomatic breakthrough. "
+        "There may be ZERO important stories; never fill an importance quota. At most 3 per issue. "
+        "Alphas, routine patches, minor immigration test/admin changes, rhetoric, speculative claims, "
+        "and popularity alone are ordinary. importance_reason must justify concrete impact for important "
+        "stories and be empty otherwise. Include relevant emerging projects, adoption signals and "
+        "credible limitations/failures of agents as ordinary stories when useful. "
+        "HN points, comments and GitHub stars measure attention, not quality, safety or proven adoption. "
         "Choose only configured group IDs. No markdown links or HTML in text fields. "
         "Distinguish reporting, claims and speculation. Never infer details missing from an excerpt. "
         "Articles with text_kind=feed are feed text, which may be incomplete; with text_kind=page "
@@ -138,9 +157,22 @@ def workflow_outputs(job):
             output.write(f"model={model}\n")
 
 
-def prepare(root, *, now=None, scheduled=False, force=False):
+def prepare(root, *, now=None, scheduled=False, force=False, date=None):
     now = now or datetime.now(timezone.utc)
     config = load_config(root)
+    historical = bool(date)
+    if historical:
+        from datetime import date as date_type, time
+        target = date_type.fromisoformat(date)
+        if target.isoformat() != date or target > now.astimezone(ZoneInfo(config["timezone"])).date():
+            raise ValueError("date must be YYYY-MM-DD and cannot be in the future")
+        end = datetime.combine(target + timedelta(days=1), time.min,
+                               ZoneInfo(config["timezone"])).astimezone(timezone.utc)
+        now = min(now, end - timedelta(microseconds=1))
+        config["historical"] = True
+        # A dated issue covers that calendar day, not a rolling 48-hour window.
+        start = datetime.combine(target, time.min, ZoneInfo(config["timezone"])).astimezone(timezone.utc)
+        config["lookback_hours"] = (now - start).total_seconds() / 3600
     local = now.astimezone(ZoneInfo(config["timezone"]))
     day = local.date().isoformat()
     existing = any(path.stem[:10] == day for path in issue_files(root))
@@ -153,10 +185,23 @@ def prepare(root, *, now=None, scheduled=False, force=False):
         print("No new issue due; keeping the existing archive.")
         return job
     state = read_json(root / "data/state.json", {"version": 1, "articles": {}, "selected": {}})
-    articles, health = collect(config["sources"], now)
+    if historical:
+        from .signals import collect_historical
+        articles, health = collect_historical(config["sources"], now)
+        # Future live selections must not suppress past stories. Earlier history handles repeats.
+        state["selected"] = {k: v for k, v in state["selected"].items() if v < day}
+    else:
+        articles, health = collect(config["sources"], now)
     if not health or not any(source["ok"] for source in health):
         raise RuntimeError("All news sources failed; previous state and archive are unchanged")
     for article in articles:
+        if "stars" in article and not historical:
+            older = [a for a in state["articles"].values() if a["url"] == article["url"]
+                     and "stars" in a and a["discovered_at"][:10] < day]
+            if older:
+                baseline = max(older, key=lambda a: a["discovered_at"])
+                article["text"] += (f" Observed star change since {baseline['discovered_at'][:10]}: "
+                                    f"{article['stars'] - baseline['stars']:+d}.")
         if article["id"] in state["articles"]:
             article["discovered_at"] = state["articles"][article["id"]]["discovered_at"]
         state["articles"][article["id"]] = article
@@ -168,7 +213,7 @@ def prepare(root, *, now=None, scheduled=False, force=False):
     # UK rule changes require more evidence than the one-line departmental feed.
     for article in candidates:
         parts = urlsplit(article["url"])
-        if article["group"] == "uk" and parts.hostname == "www.gov.uk":
+        if not historical and article["group"] == "uk" and parts.hostname == "www.gov.uk":
             try:
                 content = json.loads(http("https://www.gov.uk/api/content" + parts.path,
                                           timeout=20, retries=0))
@@ -183,7 +228,7 @@ def prepare(root, *, now=None, scheduled=False, force=False):
                 article["text_kind"] = "page"
             except (RuntimeError, ValueError):
                 pass
-    if config.get("fetch_full_text"):
+    if config.get("fetch_full_text") and not historical:
         for article in candidates[:20]:
             try:
                 text = plain_text(http(article["url"], timeout=15, retries=0))
@@ -194,10 +239,11 @@ def prepare(root, *, now=None, scheduled=False, force=False):
                 pass
     for index, article in enumerate(candidates, 1):
         article["ref"] = f"A{index}"
-    history = recent_history(root, now, config["history_days"])
-    job.update({"ready": True, "id": day + ("-" + now.strftime("%H%M%S") if existing else ""),
+    history = recent_history(root, now, config["history_days"], config["timezone"])
+    job.update({"ready": True, "id": day + ("-" + datetime.now(timezone.utc).strftime("%H%M%S%f") if existing else ""),
                 "now": now.isoformat(), "state": state, "candidates": candidates,
-                "health": health, "history": history, "fetched": len(articles)})
+                "health": health, "history": history, "fetched": len(articles),
+                "historical": historical})
     write_json(runtime / "job.json", job)
     (runtime / "prompt.txt").write_text(providers.SYSTEM + "\n\n" +
                                          make_prompt(candidates, history, config), encoding="utf-8")
@@ -207,7 +253,7 @@ def prepare(root, *, now=None, scheduled=False, force=False):
     return job
 
 
-def validate_output(output, candidates, config):
+def validate_output(output, candidates, config, history=()):
     if not isinstance(output, dict) or not isinstance(output.get("intro"), str):
         raise ValueError("Digest intro must be text")
     stories = output.get("stories")
@@ -216,6 +262,8 @@ def validate_output(output, candidates, config):
     groups = {g["id"] for g in config["groups"]}
     articles = {article.get("ref", article["id"]): article for article in candidates}
     used, result = set(), []
+    previous = {item["ref"]: item for item in history}
+    important_count = 0
     for story in stories:
         if not isinstance(story, dict):
             raise ValueError("Invalid story")
@@ -226,6 +274,19 @@ def validate_output(output, candidates, config):
                 raise ValueError(f"Empty story field: {field}")
         if story.get("group") not in groups or type(story.get("is_update")) is not bool:
             raise ValueError("Invalid group or update marker")
+        if type(story.get("important")) is not bool:
+            raise ValueError("important must be a boolean")
+        reason = story.get("importance_reason")
+        if not isinstance(reason, str) or len(reason) > 500 or bool(reason.strip()) != story["important"]:
+            raise ValueError("Important stories require a concrete reason; ordinary stories an empty reason")
+        important_count += story["important"]
+        if important_count > 3:
+            raise ValueError("At most 3 important stories; zero is valid")
+        refs = story.get("previous_story_refs")
+        if (not isinstance(refs, list) or len(refs) > 3 or
+                any(not isinstance(ref, str) or ref not in previous for ref in refs) or
+                len(set(refs)) != len(refs) or bool(refs) != story["is_update"]):
+            raise ValueError("Invalid previous story reference or inconsistent update marker")
         ids = story.get("article_ids")
         if not isinstance(ids, list) or not ids or any(not isinstance(x, str) for x in ids):
             raise ValueError("Story must cite article IDs")
@@ -235,6 +296,9 @@ def validate_output(output, candidates, config):
         clean = {key: story[key].strip() for key in ["title", "summary", "why_it_matters"]}
         clean.update({"id": sha256(("|".join(sorted(articles[x]["id"] for x in ids))).encode()).hexdigest()[:16],
                       "group": story["group"], "is_update": story["is_update"],
+                      "important": story["important"], "importance_reason": reason.strip(),
+                      "previous_stories": [{k: previous[ref][k] for k in
+                                            ["issue_id", "story_id", "date", "title"]} for ref in refs],
                       "sources": [{key: articles[x][key] for key in
                                    ["id", "url", "source", "title", "published_at", "text_kind"]}
                                   for x in ids]})
@@ -249,7 +313,8 @@ def links_output(candidates, config):
     return {"intro": "Подборка свежих публикаций из настроенных источников. AI-отбор и пересказ пока отключены; тематическая релевантность не проверена.",
             "stories": [{"title": a["title"], "summary": a["text"][:650] or "В ленте нет описания. Откройте оригинал.",
                          "why_it_matters": "", "group": a["group"], "article_ids": [a.get("ref", a["id"])],
-                         "is_update": False} for a in selected]}
+                         "is_update": False, "important": False, "importance_reason": "",
+                         "previous_story_refs": []} for a in selected]}
 
 
 def generate_issue(root, *, response_file=None):
@@ -270,7 +335,7 @@ def generate_issue(root, *, response_file=None):
         output, usage = response.data, response.usage
     write_json(root / ".runtime/response.json", output)
     try:
-        intro, stories = validate_output(output, candidates, config)
+        intro, stories = validate_output(output, candidates, config, job["history"])
     except ValueError as error:
         if response_file or config["provider"] == "links" or not candidates:
             raise
@@ -284,7 +349,7 @@ def generate_issue(root, *, response_file=None):
         output = response.data
         usage = {"initial": usage, "repair": response.usage}
         write_json(root / ".runtime/response.json", output)
-        intro, stories = validate_output(output, candidates, config)
+        intro, stories = validate_output(output, candidates, config, job["history"])
     if not job["history"]:
         for story in stories:
             story["is_update"] = False
@@ -295,10 +360,22 @@ def generate_issue(root, *, response_file=None):
                        "selected": len(stories), "sources_ok": sum(h["ok"] for h in job["health"]),
                        "sources_total": len(job["health"])},
              "source_health": job["health"], "usage": usage}
+    if job.get("historical"):
+        issue["retrospective"] = True
+        issue["coverage_note"] = ("Ретроспектива по сохранившимся публикациям с датами. "
+            "Ленты могут быть неполными; HN-баллы отражают внимание на момент сбора. "
+            "Тексты могли получить последующие правки. Это не точная копия утреннего выпуска того дня.")
     state = job["state"]
+    if job.get("historical"):
+        # Backfill must never roll back today's persistent metadata, selections or health.
+        live = read_json(root / "data/state.json", {"version": 1, "articles": {}, "selected": {}})
+        state = live
     for story in stories:
         for source in story["sources"]:
-            state["selected"][source["id"]] = job["date"]
+            if job.get("historical"):
+                state["selected"].setdefault(source["id"], job["date"])
+            else:
+                state["selected"][source["id"]] = job["date"]
     cutoff = (parse_date(job["now"]) - timedelta(days=45)).isoformat()
     state["articles"] = {key: a for key, a in state["articles"].items()
                          if (a["published_at"] or a["discovered_at"]) >= cutoff}
@@ -308,6 +385,7 @@ def generate_issue(root, *, response_file=None):
                                          for key, article in state["articles"].items()}}
     write_json(root / "data/state.json", persisted)
     write_json(root / "data/issues" / (issue["id"] + ".json"), issue)
-    write_json(root / "data/status.json", {"last_success": job["now"], "source_health": job["health"]})
+    if not job.get("historical"):
+        write_json(root / "data/status.json", {"last_success": job["now"], "source_health": job["health"]})
     print(f"Saved issue {issue['id']}: {len(stories)} stories, provider={config['provider']}.")
     return issue

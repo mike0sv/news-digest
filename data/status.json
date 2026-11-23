@@ -1,39 +1,39 @@
 {
-  "last_success": "2026-11-23T22:10:10.546926+00:00",
+  "last_success": "2026-11-23T23:04:08.866975+00:00",
   "source_health": [
     {
       "id": "codex",
       "name": "Codex releases",
       "ok": true,
-      "count": 10,
+      "count": 100,
       "error": null
     },
     {
       "id": "claude-code",
       "name": "Claude Code releases",
       "ok": true,
-      "count": 10,
+      "count": 100,
       "error": null
     },
     {
       "id": "gemini-cli",
       "name": "Gemini CLI releases",
       "ok": true,
-      "count": 10,
+      "count": 100,
       "error": null
     },
     {
       "id": "openai-agents",
       "name": "OpenAI Agents SDK",
       "ok": true,
-      "count": 10,
+      "count": 100,
       "error": null
     },
     {
       "id": "langgraph",
       "name": "LangGraph releases",
       "ok": true,
-      "count": 10,
+      "count": 100,
       "error": null
     },
     {
@@ -47,7 +47,7 @@
       "id": "openai",
       "name": "OpenAI News",
       "ok": true,
-      "count": 1424,
+      "count": 1425,
       "error": null
     },
     {
@@ -69,13 +69,6 @@
       "name": "Cursor changelog",
       "ok": true,
       "count": 5,
-      "error": null
-    },
-    {
-      "id": "hn",
-      "name": "Hacker News",
-      "ok": true,
-      "count": 17,
       "error": null
     },
     {
@@ -118,6 +111,48 @@
       "name": "The Guardian · Ukraine",
       "ok": true,
       "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 54,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 1,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 1,
+      "error": null
+    },
+    {
+      "id": "github-agents",
+      "name": "GitHub · active agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "id": "github-new-agents",
+      "name": "GitHub · emerging agent projects",
+      "ok": true,
+      "count": 15,
       "error": null
     }
   ]

@@ -4,7 +4,7 @@ const $ = (id) => document.getElementById(id);
 const names = { links: 'Без AI', gemini: 'Gemini', anthropic: 'Claude API', openai: 'OpenAI', 'claude-cli': 'Claude Code', codex: 'Codex' };
 const symbols = ['✳', '⌘', '◈', '○'];
 let archive;
-let state = { view: 'latest', issue: '', group: '', provider: '', query: '' };
+let state = { view: 'latest', issue: '', group: '', provider: '', query: '', importance: '', story: '' };
 let saved = loadLocal('utro:saved');
 let read = loadLocal('utro:read');
 let toastTimer;
@@ -52,7 +52,7 @@ function icon(kind) {
   return svg;
 }
 function navigate(patch) {
-  state = { ...state, ...patch };
+  state = { ...state, story: '', ...patch };
   updateUrl();
   render();
 }
@@ -63,13 +63,17 @@ function updateUrl() {
   if (state.group) params.set('group', state.group);
   if (state.provider) params.set('provider', state.provider);
   if (state.query) params.set('q', state.query);
+  if (state.importance) params.set('importance', state.importance);
+  if (state.story) params.set('story', state.story);
   history.replaceState(null, '', location.pathname + (params.size ? '?' + params : ''));
 }
 function fromUrl() {
   const params = new URLSearchParams(location.search);
   state = { view: params.get('view') || (params.has('issue') ? 'issue' : 'latest'),
     issue: params.get('issue') || '', group: params.get('group') || '',
-    provider: params.get('provider') || '', query: params.get('q') || '' };
+    provider: params.get('provider') || '', query: params.get('q') || '',
+    importance: ['important', 'ordinary'].includes(params.get('importance')) ? params.get('importance') : '',
+    story: params.get('story') || '' };
   if (!['latest', 'all', 'saved', 'issue'].includes(state.view)) state.view = 'latest';
   if (state.issue && !archive.issues.some((issue) => issue.id === state.issue)) {
     state.view = 'latest'; state.issue = ''; toast('Выпуск не найден. Открыт последний.');
@@ -93,6 +97,7 @@ function rowsForView({ ignoreGroup = false } = {}) {
   const query = state.query.trim().toLocaleLowerCase('ru');
   return issues.flatMap((entry) => entry.stories.map((story) => ({ issue: entry, story })))
     .filter(({ issue: entry, story }) => (ignoreGroup || !state.group || story.group === state.group)
+      && (!state.importance || Boolean(story.important) === (state.importance === 'important'))
       && (!state.provider || entry.provider === state.provider)
       && (state.view !== 'saved' || saved.has(story.id))
       && (!query || [story.title, story.summary, story.why_it_matters, ...story.sources.map((source) => source.source)]
@@ -136,10 +141,13 @@ function renderNav() {
   }
 }
 function card({ issue, story }) {
-  const article = node('article', 'story-card' + (read.has(story.id) ? ' read' : ''));
+  const article = node('article', 'story-card' + (read.has(story.id) ? ' read' : '') + (story.important ? ' important' : ''));
+  article.id = 'story-' + story.id; article.tabIndex = -1;
   const top = node('div', 'card-top');
   const kicker = node('div', 'card-kicker');
   kicker.append(node('span', '', date(issue.date)), node('span', 'provider-badge', names[issue.provider] || issue.provider));
+  if (issue.retrospective) { const badge = node('span', 'provider-badge', 'Ретроспектива'); badge.title = issue.coverage_note || ''; kicker.append(badge); }
+  if (story.important) { const badge = node('span', 'importance-badge', 'Важное'); badge.title = story.importance_reason || ''; kicker.append(badge); }
   if (story.is_update) kicker.append(node('span', 'update-badge', 'Развитие истории'));
   const buttons = node('div', 'card-buttons');
   for (const kind of ['read', 'save']) {
@@ -176,6 +184,11 @@ function card({ issue, story }) {
   }
   footer.append(links);
   if (issue.provider === 'links') footer.append(node('span', 'excerpt-note', 'Выдержка из ленты'));
+  for (const previous of story.previous_stories || []) {
+    const link = node('a', 'previous-story', `Ранее · ${date(previous.date)} · ${previous.title}`);
+    link.href = `?issue=${encodeURIComponent(previous.issue_id)}&story=${encodeURIComponent(previous.story_id)}`;
+    article.append(link);
+  }
   article.append(footer);
   return article;
 }
@@ -184,6 +197,7 @@ function render() {
   const searching = Boolean(state.query);
   $('search').value = state.query;
   $('provider').value = state.provider;
+  $('importance').value = state.importance;
   $('group-filter').value = state.group;
   $('page-title').textContent = searching ? 'Найдено в архиве.' : state.view === 'saved' ? 'На потом.'
     : state.view === 'all' ? 'Все ваши утра.' : 'Хорошего утра.';
@@ -194,6 +208,10 @@ function render() {
     : state.view === 'saved' ? 'Публикации, к которым хочется вернуться. Отметки хранятся только в этом браузере.'
     : state.view === 'all' ? 'Все выпуски в одном месте. Выберите тему или найдите нужную публикацию.'
     : issue?.intro || 'Первый выпуск появится после запуска сбора новостей.';
+  $('coverage').textContent = issue?.coverage_note || '';
+  $('coverage').hidden = !issue?.coverage_note || searching;
+  $('instant-view').hidden = !issue?.instant_view_url || searching;
+  if (issue?.instant_view_url) $('instant-view').href = safeLink(issue.instant_view_url);
   $('today-label').textContent = issue && !searching ? date(issue.date, { weekday: 'long', year: 'numeric' }) : 'Личный новостной обзор';
   $('download').hidden = !issue || searching;
   if (issue) $('download').href = `issues/${encodeURIComponent(issue.id)}.md`;
@@ -211,7 +229,7 @@ function render() {
   const rows = rowsForView();
   $('stories').replaceChildren();
   for (const group of allGroups()) {
-    const grouped = rows.filter(({ story }) => story.group === group.id);
+    const grouped = rows.filter(({ story }) => story.group === group.id).sort((a, b) => Number(Boolean(b.story.important)) - Number(Boolean(a.story.important)));
     if (!grouped.length) continue;
     const section = node('section', 'story-group');
     const heading = node('div', 'group-heading');
@@ -221,14 +239,19 @@ function render() {
   }
   $('stories').setAttribute('aria-busy', 'false');
   $('empty').hidden = rows.length > 0;
-  $('empty').querySelector('h2').textContent = !archive.issues.length ? 'Первое утро ещё впереди' : 'Здесь пока тихо';
+  $('empty').querySelector('h2').textContent = !archive.issues.length ? 'Первое утро ещё впереди' : state.importance === 'important' ? 'Важных новостей нет' : 'Здесь пока тихо';
   $('empty').querySelector('p').textContent = !archive.issues.length
     ? 'Запустите сбор в GitHub Actions. Здесь появятся выпуски и ссылки на оригиналы.'
     : state.view === 'saved' && !state.query ? 'Сохраните публикацию с помощью закладки на карточке.'
+    : state.importance === 'important' ? 'Ноль важных — нормальный результат. Покажите все новости или выберите другой выпуск.'
     : 'Новых публикаций нет или выбранные фильтры не дали результатов.';
   $('result-count').textContent = `${rows.length} ${plural(rows.length, ['публикация', 'публикации', 'публикаций'])}`;
-  $('reset').hidden = !state.query && !state.group && !state.provider;
+  $('reset').hidden = !state.query && !state.group && !state.provider && !state.importance;
   renderNav();
+  if (state.story) {
+    const target = document.getElementById('story-' + state.story);
+    if (target) { target.classList.add('story-target'); target.scrollIntoView({ block: 'center' }); target.focus({ preventScroll: true }); }
+  }
 }
 function renderSources() {
   const panel = $('sources-panel');
@@ -263,9 +286,10 @@ async function start() {
     for (const view of ['latest', 'all', 'saved']) $(view).addEventListener('click', () => navigate({ view, issue: '', query: '' }));
     let timer;
     $('search').addEventListener('input', (event) => { clearTimeout(timer); const query = event.target.value; timer = setTimeout(() => navigate({ query }), 150); });
+    $('importance').addEventListener('change', (event) => navigate({ importance: event.target.value, story: '' }));
     $('provider').addEventListener('change', (event) => navigate({ provider: event.target.value }));
     $('group-filter').addEventListener('change', (event) => navigate({ group: event.target.value }));
-    $('reset').addEventListener('click', () => navigate({ group: '', query: '', provider: '' }));
+    $('reset').addEventListener('click', () => navigate({ group: '', query: '', provider: '', importance: '', story: '' }));
     $('sources-toggle').addEventListener('click', () => { const hidden = !$('sources-panel').hidden; $('sources-panel').hidden = hidden; $('sources-toggle').setAttribute('aria-expanded', String(!hidden)); });
     window.addEventListener('popstate', () => { fromUrl(); render(); });
   } catch {

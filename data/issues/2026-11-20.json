@@ -1,0 +1,526 @@
+{
+  "version": 1,
+  "id": "2026-11-20",
+  "date": "2026-11-20",
+  "created_at": "2026-11-20T23:59:59.999999+00:00",
+  "title": "Утренний обзор",
+  "intro": "Сегодня в агентской разработке заметнее всего корпоративный вход и новые возможности Claude Code, а также предварительный Codex-провайдер в Python Agents SDK. Среди событий дня — закрытие IPO Anthropic с итоговыми суммами, проблемы приватности в AI-роутерах и заявления о доказательстве гипотезы Римана, которые пока не проверены.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "Anthropic завершила IPO: итоговые суммы и частное размещение",
+      "summary": "Anthropic сообщила о закрытии первичного публичного размещения: 1,127 млрд акций класса A по $83 за акцию, включая полное исполнение опциона андеррайтеров. Валовая выручка составила около $93,5 млрд, из них около $91,6 млрд получила компания; параллельное частное размещение на около $26,0 млрд добавляет к итогу около $119,5 млрд до вычетов расходов.",
+      "why_it_matters": "Итоговые суммы показывают, сколько капитала компания получила через публичный рынок, и подтверждают объём размещения, о котором раньше были известны только цена и начало торгов.",
+      "id": "1d6b47247244be0d",
+      "group": "technology",
+      "is_update": true,
+      "important": true,
+      "importance_reason": "Завершение IPO крупного разработчика ИИ с объявленными суммами: Anthropic получила около $91,6 млрд, это конкретное финансовое событие.",
+      "previous_stories": [
+        {
+          "issue_id": "2026-11-19",
+          "story_id": "edeac5e759d208c8",
+          "date": "2026-11-19",
+          "title": "Anthropic вышла на Nasdaq"
+        },
+        {
+          "issue_id": "2026-11-18",
+          "story_id": "4494f41acb48aca5",
+          "date": "2026-11-18",
+          "title": "Anthropic назначила цену своего IPO"
+        }
+      ],
+      "sources": [
+        {
+          "id": "fd109fdc361c3cd3d582",
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "source": "Anthropic News",
+          "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+          "published_at": "2026-11-20T00:00:00+00:00",
+          "text_kind": "page"
+        }
+      ]
+    },
+    {
+      "title": "Заявления о доказательстве обобщённой гипотезы Римана",
+      "summary": "Левент Альпёге заявляет, что вместе с Claude нашёл доказательство гипотезы Римана и обобщённой гипотезы Римана и формализовал аргументы. Ravi Vakil пишет, что предложенное Alessandro Masullo доказательство GRH изучает Brian Conrad и что оно создано без ИИ; черновик опубликован. Это заявления авторов, независимой проверки в материалах нет.",
+      "why_it_matters": "",
+      "id": "d854a7328f372392",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "cf3b0c6c1cbc2369e530",
+          "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+          "source": "Simon Willison",
+          "title": "Quoting Ravi Vakil",
+          "published_at": "2026-11-20T19:21:49+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "f27b1f34ce20932cc3d0",
+          "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+          "source": "Simon Willison",
+          "title": "Quoting Levent Alpöge",
+          "published_at": "2026-11-20T16:30:48+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "6ccc1545e350025ff088",
+          "url": "https://news.ycombinator.com/item?id=50579568",
+          "source": "Hacker News · top stories",
+          "title": "Hurried Announcement: Alessandro Masullo GRH",
+          "published_at": "2026-11-20T18:33:14Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Meta пересматривает цель нулевых выбросов к 2030 году",
+      "summary": "В отчёте о устойчивости за 2026 год Meta написала, что пересматривает сроки и промежуточные цели, включая срок net-zero к 2030 году, и объяснила это ростом спроса на ИИ-инфраструктуру. Ars Technica сообщает, что рост выбросов парниковых газов Meta в процентах стал рекордным среди Big Tech, строящих ЦОД для ИИ.",
+      "why_it_matters": "Показывает, как спрос на ИИ-инфраструктуру влияет на климатические обязательства крупных компаний.",
+      "id": "83a482bb35bf17ab",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "85d0c5a4a983edfbbc04",
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+          "source": "Ars Technica",
+          "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+          "published_at": "2026-11-20T21:47:10+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Claude Code v2.1.330: вход в корпоративные организации, easel и исправления сессий",
+      "summary": "Claude Code v2.1.330 добавил вход в организации, управляемые через Enterprise Admin Console: после claude auth login применяются их настройки и облачный провайдер или шлюз. Также появился встроенный мод easel для графиков (Pro и Max, а также Team и Enterprise там, где доступно, на macOS и Linux; отключается в /config), --start-dir для self-hosted runner и новые метрики в /metrics. Исправлены зависания после compacting очень длинных диалогов, долгие подвисания WebFetch, потеря настроек при параллельной записи и ошибки --continue и --resume с некорректной меткой времени.",
+      "why_it_matters": "Упрощает подключение Claude Code для команд с корпоративными шлюзами, а исправления снижают зависания в длинных сессиях.",
+      "id": "001d70abaddb2ae1",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "fdc4cffb6fa79465efcb",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+          "source": "Claude Code releases",
+          "title": "v2.1.330",
+          "published_at": "2026-11-20T22:32:56+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI Agents SDK 1.0.0-alpha.1: Codex как провайдер моделей",
+      "summary": "Первая предварительная версия openai-agents 1.0.0a1 добавляет Codex как опциональный провайдер моделей в Python Agents SDK: CodexProvider передаётся в RunConfig и использует сохранённый логин Codex или API-ключ. Провайдер встраивает Codex Core rust-v0.166.0 через PyO3, поэтому вызовы выполняются без запуска codex app-server, а команды подчиняются настройкам песочницы и подтверждений Codex. Колёса доступны только через GitHub Releases.",
+      "why_it_matters": "Python-агенты получают прямой путь к возможностям Codex без отдельного процесса, но это альфа-версия, и устойчивость API пока не подтверждена.",
+      "id": "83dc449361f0f544",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "4bdc26fb87f803ab1bbf",
+          "url": "https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.1",
+          "source": "OpenAI Agents SDK",
+          "title": "Agents SDK v1.0.0-alpha.1",
+          "published_at": "2026-11-20T20:51:28+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "OpenComputer: открытый облачный агент для кода в собственном облаке",
+      "summary": "Show HN-проект OpenComputer, открытый аналог Devin, запускает агентский харнесс и песочницу на одной постоянной VM в AWS, GCP или Azure. По словам основателя, первый коммит занимает 24 с против 53–72 с у сравниваемых альтернатив, сессии изолированы в git worktrees и сохраняются в репозиторий после каждого хода. Это заявления авторов по собственным бенчмаркам; публикация набрала 127 баллов на HN.",
+      "why_it_matters": "Альтернатива песочницам на каждую сессию: одна VM на команду может быть дешевле при большом объёме, но скорость и экономия пока не проверены независимо.",
+      "id": "19ac358d7c04c805",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "443b4a9124028617311a",
+          "url": "https://news.ycombinator.com/item?id=50581403",
+          "source": "Hacker News · agents",
+          "title": "Show HN: OpenComputer – an open source alternative to Devin",
+          "published_at": "2026-11-20T20:19:56Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "AI-роутеры: возможная утечка промптов через OpenRouter и MiniMax",
+      "summary": "Исследователи отправили 2 млн меток-ловушек через цепочку AI-роутеров и выяснили, что чувствительные данные утекали. По словам OpenRouter, полученный им отчёт касается промптов, отправленных моделям MiniMax напрямую или через AtlasCloud, Novita и StreamLake, а сами ссылки-ловушки были открыты; OpenRouter также убрал метку «Zero Data Retention» с endpoint-ов MiniMax.",
+      "why_it_matters": "Промпты агентов, идущие через посредников, могут попадать к сторонним провайдерам вне основного договора, поэтому политика хранения маршрутов важна.",
+      "id": "7de59ad6fe567196",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "cc88c546d1214b6505b4",
+          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+          "source": "Ars Technica",
+          "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+          "published_at": "2026-11-20T20:59:08+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "ChatPRD сворачивает бесплатный доступ из-за токен-мошенничества",
+      "summary": "Claire Vo, создательница ChatPRD, в видео рассказала о потоке злоупотреблений бесплатным пробным периодом: группы использовали промокоды и доступ к агенту для бесплатного использования ИИ или перепродажи токенов. По её словам, она полностью сворачивает бесплатные пробные периоды; Саймон Уиллисон предполагает, что повторяющиеся SVG-промпты помогают злоумышленникам определять модель.",
+      "why_it_matters": "Показывает, что бесплатные агентские сервисы становятся мишенью для злоупотреблений, и разработчикам приходится ограничивать доступ.",
+      "id": "800d279c4ad1021b",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "478ea25aeed3c99796b0",
+          "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+          "source": "Simon Willison",
+          "title": "Token fraud is here and it’s BAD (YouTube)",
+          "published_at": "2026-11-20T02:49:57+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Signal пишет об ограничении доступа ИИ-агентов к данным на мобильных ОС",
+      "summary": "По заголовку, Signal опубликовал материал о защите приватности, связанный с ограничением захвата данных AI-агентами в мобильных операционных системах. Текст статьи в материале отсутствует, поэтому конкретные меры и позиции платформ неизвестны; на HN публикация набрала 581 балл.",
+      "why_it_matters": "Отмечает напряжение между агентами на телефоне и приватностью данных; конкретные последствия без текста статьи не оценить.",
+      "id": "189678de365e978b",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "987b3377e39e9631721d",
+          "url": "https://news.ycombinator.com/item?id=50572348",
+          "source": "Hacker News · agents",
+          "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+          "published_at": "2026-11-20T09:42:16Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Hebbia: GPT-6 Astra улучшил финансовые исследования по предварительным оценкам",
+      "summary": "OpenAI сообщила, что Hebbia протестировала GPT-6 Astra для финансовых исследований: предварительные оценки показали прирост охвата источников, релевантности цитат и качества презентации. Численные результаты в материале не приведены, а оценка исходит от клиента и OpenAI.",
+      "why_it_matters": "Пример внедрения в профессиональной аналитике, но без метрик масштаб эффекта оценить сложно.",
+      "id": "67cf9b8196861795",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "8145fefb47ff1ca9fa55",
+          "url": "https://openai.com/business/customer-stories/hebbia",
+          "source": "OpenAI News",
+          "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+          "published_at": "2026-11-20T00:00:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI описала защиту от adversarial distillation",
+      "summary": "OpenAI опубликовала материал о многоуровневом подходе к adversarial distillation, то есть извлечению возможностей модели через её ответы. Подход сочетает обучение моделей, защитные механизмы, детекцию и enforcement; детали и цифры в материале не приведены.",
+      "why_it_matters": "",
+      "id": "b19cc8e331e1757b",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "7ad44f990f0c53ef2e2a",
+          "url": "https://openai.com/index/combatting-adversarial-distillation",
+          "source": "OpenAI News",
+          "title": "Combatting adversarial distillation",
+          "published_at": "2026-11-20T10:00:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Трамп «открыт» к гарантии обороны для Киева по типу НАТО, по словам Кушнера",
+      "summary": "По сообщению Guardian, Джаред Кушнер заявил, что Трамп открыт к гарантии взаимной обороны для Киева по образцу НАТО. Это пересказ заявления, независимого подтверждения и условий гарантии в материале нет.",
+      "why_it_matters": "",
+      "id": "8f32c0d250afb3b7",
+      "group": "peace",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "99c4a59b1d5247888053",
+          "url": "https://www.theguardian.com/world/2026/nov/20/ukraine-war-briefing-trump-open-to-kyiv-getting-nato-like-mutual-defence-guarantee-says-kushner",
+          "source": "The Guardian · Ukraine",
+          "title": "Ukraine war briefing: Trump ‘open’ to Kyiv getting Nato-like mutual defence guarantee, says Kushner",
+          "published_at": "2026-11-20T01:37:48+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Российские ракеты и дрон попали в Польшу во время атак на Украину",
+      "summary": "По заголовку Guardian, российские ракеты и беспилотник попали на территорию Польши во время атак на Украину. Текст репортажа в материале отсутствует (есть только подпись к фото), поэтому обстоятельства, ущерб и реакция Польши неизвестны.",
+      "why_it_matters": "Это может быть эскалация с риском для стран НАТО; подробности требуют проверки по основному тексту.",
+      "id": "00c29d838077768b",
+      "group": "russia",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "037269830c1087bb2ac6",
+          "url": "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine",
+          "source": "The Guardian · Ukraine",
+          "title": "Russian missiles and drone hit Poland during attacks on Ukraine",
+          "published_at": "2026-11-20T16:16:01+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 2174,
+    "candidates": 44,
+    "selected": 13,
+    "sources_ok": 19,
+    "sources_total": 20
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": false,
+      "count": 0,
+      "error": "RuntimeError"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1425,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 38,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 28,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 9,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 14,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 31728,
+    "cache_read_input_tokens": 1360,
+    "output_tokens": 14697,
+    "output_tokens_details": {
+      "thinking_tokens": 10761
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 31728,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 14697,
+        "cache_read_input_tokens": 1360,
+        "cache_creation_input_tokens": 31728,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 31728
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "retrospective": true,
+  "coverage_note": "Ретроспектива по сохранившимся публикациям с датами. Ленты могут быть неполными; HN-баллы отражают внимание на момент сбора. Тексты могли получить последующие правки. Это не точная копия утреннего выпуска того дня."
+}

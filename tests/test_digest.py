@@ -9,7 +9,7 @@ from unittest.mock import patch
 from digest import providers
 from digest.feeds import article_id, canonical_url, parse_feed, parse_html_source, plain_text
 from digest.pipeline import (generate_issue, load_config, prepare, read_json, select_candidates,
-                             validate_output, write_json)
+                             validate_output, write_json, recent_history)
 from digest.publish import build, deliver, issue_html, telegram_text
 
 NOW = datetime(2026, 11, 23, 10, tzinfo=timezone.utc)
@@ -26,7 +26,8 @@ def article(id='a', group='agents', source='src', **extra):
 def response(ids=None):
     return {'intro': 'Обзор', 'stories': [{'title': 'Новый релиз', 'summary': 'Конкретные изменения.',
             'why_it_matters': 'Полезно разработчикам.', 'group': 'agents',
-            'article_ids': ids or ['a'], 'is_update': False}]}
+            'article_ids': ids or ['a'], 'is_update': False, 'important': False,
+            'importance_reason': '', 'previous_story_refs': []}]}
 
 
 class FeedTests(unittest.TestCase):
@@ -83,6 +84,7 @@ class PipelineTests(unittest.TestCase):
         (self.root/'config/settings.json').write_text((ROOT/'config/settings.json').read_text())
         self.config = load_config(self.root)
         self.config["provider"]="links"
+        self.config["telegram"]["instant_view"]=False
         write_json(self.root/"config/settings.json",self.config)
         (self.root/'web').mkdir()
         (self.root/'web/index.html').write_text('<h1>Test</h1>')
@@ -94,6 +96,137 @@ class PipelineTests(unittest.TestCase):
         with patch('digest.pipeline.collect', return_value=(articles or [article()],
                    [{'id':'src','name':'Example','ok':True,'count':1,'error':None}])):
             return prepare(self.root, now=NOW, **kwargs)
+
+    def test_importance_allows_zero_and_rejects_more_than_three(self):
+        _, stories = validate_output(response(), [article()], self.config)
+        self.assertFalse(stories[0]['important'])
+        output = response()
+        output['stories'] = []
+        items = [article(str(i)) for i in range(4)]
+        for a in items:
+            story = response([a['id']])['stories'][0]
+            story.update(important=True, importance_reason='Substantial usable capability')
+            output['stories'].append(story)
+        with self.assertRaisesRegex(ValueError, 'At most 3'):
+            validate_output(output, items, self.config)
+        output['stories'].pop()
+        self.assertEqual(len(validate_output(output, items, self.config)[1]), 3)
+
+    def test_importance_reason_must_match_the_marker(self):
+        output = response(); output['stories'][0]['important'] = True
+        with self.assertRaises(ValueError): validate_output(output, [article()], self.config)
+        output['stories'][0].update(important=False, importance_reason='Pretending importance')
+        with self.assertRaises(ValueError): validate_output(output, [article()], self.config)
+
+    def test_update_references_must_resolve_to_real_history(self):
+        history = [{'ref':'2026-11-22/old','issue_id':'2026-11-22','story_id':'old',
+                    'date':'2026-11-22','title':'Prior event'}]
+        output=response(); output['stories'][0].update(is_update=True, previous_story_refs=['invented'])
+        with self.assertRaises(ValueError): validate_output(output,[article()],self.config,history)
+        output['stories'][0]['previous_story_refs']=['2026-11-22/old']
+        story=validate_output(output,[article()],self.config,history)[1][0]
+        self.assertEqual(story['previous_stories'][0]['story_id'],'old')
+        output['stories'][0]['is_update']=False
+        with self.assertRaises(ValueError): validate_output(output,[article()],self.config,history)
+
+    def test_history_excludes_same_day_and_future_issues(self):
+        for day in ['2026-11-22','2026-11-23','2026-11-24']:
+            write_json(self.root/'data/issues'/f'{day}.json',
+                {'id':day,'date':day,'stories':[{'id':'s','title':day,'summary':'x','group':'agents'}]})
+        history=recent_history(self.root,NOW,14)
+        self.assertEqual([s['date'] for s in history],['2026-11-22'])
+        self.assertEqual(history[0]['ref'],'2026-11-22/s')
+
+    def test_historical_filter_excludes_discoveries_and_future_articles(self):
+        config={**self.config,'historical':True,'lookback_hours':24}
+        items=[article('dated'),article('undated',published_at=None),
+               article('snapshot',date_kind='discovery'),
+               article('future',published_at=(NOW+timedelta(seconds=1)).isoformat())]
+        self.assertEqual([a['id'] for a in select_candidates(items,{'selected':{}},config,NOW)],['dated'])
+
+    def test_future_date_fails_before_source_fetch(self):
+        with patch('digest.signals.collect_historical') as fetch:
+            with self.assertRaises(ValueError): prepare(self.root,now=NOW,date='2026-11-24')
+        fetch.assert_not_called()
+
+    def test_retrospective_preserves_live_state_and_never_sends(self):
+        live={'version':1,'articles':{'future':article('future')},'selected':{'future':'2026-11-23'}}
+        write_json(self.root/'data/state.json',live)
+        write_json(self.root/'data/status.json',{'last_success':'live'})
+        past=NOW-timedelta(days=1)
+        with patch('digest.signals.collect_historical',return_value=(
+                [article('past',published_at=past.isoformat())],[{'ok':True}])):
+            prepare(self.root,now=NOW,date='2026-11-22')
+        issue=generate_issue(self.root)
+        self.assertTrue(issue['retrospective'])
+        self.assertEqual(read_json(self.root/'data/state.json')['selected']['future'],'2026-11-23')
+        self.assertIn('future',read_json(self.root/'data/state.json')['articles'])
+        self.assertEqual(read_json(self.root/'data/status.json')['last_success'],'live')
+        with patch.dict('os.environ',{'TELEGRAM_BOT_TOKEN':'s','TELEGRAM_CHAT_ID':'1'}), patch('digest.publish.post_json') as post:
+            deliver(self.root)
+        post.assert_not_called()
+
+    def test_permalink_and_markdown_link_to_previous_card(self):
+        self.prepare(); issue=generate_issue(self.root)
+        story=issue['stories'][0]
+        story['previous_stories']=[{'issue_id':'2026-11-22','story_id':'older','date':'2026-11-22','title':'Prior'}]
+        html=issue_html(issue)
+        self.assertIn('2026-11-22.html#story-older',html)
+        self.assertIn('id="story-'+story['id']+'"',html)
+
+    def test_telegraph_publishes_full_text_once_and_edits_changed_content(self):
+        from digest.instant_view import publish, content
+        self.config['telegram']['instant_view']=True
+        write_json(self.root/'config/settings.json',self.config)
+        self.prepare(); issue=generate_issue(self.root)
+        nodes=content(issue,'https://example.org/')
+        self.assertIn(issue['stories'][0]['summary'],json.dumps(nodes,ensure_ascii=False))
+        result={'ok':True,'result':{'url':'https://telegra.ph/Issue-11-23','path':'Issue-11-23'}}
+        with patch.dict('os.environ',{'TELEGRAPH_ACCESS_TOKEN':'private'}), patch('digest.instant_view.post_json',return_value=result) as post:
+            publish(self.root); publish(self.root)
+            self.assertEqual(post.call_count,1)
+            issue['intro']='Changed';write_json(self.root/'data/issues/2026-11-23.json',issue)
+            publish(self.root)
+            self.assertTrue(post.call_args.args[0].endswith('/editPage'))
+        self.assertNotIn('private',(self.root/'data/telegraph.json').read_text())
+        self.assertIn('Instant View',telegram_text(issue,'https://example.org/',result['result']['url']))
+
+    def test_github_release_query_omits_assets_and_future_releases(self):
+        from digest.signals import github_releases
+        source={'id':'codex','name':'Codex','url':'https://github.com/openai/codex/releases.atom','group':'agents'}
+        rows=[{'name':'Release','tagName':'v1','url':'https://github.com/openai/codex/releases/tag/v1',
+               'publishedAt':NOW.isoformat(),'description':'Real release notes','isDraft':False},
+              {'name':'Future','tagName':'v2','url':'https://github.com/openai/codex/releases/tag/v2',
+               'publishedAt':(NOW+timedelta(days=1)).isoformat(),'description':'Future','isDraft':False}]
+        with patch.dict('os.environ',{'GITHUB_TOKEN':'private'}), patch('digest.signals.http',return_value=json.dumps(
+                {'data':{'repository':{'releases':{'nodes':rows}}}})) as request:
+            items=github_releases(source,NOW)
+        self.assertEqual(len(items),1)
+        self.assertEqual(items[0]['text'],'Real release notes')
+        self.assertNotIn('releaseAssets',request.call_args.kwargs['payload']['query'])
+        self.assertEqual(request.call_args.kwargs['headers']['Authorization'],'Bearer private')
+
+    def test_source_specific_budget_keeps_discovery_from_crowding_out_releases(self):
+        config=deepcopy(self.config)
+        config['sources'].append({'id':'discovery','candidate_limit':2})
+        items=[article(str(i),source='discovery') for i in range(10)]+[article('release',source='codex')]
+        selected=select_candidates(items,{'selected':{}},config,NOW)
+        self.assertEqual(sum(a['source_id']=='discovery' for a in selected),2)
+        self.assertIn('release',[a['id'] for a in selected])
+
+    def test_changed_delivered_issue_edits_original_telegram_message(self):
+        self.prepare();issue=generate_issue(self.root)
+        issue.update(provider='gemini',date=datetime.now(timezone.utc).date().isoformat())
+        issue['id']=issue['date'];path=self.root/'data/issues'/f"{issue['id']}.json"
+        write_json(path,issue)
+        with patch.dict('os.environ',{'TELEGRAM_BOT_TOKEN':'secret','TELEGRAM_CHAT_ID':'1'}), patch(
+                'digest.publish.post_json',return_value={'ok':True,'result':{'message_id':7}}) as post:
+            deliver(self.root)
+            issue['stories'][0]['title']='Edited headline';write_json(path,issue)
+            deliver(self.root);deliver(self.root)
+        self.assertEqual(post.call_count,2)
+        self.assertTrue(post.call_args.args[0].endswith('/editMessageText'))
+        self.assertEqual(post.call_args.args[1]['message_id'],7)
 
     def test_already_selected_and_old_articles_are_excluded(self):
         old = article('old', published_at=(NOW-timedelta(days=5)).isoformat())

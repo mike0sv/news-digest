@@ -123,17 +123,27 @@ def parse_feed(xml, source, now):
     return result
 
 
-def collect(sources, now):
+def collect(sources, now, *, historical=False):
     def fetch(source):
         try:
-            payload = http(source["url"])
-            articles = (parse_html_source(payload, source, now) if source.get("type") == "html"
-                        else parse_feed(payload, source, now))
-            if not articles:
+            if source.get("type") in {"hn", "github-projects"}:
+                from .signals import fetch_signal
+                articles = fetch_signal(source, now)
+            elif (historical or source.get("release_api")) and source["url"].startswith("https://github.com/") and source["url"].endswith("releases.atom"):
+                from .signals import github_releases
+                articles = github_releases(source, now)
+            else:
+                payload = http(source["url"])
+                articles = (parse_html_source(payload, source, now) if source.get("type") == "html"
+                            else parse_feed(payload, source, now))
+            if historical:
+                for article in articles:
+                    article["discovered_at"] = datetime.now(timezone.utc).isoformat()
+            if not articles and source.get("type") not in {"hn", "github-projects"}:
                 raise ValueError("Source returned no articles")
             return articles, {"id": source["id"], "name": source["name"], "ok": True,
                               "count": len(articles), "error": None}
-        except (RuntimeError, ValueError, ET.ParseError) as error:
+        except (RuntimeError, ValueError, ET.ParseError, KeyError, TypeError) as error:
             # Feed contents and URLs are deliberately not logged.
             return [], {"id": source["id"], "name": source["name"], "ok": False,
                         "count": 0, "error": type(error).__name__}

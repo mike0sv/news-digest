@@ -2,9 +2,9 @@
   "version": 1,
   "id": "2026-11-23",
   "date": "2026-11-23",
-  "created_at": "2026-11-23T22:10:10.546926+00:00",
+  "created_at": "2026-11-23T23:04:08.866975+00:00",
   "title": "Утренний обзор",
-  "intro": "Выпуск за 23 ноября 2026 года. Главный приоритет — AI-агенты: релизы Claude Code, Agents SDK и Codex, а также Claude Ship. Из остальных групп включены только события, где есть конкретные факты и источники.",
+  "intro": "Главные новости дня: Anthropic запустила в бете агентов PR Steward и Claude Approvals, вышли Claude Code v2.1.331 и OpenAI Agents SDK 1.0.0-alpha.2. В технологиях Nvidia вернула Дженсена Хуанга на пост гендиректора, штаты подали иск против SpaceX из-за Grok, а браузер Ladybird вышел в alpha. Из России и по переговорам: Эстония закрывает границу, а Мерц заявил о гарантиях безопасности для Украины.",
   "provider": "claude-cli",
   "model": "haiku",
   "groups": [
@@ -36,74 +36,15 @@
   ],
   "stories": [
     {
-      "title": "Claude Code v2.1.331: Code Mode на облачных платформах и проверка доступа к API",
-      "summary": "Вышла Claude Code v2.1.331. Code Mode теперь поддерживается в терминальных сессиях на Amazon Bedrock, Google Cloud Agent Platform, Microsoft Foundry и Claude Platform on AWS; команда claude doctor получила раздел проверки доступности API. Также добавлены трассировки gen_ai.* для claude_code.llm_request и исправлены ошибки, включая зависания MCP-вызовов до 30 минут. Текст релиза в источнике обрывается, поэтому список изменений неполный.",
-      "why_it_matters": "Команды, которые запускают Claude Code через Bedrock, Foundry или шлюз, получают Code Mode на своей платформе и средство диагностики подключения к API.",
-      "id": "4957baf3af581983",
-      "group": "agents",
-      "is_update": false,
-      "sources": [
-        {
-          "id": "a9972b90c90a6092227e",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
-          "source": "Claude Code releases",
-          "title": "v2.1.331",
-          "published_at": "2026-11-23T21:34:41+00:00",
-          "text_kind": "feed"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI Agents SDK v1.0.0-alpha.2: возобновление сессий, хуки инструментов и редакция текста",
-      "summary": "OpenAI выпустила Agents SDK v1.0.0-alpha.2 в виде GitHub-превью с установкой через wheel. Версия добавляет ResumableSession для сохранения истории и ожидающих подтверждений при смене воркера, настраиваемые хуки выполнения инструментов (prepare_tool_input, prepare_tool_output, prepare_tool_declaration), опциональную редакцию текста через redact_text и подробную трассировку операций. Alpha.2 пишет новый формат состояния RunState (схема 1.24), который alpha.1 не читает; восстановление нативных подтверждений Codex поддерживает только одно ожидающее exec_command или apply_patch.",
-      "why_it_matters": "Для долгоживущих агентов появилось восстановление после падения воркера, но переход с alpha.1 на alpha.2 необратим для снимков состояния.",
-      "id": "0f3b7fb23a0ef61e",
-      "group": "agents",
-      "is_update": false,
-      "sources": [
-        {
-          "id": "11ec5a54f8f917714e42",
-          "url": "https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.2",
-          "source": "OpenAI Agents SDK",
-          "title": "Agents SDK v1.0.0-alpha.2",
-          "published_at": "2026-11-23T20:11:07+00:00",
-          "text_kind": "feed"
-        }
-      ]
-    },
-    {
-      "title": "Codex: выпущены альфа-версии 0.171.0-alpha.13.2 и 0.172.0-alpha.2.1",
-      "summary": "23 ноября вышли две альфа-версии Codex: 0.172.0-alpha.2.1 (около 18:07 UTC) и 0.171.0-alpha.13.2 (около 19:43 UTC). В источниках указаны только номера версий, описание изменений отсутствует.",
-      "why_it_matters": "По имеющемуся тексту нельзя определить, какие функции или исправления вошли в эти сборки; для оценки нужен полный список изменений.",
-      "id": "a8a5137e8796d49b",
-      "group": "agents",
-      "is_update": false,
-      "sources": [
-        {
-          "id": "9281e402e80ec3c67a7a",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13.2",
-          "source": "Codex releases",
-          "title": "0.171.0-alpha.13.2",
-          "published_at": "2026-11-23T19:43:27+00:00",
-          "text_kind": "feed"
-        },
-        {
-          "id": "470a905d1d5de2eab081",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.2.1",
-          "source": "Codex releases",
-          "title": "0.172.0-alpha.2.1",
-          "published_at": "2026-11-23T18:07:33+00:00",
-          "text_kind": "feed"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic запустил Claude Ship: агенты PR Steward и Claude Approvals для код-ревью",
-      "summary": "Anthropic анонсировал продукт Claude Ship, в рамках которого Claude может проверять, исправлять и одобрять pull request'ы. В бета-версии запущены агенты PR Steward, который реагирует на падающие CI-проверки, конфликты слияния и замечания ревьюеров, и Claude Approvals; функция Code Review, анонсированная в марте, стала общедоступной в октябре.",
-      "why_it_matters": "Агенты переходят от комментариев к исправлению и одобрению кода в процессе слияния, но пока в бета-статусе, и ограничения и надёжность в источнике не описаны.",
+      "title": "Claude Ship: агенты PR Steward и Claude Approvals в бете",
+      "summary": "Anthropic анонсировала Claude Ship: агенты PR Steward и Claude Approvals запускаются в бете и могут реагировать на падающие CI-проверки, merge-конфликты и замечания ревью, а также исправлять код и одобрять pull request. Code Review, появившийся в марте и ставший общедоступным в октябре, остаётся основой этих возможностей.",
+      "why_it_matters": "Агенты берут на себя часть цикла PR, поэтому это прямой сигнал для агентских фабрик разработки, но условия бета-версии и надёжность в материале не описаны.",
       "id": "f8b9b2efb55a02ba",
       "group": "agents",
       "is_update": false,
+      "important": true,
+      "importance_reason": "Конкретная новая возможность в бете: агенты самостоятельно исправляют CI-сбои и конфликты и одобряют PR, что относится к автономности и ревью в агентской разработке.",
+      "previous_stories": [],
       "sources": [
         {
           "id": "6545db87281ad58ecc44",
@@ -116,53 +57,127 @@
       ]
     },
     {
-      "title": "Ladybird выпустил первую альфа-версию браузера; проект сообщает о вкладе ИИ-агентов",
-      "summary": "Проект Ladybird опубликовал первую альфа-версию браузера для macOS и Linux, которую можно установить без сборки; Simon Willison отмечает высокую скорость и работу большинства сайтов, но Datasette Lite не запускается из-за ошибки в service worker. По словам проекта, ИИ-агентов направили на Web Platform Tests и поручили дописывать недостающую функциональность, и в конце октября их правки дали основную часть прироста примерно с 2,12 до 2,18 млн прохождений subtest'ов.",
-      "why_it_matters": "Крупный открытый проект публично связывает заметную часть прогресса с работой ИИ-агентов; сами разработчики предупреждают, что безопасность альфа-версии не гарантирована, поэтому для чувствительных аккаунтов её не рекомендуют.",
-      "id": "9e8476e97940eb61",
+      "title": "Claude Code v2.1.331: Code Mode на сторонних облаках и исправления длинных сессий",
+      "summary": "Claude Code v2.1.331 добавил Code Mode в терминальных сессиях на Amazon Bedrock, Google Cloud Agent Platform, Microsoft Foundry и Claude Platform on AWS, а также раздел проверки API-подключения в claude doctor. Среди исправлений: зависания MCP-вызовов до 30 минут на некоторых ответах, потеря середины длинного вывода скрипта в Code Mode и сбои при сбое ответа в облачных сессиях.",
+      "why_it_matters": "Code Mode на сторонних облаках упрощает запуск агентов в корпоративной инфраструктуре, а исправления касаются долгих задач.",
+      "id": "4957baf3af581983",
       "group": "agents",
       "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
       "sources": [
         {
-          "id": "e59fe8be067f4ab68ffc",
-          "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
-          "source": "Simon Willison",
-          "title": "Ladybird's first alpha release",
-          "published_at": "2026-11-23T21:46:35+00:00",
+          "id": "a9972b90c90a6092227e",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+          "source": "Claude Code releases",
+          "title": "v2.1.331",
+          "published_at": "2026-11-23T21:34:41+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI Agents SDK 1.0.0-alpha.2: возобновление сессий и подтверждений",
+      "summary": "Предварительная версия openai-agents 1.0.0a2 (только на GitHub, с нативным Codex runtime) добавляет ResumableSession для продолжения диалога и ожидающих подтверждений на другом worker, восстановление подтверждений нативных команд Codex, tool hooks и опциональную редакцию текста. Новые форматы состояния не читаются alpha.1, поэтому читателей нужно обновить до записи.",
+      "why_it_matters": "Восстановление после сбоя полезно для долгих агентских задач, но оно пока ограничено одним ожидающим подтверждением exec_command или apply_patch в локальной среде.",
+      "id": "0f3b7fb23a0ef61e",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "11ec5a54f8f917714e42",
+          "url": "https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.2",
+          "source": "OpenAI Agents SDK",
+          "title": "Agents SDK v1.0.0-alpha.2",
+          "published_at": "2026-11-23T20:11:07+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "NariQ: 3-битная квантизация Qwen3.8-27B по заявлению авторов",
+      "summary": "Авторы NariQ опубликовали квантизации Qwen3.8-27B до 3 бит и ниже и заявляют почти BF16-качество на агентских задачах: DeepSWE 41,0 против 39,8 и Terminal-Bench 2.1 63,8 против 62,6 (3-bit против BF16). Для запуска нужен их форк llama.cpp, а результаты пока не проверены независимо; на HN публикация набрала 100 баллов.",
+      "why_it_matters": "Если цифры подтвердятся, более компактные модели смогут выполнять длинные агентские задачи на более скромном железе.",
+      "id": "b9856bd6eb45a43e",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "21908a70d050f480e642",
+          "url": "https://news.ycombinator.com/item?id=50611402",
+          "source": "Hacker News · agents",
+          "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+          "published_at": "2026-11-23T13:42:38Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "GLM-5.4: публикация о первом loop transformer для программирования",
+      "summary": "По заголовку и ссылке на блог z.ai, публикация описывает GLM-5.4 как первый loop transformer, ориентированный на обобщённое программирование. Текст материала не приведён, поэтому бенчмарки, доступность и архитектура неизвестны; на HN обсуждение набрало 1007 баллов и 329 комментариев, что показывает внимание, но не качество.",
+      "why_it_matters": "",
+      "id": "46697beb3a299a15",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "6c82c31d5a24c2871826",
+          "url": "https://news.ycombinator.com/item?id=50609685",
+          "source": "Hacker News · AI coding",
+          "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+          "published_at": "2026-11-23T10:06:43Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "elephant-goldfish: открытый плагин для проектирования и ревью ПО с агентами",
+      "summary": "Проект google/elephant-goldfish-model — открытый плагин для проектирования и ревью программ с помощью агентов с подходом spec-driven, по описанию совместимый с Claude Code, Codex, Gemini и Antigravity. На GitHub около 22 400 звёзд, но это показатель интереса, а не подтверждённой пользы; тестов или измерений качества в описании нет.",
+      "why_it_matters": "Проект показывает, как spec-driven подход и ревью встраиваются в агентские процессы разработки.",
+      "id": "7df6626693ee781d",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "f7f9ba2030bfc1b0b6c9",
+          "url": "https://github.com/google/elephant-goldfish-model",
+          "source": "GitHub · emerging agent projects",
+          "title": "google/elephant-goldfish-model",
+          "published_at": "2026-11-23T23:04:08.866975+00:00",
           "text_kind": "feed"
         }
       ]
     },
     {
       "title": "Nvidia вернула Дженсена Хуанга на пост гендиректора",
-      "summary": "Совет директоров Nvidia 23 ноября вернул Дженсена Хуанга на пост гендиректора менее чем через две недели после его отставки 12 ноября, которая последовала за скандалом с его личными отношениями. Совет сослался на «вклад с высших уровней правительства США», а Трамп заявил, что это «лучшее» решение для компании; по данным NYT, рассматривалась связь одного из близких Хуангу людей с передачей информации Китаю.",
-      "why_it_matters": "Решение происходит на фоне расследований и интереса Конгресса к экспорту AI-чипов в Китай: Хуанг должен выступить перед законодателями 1 декабря, а по сообщениям СМИ, SEC и генпрокурор Калифорнии проверяют компанию.",
-      "id": "c5402f98eef52c42",
+      "summary": "Совет директоров Nvidia единогласно восстановил Дженсена Хуанга в должности генерального директора менее чем через две недели после его отставки; The Verge пишет, что совет сослался на поддержку «высокого уровня» властей США. Президент Трамп заявил, что возвращение «было бы лучшим для Nvidia и США», а Белый дом назвал его своей заслугой; обстоятельства отставки, включая сообщения о романах и связи с предполагаемым китайским шпионом, в материалах описаны как сообщения, без подтверждённых выводов.",
+      "why_it_matters": "Смена руководства у компании с капитализацией свыше $4 трлн влияет на ключевого поставщика AI-чипов; Хуанг должен выступить перед Конгрессом 1 декабря, по сообщению live-блога The Verge.",
+      "id": "f8377f4de789cf4a",
       "group": "technology",
       "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
       "sources": [
         {
-          "id": "2c11c808192d075870d5",
-          "url": "https://www.bbc.com/russian/articles/cqx2xj782wyyo?at_campaign=rss&at_medium=RSS",
-          "source": "BBC News Русская служба",
-          "title": "Nvidia снова назначила Дженсена Хуанга гендиректором. Трамп заявил, что это его заслуга",
-          "published_at": "2026-11-23T16:58:25+00:00",
-          "text_kind": "feed"
-        },
-        {
-          "id": "72c65d25e7ff950d5228",
-          "url": "https://www.theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return",
+          "id": "fa9136539de5ecb7ea15",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
           "source": "The Verge",
-          "title": "Jensen Huang says he’ll be a ‘better CEO’ as staff applauds his return",
-          "published_at": "2026-11-23T19:58:27+00:00",
-          "text_kind": "feed"
-        },
-        {
-          "id": "ba7fe03235f718d9453a",
-          "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
-          "source": "The Verge",
-          "title": "How Jensen Huang ended up as Nvidia CEO again",
-          "published_at": "2026-11-23T19:57:18+00:00",
+          "title": "Trump engineered a risky comeback for Jensen Huang",
+          "published_at": "2026-11-23T22:25:12+00:00",
           "text_kind": "feed"
         },
         {
@@ -170,18 +185,37 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
           "source": "The Verge",
           "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-          "published_at": "2026-11-23T22:08:37+00:00",
+          "published_at": "2026-11-23T22:10:32+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "4ce697c6dbd75e8a8795",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+          "source": "The Verge",
+          "title": "Welcome to elite impunity, Jensen Huang",
+          "published_at": "2026-11-23T22:09:26+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "2c11c808192d075870d5",
+          "url": "https://www.bbc.com/russian/articles/cqx2xj782wyyo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "Nvidia снова назначила Дженсена Хуанга гендиректором. Трамп заявил, что это его заслуга",
+          "published_at": "2026-11-23T16:58:25+00:00",
           "text_kind": "feed"
         }
       ]
     },
     {
-      "title": "Штаты Виргиния и Орегон подали иск к SpaceX из-за Grok",
-      "summary": "Виргиния и Орегон первыми подали иски к SpaceX, купившей xAI, обвиняя Grok в создании сексуализированных изображений реальных женщин и детей. Генеральные прокуроры утверждают, что заявления компании о новых защитных мерах «вводят в заблуждение», а Grok, по их словам, продолжает создавать такие материалы; это позиция истцов, которую компания в источнике не комментирует.",
-      "why_it_matters": "Иски штатов против конкретной функции генерации изображений могут повлиять на регулирование ИИ-моделей, но исход дел пока не известен.",
+      "title": "Штаты Вирджиния и Орегон подали иск к SpaceX из-за Grok",
+      "summary": "Вирджиния и Орегон стали первыми штатами, подавшими иск к SpaceX, которая купила xAI в феврале: по их утверждению, Grok продолжает сексуализировать реальные фото женщин и детей. Штаты заявляют, что заявления компании о дополнительных защитах были «вводящими в заблуждение»; это позиция истцов, которую суд ещё не проверял.",
+      "why_it_matters": "Иск касается генерации интимных изображений без согласия и CSAM в популярной AI-модели, что может повлиять на требования к защитам моделей.",
       "id": "cc61c3fc8d46c2aa",
       "group": "technology",
       "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
       "sources": [
         {
           "id": "f323d7562d6653aad531",
@@ -194,48 +228,81 @@
       ]
     },
     {
-      "title": "Западные разведчики: Россия может вывести ядерное оружие на орбиту до конца года",
-      "summary": "Немецкие СМИ со ссылкой на западных разведчиков сообщили, что Россия может запустить на орбиту спутник с ядерным оружием до конца года. США ранее раскрыли, что Россия в 2022 году испытывала тестовый спутник для будущего ядерного аппарата, но ядерный заряд на орбиту не выводила; подтверждения новых сведений в источнике нет.",
-      "why_it_matters": "Если сообщения подтвердятся, орбитальное ядерное оружие угрожало бы спутниковой связи и МКС; сейчас это данные разведки в пересказе СМИ без официального подтверждения.",
-      "id": "adc40606aede9c63",
+      "title": "Ladybird выпустил первую alpha с собственным движком",
+      "summary": "Браузер Ladybird с собственным движком, над которым работали больше четырёх лет, вышел в alpha для macOS и Linux; версия для Windows обещана на поздних этапах. Саймон Уиллисон пишет, что большинство сайтов работают, но проект предупреждает о падениях и не даёт гарантий безопасности; по записи в блоге Ladybird за октябрь, большая часть из около 75 650 новых прохождений тестов WPT пришлась на пять дней, когда агенты помогали закрывать пробелы.",
+      "why_it_matters": "Это первый за годы новый браузерный движок в доступной версии, а вклад coding agents в прирост тестов показывает практический пример агентской разработки.",
+      "id": "3e9c6ddb7157cc71",
       "group": "technology",
       "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
       "sources": [
         {
-          "id": "4efb0bcac54b804e689c",
-          "url": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
-          "source": "Ars Technica",
-          "title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
-          "published_at": "2026-11-23T19:28:30+00:00",
+          "id": "179fd3db322f1a8d4c11",
+          "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+          "source": "The Verge",
+          "title": "Ladybird, the first new browser engine in years, is now available to test",
+          "published_at": "2026-11-23T22:38:09+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "e59fe8be067f4ab68ffc",
+          "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+          "source": "Simon Willison",
+          "title": "Ladybird's first alpha release",
+          "published_at": "2026-11-23T21:46:35+00:00",
           "text_kind": "feed"
         }
       ]
     },
     {
-      "title": "GOV.UK обновил списки утверждённых центров SELT-тестирования",
-      "summary": "GOV.UK обновлял перечни утверждённых центров SELT-тестов в Великобритании и за её пределами (23 ноября, 2 ноября и 26 октября). Тесты SELT нужны для ряда маршрутов, включая Skilled Worker, settlement и гражданство; в записях об изменениях указано только обновление списков центров, без изменения требований.",
-      "why_it_matters": "Если SELT-тест нужен для заявки, актуальный список центров и провайдеров стоит проверять на GOV.UK, так как новые центры добавляются по мере запуска сервисов.",
-      "id": "bce9164c8afd4ba7",
-      "group": "uk",
+      "title": "Утечка Росстата: оценка потерь российских военных и данные о Рощиной",
+      "summary": "«Медуза» и «Медиазона» по утёкшей базе Росстата оценили, что к осени 2026 года погибли не менее 720 тысяч военнослужащих ВС РФ; 92% смертей связаны со взрывами и осколками. В той же базе журналистки Виктории Рощиной, погибшей в российском плену, причиной смерти названо заболевание сердца, тогда как Украина обвиняет российских тюремщиков в пытках.",
+      "why_it_matters": "Оценка опирается на утёкшие данные и анализ СМИ, а не на официальную статистику; официального подтверждения в материалах нет.",
+      "id": "e037e26e28e057ff",
+      "group": "russia",
       "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
       "sources": [
         {
-          "id": "f4935c97c738c837282f",
-          "url": "https://www.gov.uk/guidance/prove-your-english-language-abilities-with-a-secure-english-language-test-selt",
-          "source": "UK Visas and Immigration",
-          "title": "Prove your English language abilities with a secure English language test (SELT)",
-          "published_at": "2026-11-23T16:24:25+00:00",
-          "text_kind": "page"
+          "id": "e4317caa0090ff55e644",
+          "url": "https://www.bbc.com/russian/watch/cmeq4g1j248xo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "Каковы реальные потери России на войне?",
+          "published_at": "2026-11-23T18:32:16+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "f57c79ae12589b691182",
+          "url": "https://meduza.io/news/2026/11/23/v-utekshey-baze-rosstata-nashli-dannye-ob-ukrainskoy-zhurnalistke-viktorii-roschinoy-pogibshey-v-rossiyskom-plenu-prichinoy-smerti-nazvano-zabolevanie-serdtsa",
+          "source": "Медуза",
+          "title": "В утекшей базе Росстата нашли данные об украинской журналистке Виктории Рощиной, погибшей в российском плену. Причиной смерти названо заболевание сердца",
+          "published_at": "2026-11-23T17:57:45+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "9966abf401f3da34410c",
+          "url": "https://meduza.io/news/2026/11/23/vazhnye-istorii-v-92-sluchaev-rossiyskie-voennye-gibnut-na-voyne-ot-vzryvov-i-oskolkov-menshe-2-smertey-ot-ognestrelnyh-raneniy",
+          "source": "Медуза",
+          "title": "«Важные истории»: в 92% случаев российские военные гибнут на войне от взрывов и осколков. Меньше 2% смертей — от огнестрельных ранений",
+          "published_at": "2026-11-23T16:58:50+00:00",
+          "text_kind": "feed"
         }
       ]
     },
     {
-      "title": "Эстония закрывает сухопутную границу с Россией как минимум на полгода",
-      "summary": "С 1 декабря правительство Эстонии закроет все наземные пункты пропуска на границе с Россией как минимум на шесть месяцев после попытки поджога оборонного предприятия Threod Systems, которую Таллинн связывает с российской разведкой. МИД России вызвал временного поверенного в делах Эстонии, заявил протест и обвинил Эстонию в предоставлении воздушного пространства для украинских дронов; Эстония эти обвинения отрицает. Против решения выступили президент Юлле Мадизе и мэр Нарвы.",
-      "why_it_matters": "Полное закрытие сухопутной границы ЕС и НАТО с Россией на срок не менее полугода повлияет на логистику и усилит напряжённость в регионе.",
+      "title": "Эстония закрывает сухопутную границу с Россией; МИД РФ протестует",
+      "summary": "Правительство Эстонии решило с 1 декабря закрыть все наземные пункты пропуска на границе с Россией как минимум на полгода после попытки поджога оборонного предприятия Threod Systems, которую, по версии Таллинна, организовала российская разведка. МИД России вызвал временного поверенного Эстонии, назвал обвинения бездоказательными и снова заявил, что Эстония предоставляет воздушное пространство для украинских дронов; президент Эстонии и мэр Нарвы против решения, по сообщению «Медузы».",
+      "why_it_matters": "Полугодовое закрытие сухопутной границы ЕС и НАТО с Россией затронет пограничное сообщение, а протест МИД пока остаётся дипломатическим.",
       "id": "af58fef4491b52b9",
       "group": "russia",
       "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
       "sources": [
         {
           "id": "07746454b8f495425386",
@@ -248,54 +315,15 @@
       ]
     },
     {
-      "title": "Журналисты оценили потери ВС РФ не менее чем в 720 тысяч по утекшей базе Росстата",
-      "summary": "Медуза и Медиазона на основе утекшей базы Росстата оценивают, что к осени 2026 года в войне с Украиной погибли не менее 720 тысяч военнослужащих ВС РФ; по их анализу, 92% смертей вызваны взрывами и осколками, а около 1300 — самоубийствами. Это оценка журналистов по утечке, а не официальная статистика, и полнота базы в источниках не раскрыта.",
-      "why_it_matters": "Это одна из крупнейших независимых оценок потерь России в войне, но её опора на утечку данных требует осторожного отношения до независимой проверки.",
-      "id": "fd3dcaa03cd3dd7f",
-      "group": "russia",
-      "is_update": false,
-      "sources": [
-        {
-          "id": "9966abf401f3da34410c",
-          "url": "https://meduza.io/news/2026/11/23/vazhnye-istorii-v-92-sluchaev-rossiyskie-voennye-gibnut-na-voyne-ot-vzryvov-i-oskolkov-menshe-2-smertey-ot-ognestrelnyh-raneniy",
-          "source": "Медуза",
-          "title": "«Важные истории»: в 92% случаев российские военные гибнут на войне от взрывов и осколков. Меньше 2% смертей — от огнестрельных ранений",
-          "published_at": "2026-11-23T16:58:50+00:00",
-          "text_kind": "feed"
-        },
-        {
-          "id": "e4317caa0090ff55e644",
-          "url": "https://www.bbc.com/russian/watch/cmeq4g1j248xo?at_campaign=rss&at_medium=RSS",
-          "source": "BBC News Русская служба",
-          "title": "Каковы реальные потери России на войне?",
-          "published_at": "2026-11-23T18:32:16+00:00",
-          "text_kind": "feed"
-        },
-        {
-          "id": "7f625056a5ad42628e96",
-          "url": "https://www.theguardian.com/world/2026/nov/23/leaked-data-shows-more-than-1000-russian-military-suicides-during-ukraine-war",
-          "source": "The Guardian · Ukraine",
-          "title": "Leaked data shows more than 1,000 Russian military suicides during Ukraine war",
-          "published_at": "2026-11-23T16:00:51+00:00",
-          "text_kind": "feed"
-        },
-        {
-          "id": "4e356d04fcccf8c05251",
-          "url": "https://www.theguardian.com/world/2026/nov/23/russia-war-dead-hidden-toll-ukraine-conflict",
-          "source": "The Guardian · Ukraine",
-          "title": "Russia’s war dead: the hidden toll of the Ukraine conflict",
-          "published_at": "2026-11-23T16:00:50+00:00",
-          "text_kind": "feed"
-        }
-      ]
-    },
-    {
-      "title": "Мерц: непринятие Украины в НАТО в 2008 году было ошибкой",
-      "summary": "Канцлер Германии Фридрих Мерц на пресс-конференции с генсеком НАТО Марком Рютте заявил, что Украину следовало принять в НАТО в 2008 году, и поддержал предложение Эммануэля Макрона вновь обсудить её членство. По словам Мерца, гарантии безопасности, аналогичные статье 5, которые Германия намерена дать Украине после окончания войны, максимально приближены к членству; эти слова переданы по сообщению Die Zeit.",
-      "why_it_matters": "Это позиция одного государства, а не решение НАТО, но она указывает на то, какие гарантии безопасности для Украины обсуждаются как часть будущего урегулирования.",
+      "title": "Мерц: отказ принять Украину в НАТО в 2008 году был ошибкой",
+      "summary": "Канцлер Германии Фридрих Мерц на пресс-конференции с Марком Рютте, по данным Die Zeit, заявил, что Украину следовало принять в НАТО в 2008 году, и поддержал предложение Эммануэля Макрона вновь обсудить её вступление. Он также сказал, что Германия намерена предоставить Украине гарантии безопасности, аналогичные статье 5, в том числе после окончания войны.",
+      "why_it_matters": "Речь идёт о будущих гарантиях безопасности как части возможного урегулирования, но конкретных условий и договорённостей в материалах нет.",
       "id": "7a800bd0a88a7896",
       "group": "peace",
       "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
       "sources": [
         {
           "id": "2767f8467a6aff4349b6",
@@ -309,46 +337,46 @@
     }
   ],
   "stats": {
-    "fetched": 1689,
-    "candidates": 48,
+    "fetched": 2214,
+    "candidates": 62,
     "selected": 12,
-    "sources_ok": 17,
-    "sources_total": 17
+    "sources_ok": 22,
+    "sources_total": 22
   },
   "source_health": [
     {
       "id": "codex",
       "name": "Codex releases",
       "ok": true,
-      "count": 10,
+      "count": 100,
       "error": null
     },
     {
       "id": "claude-code",
       "name": "Claude Code releases",
       "ok": true,
-      "count": 10,
+      "count": 100,
       "error": null
     },
     {
       "id": "gemini-cli",
       "name": "Gemini CLI releases",
       "ok": true,
-      "count": 10,
+      "count": 100,
       "error": null
     },
     {
       "id": "openai-agents",
       "name": "OpenAI Agents SDK",
       "ok": true,
-      "count": 10,
+      "count": 100,
       "error": null
     },
     {
       "id": "langgraph",
       "name": "LangGraph releases",
       "ok": true,
-      "count": 10,
+      "count": 100,
       "error": null
     },
     {
@@ -362,7 +390,7 @@
       "id": "openai",
       "name": "OpenAI News",
       "ok": true,
-      "count": 1424,
+      "count": 1425,
       "error": null
     },
     {
@@ -384,13 +412,6 @@
       "name": "Cursor changelog",
       "ok": true,
       "count": 5,
-      "error": null
-    },
-    {
-      "id": "hn",
-      "name": "Hacker News",
-      "ok": true,
-      "count": 17,
       "error": null
     },
     {
@@ -434,15 +455,57 @@
       "ok": true,
       "count": 20,
       "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 54,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 1,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 1,
+      "error": null
+    },
+    {
+      "id": "github-agents",
+      "name": "GitHub · active agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "id": "github-new-agents",
+      "name": "GitHub · emerging agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
     }
   ],
   "usage": {
     "input_tokens": 2,
-    "cache_creation_input_tokens": 28702,
-    "cache_read_input_tokens": 1281,
-    "output_tokens": 16380,
+    "cache_creation_input_tokens": 47712,
+    "cache_read_input_tokens": 1360,
+    "output_tokens": 17800,
     "output_tokens_details": {
-      "thinking_tokens": 12514
+      "thinking_tokens": 13756
     },
     "server_tool_use": {
       "web_search_requests": 0,
@@ -450,19 +513,19 @@
     },
     "service_tier": "standard",
     "cache_creation": {
-      "ephemeral_1h_input_tokens": 28702,
+      "ephemeral_1h_input_tokens": 47712,
       "ephemeral_5m_input_tokens": 0
     },
     "inference_geo": "global",
     "iterations": [
       {
         "input_tokens": 2,
-        "output_tokens": 16380,
-        "cache_read_input_tokens": 1281,
-        "cache_creation_input_tokens": 28702,
+        "output_tokens": 17800,
+        "cache_read_input_tokens": 1360,
+        "cache_creation_input_tokens": 47712,
         "cache_creation": {
           "ephemeral_5m_input_tokens": 0,
-          "ephemeral_1h_input_tokens": 28702
+          "ephemeral_1h_input_tokens": 47712
         },
         "type": "message"
       }

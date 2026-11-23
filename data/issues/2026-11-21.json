@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "id": "2026-11-21",
+  "date": "2026-11-21",
+  "created_at": "2026-11-21T23:59:59.999999+00:00",
+  "title": "Утренний обзор",
+  "intro": "Сегодня без крупных событий. В агентах — журнал разработки Muru и два новых проекта с Hacker News, которые пока известны только по заголовкам. В технологиях — сближение зонда BepiColombo с Меркурием и две публикации, которые тоже описаны лишь заголовками и данными HN.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "Muru: Rust-сервер для Python-приложений, который автор разрабатывает с помощью ИИ",
+      "summary": "Graham Dumpleton публикует подробный журнал разработки Muru, нового Rust-сервера для запуска ASGI- и WSGI-приложений на Python; за последние три недели вышло 19 постов. По описанию Саймона Уиллисона, автор считает ИИ помощником, а решения о том, что ещё недостаточно хорошо, остаются за ним.",
+      "why_it_matters": "Открытый журнал разработки показывает, как ИИ-ассистент используется при создании серверного инфраструктурного ПО и где автор сам принимает решения о качестве.",
+      "id": "a086303fbeb57f8e",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "dc9b4a0c426ddc42fdcf",
+          "url": "https://simonwillison.net/2026/Nov/21/muru/",
+          "source": "Simon Willison",
+          "title": "Muru",
+          "published_at": "2026-11-21T23:56:28+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Pandex: «официальный европейский закон» для ИИ-агентов через MCP",
+      "summary": "По заголовку, проект Pandex предлагает набор правил для ИИ-агентов, доступный через MCP, и называет его официальным европейским законом. Текст страницы в материале не приведён, поэтому содержание, юридический статус и авторство неизвестны; обсуждение на HN набрало 140 баллов и 36 комментариев.",
+      "why_it_matters": "",
+      "id": "e37e70c5753dd024",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "fbde991ea2f0ee8af0fb",
+          "url": "https://news.ycombinator.com/item?id=50593481",
+          "source": "Hacker News · agents",
+          "title": "Pandex – Official European Law for AI Agents, over MCP",
+          "published_at": "2026-11-21T20:47:41Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "ClawDOS: ИИ-агент для программирования под DOS",
+      "summary": "По заголовку и ссылке, ClawDOS — проект ИИ-агента для написания кода в среде DOS. Текст страницы в материале не приведён, поэтому возможности и ограничения неизвестны; обсуждение на HN набрало 175 баллов и 52 комментария, что отражает внимание, а не проверенную работу.",
+      "why_it_matters": "",
+      "id": "3a053b063a4840fb",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "c5c2f959d4911a43dd4c",
+          "url": "https://news.ycombinator.com/item?id=50586292",
+          "source": "Hacker News · AI coding",
+          "title": "ClawDOS – An AI coding agent for DOS",
+          "published_at": "2026-11-21T05:38:01Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "BepiColombo приблизился к Меркурию и готовится выйти на орбиту",
+      "summary": "Зонд BepiColombo, совместная миссия ESA и JAXA, преодолел около 10 млрд километров и подошёл к Меркурию, по данным BBC готовясь к выходу на его орбиту. Заголовок HN сообщает, что это вторая в истории миссия, которая выходит на орбиту Меркурия; сам выход на орбиту в материалах ещё не описан как завершённый.",
+      "why_it_matters": "Результат миссии ESA и JAXA зависит от успешного выхода на орбиту Меркурия, что даст новые данные о самой внутренней планете.",
+      "id": "55034376900d9900",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "8b6d619e2b5e878b8f08",
+          "url": "https://www.bbc.com/russian/articles/cqy7rxmx0exgo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "BepiColombo долетел до Меркурия — после восьми лет путешествия в космосе он выйдет на орбиту этой загадочной планеты",
+          "published_at": "2026-11-21T06:39:54+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "092e69e17574fe4be23b",
+          "url": "https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo",
+          "source": "Hacker News",
+          "title": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+          "published_at": "2026-11-21T09:14:02+00:00",
+          "text_kind": "metadata"
+        }
+      ]
+    },
+    {
+      "title": "Верификация гипотезы Римана в Lean: публикация блога Lean community",
+      "summary": "По заголовку, блог Lean community публикует материал о верификации гипотезы Римана в Lean. Текст страницы в материале не приведён, поэтому объём формализации и статус проверки неизвестны; обсуждение на HN набрало 1241 балл и 1047 комментариев, что отражает внимание, а не подтверждение.",
+      "why_it_matters": "",
+      "id": "390f69b84ae047c0",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "8aababd3c3de271acfad",
+          "url": "https://news.ycombinator.com/item?id=50589618",
+          "source": "Hacker News · top stories",
+          "title": "Lean verification of the Riemann Hypothesis",
+          "published_at": "2026-11-21T14:36:45Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Inkling-2-Mini запускается в 5,4 ГБ памяти",
+      "summary": "По заголовку и ссылке на GitHub-проект lookatmyquant, Inkling-2-Mini удалось запустить в 5,4 ГБ памяти. Текст в материале не приведён, поэтому метод квантования и качество модели неизвестны; обсуждение на HN набрало 595 баллов и 140 комментариев.",
+      "why_it_matters": "",
+      "id": "2159d3f19b344605",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "4c8a917c8af77681757f",
+          "url": "https://news.ycombinator.com/item?id=50591853",
+          "source": "Hacker News · top stories",
+          "title": "Inkling-2-Mini in 5.4 GB Memory",
+          "published_at": "2026-11-21T18:02:19Z",
+          "text_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 2174,
+    "candidates": 19,
+    "selected": 6,
+    "sources_ok": 19,
+    "sources_total": 20
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": false,
+      "count": 0,
+      "error": "RuntimeError"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1425,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 38,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 28,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 9,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 14,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 21203,
+    "cache_read_input_tokens": 1360,
+    "output_tokens": 6621,
+    "output_tokens_details": {
+      "thinking_tokens": 5000
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 21203,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 6621,
+        "cache_read_input_tokens": 1360,
+        "cache_creation_input_tokens": 21203,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 21203
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "retrospective": true,
+  "coverage_note": "Ретроспектива по сохранившимся публикациям с датами. Ленты могут быть неполными; HN-баллы отражают внимание на момент сбора. Тексты могли получить последующие правки. Это не точная копия утреннего выпуска того дня."
+}

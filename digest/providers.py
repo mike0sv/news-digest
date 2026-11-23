@@ -33,6 +33,9 @@ def schema_for(groups):
         "group": {"type": "string", "enum": [g["id"] for g in groups]},
         "article_ids": {"type": "array", "items": {"type": "string"}},
         "is_update": {"type": "boolean"},
+        "important": {"type": "boolean"},
+        "importance_reason": {"type": "string"},
+        "previous_story_refs": {"type": "array", "items": {"type": "string"}},
     }
     return {
         "type": "object", "additionalProperties": False,
@@ -149,7 +152,7 @@ def cli(prompt, schema, model, provider):
             command = ["claude", "-p", "--output-format", "json", "--tools", "",
                        "--strict-mcp-config", "--mcp-config", '{"mcpServers":{}}',
                        "--setting-sources", "", "--disable-slash-commands",
-                       "--no-session-persistence", "--json-schema", json.dumps(schema)]
+                       "--no-session-persistence", "--effort", "low", "--json-schema", json.dumps(schema)]
             if model:
                 command += ["--model", model]
         else:

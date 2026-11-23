@@ -1,0 +1,463 @@
+{
+  "version": 1,
+  "id": "2026-11-17",
+  "date": "2026-11-17",
+  "created_at": "2026-11-17T23:59:59.999999+00:00",
+  "title": "Утренний обзор",
+  "intro": "Выпуск за 23 ноября 2026: в фокусе агентские модели и инструменты разработки. Главное событие дня — запуск GPT-6.2 Astra и GPT-6.2 Sol. Новостей по иммиграции UK, России и переговорам по Украине в материалах нет, поэтому эти группы пусты.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "OpenAI выпустила GPT-6.2 Astra и GPT-6.2 Sol",
+      "summary": "OpenAI представила GPT-6.2 Astra как флагманскую модель для сложных задач и GPT-6.2 Sol как эффективную модель для повседневной работы; обе доступны в API как gpt-6.2-astra и gpt-6.2-sol. По данным Саймона Уиллисона, цена Astra составляет $8/MTok на входе и $40/MTok на выходе, Sol — $2/$10. Он отмечает, что первые отзывы смешанные: по некоторым бенчмаркам Astra уступает Claude Fable 5.2, а Теo Browne жалуется на неясную манеру общения модели в длинных задачах с субагентами.",
+      "why_it_matters": "Снижение цены кэшированного входа Astra до $0.40/млн токенов может удешевить длинные агентские сессии, но качество на агентских задачах пока подтверждено только отдельными отзывами и бенчмарками.",
+      "id": "e270b5a620da3139",
+      "group": "agents",
+      "is_update": false,
+      "important": true,
+      "importance_reason": "Запуск флагманской модели с доступностью в API, ChatGPT Work и Codex и заметным изменением цен.",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "0b5f35342ecc69a52f03",
+          "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+          "source": "Simon Willison",
+          "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+          "published_at": "2026-11-17T22:38:52+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "8f6af8c44a4a1bfb5de3",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "source": "OpenAI News",
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "published_at": "2026-11-17T17:45:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Claude Code v2.1.327: подтверждение для /install-github-app и новые проверки в /status",
+      "summary": "В Claude Code v2.1.327 добавлено подтверждение перед изменением репозитория командой /install-github-app и чтение JSON сервера MCP из stdin через claude mcp add-json -. В /status появился список битых файлов агентов, skills, команд и стилей вывода, а также ошибок keybindings и неверных хуков. Исправлено несколько ошибок с потерей сообщений при resume, зависанием /export и удалением ключей в .mcp.json.",
+      "why_it_matters": "Релиз в основном закрывает ошибки сессий и настроек, а новые проверки в /status помогают быстрее находить неработающие агентские конфигурации.",
+      "id": "506e77f3e5d446ad",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "8f7a055a1b360233ad87",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+          "source": "Claude Code releases",
+          "title": "v2.1.327",
+          "published_at": "2026-11-17T23:17:45+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Внешние песочницы для кодовых агентов: паттерн Саймона Уиллисона и Prime Radiant",
+      "summary": "Саймон Уиллисон вместе с Prime Radiant описал паттерн внешней песочницы, где код агента выполняется отдельно от самого агента. Выпущены три реализации с одинаковым localhost API: external-sandbox-v86 (Alpine Linux в WebAssembly), external-sandbox-container (Apple Containers) и external-sandbox-quicksand (QEMU через Microsoft Quicksand). Песочницы поддерживают прокси с allow-list хостов и подстановку учётных данных, чтобы агент не видел секретов; настроить их можно для Pi, Claude Code или Codex.",
+      "why_it_matters": "Это практичный способ безопасно запускать локальные модели и кодовых агентов с контролем сетевого доступа и секретов.",
+      "id": "7c166ea28936bbd5",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "b4439a7527ca175b45e5",
+          "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+          "source": "Simon Willison",
+          "title": "External sandboxes for coding agents",
+          "published_at": "2026-11-17T22:52:29+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Harvard: ИИ-агенты для кода сместили узкое место к ревью",
+      "summary": "По заголовку статьи, исследователи Гарвардского университета пришли к выводу, что AI-агенты для программирования сместили главное ограничение к ревью кода. Текст самой статьи в материале не приведён, поэтому методология и масштаб выборки неизвестны. Обсуждение на Hacker News набрало 331 балл и 471 комментарий, но это показатель внимания, а не подтверждение выводов.",
+      "why_it_matters": "Если вывод подтвердится, при росте объёма агентского кода основной ресурс — проверка людьми и инструменты ревью, а не генерация.",
+      "id": "3fd93daab9edb3e6",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "d4cfbc3b0e605a782e2b",
+          "url": "https://news.ycombinator.com/item?id=50538303",
+          "source": "Hacker News · AI coding",
+          "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+          "published_at": "2026-11-17T21:16:12Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "StarSling: CI с агентами, которые оптимизируют пайплайны и открывают PR",
+      "summary": "Стартап StarSling (YC P25) запустил GitHub Actions-раннеры с ephemeral-песочницами и агентным циклом, который предлагает оптимизации workflow и отправляет их как PR после статистической проверки. Заявлено ускорение Mastra's самого медленного workflow с 29m 56s до 5m 06s и среднее 10x по пяти публичным репозиториям; это данные компании, независимо не проверенные. Компания также выпустила StarSling Disks и skills для самостоятельной оптимизации CI.",
+      "why_it_matters": "Иллюстрирует попытку автоматизировать эксплуатацию CI агентами, но эффект пока известен из собственных бенчмарков компании.",
+      "id": "6d5f7bcedec12a50",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "54568103aadf9fab4138",
+          "url": "https://news.ycombinator.com/item?id=50536468",
+          "source": "Hacker News · AI coding",
+          "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+          "published_at": "2026-11-17T19:01:43Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "TrnRT: открытый движок инференса для AWS Trainium",
+      "summary": "RunAnywhere открыла исходный код TrnRT, движка инференса для AWS Trainium, который сейчас запускает GLM-5.3 flash (FP8) на trn2.48xlarge. Авторы заявляют 3,57 млн TPM на бенчмарке AgentX от SemiAnalysis и ускорение декодирования примерно на 25% за счёт мегаядер NKI. Проект ранний: поддерживается одна модель, а результаты авторы пока воспроизвели сами.",
+      "why_it_matters": "Открытый стек для Trainium даёт альтернативу для агентских нагрузок с длинным контекстом, но пока узок по моделям и не проверен независимо.",
+      "id": "84a7c3e0aa33edea",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "98b3bb378373201ae201",
+          "url": "https://news.ycombinator.com/item?id=50533270",
+          "source": "Hacker News · Show HN AI",
+          "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+          "published_at": "2026-11-17T16:01:04Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI опубликовала материал о computer-use агентах для команд здравоохранения",
+      "summary": "Согласно заголовку, OpenAI опубликовала статью о применении computer-use агентов в командах здравоохранения. Текст страницы в материале отсутствует, поэтому подробности о задачах, ограничениях и внедрении неизвестны.",
+      "why_it_matters": "Это сигнал о попытках применять агентов с управлением компьютером в регулируемой отрасли, но без деталей оценить практический эффект нельзя.",
+      "id": "997e990e2a100f37",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "da41fa8039c9b6abccd0",
+          "url": "https://news.ycombinator.com/item?id=50535898",
+          "source": "Hacker News · agents",
+          "title": "Advancing computer-use agents for healthcare teams",
+          "published_at": "2026-11-17T18:26:05Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT for Sales: плагин Sales и более 30 партнёрских плагинов",
+      "summary": "OpenAI представила ChatGPT for Sales с плагином Sales и более чем 30 новыми и расширенными партнёрскими плагинами. По описанию, инструменты помогают исследовать клиентов, готовить презентации, обновлять CRM и продвигать сделки.",
+      "why_it_matters": "Расширяет агентский сценарий ChatGPT на CRM-процессы, но конкретные интеграции и качество работы в описании не раскрыты.",
+      "id": "2fc345276b0965ac",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "3047d7657748ea760feb",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "source": "OpenAI News",
+          "title": "Introducing ChatGPT for Sales",
+          "published_at": "2026-11-17T08:00:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Java4Shell: сообщается об RCE в OpenJDK при обработке Base64",
+      "summary": "По заголовку и ссылке на calif.io, в OpenJDK найдена уязвимость, позволяющая удалённое выполнение кода при обработке Base64. Текст статьи в материале отсутствует, поэтому затронутые версии и наличие исправления неизвестны. Публикация набрала 1186 баллов на Hacker News, что отражает внимание, а не подтверждение эксплуатации.",
+      "why_it_matters": "Если уязвимость подтвердится, она затрагивает широко используемую JDK и требует проверки обновлений.",
+      "id": "2b5f96e4675f5cc1",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "247ce6b97d0b65190882",
+          "url": "https://news.ycombinator.com/item?id=50538240",
+          "source": "Hacker News · top stories",
+          "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+          "published_at": "2026-11-17T21:11:28Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Quad9 уходит из Франции",
+      "summary": "По заголовку и ссылке на блог Cloudflare, сервис Quad9 прекращает работу во Франции. Текст статьи в материале отсутствует, поэтому причины и сроки неизвестны.",
+      "why_it_matters": "Может влиять на доступ к DNS-резолверу для пользователей во Франции, если сообщение подтвердится.",
+      "id": "26ecd0b5f8d672f6",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "3a437ef39d12d42d96a0",
+          "url": "https://news.ycombinator.com/item?id=50538994",
+          "source": "Hacker News · top stories",
+          "title": "Quad9's withdrawal from France: A canary in the coal mine",
+          "published_at": "2026-11-17T22:13:34Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Репозиторий ONNX Runtime пропал с GitHub",
+      "summary": "По заголовку, репозиторий microsoft/onnxruntime стал недоступен на GitHub. В материале нет текста о причинах и сроках, поэтому статус восстановления неизвестен. Обсуждение на Hacker News набрало 469 баллов и 110 комментариев.",
+      "why_it_matters": "Недоступность широко используемого рантайма для инференса может затронуть сборки и зависимые проекты, если проблема не временная.",
+      "id": "77058e69a51f9fc2",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "f661f0b7f836c160b8df",
+          "url": "https://news.ycombinator.com/item?id=50539610",
+          "source": "Hacker News · top stories",
+          "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+          "published_at": "2026-11-17T23:18:49Z",
+          "text_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 2174,
+    "candidates": 27,
+    "selected": 11,
+    "sources_ok": 19,
+    "sources_total": 20
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": false,
+      "count": 0,
+      "error": "RuntimeError"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1425,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 38,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 28,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 9,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 14,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 18210,
+    "cache_read_input_tokens": 1360,
+    "output_tokens": 6098,
+    "output_tokens_details": {
+      "thinking_tokens": 2629
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 18210,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 6098,
+        "cache_read_input_tokens": 1360,
+        "cache_creation_input_tokens": 18210,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 18210
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "retrospective": true,
+  "coverage_note": "Ретроспектива по сохранившимся публикациям с датами. Ленты могут быть неполными; HN-баллы отражают внимание на момент сбора. Тексты могли получить последующие правки. Это не точная копия утреннего выпуска того дня."
+}

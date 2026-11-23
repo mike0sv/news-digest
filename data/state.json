@@ -8,10 +8,10 @@
       "source": "Codex releases",
       "source_id": "codex",
       "group": "agents",
-      "published_at": "2026-11-23T18:07:33+00:00",
+      "published_at": "2026-11-23T18:02:51+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A20"
+      "ref": "A50"
     },
     "9281e402e80ec3c67a7a": {
       "id": "9281e402e80ec3c67a7a",
@@ -20,10 +20,10 @@
       "source": "Codex releases",
       "source_id": "codex",
       "group": "agents",
-      "published_at": "2026-11-23T19:43:27+00:00",
+      "published_at": "2026-11-23T19:38:30+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A16"
+      "ref": "A48"
     },
     "35bb80cc66121b0f728a": {
       "id": "35bb80cc66121b0f728a",
@@ -32,7 +32,7 @@
       "source": "Codex releases",
       "source_id": "codex",
       "group": "agents",
-      "published_at": "2026-11-21T00:40:17+00:00",
+      "published_at": "2026-11-21T00:35:19+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -43,7 +43,7 @@
       "source": "Codex releases",
       "source_id": "codex",
       "group": "agents",
-      "published_at": "2026-11-20T22:28:53+00:00",
+      "published_at": "2026-11-20T22:23:53+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -54,7 +54,7 @@
       "source": "Codex releases",
       "source_id": "codex",
       "group": "agents",
-      "published_at": "2026-11-20T20:50:10+00:00",
+      "published_at": "2026-11-20T20:44:46+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -65,7 +65,7 @@
       "source": "Codex releases",
       "source_id": "codex",
       "group": "agents",
-      "published_at": "2026-11-20T02:54:54+00:00",
+      "published_at": "2026-11-20T02:50:37+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -76,7 +76,7 @@
       "source": "Codex releases",
       "source_id": "codex",
       "group": "agents",
-      "published_at": "2026-11-19T15:49:51+00:00",
+      "published_at": "2026-11-19T15:40:25+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -87,7 +87,7 @@
       "source": "Codex releases",
       "source_id": "codex",
       "group": "agents",
-      "published_at": "2026-11-20T00:47:14+00:00",
+      "published_at": "2026-11-20T00:44:47+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -98,7 +98,7 @@
       "source": "Codex releases",
       "source_id": "codex",
       "group": "agents",
-      "published_at": "2026-11-19T22:07:59+00:00",
+      "published_at": "2026-11-19T22:01:34+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -109,7 +109,7 @@
       "source": "Codex releases",
       "source_id": "codex",
       "group": "agents",
-      "published_at": "2026-11-18T18:01:02+00:00",
+      "published_at": "2026-11-18T17:54:54+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -123,7 +123,7 @@
       "published_at": "2026-11-23T21:34:41+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A6"
+      "ref": "A42"
     },
     "fdc4cffb6fa79465efcb": {
       "id": "fdc4cffb6fa79465efcb",
@@ -234,7 +234,7 @@
       "published_at": "2026-11-23T01:21:53+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A36"
+      "ref": "A58"
     },
     "7dba2c359005721569b4": {
       "id": "7dba2c359005721569b4",
@@ -246,7 +246,7 @@
       "published_at": "2026-11-22T01:20:22+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A42"
+      "ref": "A60"
     },
     "0f2b9bd047af65bdead4": {
       "id": "0f2b9bd047af65bdead4",
@@ -346,7 +346,7 @@
       "published_at": "2026-11-23T20:11:07+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A11"
+      "ref": "A46"
     },
     "4bdc26fb87f803ab1bbf": {
       "id": "4bdc26fb87f803ab1bbf",
@@ -366,7 +366,7 @@
       "source": "OpenAI Agents SDK",
       "source_id": "openai-agents",
       "group": "agents",
-      "published_at": "2026-11-18T19:17:33+00:00",
+      "published_at": "2026-11-18T00:22:25+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -377,7 +377,7 @@
       "source": "OpenAI Agents SDK",
       "source_id": "openai-agents",
       "group": "agents",
-      "published_at": "2026-11-16T04:41:48+00:00",
+      "published_at": "2026-11-16T04:39:19+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -388,7 +388,7 @@
       "source": "OpenAI Agents SDK",
       "source_id": "openai-agents",
       "group": "agents",
-      "published_at": "2026-11-08T07:07:12+00:00",
+      "published_at": "2026-11-08T07:05:11+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -399,7 +399,7 @@
       "source": "OpenAI Agents SDK",
       "source_id": "openai-agents",
       "group": "agents",
-      "published_at": "2026-11-03T16:48:20+00:00",
+      "published_at": "2026-11-03T16:44:27+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -410,7 +410,7 @@
       "source": "OpenAI Agents SDK",
       "source_id": "openai-agents",
       "group": "agents",
-      "published_at": "2026-11-18T19:20:04+00:00",
+      "published_at": "2026-10-15T02:20:12+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
@@ -534,7 +534,7 @@
       "published_at": "2026-11-23T21:46:35+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A1"
+      "ref": "A39"
     },
     "b0c1b6250591975f9e1e": {
       "id": "b0c1b6250591975f9e1e",
@@ -546,7 +546,7 @@
       "published_at": "2026-11-22T19:45:06+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A39"
+      "ref": "A59"
     },
     "dc9b4a0c426ddc42fdcf": {
       "id": "dc9b4a0c426ddc42fdcf",
@@ -558,7 +558,7 @@
       "published_at": "2026-11-21T23:56:28+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A46"
+      "ref": "A62"
     },
     "cf3b0c6c1cbc2369e530": {
       "id": "cf3b0c6c1cbc2369e530",
@@ -867,7 +867,7 @@
       "published_at": "2026-11-23T08:00:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A28"
+      "ref": "A56"
     },
     "1259b534687dd8b31711": {
       "id": "1259b534687dd8b31711",
@@ -879,7 +879,7 @@
       "published_at": "2026-11-23T08:00:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A32"
+      "ref": "A57"
     },
     "1a10f1676d46fc01a909": {
       "id": "1a10f1676d46fc01a909",
@@ -891,7 +891,7 @@
       "published_at": "2026-11-22T00:00:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A44"
+      "ref": "A61"
     },
     "7ad44f990f0c53ef2e2a": {
       "id": "7ad44f990f0c53ef2e2a",
@@ -2355,7 +2355,7 @@
       "published_at": "2026-11-23T17:00:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A24"
+      "ref": "A51"
     },
     "1b3aafed7dd5d45c6822": {
       "id": "1b3aafed7dd5d45c6822",
@@ -2663,7 +2663,7 @@
       "group": "technology",
       "published_at": "2026-11-23T19:17:55+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "6851a6a04065867c8b56": {
       "id": "6851a6a04065867c8b56",
@@ -2674,7 +2674,7 @@
       "group": "technology",
       "published_at": "2026-11-23T18:48:10+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5d4fbf8ddc9ca1d0bc5d": {
       "id": "5d4fbf8ddc9ca1d0bc5d",
@@ -2685,7 +2685,7 @@
       "group": "technology",
       "published_at": "2026-11-23T17:17:01+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "53510b5370cd80960ab8": {
       "id": "53510b5370cd80960ab8",
@@ -2696,7 +2696,7 @@
       "group": "technology",
       "published_at": "2026-11-23T17:07:26+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "8d83fbfc47ac58f7eccf": {
       "id": "8d83fbfc47ac58f7eccf",
@@ -2707,7 +2707,7 @@
       "group": "technology",
       "published_at": "2026-11-23T16:13:12+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5646e3e6baf90fc7dea2": {
       "id": "5646e3e6baf90fc7dea2",
@@ -2718,7 +2718,7 @@
       "group": "technology",
       "published_at": "2026-11-23T14:49:44+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "cf5164636ad3b77e7fd6": {
       "id": "cf5164636ad3b77e7fd6",
@@ -2729,7 +2729,7 @@
       "group": "technology",
       "published_at": "2026-11-23T14:00:18+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "d497cc342864454896e0": {
       "id": "d497cc342864454896e0",
@@ -2740,7 +2740,7 @@
       "group": "technology",
       "published_at": "2026-11-23T12:28:11+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "de0f31745cc5ebed762a": {
       "id": "de0f31745cc5ebed762a",
@@ -2751,7 +2751,7 @@
       "group": "technology",
       "published_at": "2026-11-23T11:34:16+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "20d4c8c8afcf099b6cbb": {
       "id": "20d4c8c8afcf099b6cbb",
@@ -2762,7 +2762,7 @@
       "group": "technology",
       "published_at": "2026-11-23T11:31:54+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "f1db7ce98881d8901597": {
       "id": "f1db7ce98881d8901597",
@@ -2773,7 +2773,7 @@
       "group": "technology",
       "published_at": "2026-11-23T10:06:43+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "d93a6886907134e43098": {
       "id": "d93a6886907134e43098",
@@ -2784,7 +2784,7 @@
       "group": "technology",
       "published_at": "2026-11-23T09:55:38+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "b7cf04a84828baaf8d2f": {
       "id": "b7cf04a84828baaf8d2f",
@@ -2795,7 +2795,7 @@
       "group": "technology",
       "published_at": "2026-11-23T03:49:24+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e93e9c8ddee8950e6313": {
       "id": "e93e9c8ddee8950e6313",
@@ -2806,7 +2806,7 @@
       "group": "technology",
       "published_at": "2026-11-23T01:13:51+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "198fa5ab69a3cc89e394": {
       "id": "198fa5ab69a3cc89e394",
@@ -2817,7 +2817,7 @@
       "group": "technology",
       "published_at": "2026-11-22T23:57:45+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "a9f7ae49b5fbd4f4edc3": {
       "id": "a9f7ae49b5fbd4f4edc3",
@@ -2828,7 +2828,7 @@
       "group": "technology",
       "published_at": "2026-11-22T21:01:16+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "092e69e17574fe4be23b": {
       "id": "092e69e17574fe4be23b",
@@ -2839,7 +2839,7 @@
       "group": "technology",
       "published_at": "2026-11-21T09:14:02+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "4ce697c6dbd75e8a8795": {
       "id": "4ce697c6dbd75e8a8795",
@@ -2851,7 +2851,7 @@
       "published_at": "2026-11-23T22:09:26+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A2"
+      "ref": "A17"
     },
     "38ea5b66d259522356b1": {
       "id": "38ea5b66d259522356b1",
@@ -2860,10 +2860,10 @@
       "source": "The Verge",
       "source_id": "verge",
       "group": "technology",
-      "published_at": "2026-11-23T22:08:37+00:00",
+      "published_at": "2026-11-23T22:10:32+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A7"
+      "ref": "A12"
     },
     "8e84e3770e7a447788e8": {
       "id": "8e84e3770e7a447788e8",
@@ -2875,7 +2875,7 @@
       "published_at": "2026-11-23T21:36:48+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A17"
+      "ref": "A25"
     },
     "b6aa410db677fb565921": {
       "id": "b6aa410db677fb565921",
@@ -2887,7 +2887,7 @@
       "published_at": "2026-11-23T21:09:37+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A25"
+      "ref": "A33"
     },
     "a5308ba62a5f2de2373c": {
       "id": "a5308ba62a5f2de2373c",
@@ -2899,7 +2899,7 @@
       "published_at": "2026-11-23T20:56:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A29"
+      "ref": "A37"
     },
     "6545db87281ad58ecc44": {
       "id": "6545db87281ad58ecc44",
@@ -2911,7 +2911,7 @@
       "published_at": "2026-11-23T20:00:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A40"
+      "ref": "A45"
     },
     "72c65d25e7ff950d5228": {
       "id": "72c65d25e7ff950d5228",
@@ -2923,7 +2923,7 @@
       "published_at": "2026-11-23T19:58:27+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A43"
+      "ref": "A33"
     },
     "ba7fe03235f718d9453a": {
       "id": "ba7fe03235f718d9453a",
@@ -2935,7 +2935,7 @@
       "published_at": "2026-11-23T19:57:18+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A45"
+      "ref": "A37"
     },
     "357aee899bf00d655308": {
       "id": "357aee899bf00d655308",
@@ -2946,7 +2946,8 @@
       "group": "technology",
       "published_at": "2026-11-23T19:40:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata",
+      "ref": "A40"
     },
     "40639258b1705412a708": {
       "id": "40639258b1705412a708",
@@ -2957,7 +2958,8 @@
       "group": "technology",
       "published_at": "2026-11-23T19:17:11+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata",
+      "ref": "A47"
     },
     "f2f0a76fa1d8608cd1d6": {
       "id": "f2f0a76fa1d8608cd1d6",
@@ -2969,7 +2971,7 @@
       "published_at": "2026-11-23T21:58:34+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A12"
+      "ref": "A21"
     },
     "f323d7562d6653aad531": {
       "id": "f323d7562d6653aad531",
@@ -2981,7 +2983,7 @@
       "published_at": "2026-11-23T21:30:44+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A21"
+      "ref": "A29"
     },
     "bddfaf1afe084aff42be": {
       "id": "bddfaf1afe084aff42be",
@@ -2993,7 +2995,7 @@
       "published_at": "2026-11-23T20:34:51+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A33"
+      "ref": "A40"
     },
     "847433dec9bee6ee0c27": {
       "id": "847433dec9bee6ee0c27",
@@ -3005,7 +3007,7 @@
       "published_at": "2026-11-23T20:11:43+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A37"
+      "ref": "A43"
     },
     "14d7d654182e53eccf16": {
       "id": "14d7d654182e53eccf16",
@@ -3029,7 +3031,7 @@
       "published_at": "2026-11-23T19:28:30+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A48"
+      "ref": "A49"
     },
     "4d311cc43bc289416967": {
       "id": "4d311cc43bc289416967",
@@ -3206,7 +3208,7 @@
       "group": "uk",
       "published_at": "2026-11-23T09:09:13+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "page",
+      "text_kind": "metadata",
       "ref": "A8"
     },
     "373ba4da89230b161ae0": {
@@ -3218,7 +3220,7 @@
       "group": "uk",
       "published_at": "2026-11-23T09:08:50+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "page",
+      "text_kind": "metadata",
       "ref": "A13"
     },
     "7300cb6da41ea81e8c0d": {
@@ -3230,7 +3232,7 @@
       "group": "uk",
       "published_at": "2026-11-20T16:33:29+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e05bc783d99e0035e061": {
       "id": "e05bc783d99e0035e061",
@@ -3241,7 +3243,7 @@
       "group": "uk",
       "published_at": "2026-11-20T15:36:47+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "c27a5f60cea83221521c": {
       "id": "c27a5f60cea83221521c",
@@ -3252,7 +3254,7 @@
       "group": "uk",
       "published_at": "2026-11-20T14:38:37+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "eff34e6689522bd80623": {
       "id": "eff34e6689522bd80623",
@@ -3263,7 +3265,7 @@
       "group": "uk",
       "published_at": "2026-11-20T13:20:29+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e9fcbf07c0e60af293e7": {
       "id": "e9fcbf07c0e60af293e7",
@@ -3274,7 +3276,7 @@
       "group": "uk",
       "published_at": "2026-11-20T09:55:56+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "2fdecb21f4592c13831c": {
       "id": "2fdecb21f4592c13831c",
@@ -3285,7 +3287,7 @@
       "group": "uk",
       "published_at": "2026-11-18T13:28:31+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "73af7e5df7f412b91e3a": {
       "id": "73af7e5df7f412b91e3a",
@@ -3296,7 +3298,7 @@
       "group": "uk",
       "published_at": "2026-11-18T09:00:07+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "1b8e9a9748dd9e174c8a": {
       "id": "1b8e9a9748dd9e174c8a",
@@ -3307,7 +3309,7 @@
       "group": "uk",
       "published_at": "2026-11-18T09:00:07+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e6fa29c540f662920671": {
       "id": "e6fa29c540f662920671",
@@ -3318,7 +3320,7 @@
       "group": "uk",
       "published_at": "2026-11-17T16:06:37+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "a2ad9e39bcfe41211f6b": {
       "id": "a2ad9e39bcfe41211f6b",
@@ -3329,7 +3331,7 @@
       "group": "uk",
       "published_at": "2026-11-13T15:00:29+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "0bbe306b05eaf7b58e7e": {
       "id": "0bbe306b05eaf7b58e7e",
@@ -3340,7 +3342,7 @@
       "group": "uk",
       "published_at": "2026-11-12T09:46:38+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "86b6e6c44dbc25d734e5": {
       "id": "86b6e6c44dbc25d734e5",
@@ -3351,7 +3353,7 @@
       "group": "uk",
       "published_at": "2026-11-12T09:27:18+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "338662d91384ff2c03f6": {
       "id": "338662d91384ff2c03f6",
@@ -3362,7 +3364,7 @@
       "group": "uk",
       "published_at": "2026-11-10T17:21:42+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "357ca2d5da84c7c04fce": {
       "id": "357ca2d5da84c7c04fce",
@@ -3373,7 +3375,7 @@
       "group": "uk",
       "published_at": "2026-11-06T13:40:56+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "01e688af00d3f089232f": {
       "id": "01e688af00d3f089232f",
@@ -3384,7 +3386,7 @@
       "group": "uk",
       "published_at": "2026-11-05T16:55:41+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "7cc04ea25657226d7c70": {
       "id": "7cc04ea25657226d7c70",
@@ -3395,7 +3397,7 @@
       "group": "uk",
       "published_at": "2026-11-05T15:55:23+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "1d54f92032880db9fd26": {
       "id": "1d54f92032880db9fd26",
@@ -3406,7 +3408,7 @@
       "group": "uk",
       "published_at": "2026-11-05T13:58:09+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "ccac8b62c1ebefa5e5ad": {
       "id": "ccac8b62c1ebefa5e5ad",
@@ -3464,7 +3466,8 @@
       "group": "russia",
       "published_at": "2026-11-23T16:35:17+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "feed",
+      "ref": "A30"
     },
     "a9dff03c04a6a86d3f34": {
       "id": "a9dff03c04a6a86d3f34",
@@ -3867,7 +3870,8 @@
       "group": "russia",
       "published_at": "2026-11-23T16:43:09+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "feed",
+      "ref": "A26"
     },
     "0ce07d479ae461a803d9": {
       "id": "0ce07d479ae461a803d9",
@@ -3878,7 +3882,8 @@
       "group": "russia",
       "published_at": "2026-11-23T16:10:47+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "feed",
+      "ref": "A34"
     },
     "e6cb310cd4af3a562ddc": {
       "id": "e6cb310cd4af3a562ddc",
@@ -3889,7 +3894,8 @@
       "group": "russia",
       "published_at": "2026-11-23T16:02:03+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "feed",
+      "ref": "A38"
     },
     "ad7e6657799b3a40f280": {
       "id": "ad7e6657799b3a40f280",
@@ -3900,7 +3906,8 @@
       "group": "russia",
       "published_at": "2026-11-23T16:00:28+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "feed",
+      "ref": "A41"
     },
     "cd8b83a5905c74b75948": {
       "id": "cd8b83a5905c74b75948",
@@ -4249,7 +4256,8 @@
       "group": "peace",
       "published_at": "2026-11-22T05:00:17+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "feed",
+      "ref": "A31"
     },
     "c82e76c8fedcbf99941d": {
       "id": "c82e76c8fedcbf99941d",
@@ -4260,7 +4268,8 @@
       "group": "peace",
       "published_at": "2026-11-22T02:19:48+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "feed",
+      "ref": "A35"
     },
     "70227b1a479b86610a64": {
       "id": "70227b1a479b86610a64",
@@ -4371,27 +4380,3186 @@
       "published_at": "2026-11-19T18:03:54+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
+    },
+    "824283cf95f0a1c656bb": {
+      "id": "824283cf95f0a1c656bb",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "title": "rust-v0.172.0",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-23T22:48:38+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "metadata",
+      "ref": "A36"
+    },
+    "b0689cf87ab570a441c8": {
+      "id": "b0689cf87ab570a441c8",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "source": "OpenAI News",
+      "source_id": "openai",
+      "group": "agents",
+      "published_at": "2026-11-23T21:20:00+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "ref": "A44"
+    },
+    "179fd3db322f1a8d4c11": {
+      "id": "179fd3db322f1a8d4c11",
+      "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+      "title": "Ladybird, the first new browser engine in years, is now available to test",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-23T22:38:09+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "ref": "A2"
+    },
+    "fa9136539de5ecb7ea15": {
+      "id": "fa9136539de5ecb7ea15",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "title": "Trump engineered a risky comeback for Jensen Huang",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-23T22:25:12+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "ref": "A7"
+    },
+    "09190b4bac20ca9e51c0": {
+      "id": "09190b4bac20ca9e51c0",
+      "url": "https://www.gov.uk/guidance/prove-your-english-language-abilities-with-a-secure-english-language-test-selt",
+      "title": "Prove your English language abilities with a secure English language test (SELT)",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-23T16:24:25+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "b815f91b7e8504b07b1e": {
+      "id": "b815f91b7e8504b07b1e",
+      "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers",
+      "title": "Guidance: Register of licensed sponsors: workers",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-23T09:09:13+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "page",
+      "ref": "A8"
+    },
+    "1a9d7f2ace18e390c125": {
+      "id": "1a9d7f2ace18e390c125",
+      "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-students",
+      "title": "Guidance: Register of licensed sponsors: students",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-23T09:08:50+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "page",
+      "ref": "A13"
+    },
+    "48b241cd0bedb13de8be": {
+      "id": "48b241cd0bedb13de8be",
+      "url": "https://www.gov.uk/government/publications/country-returns-guide",
+      "title": "Transparency data: Country returns guide",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-20T16:33:29+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "52f7d73545b7e6ded3b3": {
+      "id": "52f7d73545b7e6ded3b3",
+      "url": "https://www.gov.uk/government/publications/adopted-children",
+      "title": "Guidance: Adopted children and children coming to the UK for adoption: caseworker guidance",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-20T15:36:47+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "11e50a28ab8d842c1f71": {
+      "id": "11e50a28ab8d842c1f71",
+      "url": "https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-rwanda",
+      "title": "Guidance: Rwanda: tuberculosis test clinics for a UK visa",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-20T14:38:37+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "c15050373966163a5f98": {
+      "id": "c15050373966163a5f98",
+      "url": "https://www.gov.uk/government/publications/returns-preparation",
+      "title": "Guidance: Returns preparation: caseworker guidance",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-20T13:20:29+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "8882e716ade0c9966a8d": {
+      "id": "8882e716ade0c9966a8d",
+      "url": "https://www.gov.uk/government/publications/china-country-policy-and-information-notes",
+      "title": "Guidance: China: country policy and information notes",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-20T09:55:56+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "7777c5ddbab94b79fbdc": {
+      "id": "7777c5ddbab94b79fbdc",
+      "url": "https://www.gov.uk/government/publications/nigeria-country-policy-and-information-notes",
+      "title": "Guidance: Nigeria: country policy and information notes",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-18T13:28:31+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "1e1b507478b718e23a0c": {
+      "id": "1e1b507478b718e23a0c",
+      "url": "https://www.gov.uk/government/publications/withdrawal-of-asylum-support-where-a-breach-of-conditions-has-occurred-instruction",
+      "title": "Guidance: Conditions of support: caseworker guidance",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-18T09:00:07+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "b1723f9248332b9e035b": {
+      "id": "b1723f9248332b9e035b",
+      "url": "https://www.gov.uk/government/publications/illegal-working-as-a-breach-of-conditions-caseworker-guidance",
+      "title": "Guidance: Illegal working as a breach of conditions: caseworker guidance",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-18T09:00:07+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "1ea3d2503a8d965154b5": {
+      "id": "1ea3d2503a8d965154b5",
+      "url": "https://www.gov.uk/government/publications/ethiopia-country-policy-and-information-notes",
+      "title": "Guidance: Ethiopia: country policy and information notes",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-17T16:06:37+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "175863b01d4b95c6186f": {
+      "id": "175863b01d4b95c6186f",
+      "url": "https://www.gov.uk/government/publications/frauds-tricks-and-scams",
+      "title": "Guidance: Fraud, tricks and scams",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-13T15:00:29+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "0dad1d2af3d50123a5e2": {
+      "id": "0dad1d2af3d50123a5e2",
+      "url": "https://www.gov.uk/government/publications/brazil-tuberculosis-test-clinics-for-a-uk-visa",
+      "title": "Guidance: Brazil: tuberculosis test clinics for a UK visa",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-12T09:46:38+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "fa3b2d099fc78b839dc5": {
+      "id": "fa3b2d099fc78b839dc5",
+      "url": "https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-nepal",
+      "title": "Guidance: Nepal: tuberculosis test clinics for a UK visa",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-12T09:27:18+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "db9bf5ad6beffff4acc7": {
+      "id": "db9bf5ad6beffff4acc7",
+      "url": "https://www.gov.uk/government/publications/windrush-scheme-application-form-uk",
+      "title": "Form: Windrush Scheme application form (UK)",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-10T17:21:42+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "6b985c329b94386fcd9c": {
+      "id": "6b985c329b94386fcd9c",
+      "url": "https://www.gov.uk/government/publications/student-sponsor-guidance",
+      "title": "Guidance: Student sponsor guidance",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-06T13:40:56+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "83770e4fa12ff717be9e": {
+      "id": "83770e4fa12ff717be9e",
+      "url": "https://www.gov.uk/government/publications/family-life-as-a-partner-or-parent-private-life-and-exceptional-circumstance",
+      "title": "Guidance: Family life and exceptional circumstances: caseworker guidance",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-05T16:55:41+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "ec109c2f882c76af2030": {
+      "id": "ec109c2f882c76af2030",
+      "url": "https://www.gov.uk/government/publications/georgia-country-policy-and-information-notes",
+      "title": "Guidance: Georgia: country policy and information notes",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-05T15:55:23+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "5902fc7a005354c68c9f": {
+      "id": "5902fc7a005354c68c9f",
+      "url": "https://www.gov.uk/government/publications/private-life-caseworker-guidance",
+      "title": "Guidance: Private life: caseworker guidance",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-05T13:58:09+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "41134eb9af3e760b1df4": {
+      "id": "41134eb9af3e760b1df4",
+      "url": "https://news.ycombinator.com/item?id=50611576",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T14:00:18Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "c88ec76dad7a86165c42": {
+      "id": "c88ec76dad7a86165c42",
+      "url": "https://news.ycombinator.com/item?id=50611588",
+      "title": "Jensen Huang Reinstated as Nvidia CEO",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T14:01:23Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "4b5f3d257bb4f65c617c": {
+      "id": "4b5f3d257bb4f65c617c",
+      "url": "https://news.ycombinator.com/item?id=50596133",
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T04:04:56Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "c1bccb286bf5c07ea8d6": {
+      "id": "c1bccb286bf5c07ea8d6",
+      "url": "https://news.ycombinator.com/item?id=50614249",
+      "title": "Ladybird is now in alpha",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T16:13:12Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "127bc957bcd42469b2fa": {
+      "id": "127bc957bcd42469b2fa",
+      "url": "https://news.ycombinator.com/item?id=50597612",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T08:57:34Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "6c82c31d5a24c2871826": {
+      "id": "6c82c31d5a24c2871826",
+      "url": "https://news.ycombinator.com/item?id=50609685",
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "source": "Hacker News · AI coding",
+      "source_id": "hn-coding",
+      "group": "agents",
+      "published_at": "2026-11-23T10:06:43Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "ref": "A55"
+    },
+    "7bdc46fae9f129d3332b": {
+      "id": "7bdc46fae9f129d3332b",
+      "url": "https://news.ycombinator.com/item?id=50606192",
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T01:13:51Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "44f06281872daf4b2cb2": {
+      "id": "44f06281872daf4b2cb2",
+      "url": "https://news.ycombinator.com/item?id=50615308",
+      "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T17:07:26Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "95be36bd32e9911b4709": {
+      "id": "95be36bd32e9911b4709",
+      "url": "https://news.ycombinator.com/item?id=50602947",
+      "title": "What Happened to Silicon Valley?",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T19:20:15Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "44f4872bc1d68d1c39a4": {
+      "id": "44f4872bc1d68d1c39a4",
+      "url": "https://news.ycombinator.com/item?id=50603845",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T21:01:16Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "af5730fe734503db2cc0": {
+      "id": "af5730fe734503db2cc0",
+      "url": "https://news.ycombinator.com/item?id=50617499",
+      "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T19:17:55Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "ref": "A45"
+    },
+    "5192bb4f3d5472c1e1f9": {
+      "id": "5192bb4f3d5472c1e1f9",
+      "url": "https://news.ycombinator.com/item?id=50601525",
+      "title": "Perplexity and Intelligence",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T17:06:27Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "d7b6082fdfd742c5f012": {
+      "id": "d7b6082fdfd742c5f012",
+      "url": "https://news.ycombinator.com/item?id=50602843",
+      "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T19:10:34Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "9dd476c71bef3e6a37af": {
+      "id": "9dd476c71bef3e6a37af",
+      "url": "https://news.ycombinator.com/item?id=50594911",
+      "title": "Sandwich Simulator",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T00:07:59Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "0956af45b928352536b9": {
+      "id": "0956af45b928352536b9",
+      "url": "https://news.ycombinator.com/item?id=50607261",
+      "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T03:49:24Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "f058b96305e3d60d1494": {
+      "id": "f058b96305e3d60d1494",
+      "url": "https://news.ycombinator.com/item?id=50616933",
+      "title": "Apple removed my open-source app from EU App Stores after 9 years",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T18:48:10Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "ref": "A49"
+    },
+    "aa2b3f28b5330b601660": {
+      "id": "aa2b3f28b5330b601660",
+      "url": "https://news.ycombinator.com/item?id=50603589",
+      "title": "A miniature San Francisco with live buses, planes and boats",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T20:33:23Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "92e4f5865f0df2f96a67": {
+      "id": "92e4f5865f0df2f96a67",
+      "url": "https://news.ycombinator.com/item?id=50599762",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T13:56:58Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "5c9bb6b16eed6723e4d7": {
+      "id": "5c9bb6b16eed6723e4d7",
+      "url": "https://news.ycombinator.com/item?id=50603143",
+      "title": "Assume People Are Not Interested in Your Blog Post",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T19:41:30Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "649f718e9666440e5609": {
+      "id": "649f718e9666440e5609",
+      "url": "https://news.ycombinator.com/item?id=50598441",
+      "title": "Masullo on the Riemann Hypothesis",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T10:59:56Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "a28fad787b88caab6cd5": {
+      "id": "a28fad787b88caab6cd5",
+      "url": "https://news.ycombinator.com/item?id=50615481",
+      "title": "Kagi Mail (public beta)",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T17:17:01Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "f98e11a3ad25bddfd665": {
+      "id": "f98e11a3ad25bddfd665",
+      "url": "https://news.ycombinator.com/item?id=50595554",
+      "title": "Data Processing Incidents on Inference Providers",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T02:14:14Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "426a43819773e7be0812": {
+      "id": "426a43819773e7be0812",
+      "url": "https://news.ycombinator.com/item?id=50604988",
+      "title": "GL.iNet Security Notice 2026-11-20",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T23:06:37Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "4b67cf09ed0193329ae3": {
+      "id": "4b67cf09ed0193329ae3",
+      "url": "https://news.ycombinator.com/item?id=50605045",
+      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T23:12:10Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "2dd5faf51358f52b43f1": {
+      "id": "2dd5faf51358f52b43f1",
+      "url": "https://news.ycombinator.com/item?id=50610318",
+      "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T11:31:54Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "c2a9dd7b7d7a01e02c5c": {
+      "id": "c2a9dd7b7d7a01e02c5c",
+      "url": "https://news.ycombinator.com/item?id=50605479",
+      "title": "Nespresso's project to reduce grams of coffee per capsule",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T23:57:45Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "c4a71d258c4b55418e75": {
+      "id": "c4a71d258c4b55418e75",
+      "url": "https://news.ycombinator.com/item?id=50607668",
+      "title": "Yes, 17M lines of Lean is a lot",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T05:00:49Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "ad0d60b82dea1cc21cdc": {
+      "id": "ad0d60b82dea1cc21cdc",
+      "url": "https://news.ycombinator.com/item?id=50600511",
+      "title": "Open Social Web Alliance",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T15:24:32Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "e12a01facccfdde9b936": {
+      "id": "e12a01facccfdde9b936",
+      "url": "https://news.ycombinator.com/item?id=50612686",
+      "title": "Cyberleek posted the GTA 6 Xbox build executable",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T14:49:44Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "49d680e6ab999ff65944": {
+      "id": "49d680e6ab999ff65944",
+      "url": "https://news.ycombinator.com/item?id=50595168",
+      "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T00:57:26Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "aa48231f03db0a9a8309": {
+      "id": "aa48231f03db0a9a8309",
+      "url": "https://news.ycombinator.com/item?id=50610334",
+      "title": "The next circle of security hell",
+      "source": "Hacker News · agents",
+      "source_id": "hn-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T11:34:16Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "ref": "A53"
+    },
+    "8494fc241f9cb051775c": {
+      "id": "8494fc241f9cb051775c",
+      "url": "https://news.ycombinator.com/item?id=50607498",
+      "title": "DeFlock Amerca Facebook Group Suspended as a Dangerous Organization",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T04:31:32Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "006ec6f70f3a3a14004f": {
+      "id": "006ec6f70f3a3a14004f",
+      "url": "https://news.ycombinator.com/item?id=50596155",
+      "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T04:10:09Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "85e05a4c39986151acd4": {
+      "id": "85e05a4c39986151acd4",
+      "url": "https://news.ycombinator.com/item?id=50610743",
+      "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T12:28:11Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "f13f84c3a7f531de4e45": {
+      "id": "f13f84c3a7f531de4e45",
+      "url": "https://news.ycombinator.com/item?id=50606499",
+      "title": "Treemap of the Riemann Hypothesis Lean Proof",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T01:50:23Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "66908d191493f637452b": {
+      "id": "66908d191493f637452b",
+      "url": "https://news.ycombinator.com/item?id=50595537",
+      "title": "The Mythology of Conscious AI",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T02:10:02Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "248f10e3d3a0f2267b13": {
+      "id": "248f10e3d3a0f2267b13",
+      "url": "https://news.ycombinator.com/item?id=50604314",
+      "title": "Agent swarm trying to solve P vs. NP",
+      "source": "Hacker News · agents",
+      "source_id": "hn-agents",
+      "group": "agents",
+      "published_at": "2026-11-22T21:53:45Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "5ce1aa137b1e60d8c41d": {
+      "id": "5ce1aa137b1e60d8c41d",
+      "url": "https://news.ycombinator.com/item?id=50600435",
+      "title": "Backblaze customers worried of personal data sale/sharing after policy update",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T15:16:02Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "fc754db4cc11d7250cbc": {
+      "id": "fc754db4cc11d7250cbc",
+      "url": "https://news.ycombinator.com/item?id=50600677",
+      "title": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T15:42:40Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "81cd9abc832c543bda40": {
+      "id": "81cd9abc832c543bda40",
+      "url": "https://news.ycombinator.com/item?id=50604472",
+      "title": "The Usefulness of Useless Knowledge [pdf] (1939)",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T22:10:58Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "08469acdbeb8215ee314": {
+      "id": "08469acdbeb8215ee314",
+      "url": "https://news.ycombinator.com/item?id=50600622",
+      "title": "I joined the NTP Pool, but not with my Stratum 1 Pi",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T15:35:24Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "7520a9894bd819864482": {
+      "id": "7520a9894bd819864482",
+      "url": "https://news.ycombinator.com/item?id=50604123",
+      "title": "The struggle for freedom: How BSD escaped AT&T licensing",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T21:33:12Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "de725a12c37f9ced0893": {
+      "id": "de725a12c37f9ced0893",
+      "url": "https://news.ycombinator.com/item?id=50603465",
+      "title": "Nyx, the Oldest Internet Service Provider",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T20:15:59Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "aeba5d417890191594f7": {
+      "id": "aeba5d417890191594f7",
+      "url": "https://news.ycombinator.com/item?id=50609579",
+      "title": "Don't keep your SSH keys on disk",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T09:55:38Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "dcee74a69708ba689720": {
+      "id": "dcee74a69708ba689720",
+      "url": "https://news.ycombinator.com/item?id=50598961",
+      "title": "AI is becoming a disaster for the climate",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T12:19:46Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "4aa9e803d3d03d10ca8f": {
+      "id": "4aa9e803d3d03d10ca8f",
+      "url": "https://news.ycombinator.com/item?id=50602847",
+      "title": "Canada recommits to federal funding for news",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T19:10:38Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "2b7514f0da8c836aa303": {
+      "id": "2b7514f0da8c836aa303",
+      "url": "https://news.ycombinator.com/item?id=50603232",
+      "title": "All Delta Flights Through Atlanta Delayed as Automated System Falters",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T19:51:46Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "5b202f1ec0b7dd509708": {
+      "id": "5b202f1ec0b7dd509708",
+      "url": "https://news.ycombinator.com/item?id=50607194",
+      "title": "The New Docker: Built to Run on Trust",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T03:34:29Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "58e4862efb5ddf9c1333": {
+      "id": "58e4862efb5ddf9c1333",
+      "url": "https://news.ycombinator.com/item?id=50599583",
+      "title": "U.N. Climate Talks Collapse in a Bitter Clash over Fossil Fuels",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T13:37:10Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "ed3928ae58d68edbe9ea": {
+      "id": "ed3928ae58d68edbe9ea",
+      "url": "https://news.ycombinator.com/item?id=50609079",
+      "title": "GTA 6 building personal behavioral profile for every player",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T08:51:50Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "e4cd294231264a2f803f": {
+      "id": "e4cd294231264a2f803f",
+      "url": "https://news.ycombinator.com/item?id=50596511",
+      "title": "AI Supply Chain Security: What Canary Tokens Found",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T05:11:43Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "d5b068dbbd62e81e578e": {
+      "id": "d5b068dbbd62e81e578e",
+      "url": "https://news.ycombinator.com/item?id=50596960",
+      "title": "Notes on the discrete Fourier transform (DFT)",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-22T06:52:25Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "56d47829858602f4cf21": {
+      "id": "56d47829858602f4cf21",
+      "url": "https://news.ycombinator.com/item?id=50607627",
+      "title": "A Partial Evaluator for C",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T04:51:48Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "21908a70d050f480e642": {
+      "id": "21908a70d050f480e642",
+      "url": "https://news.ycombinator.com/item?id=50611402",
+      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "source": "Hacker News · agents",
+      "source_id": "hn-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T13:42:38Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "ref": "A52"
+    },
+    "0f563cae8acd179f38eb": {
+      "id": "0f563cae8acd179f38eb",
+      "url": "https://news.ycombinator.com/item?id=50604540",
+      "title": "Localcode, open source agentic coding on your Mac with one command",
+      "source": "Hacker News · agents",
+      "source_id": "hn-agents",
+      "group": "agents",
+      "published_at": "2026-11-22T22:18:48Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "3de3106f478e9e737195": {
+      "id": "3de3106f478e9e737195",
+      "url": "https://news.ycombinator.com/item?id=50595940",
+      "title": "Current Efforts Aren't Enough to Slow the AI Cyber Virus",
+      "source": "Hacker News · agents",
+      "source_id": "hn-agents",
+      "group": "agents",
+      "published_at": "2026-11-22T03:28:48Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed"
+    },
+    "8ba43d0100a67c0836af": {
+      "id": "8ba43d0100a67c0836af",
+      "url": "https://news.ycombinator.com/item?id=50609708",
+      "title": "Show HN: Hermit CRM – Free open-source CRM for solopreneurs",
+      "source": "Hacker News · Show HN AI",
+      "source_id": "hn-show",
+      "group": "agents",
+      "published_at": "2026-11-23T10:09:02Z",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "ref": "A54"
+    },
+    "15ed117119215af8a3d2": {
+      "id": "15ed117119215af8a3d2",
+      "url": "https://github.com/affaan-m/ECC",
+      "title": "affaan-m/ECC",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 309552,
+      "date_kind": "discovery",
+      "ref": "A1"
+    },
+    "ad002b180793d18e63ba": {
+      "id": "ad002b180793d18e63ba",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "title": "deepseek-ai/deepseek-harness",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 286059,
+      "date_kind": "discovery",
+      "ref": "A6"
+    },
+    "ee252cc926b3721d57d0": {
+      "id": "ee252cc926b3721d57d0",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "title": "NousResearch/hermes-agent",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 265658,
+      "date_kind": "discovery",
+      "ref": "A11"
+    },
+    "d04454c32fb05889d212": {
+      "id": "d04454c32fb05889d212",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "title": "firecrawl/firecrawl",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 207862,
+      "date_kind": "discovery"
+    },
+    "e7de4bd46b6ff14114cd": {
+      "id": "e7de4bd46b6ff14114cd",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "title": "DietrichGebert/ponytail",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 197489,
+      "date_kind": "discovery"
+    },
+    "4c49b3542cb787cb9a2c": {
+      "id": "4c49b3542cb787cb9a2c",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "title": "Graphify-Labs/graphify",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 152516,
+      "date_kind": "discovery"
+    },
+    "bfa04f6b28cd275d920d": {
+      "id": "bfa04f6b28cd275d920d",
+      "url": "https://github.com/langchain-ai/langchain",
+      "title": "langchain-ai/langchain",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 149937,
+      "date_kind": "discovery"
+    },
+    "367465c54f07819d5b2c": {
+      "id": "367465c54f07819d5b2c",
+      "url": "https://github.com/stablyai/orca",
+      "title": "stablyai/orca",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 134433,
+      "date_kind": "discovery"
+    },
+    "f105829690afa3a7552f": {
+      "id": "f105829690afa3a7552f",
+      "url": "https://github.com/browser-use/browser-use",
+      "title": "browser-use/browser-use",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 121862,
+      "date_kind": "discovery"
+    },
+    "755f683f66e33ca41433": {
+      "id": "755f683f66e33ca41433",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "title": "Leonxlnx/taste-skill",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 120638,
+      "date_kind": "discovery"
+    },
+    "ee2fc0c5b102eb2276b2": {
+      "id": "ee2fc0c5b102eb2276b2",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "title": "thedotmack/claude-mem",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 119316,
+      "date_kind": "discovery"
+    },
+    "04a4ffd22f452bdf2653": {
+      "id": "04a4ffd22f452bdf2653",
+      "url": "https://github.com/paperclipai/paperclip",
+      "title": "paperclipai/paperclip",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 116315,
+      "date_kind": "discovery"
+    },
+    "d668fdeb334bf88ea355": {
+      "id": "d668fdeb334bf88ea355",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "title": "google-gemini/gemini-cli",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 109022,
+      "date_kind": "discovery"
+    },
+    "ebdb0d28ea66c4c18fb4": {
+      "id": "ebdb0d28ea66c4c18fb4",
+      "url": "https://github.com/tt-a1i/archify",
+      "title": "tt-a1i/archify",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 99095,
+      "date_kind": "discovery"
+    },
+    "815e721590358abf17b9": {
+      "id": "815e721590358abf17b9",
+      "url": "https://github.com/infiniflow/ragflow",
+      "title": "infiniflow/ragflow",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T22:55:44.320542+00:00",
+      "text_kind": "feed",
+      "stars": 94598,
+      "date_kind": "discovery"
+    },
+    "2f60e884dd6140fadc86": {
+      "id": "2f60e884dd6140fadc86",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13",
+      "title": "0.171.0-alpha.13",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-18T05:47:55+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "ad076a99b8923baf72ed": {
+      "id": "ad076a99b8923baf72ed",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+      "title": "0.170.0",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-18T03:40:48+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "2dcd8778737436b7624d": {
+      "id": "2dcd8778737436b7624d",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4.2",
+      "title": "0.170.0-alpha.4.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-18T01:52:33+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "cf3bd3dc31c3f29b66d4": {
+      "id": "cf3bd3dc31c3f29b66d4",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.1",
+      "title": "0.169.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-17T22:21:10+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "9c3800140cead05cde5f": {
+      "id": "9c3800140cead05cde5f",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.12",
+      "title": "0.171.0-alpha.12",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-17T14:26:49+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "e2fd6d26a416c296bbf5": {
+      "id": "e2fd6d26a416c296bbf5",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.11",
+      "title": "0.171.0-alpha.11",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-17T04:24:57+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "4c98cb9398b29993737d": {
+      "id": "4c98cb9398b29993737d",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4.1",
+      "title": "0.170.0-alpha.4.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-17T02:19:17+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "dd6b4250fdb22f842cb7": {
+      "id": "dd6b4250fdb22f842cb7",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.10",
+      "title": "0.171.0-alpha.10",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-16T23:32:43+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "28fc1377be045e8df4ff": {
+      "id": "28fc1377be045e8df4ff",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.9",
+      "title": "0.171.0-alpha.9",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-16T19:13:19+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "d646ec07a2b31e930486": {
+      "id": "d646ec07a2b31e930486",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.8",
+      "title": "0.171.0-alpha.8",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-16T16:25:46+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "2a9427c55f20d0ad5127": {
+      "id": "2a9427c55f20d0ad5127",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.7",
+      "title": "0.171.0-alpha.7",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-15T23:13:50+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "70a76fb49c5d3e5ff07f": {
+      "id": "70a76fb49c5d3e5ff07f",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.6",
+      "title": "0.171.0-alpha.6",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-15T18:58:35+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "3d44b34bf5ef4e06d3ed": {
+      "id": "3d44b34bf5ef4e06d3ed",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.5",
+      "title": "0.171.0-alpha.5",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-14T01:20:37+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "44b9deb6ee2badc92c4a": {
+      "id": "44b9deb6ee2badc92c4a",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.4",
+      "title": "0.171.0-alpha.4",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-13T18:52:02+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "a0c08c461d827e1c37f0": {
+      "id": "a0c08c461d827e1c37f0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+      "title": "0.169.0",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-13T08:37:05+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "d72b4c142f493bf75081": {
+      "id": "d72b4c142f493bf75081",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.2",
+      "title": "0.171.0-alpha.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-13T07:59:06+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "344a38d718fe6e094b89": {
+      "id": "344a38d718fe6e094b89",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.1",
+      "title": "0.171.0-alpha.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-13T04:15:28+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "6cfc942e5da70ee0eba8": {
+      "id": "6cfc942e5da70ee0eba8",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
+      "title": "0.168.0",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-13T03:54:29+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "4ddb91b237ade206eeb9": {
+      "id": "4ddb91b237ade206eeb9",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4",
+      "title": "0.170.0-alpha.4",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-12T22:59:08+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "3a26ec997d48a0de7da0": {
+      "id": "3a26ec997d48a0de7da0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.3",
+      "title": "0.170.0-alpha.3",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-12T19:32:20+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "e593a66d05e18863b7d5": {
+      "id": "e593a66d05e18863b7d5",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.2",
+      "title": "0.170.0-alpha.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-12T01:30:28+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "917e81f74d6a6479d671": {
+      "id": "917e81f74d6a6479d671",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+      "title": "0.167.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-11T22:44:46+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "4c719563acf4956881a0": {
+      "id": "4c719563acf4956881a0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.11.1",
+      "title": "0.169.0-alpha.11.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-11T22:22:11+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "c071e937c4f30eb87cc3": {
+      "id": "c071e937c4f30eb87cc3",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.3",
+      "title": "0.167.0-alpha.4.3",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-11T23:54:59+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "7c3740bd83f86fa5c7aa": {
+      "id": "7c3740bd83f86fa5c7aa",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.1",
+      "title": "0.170.0-alpha.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-11T20:06:13+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "1df314a3d09509776647": {
+      "id": "1df314a3d09509776647",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.11",
+      "title": "0.169.0-alpha.11",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-11T10:11:06+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "1f5946529a21c625c343": {
+      "id": "1f5946529a21c625c343",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.10",
+      "title": "0.169.0-alpha.10",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-11T03:33:09+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "084071daf3b6536f4eaa": {
+      "id": "084071daf3b6536f4eaa",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.2",
+      "title": "0.167.0-alpha.4.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-11T01:29:15+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "3d3fe24ae54746b997ad": {
+      "id": "3d3fe24ae54746b997ad",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
+      "title": "0.167.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-10T21:32:01+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "c993e55fc42f7c69a1e4": {
+      "id": "c993e55fc42f7c69a1e4",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.9",
+      "title": "0.169.0-alpha.9",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-10T22:09:09+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "3e1f7bc1f65661dd0a8e": {
+      "id": "3e1f7bc1f65661dd0a8e",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.1",
+      "title": "0.167.0-alpha.4.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-09T23:45:38+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "885bc06050a058a0d998": {
+      "id": "885bc06050a058a0d998",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.7",
+      "title": "0.169.0-alpha.7",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-09T21:55:10+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "053516a2a81b7d833cfa": {
+      "id": "053516a2a81b7d833cfa",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.6",
+      "title": "0.169.0-alpha.6",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-09T19:25:26+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "a13ff1e216e18174e511": {
+      "id": "a13ff1e216e18174e511",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.3",
+      "title": "0.169.0-alpha.3",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-07T19:31:41+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "4f23b0942aea3fd74bb5": {
+      "id": "4f23b0942aea3fd74bb5",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.2",
+      "title": "0.169.0-alpha.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-06T22:13:30+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b8ddb6db7e02a2ca1f76": {
+      "id": "b8ddb6db7e02a2ca1f76",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+      "title": "0.167.0",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-06T01:40:00+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "dd1c8c50f739daa8f18a": {
+      "id": "dd1c8c50f739daa8f18a",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.7",
+      "title": "0.168.0-alpha.7",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-05T22:55:03+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "3dfd506de5b58da3bf87": {
+      "id": "3dfd506de5b58da3bf87",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.6",
+      "title": "0.168.0-alpha.6",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-05T19:52:28+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "a5a07b8cf380c1568a4c": {
+      "id": "a5a07b8cf380c1568a4c",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3.2",
+      "title": "0.167.0-alpha.3.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-05T13:16:05+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "efec5601b7d6ac88dda2": {
+      "id": "efec5601b7d6ac88dda2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.3",
+      "title": "0.168.0-alpha.3",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-05T02:34:18+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b9ad83beb046d375ffb1": {
+      "id": "b9ad83beb046d375ffb1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.2",
+      "title": "0.168.0-alpha.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-04T20:47:50+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "f8cd0bc0f3bed02df2ff": {
+      "id": "f8cd0bc0f3bed02df2ff",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3.1",
+      "title": "0.167.0-alpha.3.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-04T19:05:21+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "f8edf485bd740dbb4f42": {
+      "id": "f8edf485bd740dbb4f42",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.5",
+      "title": "0.167.0-alpha.5",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-04T18:09:02+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "ac4e5e06e79adb8f3d04": {
+      "id": "ac4e5e06e79adb8f3d04",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.1",
+      "title": "0.168.0-alpha.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-04T02:54:53+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "f464d3252440196d74c6": {
+      "id": "f464d3252440196d74c6",
+      "url": "https://github.com/openai/codex/releases/tag/libcap-v2.75",
+      "title": "libcap 2.75 source archive",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-03T23:04:31+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "5062d517c9f09810fa37": {
+      "id": "5062d517c9f09810fa37",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4",
+      "title": "0.167.0-alpha.4",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-03T02:24:00+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "473dca1761b351047bad": {
+      "id": "473dca1761b351047bad",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3",
+      "title": "0.167.0-alpha.3",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-01T22:26:17+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "c684cac36f83a7093c8c": {
+      "id": "c684cac36f83a7093c8c",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.2",
+      "title": "0.167.0-alpha.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-01T19:00:13+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "10be109ee0bd01c47a55": {
+      "id": "10be109ee0bd01c47a55",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
+      "title": "0.166.0",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-29T19:47:53+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "75b7c2ff011fce3b5d60": {
+      "id": "75b7c2ff011fce3b5d60",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.6",
+      "title": "0.166.0-alpha.6",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-29T01:41:25+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "0a5faf62cd8e648c1f6d": {
+      "id": "0a5faf62cd8e648c1f6d",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.5.1",
+      "title": "0.166.0-alpha.5.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-28T19:17:02+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b1d1fdd69a28173d7153": {
+      "id": "b1d1fdd69a28173d7153",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.5",
+      "title": "0.166.0-alpha.5",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-28T04:43:10+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "ae9829d15657b971aefb": {
+      "id": "ae9829d15657b971aefb",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.4",
+      "title": "0.166.0-alpha.4",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-28T01:22:03+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "bd138645120f03ef7bae": {
+      "id": "bd138645120f03ef7bae",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+      "title": "0.165.0",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-27T20:09:38+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "ab6e8f80609ed56659bf": {
+      "id": "ab6e8f80609ed56659bf",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.3",
+      "title": "0.166.0-alpha.3",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-27T19:23:16+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "2d19b49733bb19a33f2a": {
+      "id": "2d19b49733bb19a33f2a",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.2",
+      "title": "0.166.0-alpha.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-27T11:54:48+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "df25250333fe579e8637": {
+      "id": "df25250333fe579e8637",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1.2",
+      "title": "0.165.0-alpha.1.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-27T04:57:39+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "79b1cfd88bd9932e9cba": {
+      "id": "79b1cfd88bd9932e9cba",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.1",
+      "title": "0.166.0-alpha.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-27T01:33:18+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "cf12e8fbc53ef29f237e": {
+      "id": "cf12e8fbc53ef29f237e",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1.1",
+      "title": "0.165.0-alpha.1.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-27T00:36:33+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "7e7d546813cda6af6f26": {
+      "id": "7e7d546813cda6af6f26",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.3",
+      "title": "0.165.0-alpha.3",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-26T21:54:06+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "c048d6d102251575ab46": {
+      "id": "c048d6d102251575ab46",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1",
+      "title": "0.165.0-alpha.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-23T14:09:53+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b28a06ef950a1f61dcf4": {
+      "id": "b28a06ef950a1f61dcf4",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
+      "title": "0.164.0",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-23T04:48:10+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "28f29c347d09c2706217": {
+      "id": "28f29c347d09c2706217",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11.1",
+      "title": "0.164.0-alpha.11.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-23T01:58:13+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "eab36fbda37dd3554ca3": {
+      "id": "eab36fbda37dd3554ca3",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12",
+      "title": "0.164.0-alpha.12",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-22T11:11:51+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "311c4544be952c28fdf2": {
+      "id": "311c4544be952c28fdf2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.2",
+      "title": "0.163.0-alpha.11.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-22T06:41:14+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "214676d2b41e0c587514": {
+      "id": "214676d2b41e0c587514",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11",
+      "title": "0.164.0-alpha.11",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-22T04:22:12+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "ce33e4bea7387d9ea0fd": {
+      "id": "ce33e4bea7387d9ea0fd",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.10",
+      "title": "0.164.0-alpha.10",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-22T00:04:24+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "17b276034d7c7dd0cf56": {
+      "id": "17b276034d7c7dd0cf56",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.1",
+      "title": "0.163.0-alpha.11.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-21T22:18:14+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "0bb61ba24f747712a25b": {
+      "id": "0bb61ba24f747712a25b",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.9",
+      "title": "0.164.0-alpha.9",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-21T14:12:01+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "0532e833e368e3ab4d11": {
+      "id": "0532e833e368e3ab4d11",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.8",
+      "title": "0.164.0-alpha.8",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-20T22:15:45+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "f7aba208b4f80942b4d2": {
+      "id": "f7aba208b4f80942b4d2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.7",
+      "title": "0.164.0-alpha.7",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-20T13:47:31+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b2ff7ea92348146adf0c": {
+      "id": "b2ff7ea92348146adf0c",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.6",
+      "title": "0.164.0-alpha.6",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-19T22:48:51+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "39707af6ece2fc12bc77": {
+      "id": "39707af6ece2fc12bc77",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.5",
+      "title": "0.164.0-alpha.5",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-19T14:23:35+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "ac53c60dfbb27de54596": {
+      "id": "ac53c60dfbb27de54596",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.4",
+      "title": "0.164.0-alpha.4",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-19T10:42:34+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "beb649089ee6f6c273be": {
+      "id": "beb649089ee6f6c273be",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.3",
+      "title": "0.164.0-alpha.3",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-17T04:03:25+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "12a141808c22dfacf1e3": {
+      "id": "12a141808c22dfacf1e3",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2",
+      "title": "0.164.0-alpha.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-16T17:37:51+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "48b3c835a1750945b187": {
+      "id": "48b3c835a1750945b187",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1",
+      "title": "0.164.0-alpha.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-16T14:49:55+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "255cde9f48a829827ab4": {
+      "id": "255cde9f48a829827ab4",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+      "title": "0.163.0",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-15T21:30:38+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "97283932e4f45048993b": {
+      "id": "97283932e4f45048993b",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
+      "title": "0.163.0-alpha.10.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-15T18:26:31+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "920fdbd2bfd2d44063a8": {
+      "id": "920fdbd2bfd2d44063a8",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1",
+      "title": "0.163.0-alpha.10.1",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-14T20:45:55+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "0eb391dce20b60294973": {
+      "id": "0eb391dce20b60294973",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
+      "title": "0.163.0-alpha.11",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-14T03:27:29+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "ec6309fef726054b9004": {
+      "id": "ec6309fef726054b9004",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10",
+      "title": "0.163.0-alpha.10",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-13T19:04:12+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "c7c13a9ba70114410041": {
+      "id": "c7c13a9ba70114410041",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.9",
+      "title": "0.163.0-alpha.9",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-13T15:47:20+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "abb8dd7383fae2f59c8e": {
+      "id": "abb8dd7383fae2f59c8e",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.8",
+      "title": "0.163.0-alpha.8",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-13T13:14:41+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "a1ac8dac9fe103ffff25": {
+      "id": "a1ac8dac9fe103ffff25",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.5",
+      "title": "0.163.0-alpha.5",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-10-10T00:26:59+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "7cf21137c37e547b10a3": {
+      "id": "7cf21137c37e547b10a3",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "title": "v2.1.319",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-11-06T17:04:01+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "797aba84ba3e9103d89f": {
+      "id": "797aba84ba3e9103d89f",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+      "title": "v2.1.318",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-11-04T00:01:03+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "ddf42b69c8e05c7b8432": {
+      "id": "ddf42b69c8e05c7b8432",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "title": "v2.1.317",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-11-03T01:25:46+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "11bfb616c2334a0766d0": {
+      "id": "11bfb616c2334a0766d0",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "title": "v2.1.316",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-31T01:01:35+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "fbfedaa618aab83de97c": {
+      "id": "fbfedaa618aab83de97c",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "title": "v2.1.314",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-30T01:06:26+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "dc8a856f8c6596f8198b": {
+      "id": "dc8a856f8c6596f8198b",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+      "title": "v2.1.312",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-27T20:24:20+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "93af44a64968d818864a": {
+      "id": "93af44a64968d818864a",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "title": "v2.1.311",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-26T21:51:23+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "97c5df49eed3f0cf21b0": {
+      "id": "97c5df49eed3f0cf21b0",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "title": "v2.1.310",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-23T23:39:00+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "0307ec1244417a613b24": {
+      "id": "0307ec1244417a613b24",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "title": "v2.1.309",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-22T22:18:57+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b5445ed720b1d92d8428": {
+      "id": "b5445ed720b1d92d8428",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+      "title": "v2.1.308",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-22T04:34:55+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "1f4559e41bf13b35880f": {
+      "id": "1f4559e41bf13b35880f",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+      "title": "v2.1.307",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-21T22:17:02+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b624a9cbfe8c446500de": {
+      "id": "b624a9cbfe8c446500de",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+      "title": "v2.1.306",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-21T03:16:31+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "11a9e9aebb65d4c7879c": {
+      "id": "11a9e9aebb65d4c7879c",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+      "title": "v2.1.305",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-20T20:46:50+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "637ddeb38167e8ce597b": {
+      "id": "637ddeb38167e8ce597b",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+      "title": "v2.1.304",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-19T21:34:39+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "ed610e0dc54be0b10a0f": {
+      "id": "ed610e0dc54be0b10a0f",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+      "title": "v2.1.303",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-18T22:26:54+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "9951decf1ff354d03ed4": {
+      "id": "9951decf1ff354d03ed4",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "title": "v2.1.302",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-16T20:53:06+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "dca7cce8dcd1782c2408": {
+      "id": "dca7cce8dcd1782c2408",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "title": "v2.1.301",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-15T19:22:06+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "5dc7e9d03eb17a01b4ed": {
+      "id": "5dc7e9d03eb17a01b4ed",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "title": "v2.1.300",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-14T18:24:25+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "fd1cb9e7836254598708": {
+      "id": "fd1cb9e7836254598708",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+      "title": "v2.1.299",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-10-14T02:49:42+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "8d603faf83b5cd3544c0": {
+      "id": "8d603faf83b5cd3544c0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0",
+      "title": "Release v0.67.0",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-11-04T20:27:11+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "83cb321da1b526ad5de8": {
+      "id": "83cb321da1b526ad5de8",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0-preview.0",
+      "title": "Release v0.68.0-preview.0",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-11-04T19:49:22+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "d3be17875ee3fc153478": {
+      "id": "d3be17875ee3fc153478",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261104.g89e9d25d6",
+      "title": "Release v0.67.0-nightly.20261104.g89e9d25d6",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-11-04T01:20:49+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "e898d3c9598f658d352d": {
+      "id": "e898d3c9598f658d352d",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261103.g0ac57c029",
+      "title": "Release v0.67.0-nightly.20261103.g0ac57c029",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-11-03T01:18:35+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "17c8c024419a8293cc62": {
+      "id": "17c8c024419a8293cc62",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261102.g6814e00d6",
+      "title": "Release v0.67.0-nightly.20261102.g6814e00d6",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-11-02T01:22:38+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "d3a14010241a84315e5e": {
+      "id": "d3a14010241a84315e5e",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261101.g6814e00d6",
+      "title": "Release v0.67.0-nightly.20261101.g6814e00d6",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-11-01T01:14:56+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "582160ce18a0a359cc08": {
+      "id": "582160ce18a0a359cc08",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261031.g6814e00d6",
+      "title": "Release v0.67.0-nightly.20261031.g6814e00d6",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-31T01:19:32+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "260891afec48f588e3c4": {
+      "id": "260891afec48f588e3c4",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261030.gb633c0703",
+      "title": "Release v0.67.0-nightly.20261030.gb633c0703",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-30T01:22:17+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "6c6aeebce64d54003828": {
+      "id": "6c6aeebce64d54003828",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261028.gfa5c17365",
+      "title": "Release v0.67.0-nightly.20261028.gfa5c17365",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-28T01:22:20+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "451b839194f1d8cc9e62": {
+      "id": "451b839194f1d8cc9e62",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0",
+      "title": "Release v0.66.0",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-27T20:26:28+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "bf207d6d3f269f7cdefa": {
+      "id": "bf207d6d3f269f7cdefa",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-preview.0",
+      "title": "Release v0.67.0-preview.0",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-27T20:07:49+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "d568e0d651d41c194d2e": {
+      "id": "d568e0d651d41c194d2e",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261027.g363a13119",
+      "title": "Release v0.67.0-nightly.20261027.g363a13119",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-27T01:15:46+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b6531a035f01717ba936": {
+      "id": "b6531a035f01717ba936",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261025.gcd1b45c2d",
+      "title": "Release v0.67.0-nightly.20261025.gcd1b45c2d",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-25T01:31:55+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "69424a8612bf9587991b": {
+      "id": "69424a8612bf9587991b",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261024.gcd1b45c2d",
+      "title": "Release v0.67.0-nightly.20261024.gcd1b45c2d",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-24T01:15:53+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "74abc4e424d1074f8de5": {
+      "id": "74abc4e424d1074f8de5",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261023.ga713410ab",
+      "title": "Release v0.67.0-nightly.20261023.ga713410ab",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-23T01:35:10+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "bcfc761c8bdfebdecb76": {
+      "id": "bcfc761c8bdfebdecb76",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261022.g09d81bf11",
+      "title": "Release v0.67.0-nightly.20261022.g09d81bf11",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-22T01:23:52+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "d1bbba91c4695472db3b": {
+      "id": "d1bbba91c4695472db3b",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261021.gd00859d6b",
+      "title": "Release v0.67.0-nightly.20261021.gd00859d6b",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-21T01:33:29+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "e9d62472858a055ce43e": {
+      "id": "e9d62472858a055ce43e",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0",
+      "title": "Release v0.65.0",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-20T21:17:57+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "d409a68a68e6d651dc6d": {
+      "id": "d409a68a68e6d651dc6d",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-preview.0",
+      "title": "Release v0.66.0-preview.0",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-20T21:04:34+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "945bad9ccff53c700ff2": {
+      "id": "945bad9ccff53c700ff2",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-nightly.20261020.g76e4d7c04",
+      "title": "Release v0.66.0-nightly.20261020.g76e4d7c04",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-20T01:33:51+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "86a9bc9ece68046855ef": {
+      "id": "86a9bc9ece68046855ef",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-nightly.20261019.ged96faedf",
+      "title": "Release v0.66.0-nightly.20261019.ged96faedf",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-19T01:34:29+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "32cc0e4af2b3b6e3b889": {
+      "id": "32cc0e4af2b3b6e3b889",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-nightly.20261018.ged96faedf",
+      "title": "Release v0.66.0-nightly.20261018.ged96faedf",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-18T01:34:41+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "dd80ff240bf75199e447": {
+      "id": "dd80ff240bf75199e447",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-nightly.20261017.ged96faedf",
+      "title": "Release v0.66.0-nightly.20261017.ged96faedf",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-17T01:31:42+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "7b5962e5b1ac459a2f56": {
+      "id": "7b5962e5b1ac459a2f56",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-nightly.20261016.gdebf42324",
+      "title": "Release v0.66.0-nightly.20261016.gdebf42324",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-16T01:32:08+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b11d2093e49476980c16": {
+      "id": "b11d2093e49476980c16",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261014.g42c518220",
+      "title": "Release v0.65.0-nightly.20261014.g42c518220",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-14T01:29:12+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "dbb95ff3d456141d4895": {
+      "id": "dbb95ff3d456141d4895",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0",
+      "title": "Release v0.64.0",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-13T20:44:46+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "7f31d8b68723cf075dc9": {
+      "id": "7f31d8b68723cf075dc9",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-preview.0",
+      "title": "Release v0.65.0-preview.0",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-13T20:27:55+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "cc30bab22f2bde1d1b39": {
+      "id": "cc30bab22f2bde1d1b39",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261013.g51617c1bc",
+      "title": "Release v0.65.0-nightly.20261013.g51617c1bc",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-13T01:36:45+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "9313320c1ac0ac7191f9": {
+      "id": "9313320c1ac0ac7191f9",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261012.g9b6e0265d",
+      "title": "Release v0.65.0-nightly.20261012.g9b6e0265d",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-12T01:29:25+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "34e02a76650e1105540f": {
+      "id": "34e02a76650e1105540f",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261010.g9b6e0265d",
+      "title": "Release v0.65.0-nightly.20261010.g9b6e0265d",
+      "source": "Gemini CLI releases",
+      "source_id": "gemini-cli",
+      "group": "agents",
+      "published_at": "2026-10-10T01:38:44+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "d9dbdb581f79f750ac49": {
+      "id": "d9dbdb581f79f750ac49",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.42",
+      "title": "langgraph-cli==0.4.42",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-11-06T03:04:13+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "0930381b353807195d62": {
+      "id": "0930381b353807195d62",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.41",
+      "title": "langgraph-cli==0.4.41",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-11-05T02:30:54+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "09af4ba16f83444e285e": {
+      "id": "09af4ba16f83444e285e",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20",
+      "title": "langgraph==1.2.20",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-11-05T02:20:53+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b04727f084c44ac09d10": {
+      "id": "b04727f084c44ac09d10",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13",
+      "title": "langgraph-sdk==0.4.13",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-11-05T02:16:06+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "be42304b1379f5f60c3f": {
+      "id": "be42304b1379f5f60c3f",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.12",
+      "title": "langgraph-sdk==0.4.12",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-11-03T18:10:30+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "c8d7e83ca588d28d5329": {
+      "id": "c8d7e83ca588d28d5329",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
+      "title": "langgraph==1.2.19",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-30T22:23:43+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "c2fd4aed31d0713e4a34": {
+      "id": "c2fd4aed31d0713e4a34",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.3",
+      "title": "langgraph-checkpoint-sqlite==3.1.3",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-30T22:18:54+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "a355eee0fdeac4804671": {
+      "id": "a355eee0fdeac4804671",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.11",
+      "title": "langgraph-sdk==0.4.11",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-30T22:17:59+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "18b25c716d40f2c7a784": {
+      "id": "18b25c716d40f2c7a784",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18",
+      "title": "langgraph==1.2.18",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-26T20:04:45+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "8b3fc23091ee5e7cea80": {
+      "id": "8b3fc23091ee5e7cea80",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.10",
+      "title": "langgraph-sdk==0.4.10",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-26T19:59:56+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b144eddcba6073a5615a": {
+      "id": "b144eddcba6073a5615a",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.1",
+      "title": "langgraph-checkpoint==4.3.1",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-26T19:57:41+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "95a06d5f7fcdd2659d52": {
+      "id": "95a06d5f7fcdd2659d52",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.40",
+      "title": "langgraph-cli==0.4.40",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-26T16:45:54+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "74abe2b3c5dac38d78b5": {
+      "id": "74abe2b3c5dac38d78b5",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.39",
+      "title": "langgraph-cli==0.4.39",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-26T14:16:53+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "8a58c29f390b93e1d304": {
+      "id": "8a58c29f390b93e1d304",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
+      "title": "langgraph==1.2.17",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-24T01:08:05+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "f325a05cc9ff06908b95": {
+      "id": "f325a05cc9ff06908b95",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.38",
+      "title": "langgraph-cli==0.4.38",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-23T14:22:29+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "8b353a05b7f98c579f54": {
+      "id": "8b353a05b7f98c579f54",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9",
+      "title": "langgraph-sdk==0.4.9",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-23T14:19:24+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "43d1061976bde3620dae": {
+      "id": "43d1061976bde3620dae",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37",
+      "title": "langgraph-cli==0.4.37",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-19T14:06:22+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "0ad4a8531dc1b94d7ca4": {
+      "id": "0ad4a8531dc1b94d7ca4",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.16",
+      "title": "langgraph==1.2.16",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-16T22:11:28+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "2daec67a19a7b6a907cf": {
+      "id": "2daec67a19a7b6a907cf",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.8",
+      "title": "langgraph-sdk==0.4.8",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-16T22:09:01+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "2337d1b3590a8ebbf82b": {
+      "id": "2337d1b3590a8ebbf82b",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.36",
+      "title": "langgraph-cli==0.4.36",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-16T16:39:14+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "4f65ede5b54ee4f084d8": {
+      "id": "4f65ede5b54ee4f084d8",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1",
+      "title": "langgraph-prebuilt==1.1.1",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-15T04:32:40+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "a50dc518bdedce5481a2": {
+      "id": "a50dc518bdedce5481a2",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.0",
+      "title": "langgraph-checkpoint-postgres==3.2.0",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-14T19:54:57+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "a310e85b24b35936f4b2": {
+      "id": "a310e85b24b35936f4b2",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.35",
+      "title": "langgraph-cli==0.4.35",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-14T16:11:12+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "54a119e2c7f63795edb2": {
+      "id": "54a119e2c7f63795edb2",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.34",
+      "title": "langgraph-cli==0.4.34",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-13T21:18:10+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "8f5d467666335617461b": {
+      "id": "8f5d467666335617461b",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.3",
+      "title": "langgraph-checkpoint-postgres==3.1.3",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-12T23:05:31+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "b4c99dfe936692f42c53": {
+      "id": "b4c99dfe936692f42c53",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.2",
+      "title": "langgraph-checkpoint-sqlite==3.1.2",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-12T22:54:47+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "32f4c9eac59c8f3cf4ff": {
+      "id": "32f4c9eac59c8f3cf4ff",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.7",
+      "title": "langgraph-sdk==0.4.7",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-12T22:54:19+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "5aa62797d208fcf20a4d": {
+      "id": "5aa62797d208fcf20a4d",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.15",
+      "title": "langgraph==1.2.15",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-12T22:38:26+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "257773abd2bde1fc9036": {
+      "id": "257773abd2bde1fc9036",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.0",
+      "title": "langgraph-checkpoint==4.3.0",
+      "source": "LangGraph releases",
+      "source_id": "langgraph",
+      "group": "agents",
+      "published_at": "2026-10-12T22:26:41+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed"
+    },
+    "754d51d8ea18a8a36ccf": {
+      "id": "754d51d8ea18a8a36ccf",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "title": "Ebony-Vinyl/dsh-our-free-model",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 85025,
+      "date_kind": "discovery",
+      "ref": "A16"
+    },
+    "f7f9ba2030bfc1b0b6c9": {
+      "id": "f7f9ba2030bfc1b0b6c9",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "title": "google/elephant-goldfish-model",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 22416,
+      "date_kind": "discovery",
+      "ref": "A20"
+    },
+    "7e3d21e887d2d6c06790": {
+      "id": "7e3d21e887d2d6c06790",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "title": "lemomo-ai/lemo-opuscar",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 20290,
+      "date_kind": "discovery",
+      "ref": "A24"
+    },
+    "f61d6c7d816018252d2d": {
+      "id": "f61d6c7d816018252d2d",
+      "url": "https://github.com/BaaRai/ARTEX",
+      "title": "BaaRai/ARTEX",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 17662,
+      "date_kind": "discovery",
+      "ref": "A28"
+    },
+    "0d7e671bac2c1abf23ce": {
+      "id": "0d7e671bac2c1abf23ce",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "title": "kajisho5/ffmpeg-skill",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 10207,
+      "date_kind": "discovery",
+      "ref": "A32"
+    },
+    "c9e9c2a3db10990b4c01": {
+      "id": "c9e9c2a3db10990b4c01",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "title": "Human-Agent-Society/reef",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 7636,
+      "date_kind": "discovery"
+    },
+    "b92ccbd6f3fbfed69261": {
+      "id": "b92ccbd6f3fbfed69261",
+      "url": "https://github.com/Oldcircle/geo-sleuth",
+      "title": "Oldcircle/geo-sleuth",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 7454,
+      "date_kind": "discovery"
+    },
+    "4e163fd9e52bc3c0fcd7": {
+      "id": "4e163fd9e52bc3c0fcd7",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "title": "Louis-CFM/coucou",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 7417,
+      "date_kind": "discovery"
+    },
+    "65d809285eb975cd6a72": {
+      "id": "65d809285eb975cd6a72",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "title": "mdiri-ai/SoduWork",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 7049,
+      "date_kind": "discovery"
+    },
+    "cd103d342fbbd5e3641c": {
+      "id": "cd103d342fbbd5e3641c",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "title": "KKKKhazix/agent-autoloop",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 6389,
+      "date_kind": "discovery"
+    },
+    "4a4dacd6b2fd6b3e4cfc": {
+      "id": "4a4dacd6b2fd6b3e4cfc",
+      "url": "https://github.com/monid-ai/monid",
+      "title": "monid-ai/monid",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 6219,
+      "date_kind": "discovery"
+    },
+    "f3e829f9fbebdf3f1130": {
+      "id": "f3e829f9fbebdf3f1130",
+      "url": "https://github.com/kuafuai/andee",
+      "title": "kuafuai/andee",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 6186,
+      "date_kind": "discovery"
+    },
+    "7c9820351a96e4725360": {
+      "id": "7c9820351a96e4725360",
+      "url": "https://github.com/vAPI-Network/vapi-network",
+      "title": "vAPI-Network/vapi-network",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 5657,
+      "date_kind": "discovery"
+    },
+    "a8565667a67f35378760": {
+      "id": "a8565667a67f35378760",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "title": "Leonxlnx/earshot",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 5641,
+      "date_kind": "discovery"
+    },
+    "cbb542de6ef964b50be7": {
+      "id": "cbb542de6ef964b50be7",
+      "url": "https://github.com/expo/exact",
+      "title": "expo/exact",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-23T23:04:08.866975+00:00",
+      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
+      "text_kind": "feed",
+      "stars": 4970,
+      "date_kind": "discovery"
     }
   },
   "selected": {
+    "0b5f35342ecc69a52f03": "2026-11-17",
+    "8f6af8c44a4a1bfb5de3": "2026-11-17",
+    "8f7a055a1b360233ad87": "2026-11-17",
+    "b4439a7527ca175b45e5": "2026-11-17",
+    "d4cfbc3b0e605a782e2b": "2026-11-17",
+    "54568103aadf9fab4138": "2026-11-17",
+    "98b3bb378373201ae201": "2026-11-17",
+    "da41fa8039c9b6abccd0": "2026-11-17",
+    "3047d7657748ea760feb": "2026-11-17",
+    "247ce6b97d0b65190882": "2026-11-17",
+    "3a437ef39d12d42d96a0": "2026-11-17",
+    "f661f0b7f836c160b8df": "2026-11-17",
+    "02f125d9c6cc44016cdd": "2026-11-18",
+    "b21e3d35db3791faf848": "2026-11-18",
+    "3da3f60902b72288990d": "2026-11-18",
+    "c3247a08761b14ef7f74": "2026-11-18",
+    "ef4c4b77990b3ca1a99a": "2026-11-18",
+    "395eb2f50bbc7a2cf6a2": "2026-11-18",
+    "3ce21c9c1e9d58d844f4": "2026-11-18",
+    "27f7b51e3bf8f5a8746a": "2026-11-18",
+    "67952d9a918d2536a7bf": "2026-11-18",
+    "9bcf073a13fee76fb667": "2026-11-18",
+    "bd269de17d3dd754bacb": "2026-11-18",
+    "58da586369f33999eb92": "2026-11-18",
+    "9c21cef04a40e1536cb8": "2026-11-19",
+    "eeff439a5f7e76ad322b": "2026-11-19",
+    "c13c3b11c6dadf8744df": "2026-11-19",
+    "666ed6104560f784f59b": "2026-11-19",
+    "f3d370a5121afbf2b74a": "2026-11-19",
+    "1590e3f6387642d1f8fc": "2026-11-19",
+    "352723699d6c2a143c8e": "2026-11-19",
+    "1b3aafed7dd5d45c6822": "2026-11-19",
+    "84da27b8e0173e93c6a7": "2026-11-19",
+    "f5b5db019790445e2626": "2026-11-19",
+    "1f24c723aca4453a2cda": "2026-11-19",
+    "2347518c59dce38810ca": "2026-11-19",
+    "9342dbf934e428aa00c1": "2026-11-19",
+    "38b01d2b3c4050245ed1": "2026-11-19",
+    "ab70fcfe021eacea156e": "2026-11-19",
+    "e7e2e1b447e7a80634de": "2026-11-19",
+    "408deb84be412cde8f2d": "2026-11-19",
+    "fd109fdc361c3cd3d582": "2026-11-20",
+    "cf3b0c6c1cbc2369e530": "2026-11-20",
+    "f27b1f34ce20932cc3d0": "2026-11-20",
+    "6ccc1545e350025ff088": "2026-11-20",
+    "85d0c5a4a983edfbbc04": "2026-11-20",
+    "fdc4cffb6fa79465efcb": "2026-11-20",
+    "4bdc26fb87f803ab1bbf": "2026-11-20",
+    "443b4a9124028617311a": "2026-11-20",
+    "cc88c546d1214b6505b4": "2026-11-20",
+    "478ea25aeed3c99796b0": "2026-11-20",
+    "987b3377e39e9631721d": "2026-11-20",
+    "8145fefb47ff1ca9fa55": "2026-11-20",
+    "7ad44f990f0c53ef2e2a": "2026-11-20",
+    "99c4a59b1d5247888053": "2026-11-20",
+    "037269830c1087bb2ac6": "2026-11-20",
+    "fbde991ea2f0ee8af0fb": "2026-11-21",
+    "c5c2f959d4911a43dd4c": "2026-11-21",
+    "8b6d619e2b5e878b8f08": "2026-11-21",
+    "092e69e17574fe4be23b": "2026-11-21",
+    "8aababd3c3de271acfad": "2026-11-21",
+    "4c8a917c8af77681757f": "2026-11-21",
+    "0f563cae8acd179f38eb": "2026-11-22",
+    "248f10e3d3a0f2267b13": "2026-11-22",
+    "3de3106f478e9e737195": "2026-11-22",
+    "9126409f5c4e34b65de6": "2026-11-22",
+    "6545db87281ad58ecc44": "2026-11-23",
     "a9972b90c90a6092227e": "2026-11-23",
     "11ec5a54f8f917714e42": "2026-11-23",
-    "9281e402e80ec3c67a7a": "2026-11-23",
-    "470a905d1d5de2eab081": "2026-11-23",
-    "6545db87281ad58ecc44": "2026-11-23",
-    "e59fe8be067f4ab68ffc": "2026-11-23",
-    "2c11c808192d075870d5": "2026-11-23",
-    "72c65d25e7ff950d5228": "2026-11-23",
-    "ba7fe03235f718d9453a": "2026-11-23",
+    "21908a70d050f480e642": "2026-11-23",
+    "6c82c31d5a24c2871826": "2026-11-23",
+    "f7f9ba2030bfc1b0b6c9": "2026-11-23",
+    "fa9136539de5ecb7ea15": "2026-11-23",
     "38ea5b66d259522356b1": "2026-11-23",
+    "4ce697c6dbd75e8a8795": "2026-11-23",
+    "2c11c808192d075870d5": "2026-11-23",
     "f323d7562d6653aad531": "2026-11-23",
-    "4efb0bcac54b804e689c": "2026-11-23",
-    "f4935c97c738c837282f": "2026-11-23",
-    "07746454b8f495425386": "2026-11-23",
-    "9966abf401f3da34410c": "2026-11-23",
+    "179fd3db322f1a8d4c11": "2026-11-23",
+    "e59fe8be067f4ab68ffc": "2026-11-23",
     "e4317caa0090ff55e644": "2026-11-23",
-    "7f625056a5ad42628e96": "2026-11-23",
-    "4e356d04fcccf8c05251": "2026-11-23",
+    "f57c79ae12589b691182": "2026-11-23",
+    "9966abf401f3da34410c": "2026-11-23",
+    "07746454b8f495425386": "2026-11-23",
     "2767f8467a6aff4349b6": "2026-11-23"
   }
 }

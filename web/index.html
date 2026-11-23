@@ -40,11 +40,13 @@
         <div class="edition-label"><span class="sun-mark" aria-hidden="true"></span><span id="edition-label">ВАШ УТРЕННИЙ ОБЗОР</span></div>
         <div class="heading-row"><h1 id="page-title">Хорошего утра.</h1><a id="download" class="outline-button" href="#" download>Скачать выпуск</a></div>
         <p id="intro" class="intro">Загружаем последние новости…</p>
+        <p id="coverage" class="coverage-note" hidden></p><a id="instant-view" class="text-button" href="#" target="_blank" rel="noopener" hidden>Читать в Instant View</a>
         <div id="issue-meta" class="issue-meta"></div>
       </section>
       <section class="toolbar" aria-label="Фильтры новостей">
         <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span class="sr-only">Поиск по всему архиву</span><input id="search" type="search" placeholder="Поиск по всему архиву" autocomplete="off"></label>
         <label class="group-select"><span class="sr-only">Тема</span><select id="group-filter"><option value="">Все темы</option></select></label>
+        <label class="importance-select"><span class="sr-only">Важность</span><select id="importance"><option value="">Все новости</option><option value="important">Только важное</option><option value="ordinary">Проходные</option></select></label>
         <label class="provider-select"><span class="sr-only">Провайдер</span><select id="provider"><option value="">Все провайдеры</option></select></label>
       </section>
       <div class="result-bar"><span id="result-count" role="status" aria-live="polite"></span><button id="reset" class="text-button" type="button" hidden>Сбросить фильтры</button></div>

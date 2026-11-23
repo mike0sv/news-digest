@@ -1,0 +1,543 @@
+{
+  "version": 1,
+  "id": "2026-11-19",
+  "date": "2026-11-19",
+  "created_at": "2026-11-19T23:59:59.999999+00:00",
+  "title": "Утренний обзор",
+  "intro": "Главное за 19 ноября: Anthropic вышла на Nasdaq, обновились Claude Code, Gemini CLI и LangGraph, а также появились новые агентские инструменты. Среди технологических новостей — уязвимость Java4Shell и сообщение о секретном приказе правительства Великобритании Apple. Из политики выделяется трёхсторонняя встреча в Шэньчжэне.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "Anthropic вышла на Nasdaq",
+      "summary": "Anthropic провела первичное публичное размещение акций и начала торги на Nasdaq; Reuters в заголовке называет дебют историческим. Ранее было известно только о назначенной цене размещения, а размер сделки и цена первых торгов в материалах не приведены.",
+      "why_it_matters": "Акции разработчика Claude теперь торгуются публично, и его оценку будет проверять рынок.",
+      "id": "edeac5e759d208c8",
+      "group": "technology",
+      "is_update": true,
+      "important": true,
+      "importance_reason": "Публичное размещение Anthropic на Nasdaq — конкретное рыночное событие: компания становится публичной и подлежит рыночной оценке.",
+      "previous_stories": [
+        {
+          "issue_id": "2026-11-18",
+          "story_id": "4494f41acb48aca5",
+          "date": "2026-11-18",
+          "title": "Anthropic назначила цену своего IPO"
+        }
+      ],
+      "sources": [
+        {
+          "id": "9c21cef04a40e1536cb8",
+          "url": "https://news.ycombinator.com/item?id=50562754",
+          "source": "Hacker News · top stories",
+          "title": "Anthropic’s Nasdaq debut",
+          "published_at": "2026-11-19T17:02:40Z",
+          "text_kind": "feed"
+        },
+        {
+          "id": "eeff439a5f7e76ad322b",
+          "url": "https://www.bbc.com/russian/articles/c3ewv54v5yk2o?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "IPO Anthropic. Как создатель Claude продает билеты в страну чудес и страховки от ИИ-апокалипсиса",
+          "published_at": "2026-11-19T02:13:19+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Java4Shell: сообщение о ранней уязвимости и связанный pull request",
+      "summary": "Согласно заголовку, ошибка Java4Shell была сообщена в сентябре 2026 года; ссылка ведёт на pull request openjdk/jdk #32781. Содержание PR и статус исправления в материале не приведены, поэтому затронутые версии неизвестны.",
+      "why_it_matters": "Уязвимость RCE в OpenJDK касается Java-приложений, но подтверждённых версий и масштаба в материале нет.",
+      "id": "47f12ca0322b9468",
+      "group": "technology",
+      "is_update": true,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [
+        {
+          "issue_id": "2026-11-17",
+          "story_id": "2b5f96e4675f5cc1",
+          "date": "2026-11-17",
+          "title": "Java4Shell: сообщается об RCE в OpenJDK при обработке Base64"
+        }
+      ],
+      "sources": [
+        {
+          "id": "c13c3b11c6dadf8744df",
+          "url": "https://news.ycombinator.com/item?id=50558906",
+          "source": "Hacker News · top stories",
+          "title": "Someone reported java4shell bug in September 2026",
+          "published_at": "2026-11-19T11:47:03Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Британское правительство признало секретный приказ Apple о шифровании",
+      "summary": "По заголовку, правительство Великобритании вынуждено признать, что выдало Apple секретное распоряжение, связанное с шифрованием. Текст статьи в материале не приведён, поэтому содержание приказа и его правовая основа неизвестны; на HN материал набрал 694 балла.",
+      "why_it_matters": "Если приказ касается шифрования сервисов Apple, он затрагивает приватность пользователей; масштаб пока неизвестен.",
+      "id": "e0775e811b539cd8",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "666ed6104560f784f59b",
+          "url": "https://news.ycombinator.com/item?id=50562113",
+          "source": "Hacker News · top stories",
+          "title": "UK government forced to admit it issued Apple a secret encryption order",
+          "published_at": "2026-11-19T16:21:03Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Claude Code v2.1.329: предупреждения о hooks и исправления сессий",
+      "summary": "В Claude Code v2.1.329 появилось предупреждение в диалоге доверия к папке о том, где объявлены её hooks, а /tasks теперь показывает запланированные задачи, /loop и форки. В /mcp добавлена строка с сообщением об ошибке удалённого HTTP MCP-сервера; исправлены сбросы ~/.claude.json, повторные выходы из учётной записи на macOS и замена открытого диалога при /teleport.",
+      "why_it_matters": "Предупреждение о hooks в незнакомых папках и исправления сохранения настроек снижают риск потерь и неочевидного выполнения кода.",
+      "id": "2480829230eab02f",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "f3d370a5121afbf2b74a",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+          "source": "Claude Code releases",
+          "title": "v2.1.329",
+          "published_at": "2026-11-19T22:14:41+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Claude Code v2.1.328: auto mode на сторонних облаках",
+      "summary": "В Claude Code v2.1.328 auto mode стал доступен для Claude Opus 4.6 и Sonnet 4.6 на Amazon Bedrock, Google Cloud Agent Platform, Microsoft Foundry и в Claude apps gateway; интерактивные сессии без режима разрешений теперь стартуют в auto mode. Также добавлен onFailure: block для hooks типа mcp_tool и предупреждение, что сообщения из сессий без запросов разрешений могут быть удержаны облачной сессией.",
+      "why_it_matters": "Пользователи Bedrock, Google Cloud и Foundry получают автоматический режим разрешений в агентской работе без переключения вручную.",
+      "id": "a62a263757813a2f",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "1590e3f6387642d1f8fc",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+          "source": "Claude Code releases",
+          "title": "v2.1.328",
+          "published_at": "2026-11-19T01:14:04+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Gemini CLI v0.69.0: /stats heatmap и собственные темы",
+      "summary": "В Gemini CLI v0.69.0 появилась подкоманда /stats heatmap для ежедневного учёта использования токенов и поддержка отдельного theme.json для пользовательских тем. Остальные изменения в релизе — исправления, включая обработку переменных окружения и завершение дочерних процессов при прерывании в headless-режиме.",
+      "why_it_matters": "",
+      "id": "26f43dd9a2006946",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "352723699d6c2a143c8e",
+          "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0",
+          "source": "Gemini CLI releases",
+          "title": "Release v0.69.0",
+          "published_at": "2026-11-19T01:45:47+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Google анонсировала Tool Retrieval в Gemini API",
+      "summary": "По заголовку, Google опубликовала анонс Tool Retrieval в Gemini API. Текст анонса в материале не приведён, поэтому механизм поиска инструментов и доступность неизвестны.",
+      "why_it_matters": "",
+      "id": "3eb759fe69581a98",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "1b3aafed7dd5d45c6822",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "source": "Google AI",
+          "title": "Introducing Tool Retrieval in the Gemini API",
+          "published_at": "2026-11-19T18:00:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "LangGraph 1.2.23 и langgraph-prebuilt 1.1.3: исправления вызова инструментов",
+      "summary": "Вышли langgraph 1.2.23 и langgraph-prebuilt 1.1.3 с исправлениями: инструменты, вызванные через Send, получают то же состояние, что и по ребру графа, а переопределения состояния в wrap_tool_call теперь доходят до инструмента. Релизы содержат и обновления зависимостей, и исправление предупреждений для динамических схем.",
+      "why_it_matters": "Исправления касаются того, какое состояние видит инструмент агента внутри графа.",
+      "id": "91592fbfed0ccdd2",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "84da27b8e0173e93c6a7",
+          "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.23",
+          "source": "LangGraph releases",
+          "title": "langgraph==1.2.23",
+          "published_at": "2026-11-19T05:33:06+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "f5b5db019790445e2626",
+          "url": "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.3",
+          "source": "LangGraph releases",
+          "title": "langgraph-prebuilt==1.1.3",
+          "published_at": "2026-11-19T05:26:17+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Onlook: открытый агентский инструмент дизайна поверх кодовой базы",
+      "summary": "Onlook (YC W25) выпустил открытое desktop-приложение под Apache-2.0 на Electron: дизайн ведётся в canvas поверх реального репозитория, а агент Claude Code или Codex работает на подписке пользователя. Каждое изменение оформляется как git worktree и PR; по словам основателя, кадры одного приложения конкурируют за шесть соединений Chromium на хост.",
+      "why_it_matters": "Пример того, как агентские CLI встраиваются в продукт: результаты агента приводятся к типизированному журналу событий и git-диффам, которые можно ревьюить.",
+      "id": "f38e368cba5c1997",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "1f24c723aca4453a2cda",
+          "url": "https://news.ycombinator.com/item?id=50562320",
+          "source": "Hacker News · agents",
+          "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+          "published_at": "2026-11-19T16:34:04Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "AgentMall: агент для покупок продуктов с заявленным успехом около 70%",
+      "summary": "Show HN AgentMall даёт агентам оформлять заказы в продуктовых магазинах; по словам авторов, успешность оформления около 70% на перечисленных сайтах (включая Walmart, Ocado и Instacart), а цель — 90%+. Публикация набрала 21 балл на HN, результаты авторы не проверяли независимо.",
+      "why_it_matters": "Авторы сообщают, что агенты часто не доходят до оплаты из-за антибот-защит, входа и OTP-кодов, то есть это типичное ограничение агентских покупок.",
+      "id": "30ec9aea77ac090c",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "2347518c59dce38810ca",
+          "url": "https://news.ycombinator.com/item?id=50562508",
+          "source": "Hacker News · Show HN AI",
+          "title": "Show HN: AgentMall – Let your AI agent buy groceries",
+          "published_at": "2026-11-19T16:46:14Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI: Performance Factory на базе Codex для производительности ChatGPT",
+      "summary": "OpenAI описала Performance Factory — систему рабочих процессов на базе Codex, которая находит и исправляет проблемы производительности, помогая держать ChatGPT быстрым. Текст статьи в материале короткий, поэтому метрики и масштаб внедрения неизвестны.",
+      "why_it_matters": "Это пример применения Codex в эксплуатации крупного продакшн-сервиса, но подтверждённых цифр по эффекту в описании нет.",
+      "id": "28235a4eda09c79b",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "9342dbf934e428aa00c1",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "source": "OpenAI News",
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "published_at": "2026-11-19T08:00:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Трамп, Путин и Си Цзиньпин впервые встретились в Шэньчжэне",
+      "summary": "В Шэньчжэне прошла первая в истории встреча лидеров России, Китая и США. По данным Би-би-си, стороны выпустили «Декларацию о мире», где не упомянуты Украина и Иран, но есть реформа ООН и Международный уголовный суд; The Guardian назвал встречу историческим трёхсторонним контактом.",
+      "why_it_matters": "Если в декларации не упомянута Украина, итоговый документ не касается условий войны, и практический эффект для переговоров пока неясен.",
+      "id": "b477a68caf8244f0",
+      "group": "peace",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "38b01d2b3c4050245ed1",
+          "url": "https://www.bbc.com/russian/articles/cvglr0kr9p5go?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "«Путин и Си нам не друзья». Как на Западе реагируют на саммит Трампа в Шэньчжэне",
+          "published_at": "2026-11-19T20:37:40+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "ab70fcfe021eacea156e",
+          "url": "https://www.theguardian.com/news/video/2026/nov/19/troublesome-trio-trump-xi-and-putin-hold-historic-meeting-the-latest",
+          "source": "The Guardian · Ukraine",
+          "title": "Troublesome trio: Trump, Xi and Putin hold historic meeting - The Latest",
+          "published_at": "2026-11-19T19:37:13+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "e7e2e1b447e7a80634de",
+          "url": "https://www.bbc.com/russian/podcasts/p076qqzl/p0pnvqdk?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "Что обсуждали Трамп, Путин и Си?",
+          "published_at": "2026-11-19T00:00:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Союзники Украины предупреждают о «ялтинском формате»",
+      "summary": "По заголовку Guardian, союзники Украины предупреждают, что «ялтинский формат» не приведёт к миру. Текст репортажа в материале отсутствует, поэтому состав участников и содержание формата неизвестны.",
+      "why_it_matters": "",
+      "id": "60c40593d1d66f31",
+      "group": "peace",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "408deb84be412cde8f2d",
+          "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+          "source": "The Guardian · Ukraine",
+          "title": "Ukraine allies warn ‘Yalta format’ will not bring about peace – as it happened",
+          "published_at": "2026-11-19T18:03:54+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 2174,
+    "candidates": 42,
+    "selected": 13,
+    "sources_ok": 19,
+    "sources_total": 20
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": false,
+      "count": 0,
+      "error": "RuntimeError"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1425,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 38,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 28,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 9,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 14,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 30442,
+    "cache_read_input_tokens": 1360,
+    "output_tokens": 15439,
+    "output_tokens_details": {
+      "thinking_tokens": 11856
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 30442,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 15439,
+        "cache_read_input_tokens": 1360,
+        "cache_creation_input_tokens": 30442,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 30442
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "retrospective": true,
+  "coverage_note": "Ретроспектива по сохранившимся публикациям с датами. Ленты могут быть неполными; HN-баллы отражают внимание на момент сбора. Тексты могли получить последующие правки. Это не точная копия утреннего выпуска того дня."
+}

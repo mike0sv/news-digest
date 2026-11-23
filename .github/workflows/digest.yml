@@ -8,6 +8,10 @@ on:
     - cron: '17 7,8 * * *'
   workflow_dispatch:
     inputs:
+      date:
+        description: 'Day YYYY-MM-DD (empty = today; historical runs do not send Telegram)'
+        type: string
+        default: ''
       force:
         description: Create an additional edition today
         type: boolean
@@ -35,13 +39,15 @@ jobs:
           DIGEST_MODEL: ${{ vars.DIGEST_MODEL }}
           SCHEDULED: ${{ github.event_name == 'schedule' }}
           FORCE: ${{ inputs.force }}
+          ISSUE_DATE: ${{ inputs.date }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           python - <<'PY'
           import os
           from pathlib import Path
           from digest.pipeline import prepare
           prepare(Path.cwd(), scheduled=os.environ['SCHEDULED'] == 'true',
-                  force=os.environ['FORCE'] == 'true')
+                  force=os.environ['FORCE'] == 'true', date=os.environ.get('ISSUE_DATE') or None)
           PY
       - name: Install Claude Code when selected
         if: steps.prepare.outputs.needs_model == 'true' && steps.prepare.outputs.provider == 'claude-cli'
@@ -77,6 +83,11 @@ jobs:
               raise SystemExit('Codex produced no output; refusing an implicit fallback')
           generate_issue(root, response_file=external)
           PY
+      - name: Publish full issues for Instant View
+        env:
+          TELEGRAPH_ACCESS_TOKEN: ${{ secrets.TELEGRAPH_ACCESS_TOKEN }}
+          DIGEST_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python -m digest instant-view
       - name: Build public archive
         run: python -m digest build
       - name: Upload persistent state

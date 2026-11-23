@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "id": "2026-11-22",
+  "date": "2026-11-22",
+  "created_at": "2026-11-22T23:59:59.999999+00:00",
+  "title": "Утренний обзор",
+  "intro": "Сегодня в выпуске мало поводов для обзора: из присланных материалов заслуживают внимания несколько сюжетов про ИИ-агентов и один про заявленное доказательство гипотезы Римана. Остальные материалы либо содержат только заголовок, либо описывают события, которые не вошли в выпуск.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "Localcode: открытый агентский кодинг на Mac одной командой",
+      "summary": "По заголовку, Localcode — открытый агентский инструмент для написания кода на Mac, который запускается одной командой. Текст страницы в материале не приведён, поэтому возможности, модели и ограничения неизвестны; на Hacker News публикация набрала 70 баллов и 21 комментарий, что отражает внимание, а не проверенную работу.",
+      "why_it_matters": "",
+      "id": "f0b8906488964d57",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "0f563cae8acd179f38eb",
+          "url": "https://news.ycombinator.com/item?id=50604540",
+          "source": "Hacker News · agents",
+          "title": "Localcode, open source agentic coding on your Mac with one command",
+          "published_at": "2026-11-22T22:18:48Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Рой агентов пытается решить P versus NP",
+      "summary": "По заголовку и ссылке на pequalnp.com, проект запускает рой ИИ-агентов для попытки решить задачу P versus NP. Текст страницы в материале не приведён, поэтому методы и результаты неизвестны; на Hacker News публикация набрала 180 баллов и 159 комментариев, что показывает интерес, но не подтверждает результат.",
+      "why_it_matters": "",
+      "id": "9f0c717d8fc83680",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "248f10e3d3a0f2267b13",
+          "url": "https://news.ycombinator.com/item?id=50604314",
+          "source": "Hacker News · agents",
+          "title": "Agent swarm trying to solve P vs. NP",
+          "published_at": "2026-11-22T21:53:45Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Bridgewater: текущих усилий недостаточно, чтобы замедлить «ИИ-кибервирус»",
+      "summary": "По заголовку исследования Bridgewater, текущих мер недостаточно, чтобы замедлить распространение «ИИ-кибервируса». Текст материала в выгрузке отсутствует, поэтому конкретные данные, определения и рекомендации неизвестны; на Hacker News публикация набрала 30 баллов и 11 комментариев.",
+      "why_it_matters": "",
+      "id": "5ed064c3226faa03",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "3de3106f478e9e737195",
+          "url": "https://news.ycombinator.com/item?id=50595940",
+          "source": "Hacker News · agents",
+          "title": "Current Efforts Aren't Enough to Slow the AI Cyber Virus",
+          "published_at": "2026-11-22T03:28:48Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Заявленное доказательство гипотезы Римана: две организации сообщили о проверке",
+      "summary": "Левент Альпёге утверждает, что с помощью Claude доказал гипотезу Римана. По сообщению BBC, две организации заявили, что независимо подтвердили его доказательство, проверив его на языке программирования, который он использовал; подробности проверки в материале не приведены.",
+      "why_it_matters": "Если проверка подтвердится, это будет заметный результат для математики и пример использования ИИ в доказательствах, но пока это заявления сторон.",
+      "id": "68350962309deea6",
+      "group": "technology",
+      "is_update": true,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [
+        {
+          "issue_id": "2026-11-20",
+          "story_id": "d854a7328f372392",
+          "date": "2026-11-20",
+          "title": "Заявления о доказательстве обобщённой гипотезы Римана"
+        }
+      ],
+      "sources": [
+        {
+          "id": "9126409f5c4e34b65de6",
+          "url": "https://www.bbc.com/russian/articles/cmvg2pyp77ypo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "Волновавшая математиков 170 лет гипотеза Римана повержена. По всей видимости, ее с помощью ИИ доказал сотрудник компании Anthropic",
+          "published_at": "2026-11-22T19:34:09+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 2174,
+    "candidates": 25,
+    "selected": 4,
+    "sources_ok": 19,
+    "sources_total": 20
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": false,
+      "count": 0,
+      "error": "RuntimeError"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1425,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 38,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 28,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 9,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 14,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 22559,
+    "cache_read_input_tokens": 1360,
+    "output_tokens": 5072,
+    "output_tokens_details": {
+      "thinking_tokens": 3963
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 22559,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 5072,
+        "cache_read_input_tokens": 1360,
+        "cache_creation_input_tokens": 22559,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 22559
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "retrospective": true,
+  "coverage_note": "Ретроспектива по сохранившимся публикациям с датами. Ленты могут быть неполными; HN-баллы отражают внимание на момент сбора. Тексты могли получить последующие правки. Это не точная копия утреннего выпуска того дня."
+}
