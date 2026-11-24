@@ -1,0 +1,414 @@
+{
+  "version": 1,
+  "id": "2026-11-24",
+  "date": "2026-11-24",
+  "created_at": "2026-11-24T08:00:16.323628+00:00",
+  "title": "Утренний обзор",
+  "intro": "Сегодня в агентской разработке главное — обновление по модели GLM-5.4 от Z.ai и несколько релизов: Codex 0.172.0, OpenAI Agents SDK 0.26.0 и Gemini CLI v0.71.0 с превью v0.72.0. Отдельно есть два открытых проекта для агентов и одна новость о пользовательском сервисе.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "GLM-5.4 от Z.ai: доступ через Coding Plan, открытых весов пока нет",
+      "summary": "Модель GLM-5.4 от Z.ai — первая у компании с loop transformer, где группа слоёв с общими весами выполняется несколько проходов. По тесту Саймона Уиллисона, модель доступна через OpenAI-совместимый Responses API Z.ai только с подпиской Coding Plan, открытых весов пока нет; его оценки качества — личные наблюдения, а не независимый бенчмарк.",
+      "why_it_matters": "Разработчики агентского кодинга получают новую модель Z.ai, но обычный API её пока не предоставляет, что ограничивает доступ.",
+      "id": "fb227dabcf648841",
+      "group": "agents",
+      "is_update": true,
+      "important": true,
+      "importance_reason": "Новая флагманская модель крупной китайской лаборатории с нетипичной архитектурой и доступом для агентского кодинга.",
+      "previous_stories": [
+        {
+          "issue_id": "2026-11-23",
+          "story_id": "46697beb3a299a15",
+          "date": "2026-11-23",
+          "title": "GLM-5.4: публикация о первом loop transformer для программирования"
+        }
+      ],
+      "sources": [
+        {
+          "id": "2f3ef0ead000ffc6df4c",
+          "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+          "source": "Simon Willison",
+          "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "published_at": "2026-11-23T23:40:49+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Codex 0.172.0: ленивый запуск MCP и подтверждения для отдельных инструментов",
+      "summary": "Codex 0.172.0 добавил Tab-дополнение аргументов слеш-команд, навигацию по группам задач в командном центре и выбор Amazon Bedrock Runtime при настройке. Stdio MCP-серверы с кешем инструментов теперь по умолчанию стартуют при первом вызове, а в config.toml можно задать reviewer подтверждений для отдельных подключённых приложений; codex exec resume восстанавливает сохранённые права песочницы.",
+      "why_it_matters": "Ленивый запуск MCP-серверов снижает стартовые задержки, а reviewer на уровне инструмента даёт точнее контролировать подтверждения в агентских сессиях.",
+      "id": "c076c24c4ba3b655",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "824283cf95f0a1c656bb",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+          "source": "Codex releases",
+          "title": "0.172.0",
+          "published_at": "2026-11-24T00:03:55+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI Agents SDK 0.26.0: Docker-песочницы и исправления Realtime",
+      "summary": "Вышла версия openai-agents-python 0.26.0 с обновлением GPT-Live demo до 1.1 и набором исправлений: проверка output guardrails в Realtime при завершении хода, учёт глобального переключателя трассировки и ограничение прав Docker storage mount. Docker теперь отклоняет InContainerMountStrategy, поэтому существующие Docker-сессии нужно пересоздать с новым manifest.",
+      "why_it_matters": "Пользователям Docker-песочниц нужно мигрировать сессии, иначе их текущие конфигурации перестанут работать.",
+      "id": "1e49b46184fed375",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "9566e4a73e7bad1a8e1a",
+          "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.26.0",
+          "source": "OpenAI Agents SDK",
+          "title": "v0.26.0",
+          "published_at": "2026-11-24T03:15:47+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Gemini CLI v0.71.0, v0.71.1 и превью v0.72.0: авторизация a2a-сервера и исправления",
+      "summary": "Gemini CLI v0.71.0 исправил асинхронный разбор PowerShell-команд, из-за которого UI зависал со спиннером; v0.71.1 — патч-версия с cherry-pick одного исправления. В превью v0.72.0-preview.0 добавлены проверка bearer-токена и валидация входных данных для a2a-server, а также исправления .gitignore, путей Windows и выбора последней активной сессии при resume.",
+      "why_it_matters": "Исправления a2a-server и resume касаются работы агента с сессиями и внешними клиентами, но это патчи, а не новые возможности.",
+      "id": "1c1470e4b7be59a7",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "20e80028cf9841fc3a19",
+          "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1",
+          "source": "Gemini CLI releases",
+          "title": "Release v0.71.1",
+          "published_at": "2026-11-24T03:50:24+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "45a96695d7c0e997c987",
+          "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0",
+          "source": "Gemini CLI releases",
+          "title": "Release v0.71.0",
+          "published_at": "2026-11-24T01:16:44+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "4f8703dad6fd43291d20",
+          "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261124.gaafdfdfb5",
+          "source": "Gemini CLI releases",
+          "title": "Release v0.71.0-nightly.20261124.gaafdfdfb5",
+          "published_at": "2026-11-24T01:13:47+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "2d8f7043fb6cf84f476f",
+          "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.72.0-preview.0",
+          "source": "Gemini CLI releases",
+          "title": "Release v0.72.0-preview.0",
+          "published_at": "2026-11-24T00:34:15+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "ffmpeg-skill: локальный видеоредактор для кодовых агентов через MCP",
+      "summary": "Проект kajisho5/ffmpeg-skill предлагает 42 инструмента FFmpeg с машиночитаемым контрактом и MCP-сервер для Claude Code, Cursor и Codex, без облака и API-ключей. Репозиторий набрал +194 звезды за сутки по счётчику GitHub; это показатель внимания, а не проверенного качества.",
+      "why_it_matters": "Агенты получают готовый локальный набор видеоинструментов через MCP, без отправки медиа в облако.",
+      "id": "32d4f6822be15bec",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "0f19c958424827f4f811",
+          "url": "https://github.com/kajisho5/ffmpeg-skill",
+          "source": "GitHub · emerging agent projects",
+          "title": "kajisho5/ffmpeg-skill",
+          "published_at": "2026-11-24T08:00:16.323628+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "ARTEX: ИИ-система автономного пентеста набирает внимание на GitHub",
+      "summary": "Репозиторий BaaRai/ARTEX, английская версия проекта Autumn-27/ARTEX под AGPL-3.0, описан как система автономного пентеста на базе ИИ-агентов с MCP и веб-интерфейсом. За сутки он получил +517 звёзд; описание не содержит данных о результатах или проверке эффективности.",
+      "why_it_matters": "Агентные инструменты для тестирования безопасности растут в популярности, но их полезность и риски пока не подтверждены в тексте.",
+      "id": "dfaea0a309526aac",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "0216a8f18d8a22221b26",
+          "url": "https://github.com/BaaRai/ARTEX",
+          "source": "GitHub · emerging agent projects",
+          "title": "BaaRai/ARTEX",
+          "published_at": "2026-11-24T08:00:16.323628+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Kagi запустила публичную бету почтового сервиса Kagi Mail",
+      "summary": "Kagi анонсировала публичную бету Kagi Mail с адресами @kagimail.com, без рекламы и слежки, с неограниченными алиасами и доменами, 50 ГБ хранилища и встроенным календарём. По дорожной карте контакты появятся в Q1 2027, нативные мобильные приложения — в Q3 2027.",
+      "why_it_matters": "",
+      "id": "53badb90ca426061",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "0ff2877103f30dc0bf7b",
+          "url": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+          "source": "The Verge",
+          "title": "Google alternative Kagi launches an email service",
+          "published_at": "2026-11-24T00:02:52+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 2215,
+    "candidates": 65,
+    "selected": 7,
+    "sources_ok": 22,
+    "sources_total": 22
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1425,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 38,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 56,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 1,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 1,
+      "error": null
+    },
+    {
+      "id": "github-agents",
+      "name": "GitHub · active agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "id": "github-new-agents",
+      "name": "GitHub · emerging agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 54693,
+    "cache_read_input_tokens": 1360,
+    "output_tokens": 9607,
+    "output_tokens_details": {
+      "thinking_tokens": 7321
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 54693,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 9607,
+        "cache_read_input_tokens": 1360,
+        "cache_creation_input_tokens": 54693,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 54693
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  }
+}
