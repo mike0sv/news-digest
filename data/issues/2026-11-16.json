@@ -1,0 +1,442 @@
+{
+  "version": 1,
+  "id": "2026-11-16",
+  "date": "2026-11-16",
+  "created_at": "2026-11-16T23:59:59.999999+00:00",
+  "title": "Утренний обзор",
+  "intro": "Сегодня в основном новости об агентах: обновление Claude Code, пакет Agents SDK, инструмент Coral для агентских инструментов и корпоративные кейсы. Из технологических новостей — компрометация Optimizely и сбой в United Airlines. Важных событий в выпуске нет.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "Claude Code v2.1.326: Code Mode с agent teams и новые защиты настроек",
+      "summary": "Claude Code 2.1.326 включает Code Mode для сессий с agent teams: если режим уже включён, такие сессии теперь стартуют в Code Mode. В релизе также добавлены предупреждения о неполных правилах --allowedTools, --disallowedTools и --tools, а также OTEL_RESOURCE_INCLUDE_HOST для host-атрибутов OpenTelemetry (по умолчанию выключено); исправлен ряд ошибок в /rewind, разрешениях и сохранении настроек.",
+      "why_it_matters": "Для команд, которые запускают агентов через Claude Code, важны изменения Code Mode в агентных командах и более строгая проверка правил инструментов и настроек.",
+      "id": "68d5bc5d253e9864",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "4e2b4f1543d148003d9a",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+          "source": "Claude Code releases",
+          "title": "v2.1.326",
+          "published_at": "2026-11-16T22:11:05+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI Agents SDK v0.24.0-alpha.8: подтверждение вызовов инструментов и Realtime-голос",
+      "summary": "В альфа-версии Agents SDK v0.24.0-alpha.8 появилось подтверждение вызовов Python-инструментов до их выполнения с возможностью запомнить решение на время сессии. Также добавлены подключение собственного клиента модели, Realtime-голос через WebSocket, WebRTC или SIP и восстановление незавершённых задач с сохранением бюджета запросов и токенов.",
+      "why_it_matters": "Подтверждение вызовов инструментов и восстановление с бюджетом — конкретные механизмы контроля для долгих агентских задач, но это альфа-версия, и её стабильность не подтверждена.",
+      "id": "9557bbcab446ef86",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "801a621aa34cf0dadee3",
+          "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.8",
+          "source": "OpenAI Agents SDK",
+          "title": "Agents SDK v0.24.0-alpha.8",
+          "published_at": "2026-11-16T04:39:19+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Coral: открытый шлюз, где агенты пишут собственные инструменты",
+      "summary": "Coral — открытый self-hosted шлюз между агентами и внешними системами, написанный на Rust, с ядром под Apache 2.0. Агенты записывают успешные шаги в короткие TypeScript-программы и сохраняют их как пользовательские инструменты, которые выполняются в изолированной V8-среде без сетевого доступа; авторы заявляют о 29% ускорении и 31% снижении стоимости на своих задачах с Opus 5.5 (GitHub, Linear, Slack).",
+      "why_it_matters": "Идея переиспользуемых инструментов и политик доступа может снизить стоимость повторных агентских задач, но цифры приведены авторами проекта и пока не проверены независимо.",
+      "id": "224262febae5df0d",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "575b5d81b1a3cb04dfcd",
+          "url": "https://news.ycombinator.com/item?id=50517803",
+          "source": "Hacker News · Show HN AI",
+          "title": "Show HN: Coral – Open-source gateway where agents write their own tools",
+          "published_at": "2026-11-16T14:14:51Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT for Healthcare: computer-use агенты и плагины для медицинского ПО",
+      "summary": "OpenAI представила для ChatGPT for Healthcare computer-use агентов, улучшенные клинические ответы и плагины, которые работают в разных медицинских программных системах. Отдельная публикация посвящена внедрению computer-use агентов в работу команд здравоохранения.",
+      "why_it_matters": "Это пример применения агентов с доступом к интерфейсам реального медицинского ПО; подробности ограничений и доступности в тексте не указаны.",
+      "id": "aab6c92f81fa371e",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "21e886491b30cfff0403",
+          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+          "source": "OpenAI News",
+          "title": "More ways to move care forward with ChatGPT for Healthcare",
+          "published_at": "2026-11-16T06:00:00+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "21b4758ab52123ac78ff",
+          "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+          "source": "OpenAI News",
+          "title": "Advancing computer-use agents for healthcare teams",
+          "published_at": "2026-11-16T06:00:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Windows 11 собирает данные о используемых coding agents и инструментах разработчика",
+      "summary": "Согласно заголовку обсуждения на Hacker News со ссылкой на блог xusheng.dev, Windows 11 собирает данные о том, какие coding agents и инструменты разработки использует пользователь. Текст самого материала в выпуске недоступен, поэтому механизм сбора и объём данных не подтверждены.",
+      "why_it_matters": "Если сбор подтвердится, это затронет приватность разработчиков, использующих агентов в Windows.",
+      "id": "86c8faa1725cdde5",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "0ce5abe49658b2c48ba6",
+          "url": "https://news.ycombinator.com/item?id=50524736",
+          "source": "Hacker News · agents",
+          "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+          "published_at": "2026-11-16T22:58:20Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI начинает embedded-оценки моделей с внешними исследователями",
+      "summary": "OpenAI начала первый этап embedded-оценок с Apollo Research, METR, Transluce и Goodfire, чтобы независимо проверять согласованность моделей, защитные механизмы и системы мониторинга. Подробные результаты в тексте не приведены.",
+      "why_it_matters": "Внешние проверки защитных механизмов агентных моделей важны для оценки безопасности, но конкретных результатов пока нет.",
+      "id": "31b6450482db877d",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "9fe6d2ae73e55f52b807",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+          "source": "OpenAI News",
+          "title": "Our first phase of embedded assessments",
+          "published_at": "2026-11-16T08:00:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Revolut: сокращение времени программирования на 30–60% с Codex",
+      "summary": "OpenAI публикует кейс Revolut, который использует модели OpenAI и Codex и, по данным материала, сокращает время на программирование на 30–60%. Также упоминается масштабирование расследований финансовых преступлений; цифры приведены со слов OpenAI и Revolut.",
+      "why_it_matters": "Это корпоративный кейс адопции Codex в финтехе, но измерения заявлены самими участниками и не проверены независимо.",
+      "id": "3881024a4bcd98fb",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "b82b64ef90f76e66fb00",
+          "url": "https://openai.com/business/customer-stories/revolut",
+          "source": "OpenAI News",
+          "title": "How Revolut raises ambition without lowering the bar",
+          "published_at": "2026-11-16T09:30:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI расширяет ChatGPT for Academic Researchers до 200 000 исследователей",
+      "summary": "OpenAI расширяет программу ChatGPT for Academic Researchers и предоставит 200 000 исследователям по всему миру бесплатный доступ к своим передовым моделям. Это расширение существующей программы, а не новый продукт.",
+      "why_it_matters": "Бесплатный доступ к передовым моделям для исследователей расширяет практическое использование ИИ-инструментов в науке.",
+      "id": "6baa1dd026323670",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "2d7a5d6b20fff3cd431e",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "source": "OpenAI News",
+          "title": "Broadening access to AI for scientists",
+          "published_at": "2026-11-16T17:00:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Сбой в системах United Airlines по заявлению авиакомпании",
+      "summary": "United Airlines сообщила о широком сбое в своих системах, по ссылке CNN. Причины и длительность сбоя в выпуске не указаны.",
+      "why_it_matters": "Широкий сбой авиакомпании затрагивает пассажиров и операционные процессы, но масштаб и продолжительность не подтверждены в тексте.",
+      "id": "cae40c71585d658b",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "2340a539af37f9c88c14",
+          "url": "https://news.ycombinator.com/item?id=50524165",
+          "source": "Hacker News · top stories",
+          "title": "United Airlines experiencing a widespread system outage, airline says",
+          "published_at": "2026-11-16T22:14:38Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Компрометация Optimizely: по сообщению, вредоносное ПО попало на сайты крупных брендов",
+      "summary": "По заголовку обсуждения и ссылке на блог report-uri сообщается, что Optimizely была скомпрометирована и через неё на сайты крупных брендов, включая Zoom и GitLab, попал вредоносный код. Подробности атаки и масштаб в выпуске не подтверждены.",
+      "why_it_matters": "Если утверждение подтвердится, компрометация сервиса аналитики и тестирования может затронуть многие сайты одновременно.",
+      "id": "a5be663b6629f7b2",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "3f8547bc8ace4e4b1e35",
+          "url": "https://news.ycombinator.com/item?id=50524767",
+          "source": "Hacker News · top stories",
+          "title": "Optimizely compromised, served malware on Zoom, GitLab",
+          "published_at": "2026-11-16T23:00:34Z",
+          "text_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 2173,
+    "candidates": 28,
+    "selected": 10,
+    "sources_ok": 20,
+    "sources_total": 20
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": true,
+      "count": 80,
+      "error": null
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 95,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 88,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 96,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 97,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1425,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 38,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 85,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 0,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 4,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 17816,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 5073,
+    "output_tokens_details": {
+      "thinking_tokens": 2298
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 17816,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 5073,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 17816,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 17816
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "retrospective": true,
+  "coverage_note": "Ретроспектива по сохранившимся публикациям с датами. Ленты могут быть неполными; HN-баллы отражают внимание на момент сбора. Тексты могли получить последующие правки. Это не точная копия утреннего выпуска того дня."
+}
