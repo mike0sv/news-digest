@@ -16,6 +16,17 @@ Generated public issues live in `data/issues/`. `.runtime/` and `site/` are igno
   Keep useful emerging projects as ordinary news. HN points and GitHub stars are attention.
 - UK immigration: distinguish current rules, approved future changes and proposals.
   Prefer dated official evidence. Do not describe administrative page edits as new laws.
+- World news has a high inclusion threshold: consequential international decisions,
+  crises and outcomes, not a daily quota. Major space/science mission milestones are
+  welcome ordinary technology stories. BBC World supplements the specialist feeds;
+  classify AI-company news and Ukraine diplomacy by subject and do not duplicate them.
+- Calibration from the user's Kontext sample (21–24 November 2026): omit individual
+  ICC withdrawals, regional Armenia/TRIPP/constitution developments, early discussions
+  of game restrictions or criminal penalties, isolated governor arrests and local news.
+  Reassess only for materially greater consequences. Substantial formal visa/sanctions
+  proposals may be brief ordinary stories, explicitly distinguished from adopted rules.
+  Merge substantive Nvidia governance/regulatory developments; skip applause, thanks
+  and speculative personal-wealth calculations. Carry these preferences into config.
 - An update must cite an existing earlier story about the same event, using its exact ref.
   The same company or broad topic is insufficient. The application validates references.
 - Never fill empty topics or importance quotas. Never silently switch providers after failure.
