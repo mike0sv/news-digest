@@ -39,6 +39,9 @@ Generated public issues live in `data/issues/`. `.runtime/` and `site/` are igno
   attempts through 11:47. GitHub can omit/delay all triggers; do not promise an SLA.
   Retries must reuse the issue and confirmed receipt. A new send with an uncertain
   outcome blocks automatic resends until the chat is checked and receipt reconciled.
+- Successful push/manual runs and state=active do not validate scheduled triggers.
+  Distinguish missing run objects from failed jobs; do not claim a scheduler cause or
+  confirmed recovery without evidence from actual schedule events or GitHub Support.
 
 ## Add a source
 
