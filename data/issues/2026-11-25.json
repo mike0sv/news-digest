@@ -1,0 +1,639 @@
+{
+  "version": 1,
+  "id": "2026-11-25",
+  "date": "2026-11-25",
+  "created_at": "2026-11-25T16:53:38.916072+00:00",
+  "title": "Утренний обзор",
+  "intro": "Сегодня в выпуске: новая beta-функция Claude Code с навыками из MCP-серверов, новые агентские проекты с заявленными ограничениями, обновление по делу Nvidia и Хуанга, приговор Huawei в США, расхождения в сообщениях о пошлинах, заявление Путина о прекращении огня после ударов по Крымскому мосту, а также три изменения в британских руководствах по иммиграции.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "world",
+      "name": "Мир: главное",
+      "description": "Только крупные мировые события и существенные международные решения. Без риторики, курьезов и местной хроники; пустая группа допустима."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "Claude Code v2.1.332: навыки из MCP-серверов в бете и hook для shell-команд навыков",
+      "summary": "Claude Code v2.1.332 добавил beta-навыки из MCP-серверов, которые отображаются в меню / как server:skill. Новый hook PreSkillShellCommand может отказать в inline shell-командах навыка или команды при загрузке, а в релизе исправлено несколько зависаний, в том числе при чтении named pipe и выводе больших hooks.",
+      "why_it_matters": "Команды, которые раздают навыки через MCP, получают новый способ подключения, а администраторы — hook для блокировки shell-команд навыков до их выполнения.",
+      "id": "44d386e2ba69bbe7",
+      "group": "agents",
+      "is_update": false,
+      "important": true,
+      "importance_reason": "Beta-навыки из MCP-серверов — существенная новая возможность харнесса, а hook PreSkillShellCommand даёт контроль над выполнением команд навыков.",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "d1a8a8c302ae6a4a1fbc",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+          "source": "Claude Code releases",
+          "title": "v2.1.332",
+          "published_at": "2026-11-25T01:32:14+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Саймон Уиллисон: три переломных момента для LLM и coding-агентов за год",
+      "summary": "Саймон Уиллисон в обзоре выделил три переломных момента: Claude Opus 4.5 (ноябрь 2025), когда Claude Code впервые давал правильный результат по умолчанию; модели класса Fable с июня и июля 2026; и рост качества 3D-моделирования и разработки игр в сентябре–октябре. Это личные наблюдения автора, не независимый бенчмарк.",
+      "why_it_matters": "Показывает, как практик оценивает надёжность агентского программирования по собственному опыту, без систематических измерений.",
+      "id": "405b6df8109e19de",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "0b260d07579db8478ef4",
+          "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+          "source": "Simon Willison",
+          "title": "Three LLM inflection points in twelve months",
+          "published_at": "2026-11-24T23:02:07+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Brickie: песочницы для агентов в собственном AWS-аккаунте, в бете",
+      "summary": "Hatchet выпустила Brickie в бете: открытый проект для запуска песочниц агентов в собственном AWS-аккаунте, в первую очередь на EKS. Он надстроен над agent-sandbox из kubernetes-sigs и добавляет snapshots, fork, pause и resume файловой системы; снимки пока сохраняются tar-архивами в S3, и авторы признают, что это нужно ускорять.",
+      "why_it_matters": "Команды с требованием self-host получают открытую альтернативу внешним песочницам, но бета и медленные снимки ограничивают продакшен-использование.",
+      "id": "3c3d59c1435b6341",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "9d9655b18ecf8e9870d2",
+          "url": "https://news.ycombinator.com/item?id=50629936",
+          "source": "Hacker News · agents",
+          "title": "Show HN: Brickie – Deploy sandboxes in your own AWS account",
+          "published_at": "2026-11-24T15:48:34Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Versine: MCP для отправки денег агентом с подтверждением через passkey",
+      "summary": "Versine (YC F26) запустила MCP, через который агент может отправлять и запрашивать деньги с кошелька на балансе. Перевод требует подтверждения в приложении через passkey, а доверенным контактам можно разрешить платежи без него; кошельки используют USDC в сети Base. Публикация набрала 98 баллов на Hacker News; независимых проверок безопасности в тексте нет.",
+      "why_it_matters": "Это один из первых примеров агента, который напрямую двигает деньги, поэтому именно модель подтверждений и её ошибки определяют риск для пользователя.",
+      "id": "6fa0b28f32848766",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "f13f50765ddb35d9b0c1",
+          "url": "https://news.ycombinator.com/item?id=50634426",
+          "source": "Hacker News · Show HN AI",
+          "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+          "published_at": "2026-11-24T20:44:15Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Amazon обсуждает возможность пустить ИИ-агента Meta Muse на маркетплейс",
+      "summary": "По данным Fortune, которые пересказывает The Verge, Amazon вела переговоры о снятии блока для ИИ-агента Muse от Meta на своём маркетплейсе. Опасения Amazon касаются потери рекламной выручки, зависящей от показа объявлений людям, и качества поисковой выдачи агента; решения в материалах нет.",
+      "why_it_matters": "Показывает, как крупные площадки решают, допускать ли агентов покупателей, и как это связано с рекламной моделью.",
+      "id": "447d85dd7adef132",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "8309588c20e1138eb4c3",
+          "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+          "source": "The Verge",
+          "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+          "published_at": "2026-11-25T14:12:33+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia: Генпрокурор США уклонился от вопросов о расследовании, законодатели требуют ответов о роли Трампа",
+      "summary": "Генпрокурор США уклонился от вопросов о расследовании Nvidia, а законодатели требуют объяснить роль Трампа в возвращении Дженсена Хуанга на пост гендиректора; по данным BBC, акции Nvidia упали на 7%. Подробности расследования в материалах не раскрыты, а политические риски для Трампа и Хуанга, по BBC, теперь связаны между собой.",
+      "why_it_matters": "Регуляторное давление и политический контекст могут повлиять на управление крупнейшей компанией по производству AI-чипов и её рыночную стоимость.",
+      "id": "89b6e2aef683ac15",
+      "group": "technology",
+      "is_update": true,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [
+        {
+          "issue_id": "2026-11-23",
+          "story_id": "f8377f4de789cf4a",
+          "date": "2026-11-23",
+          "title": "Nvidia вернула Дженсена Хуанга на пост гендиректора"
+        }
+      ],
+      "sources": [
+        {
+          "id": "814c119a5cc419e2f6fd",
+          "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News · World",
+          "title": "US attorney general dodges questions about Nvidia investigation",
+          "published_at": "2026-11-25T03:44:07+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "56897c41f3da0291cef4",
+          "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News · World",
+          "title": "Trump's rescue of Nvidia's Huang brings political risks",
+          "published_at": "2026-11-25T01:03:05+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Хакеры из КСИР, по версии французских спецслужб, вывели из строя холодильное оборудование супермаркетов Франции",
+      "summary": "По сообщению Ars Technica, в октябре хакеры подняли температуру холодильного оборудования в сотнях супермаркетов Франции и уничтожили продукты на миллионы евро. Французские спецслужбы, по материалу, нашли следы фарси и связали атаку с подразделением Shahid Kaveh Корпуса стражей исламской революции; это версия расследования, а не подтверждённый приговор.",
+      "why_it_matters": "Атака на промышленные системы в центре Европы показывает, что уязвимое операционное оборудование становится целью государственных групп.",
+      "id": "a46cfe7bfe9317d6",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "1a604d5c888534c5e5ce",
+          "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
+          "source": "Ars Technica",
+          "title": "A familiar Iranian hacking group has found a new way to cause chaos",
+          "published_at": "2026-11-25T14:29:43+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Китай запустил миссию Shenzhou-24 с первым пакистанским астронавтом на борту",
+      "summary": "Китай отправил миссию Shenzhou-24 на станцию Тяньгун с тремя космонавтами; среди них первый астронавт из Пакистана. Миссия доставляет экипаж на станцию, и её результаты в материалах не описаны.",
+      "why_it_matters": "Это очередной этап пилотируемой программы Китая и первое участие пакистанского астронавта в полёте на Тяньгун.",
+      "id": "52b365413eb85e84",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "db67aeec97db4d6edd9b",
+          "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News · World",
+          "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
+          "published_at": "2026-11-25T03:28:37+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Федеральное жюри в США признало Huawei виновной в краже коммерческих тайн и обходе санкций против Ирана",
+      "summary": "Федеральное жюри в Нью-Йорке признало Huawei виновной в краже коммерческих тайн у американских компаний (включая T-Mobile и Cisco) и в нарушениях IEEPA, связанных с Ираном; по данным BBC, компания оправдана по обвинению в рэкетинге. Размер наказания в материалах не назначен, а Ars Technica пишет, что приговор может обострить отношения США и Китая.",
+      "why_it_matters": "Приговор может повлиять на отношения США и Китая и на санкционный контроль в телекоммуникациях.",
+      "id": "2c4019b88fef48b2",
+      "group": "world",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "bd85725bcde7fc6d8349",
+          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/",
+          "source": "Ars Technica",
+          "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
+          "published_at": "2026-11-25T16:33:45+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "2e11e2caa2effed768ce",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News · World",
+          "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+          "published_at": "2026-11-25T10:52:09+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "01311dfb8a3fe8a36f74",
+          "url": "https://news.ycombinator.com/item?id=50642496",
+          "source": "Hacker News · top stories",
+          "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
+          "published_at": "2026-11-25T14:12:29Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "США: пошлины против торговых партнёров, данные о ставках расходятся",
+      "summary": "BBC Русская служба сообщает, что США объявили новые пошлины с самыми высокими ставками до 40% для Китая и до 35% для Вьетнама. Meduza, со ссылкой на Reuters и AP, пишет о предложении пошлин 20% для Китая и Вьетнама и 10–18% для 14 других партнёров; по этим данным, пошлины вступят в силу не ранее января 2027 года. Статус мер и итоговые ставки в материалах не совпадают.",
+      "why_it_matters": "Пошлины затрагивают экспорт и цепочки поставок, но точные ставки и сроки пока остаются предметом спора в сообщениях.",
+      "id": "4e5c9e12088a7edc",
+      "group": "world",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "1068f2cdbddac2f74273",
+          "url": "https://www.bbc.com/russian/articles/cm62p5r047zno?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "США объявили о введении новых пошлин в отношении многих торговых партнеров. Самые высокие ставки коснутся Китая",
+          "published_at": "2026-11-25T15:23:34+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "422f0bcb3be2fe07d585",
+          "url": "https://meduza.io/news/2026/11/25/ssha-planiruyut-vvesti-novye-poshliny-dlya-kitaya-i-stran-evrosoyuza",
+          "source": "Медуза",
+          "title": "США планируют ввести новые пошлины для Китая и стран Евросоюза",
+          "published_at": "2026-11-25T15:01:47+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Путин: после ударов по Крымскому мосту Россия не рассматривает предложения о прекращении огня",
+      "summary": "По сообщению Meduza, Владимир Путин заявил, что после ударов по Крымскому мосту Россия больше не намерена рассматривать предложения о прекращении огня. По тому же сообщению, одна из арок моста обрушилась в ночь на 17 ноября, а власти РФ приуменьшали масштаб повреждений. Это заявление российской стороны, в тексте нет независимого подтверждения позиции.",
+      "why_it_matters": "Если позиция сохранится, она сужает пространство для переговоров о прекращении огня.",
+      "id": "36a5b0ffe0b14048",
+      "group": "peace",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "9587e89d419570c939e9",
+          "url": "https://meduza.io/news/2026/11/25/mintrans-rf-opublikoval-instruktsiyu-kak-teper-popast-v-krym-most-na-poluostrov-na-ney-izobrazhen-s-odnoy-arkoy-a-ne-s-dvumya",
+          "source": "Медуза",
+          "title": "Минтранс РФ опубликовал инструкцию, как теперь попасть в Крым. Мост на полуостров на ней изображен с одной аркой (а не с двумя)",
+          "published_at": "2026-11-25T14:32:15+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Зеленский и премьер Венгрии Мадьяр провели встречу после смены власти в Будапеште",
+      "summary": "Владимир Зеленский и премьер Венгрии Мадьяр встретились впервые после смены власти в Будапеште; Guardian пишет о «новой эре сотрудничества», а BBC Русская служба называет встречу возможным прорывом на проблемном направлении для Киева. Что именно согласовано, в материалах не указано, и BBC отмечает, что преодоление недоверия будет непростым.",
+      "why_it_matters": "Смена позиции Будапешта по Украине может изменить внутриевропейские решения по поддержке Киева и переговорам.",
+      "id": "e4fe5e973d856e42",
+      "group": "peace",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "8a1d4f5d0222e2c6fa22",
+          "url": "https://www.theguardian.com/world/2026/nov/25/ukraine-war-briefing-zelenskyy-and-hungary-pm-hail-new-era-of-cooperation-after-orban",
+          "source": "The Guardian · Ukraine",
+          "title": "Ukraine war briefing: Zelenskyy and Hungary PM hail new era of cooperation after Orbán",
+          "published_at": "2026-11-25T02:21:53+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "092c41173b4173223e18",
+          "url": "https://www.bbc.com/russian/articles/c6vg29n9rx49o?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "Украина — Венгрия: что изменила встреча Зеленского с Мадьяром?",
+          "published_at": "2026-11-25T14:12:04+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Утёкшая база Росстата: оценка более 700 тысяч погибших российских военных",
+      "summary": "Meduza и Mediazona по утёкшей базе Росстата оценили число погибших российских военных в войне против Украины не менее чем в 700 тысяч к осени 2026 года, включая пропавших без вести. BBC, по тем же утёкшим данным, пишет о почти 500 тысячах потерь; методика этих оценок отличается и описана в материалах кратко.",
+      "why_it_matters": "Данные о потерях меняют представления о ресурсах, которые Россия готова тратить на войну, и могут повлиять на переговорные позиции.",
+      "id": "d4baaec6f7061220",
+      "group": "russia",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "52f69f809144c65e4b82",
+          "url": "https://meduza.io/feature/2026/11/25/na-voyne-s-ukrainoy-pogibli-bolee-700-tysyach-rossiyskih-soldat-eto-chislo-prosto-ne-ukladyvaetsya-v-golove",
+          "source": "Медуза",
+          "title": "На войне с Украиной погибли более 700. Тысяч. Российских. Солдат. Это число просто не укладывается в голове. Например, это больше, чем все население Черногории или «великая армия» Наполеона",
+          "published_at": "2026-11-25T15:19:48+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "f09c7d99e35640ac48aa",
+          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News · World",
+          "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+          "published_at": "2026-11-25T12:21:49+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "GOV.UK исправил срок обучения для PhD в руководстве по визе Innovator Founder",
+      "summary": "GOV.UK обновил руководство для сотрудников по визе Innovator Founder: минимальный срок обучения для PhD у держателя визы студента перед переходом исправлен с 12 до 24 месяцев. Это исправление ошибки в руководстве, а не новое правило; дата обновления — 25 ноября.",
+      "why_it_matters": "Заявители, которые переходят с визы студента на Innovator Founder после PhD, должны ориентироваться на срок 24 месяца в актуальном руководстве.",
+      "id": "c23747e58b7ecb8f",
+      "group": "uk",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "bcbd32c2616201ca67bd",
+          "url": "https://www.gov.uk/government/publications/innovator-appendix-w-workers",
+          "source": "UK Visas and Immigration",
+          "title": "Guidance: Innovator Founder: caseworker guidance",
+          "published_at": "2026-11-25T10:37:58+00:00",
+          "text_kind": "page"
+        }
+      ]
+    },
+    {
+      "title": "GOV.UK: новое руководство по заявкам на роль lead sponsor для community sponsorship и refugee study",
+      "summary": "Опубликовано первое руководство для сотрудников по заявкам благотворительных организаций и CIC на роль lead sponsor в маршрутах community sponsorship и refugee study. Руководство будет дополнено маршрутом refugee work до его открытия; дата открытия маршрута в материале не указана.",
+      "why_it_matters": "Благотворительные организации и CIC, которые готовятся подать заявку, получают описание процедуры оценки, но сам маршрут refugee work пока не открыт.",
+      "id": "4b85f2b993047a3c",
+      "group": "uk",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "cc92d31ca6d454f70d68",
+          "url": "https://www.gov.uk/government/publications/lead-sponsor-applications-caseworker-guidance",
+          "source": "UK Visas and Immigration",
+          "title": "Guidance: Lead sponsor applications: caseworker guidance",
+          "published_at": "2026-11-25T10:33:17+00:00",
+          "text_kind": "page"
+        }
+      ]
+    },
+    {
+      "title": "GOV.UK: приложение UK Immigration: ID Check больше нельзя использовать для украинских схем",
+      "summary": "В руководстве GOV.UK указано, что приложение UK Immigration: ID Check больше нельзя использовать для этапа проверки личности в заявке по Ukraine Family Scheme и Ukraine Sponsorship Scheme. Для других заявок приложение остаётся доступным, а упоминания BRP из руководства убраны.",
+      "why_it_matters": "Заявители по украинским схемам должны использовать другой способ проверки личности, если им нужна проверка через приложение.",
+      "id": "7fae5a6524b11a4c",
+      "group": "uk",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "6010a6da623d01c6a37f",
+          "url": "https://www.gov.uk/guidance/using-the-uk-immigration-id-check-app",
+          "source": "UK Visas and Immigration",
+          "title": "Using the ‘UK Immigration: ID Check’ app",
+          "published_at": "2026-11-25T10:05:24+00:00",
+          "text_kind": "page"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 2263,
+    "candidates": 99,
+    "selected": 16,
+    "sources_ok": 23,
+    "sources_total": 23
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1430,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-world",
+      "name": "BBC News · World",
+      "ok": true,
+      "count": 28,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 40,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 67,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 0,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": "github-agents",
+      "name": "GitHub · active agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "id": "github-new-agents",
+      "name": "GitHub · emerging agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 62435,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 17839,
+    "output_tokens_details": {
+      "thinking_tokens": 12964
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 62435,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 17839,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 62435,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 62435
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  }
+}

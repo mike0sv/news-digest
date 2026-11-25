@@ -11,7 +11,7 @@
       "published_at": "2026-11-23T18:02:51+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A57"
+      "ref": "A98"
     },
     "9281e402e80ec3c67a7a": {
       "id": "9281e402e80ec3c67a7a",
@@ -23,7 +23,7 @@
       "published_at": "2026-11-23T19:38:30+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A56"
+      "ref": "A97"
     },
     "35bb80cc66121b0f728a": {
       "id": "35bb80cc66121b0f728a",
@@ -232,8 +232,7 @@
       "group": "agents",
       "published_at": "2026-11-23T01:21:53+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
-      "ref": "A63"
+      "text_kind": "feed"
     },
     "7dba2c359005721569b4": {
       "id": "7dba2c359005721569b4",
@@ -541,8 +540,7 @@
       "group": "agents",
       "published_at": "2026-11-22T19:45:06+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
-      "ref": "A65"
+      "text_kind": "feed"
     },
     "dc9b4a0c426ddc42fdcf": {
       "id": "dc9b4a0c426ddc42fdcf",
@@ -795,7 +793,7 @@
       "group": "agents",
       "published_at": "2026-11-13T23:02:45+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e1058067669e2b5f7fa9": {
       "id": "e1058067669e2b5f7fa9",
@@ -806,7 +804,7 @@
       "group": "agents",
       "published_at": "2026-11-13T22:30:54+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5b86eed0286e0e3b833c": {
       "id": "5b86eed0286e0e3b833c",
@@ -861,8 +859,7 @@
       "group": "agents",
       "published_at": "2026-11-23T08:00:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
-      "ref": "A61"
+      "text_kind": "feed"
     },
     "1259b534687dd8b31711": {
       "id": "1259b534687dd8b31711",
@@ -873,8 +870,7 @@
       "group": "agents",
       "published_at": "2026-11-23T08:00:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
-      "ref": "A62"
+      "text_kind": "feed"
     },
     "1a10f1676d46fc01a909": {
       "id": "1a10f1676d46fc01a909",
@@ -2349,7 +2345,7 @@
       "published_at": "2026-11-23T17:00:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A58"
+      "ref": "A99"
     },
     "1b3aafed7dd5d45c6822": {
       "id": "1b3aafed7dd5d45c6822",
@@ -2844,7 +2840,7 @@
       "group": "technology",
       "published_at": "2026-11-23T22:09:26+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "38ea5b66d259522356b1": {
       "id": "38ea5b66d259522356b1",
@@ -2855,7 +2851,7 @@
       "group": "technology",
       "published_at": "2026-11-23T22:10:32+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "8e84e3770e7a447788e8": {
       "id": "8e84e3770e7a447788e8",
@@ -2866,7 +2862,7 @@
       "group": "technology",
       "published_at": "2026-11-23T21:36:48+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A40"
     },
     "b6aa410db677fb565921": {
@@ -2878,7 +2874,7 @@
       "group": "technology",
       "published_at": "2026-11-23T21:09:37+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A43"
     },
     "a5308ba62a5f2de2373c": {
@@ -2890,7 +2886,7 @@
       "group": "technology",
       "published_at": "2026-11-23T20:56:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A47"
     },
     "6545db87281ad58ecc44": {
@@ -2962,7 +2958,7 @@
       "group": "technology",
       "published_at": "2026-11-23T21:58:34+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A37"
     },
     "f323d7562d6653aad531": {
@@ -2974,7 +2970,7 @@
       "group": "technology",
       "published_at": "2026-11-23T21:30:44+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "bddfaf1afe084aff42be": {
       "id": "bddfaf1afe084aff42be",
@@ -2985,7 +2981,7 @@
       "group": "technology",
       "published_at": "2026-11-23T20:34:51+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "847433dec9bee6ee0c27": {
       "id": "847433dec9bee6ee0c27",
@@ -2996,7 +2992,7 @@
       "group": "technology",
       "published_at": "2026-11-23T20:11:43+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "14d7d654182e53eccf16": {
       "id": "14d7d654182e53eccf16",
@@ -3007,7 +3003,7 @@
       "group": "technology",
       "published_at": "2026-11-23T19:38:13+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "4efb0bcac54b804e689c": {
       "id": "4efb0bcac54b804e689c",
@@ -3018,7 +3014,7 @@
       "group": "technology",
       "published_at": "2026-11-23T19:28:30+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "4d311cc43bc289416967": {
       "id": "4d311cc43bc289416967",
@@ -3029,7 +3025,7 @@
       "group": "technology",
       "published_at": "2026-11-23T15:55:12+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "20cfb07f132dd65d4986": {
       "id": "20cfb07f132dd65d4986",
@@ -3040,7 +3036,7 @@
       "group": "technology",
       "published_at": "2026-11-23T15:46:18+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "aad6f2d81e7b34da019f": {
       "id": "aad6f2d81e7b34da019f",
@@ -3051,7 +3047,7 @@
       "group": "technology",
       "published_at": "2026-11-23T15:23:26+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "19e0ad3fe0850214d269": {
       "id": "19e0ad3fe0850214d269",
@@ -3062,7 +3058,7 @@
       "group": "technology",
       "published_at": "2026-11-23T13:54:22+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "7b55e88540fcc1a5672e": {
       "id": "7b55e88540fcc1a5672e",
@@ -3073,7 +3069,7 @@
       "group": "technology",
       "published_at": "2026-11-23T12:15:16+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "d76321c82e0f0e357528": {
       "id": "d76321c82e0f0e357528",
@@ -3084,7 +3080,7 @@
       "group": "technology",
       "published_at": "2026-11-23T12:00:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5c6fa1fd04f2c4143ee2": {
       "id": "5c6fa1fd04f2c4143ee2",
@@ -3095,7 +3091,7 @@
       "group": "technology",
       "published_at": "2026-11-22T12:07:41+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "080f5b44a05a8e4afe06": {
       "id": "080f5b44a05a8e4afe06",
@@ -3106,7 +3102,7 @@
       "group": "technology",
       "published_at": "2026-11-21T22:12:41+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "248395301e19c16d8d70": {
       "id": "248395301e19c16d8d70",
@@ -3117,7 +3113,7 @@
       "group": "technology",
       "published_at": "2026-11-21T12:01:13+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "d1a52d7504aa62549ed8": {
       "id": "d1a52d7504aa62549ed8",
@@ -3128,7 +3124,7 @@
       "group": "technology",
       "published_at": "2026-11-20T22:28:24+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "9cc228f9e09fc4158be6": {
       "id": "9cc228f9e09fc4158be6",
@@ -3139,7 +3135,7 @@
       "group": "technology",
       "published_at": "2026-11-20T22:16:51+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "ae5a204aaba705d52a51": {
       "id": "ae5a204aaba705d52a51",
@@ -3150,7 +3146,7 @@
       "group": "technology",
       "published_at": "2026-11-20T21:58:29+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "85d0c5a4a983edfbbc04": {
       "id": "85d0c5a4a983edfbbc04",
@@ -3161,7 +3157,7 @@
       "group": "technology",
       "published_at": "2026-11-20T21:47:10+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "cc88c546d1214b6505b4": {
       "id": "cc88c546d1214b6505b4",
@@ -3172,7 +3168,7 @@
       "group": "technology",
       "published_at": "2026-11-20T20:59:08+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "f4935c97c738c837282f": {
       "id": "f4935c97c738c837282f",
@@ -3183,7 +3179,7 @@
       "group": "uk",
       "published_at": "2026-11-23T16:24:25+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "page",
+      "text_kind": "metadata",
       "ref": "A3"
     },
     "3223c80e17d3462df3bd": {
@@ -3195,7 +3191,7 @@
       "group": "uk",
       "published_at": "2026-11-23T09:09:13+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "page",
+      "text_kind": "metadata",
       "ref": "A8"
     },
     "373ba4da89230b161ae0": {
@@ -3207,7 +3203,7 @@
       "group": "uk",
       "published_at": "2026-11-23T09:08:50+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "page",
+      "text_kind": "metadata",
       "ref": "A13"
     },
     "7300cb6da41ea81e8c0d": {
@@ -3411,14 +3407,13 @@
     "b3ef974c07940ab07d30": {
       "id": "b3ef974c07940ab07d30",
       "url": "https://www.bbc.co.uk/russian/live/cmjrwvyj4jy8t?at_campaign=rss&at_medium=RSS",
-      "title": "Война в Украине: двое погибших и 40 раненых при ударе по Запорожью",
+      "title": "Война в Украине: Польша создает бесполетную зону на украинской границе; ВСУ атаковали сразу два НПЗ в Самарской области",
       "source": "BBC News Русская служба",
       "source_id": "bbc-ru",
       "group": "russia",
       "published_at": null,
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
-      "ref": "A34"
+      "text_kind": "feed"
     },
     "20650adb0b35fdb537be": {
       "id": "20650adb0b35fdb537be",
@@ -3440,7 +3435,7 @@
       "group": "russia",
       "published_at": "2026-11-23T20:47:17+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A38"
     },
     "565558f7e668ff9d4c66": {
@@ -3463,8 +3458,7 @@
       "group": "russia",
       "published_at": "2026-11-23T18:45:18+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
-      "ref": "A41"
+      "text_kind": "feed"
     },
     "2c11c808192d075870d5": {
       "id": "2c11c808192d075870d5",
@@ -3475,7 +3469,7 @@
       "group": "russia",
       "published_at": "2026-11-23T16:58:25+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "d7a5b3998a590a51577b": {
       "id": "d7a5b3998a590a51577b",
@@ -3486,7 +3480,7 @@
       "group": "russia",
       "published_at": "2026-11-23T10:44:11+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "15f5b4e5a2b27dd4db14": {
       "id": "15f5b4e5a2b27dd4db14",
@@ -3497,7 +3491,7 @@
       "group": "russia",
       "published_at": "2026-11-23T13:31:21+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "d90731bd4cbdab45190a": {
       "id": "d90731bd4cbdab45190a",
@@ -3508,7 +3502,7 @@
       "group": "russia",
       "published_at": "2026-11-23T13:37:22+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "1245fea2e6dff6a6c89f": {
       "id": "1245fea2e6dff6a6c89f",
@@ -3519,7 +3513,7 @@
       "group": "russia",
       "published_at": "2026-11-23T10:36:07+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "9e3046321a2b8723cb64": {
       "id": "9e3046321a2b8723cb64",
@@ -3530,7 +3524,7 @@
       "group": "russia",
       "published_at": "2026-11-23T05:18:09+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e4317caa0090ff55e644": {
       "id": "e4317caa0090ff55e644",
@@ -3574,7 +3568,7 @@
       "group": "russia",
       "published_at": "2026-11-19T00:00:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e0e406bd5b72c1581890": {
       "id": "e0e406bd5b72c1581890",
@@ -3585,7 +3579,7 @@
       "group": "russia",
       "published_at": "2026-11-18T00:00:00+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "680e35c87ca9f7fb4074": {
       "id": "680e35c87ca9f7fb4074",
@@ -3629,7 +3623,7 @@
       "group": "russia",
       "published_at": "2026-11-20T05:28:13+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "b1aa7715f6e163080002": {
       "id": "b1aa7715f6e163080002",
@@ -3673,7 +3667,7 @@
       "group": "russia",
       "published_at": "2026-11-22T19:34:09+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "6ded526bb6a7fb81274d": {
       "id": "6ded526bb6a7fb81274d",
@@ -3684,7 +3678,7 @@
       "group": "russia",
       "published_at": "2026-11-22T18:30:40+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "7cba513cd4477cbcffdf": {
       "id": "7cba513cd4477cbcffdf",
@@ -3695,7 +3689,7 @@
       "group": "russia",
       "published_at": "2026-11-22T11:53:52+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "86a35165891c02af33de": {
       "id": "86a35165891c02af33de",
@@ -3706,7 +3700,7 @@
       "group": "russia",
       "published_at": "2026-11-22T12:07:50+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "af5662db5952ec9ee448": {
       "id": "af5662db5952ec9ee448",
@@ -3717,7 +3711,7 @@
       "group": "russia",
       "published_at": "2026-11-22T08:12:24+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "8b6d619e2b5e878b8f08": {
       "id": "8b6d619e2b5e878b8f08",
@@ -3728,7 +3722,7 @@
       "group": "russia",
       "published_at": "2026-11-21T06:39:54+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "bbe5bc104bffb0d16e91": {
       "id": "bbe5bc104bffb0d16e91",
@@ -3739,7 +3733,7 @@
       "group": "russia",
       "published_at": "2026-11-21T17:10:17+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "d58a7b2065988776ca42": {
       "id": "d58a7b2065988776ca42",
@@ -3805,7 +3799,7 @@
       "group": "russia",
       "published_at": "2026-11-23T20:47:50+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "07746454b8f495425386": {
       "id": "07746454b8f495425386",
@@ -3816,7 +3810,7 @@
       "group": "russia",
       "published_at": "2026-11-23T19:31:51+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "f57c79ae12589b691182": {
       "id": "f57c79ae12589b691182",
@@ -3827,7 +3821,7 @@
       "group": "russia",
       "published_at": "2026-11-23T17:57:45+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "9966abf401f3da34410c": {
       "id": "9966abf401f3da34410c",
@@ -3838,7 +3832,7 @@
       "group": "russia",
       "published_at": "2026-11-23T16:58:50+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "43d79618a330a647d447": {
       "id": "43d79618a330a647d447",
@@ -3849,7 +3843,7 @@
       "group": "russia",
       "published_at": "2026-11-23T16:43:09+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "0ce07d479ae461a803d9": {
       "id": "0ce07d479ae461a803d9",
@@ -3860,7 +3854,7 @@
       "group": "russia",
       "published_at": "2026-11-23T16:10:47+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e6cb310cd4af3a562ddc": {
       "id": "e6cb310cd4af3a562ddc",
@@ -3871,7 +3865,7 @@
       "group": "russia",
       "published_at": "2026-11-23T16:02:03+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "ad7e6657799b3a40f280": {
       "id": "ad7e6657799b3a40f280",
@@ -3882,7 +3876,7 @@
       "group": "russia",
       "published_at": "2026-11-23T16:00:28+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "cd8b83a5905c74b75948": {
       "id": "cd8b83a5905c74b75948",
@@ -3893,7 +3887,7 @@
       "group": "russia",
       "published_at": "2026-11-23T15:43:41+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "89c0b85df332ab432359": {
       "id": "89c0b85df332ab432359",
@@ -3904,7 +3898,7 @@
       "group": "russia",
       "published_at": "2026-11-23T15:20:13+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "4dfa4720ac604f6a124e": {
       "id": "4dfa4720ac604f6a124e",
@@ -3915,7 +3909,7 @@
       "group": "russia",
       "published_at": "2026-11-23T15:10:30+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "040ed4463d272b4248a4": {
       "id": "040ed4463d272b4248a4",
@@ -3926,7 +3920,7 @@
       "group": "russia",
       "published_at": "2026-11-23T14:37:44+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "a2d450d04fd6793696f9": {
       "id": "a2d450d04fd6793696f9",
@@ -3937,7 +3931,7 @@
       "group": "russia",
       "published_at": "2026-11-23T14:08:01+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "8ae586e1e773915a25a1": {
       "id": "8ae586e1e773915a25a1",
@@ -3948,7 +3942,7 @@
       "group": "russia",
       "published_at": "2026-11-23T14:02:59+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e150b4534534a5f2a7ef": {
       "id": "e150b4534534a5f2a7ef",
@@ -3959,7 +3953,7 @@
       "group": "russia",
       "published_at": "2026-11-23T13:29:28+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "1e176f8f970f0538237c": {
       "id": "1e176f8f970f0538237c",
@@ -3970,7 +3964,7 @@
       "group": "russia",
       "published_at": "2026-11-23T13:20:49+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "3807de2b63c164e84bbb": {
       "id": "3807de2b63c164e84bbb",
@@ -3981,7 +3975,7 @@
       "group": "russia",
       "published_at": "2026-11-23T12:44:41+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "3d3f293275168174bfef": {
       "id": "3d3f293275168174bfef",
@@ -3992,7 +3986,7 @@
       "group": "russia",
       "published_at": "2026-11-23T12:32:53+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "8695bedc75ea7b0f8b9d": {
       "id": "8695bedc75ea7b0f8b9d",
@@ -4003,7 +3997,7 @@
       "group": "russia",
       "published_at": "2026-11-23T12:25:58+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "7178c64e8bdb193a1ead": {
       "id": "7178c64e8bdb193a1ead",
@@ -4014,7 +4008,7 @@
       "group": "russia",
       "published_at": "2026-11-23T12:13:02+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "2aaf1dfe22e5ad00ea2b": {
       "id": "2aaf1dfe22e5ad00ea2b",
@@ -4025,7 +4019,7 @@
       "group": "russia",
       "published_at": "2026-11-23T11:26:51+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "c65b313987c9604860c1": {
       "id": "c65b313987c9604860c1",
@@ -4036,7 +4030,7 @@
       "group": "russia",
       "published_at": "2026-11-23T11:23:03+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "ac91799f0b6173b43549": {
       "id": "ac91799f0b6173b43549",
@@ -4047,7 +4041,7 @@
       "group": "russia",
       "published_at": "2026-11-23T11:17:35+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "d9b09d9b060778fd4f84": {
       "id": "d9b09d9b060778fd4f84",
@@ -4135,8 +4129,7 @@
       "group": "peace",
       "published_at": "2026-11-23T16:12:44+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
-      "ref": "A27"
+      "text_kind": "feed"
     },
     "c7e3c57f8f868c13cf33": {
       "id": "c7e3c57f8f868c13cf33",
@@ -4148,7 +4141,7 @@
       "published_at": "2026-11-23T18:06:26+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed",
-      "ref": "A19"
+      "ref": "A47"
     },
     "97e5a541e8ca5f6487f3": {
       "id": "97e5a541e8ca5f6487f3",
@@ -4159,8 +4152,7 @@
       "group": "peace",
       "published_at": "2026-11-23T16:42:56+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
-      "ref": "A23"
+      "text_kind": "feed"
     },
     "7f625056a5ad42628e96": {
       "id": "7f625056a5ad42628e96",
@@ -4171,8 +4163,7 @@
       "group": "peace",
       "published_at": "2026-11-23T16:00:51+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
-      "ref": "A31"
+      "text_kind": "feed"
     },
     "4e356d04fcccf8c05251": {
       "id": "4e356d04fcccf8c05251",
@@ -4183,8 +4174,7 @@
       "group": "peace",
       "published_at": "2026-11-23T16:00:50+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed",
-      "ref": "A35"
+      "text_kind": "feed"
     },
     "4b7fad258a938ce7c4be": {
       "id": "4b7fad258a938ce7c4be",
@@ -4283,7 +4273,7 @@
       "group": "peace",
       "published_at": "2026-11-21T02:41:14+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "037269830c1087bb2ac6": {
       "id": "037269830c1087bb2ac6",
@@ -4294,7 +4284,7 @@
       "group": "peace",
       "published_at": "2026-11-20T16:16:01+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "99c4a59b1d5247888053": {
       "id": "99c4a59b1d5247888053",
@@ -4305,7 +4295,7 @@
       "group": "peace",
       "published_at": "2026-11-20T01:37:48+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e70dde4edeb7d5a8e61c": {
       "id": "e70dde4edeb7d5a8e61c",
@@ -4316,7 +4306,7 @@
       "group": "peace",
       "published_at": "2026-11-19T23:13:45+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "ab70fcfe021eacea156e": {
       "id": "ab70fcfe021eacea156e",
@@ -4360,8 +4350,7 @@
       "group": "agents",
       "published_at": "2026-11-24T00:03:55+00:00",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed",
-      "ref": "A53"
+      "text_kind": "feed"
     },
     "b0689cf87ab570a441c8": {
       "id": "b0689cf87ab570a441c8",
@@ -4373,7 +4362,7 @@
       "published_at": "2026-11-23T21:20:00+00:00",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
       "text_kind": "feed",
-      "ref": "A55"
+      "ref": "A96"
     },
     "179fd3db322f1a8d4c11": {
       "id": "179fd3db322f1a8d4c11",
@@ -4384,7 +4373,7 @@
       "group": "technology",
       "published_at": "2026-11-23T22:38:09+00:00",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "fa9136539de5ecb7ea15": {
       "id": "fa9136539de5ecb7ea15",
@@ -4395,7 +4384,7 @@
       "group": "technology",
       "published_at": "2026-11-23T22:25:12+00:00",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "09190b4bac20ca9e51c0": {
       "id": "09190b4bac20ca9e51c0",
@@ -4417,7 +4406,7 @@
       "group": "uk",
       "published_at": "2026-11-23T09:09:13+00:00",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "1a9d7f2ace18e390c125": {
       "id": "1a9d7f2ace18e390c125",
@@ -4428,7 +4417,7 @@
       "group": "uk",
       "published_at": "2026-11-23T09:08:50+00:00",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "48b241cd0bedb13de8be": {
       "id": "48b241cd0bedb13de8be",
@@ -4571,7 +4560,7 @@
       "group": "uk",
       "published_at": "2026-11-10T17:21:42+00:00",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "6b985c329b94386fcd9c": {
       "id": "6b985c329b94386fcd9c",
@@ -4582,7 +4571,7 @@
       "group": "uk",
       "published_at": "2026-11-06T13:40:56+00:00",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "83770e4fa12ff717be9e": {
       "id": "83770e4fa12ff717be9e",
@@ -4593,7 +4582,7 @@
       "group": "uk",
       "published_at": "2026-11-05T16:55:41+00:00",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "ec109c2f882c76af2030": {
       "id": "ec109c2f882c76af2030",
@@ -4604,7 +4593,7 @@
       "group": "uk",
       "published_at": "2026-11-05T15:55:23+00:00",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5902fc7a005354c68c9f": {
       "id": "5902fc7a005354c68c9f",
@@ -4615,7 +4604,7 @@
       "group": "uk",
       "published_at": "2026-11-05T13:58:09+00:00",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "41134eb9af3e760b1df4": {
       "id": "41134eb9af3e760b1df4",
@@ -4626,7 +4615,7 @@
       "group": "technology",
       "published_at": "2026-11-23T14:00:18Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "c88ec76dad7a86165c42": {
       "id": "c88ec76dad7a86165c42",
@@ -4637,7 +4626,7 @@
       "group": "technology",
       "published_at": "2026-11-23T14:01:23Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "4b5f3d257bb4f65c617c": {
       "id": "4b5f3d257bb4f65c617c",
@@ -4659,7 +4648,7 @@
       "group": "technology",
       "published_at": "2026-11-23T16:13:12Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "127bc957bcd42469b2fa": {
       "id": "127bc957bcd42469b2fa",
@@ -4670,7 +4659,7 @@
       "group": "technology",
       "published_at": "2026-11-22T08:57:34Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "6c82c31d5a24c2871826": {
       "id": "6c82c31d5a24c2871826",
@@ -4681,7 +4670,7 @@
       "group": "agents",
       "published_at": "2026-11-23T10:06:43Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "7bdc46fae9f129d3332b": {
       "id": "7bdc46fae9f129d3332b",
@@ -4692,7 +4681,7 @@
       "group": "technology",
       "published_at": "2026-11-23T01:13:51Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "44f06281872daf4b2cb2": {
       "id": "44f06281872daf4b2cb2",
@@ -4714,7 +4703,7 @@
       "group": "technology",
       "published_at": "2026-11-22T19:20:15Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "44f4872bc1d68d1c39a4": {
       "id": "44f4872bc1d68d1c39a4",
@@ -4725,7 +4714,7 @@
       "group": "technology",
       "published_at": "2026-11-22T21:01:16Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "af5730fe734503db2cc0": {
       "id": "af5730fe734503db2cc0",
@@ -4747,7 +4736,7 @@
       "group": "technology",
       "published_at": "2026-11-22T17:06:27Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "d7b6082fdfd742c5f012": {
       "id": "d7b6082fdfd742c5f012",
@@ -4758,7 +4747,7 @@
       "group": "technology",
       "published_at": "2026-11-22T19:10:34Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "9dd476c71bef3e6a37af": {
       "id": "9dd476c71bef3e6a37af",
@@ -4780,7 +4769,7 @@
       "group": "technology",
       "published_at": "2026-11-23T03:49:24Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "f058b96305e3d60d1494": {
       "id": "f058b96305e3d60d1494",
@@ -4802,7 +4791,7 @@
       "group": "technology",
       "published_at": "2026-11-22T20:33:23Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "92e4f5865f0df2f96a67": {
       "id": "92e4f5865f0df2f96a67",
@@ -4813,7 +4802,7 @@
       "group": "technology",
       "published_at": "2026-11-22T13:56:58Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5c9bb6b16eed6723e4d7": {
       "id": "5c9bb6b16eed6723e4d7",
@@ -4824,7 +4813,7 @@
       "group": "technology",
       "published_at": "2026-11-22T19:41:30Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "649f718e9666440e5609": {
       "id": "649f718e9666440e5609",
@@ -4835,7 +4824,7 @@
       "group": "technology",
       "published_at": "2026-11-22T10:59:56Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "a28fad787b88caab6cd5": {
       "id": "a28fad787b88caab6cd5",
@@ -4868,7 +4857,7 @@
       "group": "technology",
       "published_at": "2026-11-22T23:06:37Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "4b67cf09ed0193329ae3": {
       "id": "4b67cf09ed0193329ae3",
@@ -4879,7 +4868,7 @@
       "group": "technology",
       "published_at": "2026-11-22T23:12:10Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "2dd5faf51358f52b43f1": {
       "id": "2dd5faf51358f52b43f1",
@@ -4890,7 +4879,7 @@
       "group": "technology",
       "published_at": "2026-11-23T11:31:54Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "c2a9dd7b7d7a01e02c5c": {
       "id": "c2a9dd7b7d7a01e02c5c",
@@ -4901,7 +4890,7 @@
       "group": "technology",
       "published_at": "2026-11-22T23:57:45Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "c4a71d258c4b55418e75": {
       "id": "c4a71d258c4b55418e75",
@@ -4912,7 +4901,7 @@
       "group": "technology",
       "published_at": "2026-11-23T05:00:49Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "ad0d60b82dea1cc21cdc": {
       "id": "ad0d60b82dea1cc21cdc",
@@ -4923,7 +4912,7 @@
       "group": "technology",
       "published_at": "2026-11-22T15:24:32Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e12a01facccfdde9b936": {
       "id": "e12a01facccfdde9b936",
@@ -4934,7 +4923,7 @@
       "group": "technology",
       "published_at": "2026-11-23T14:49:44Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "49d680e6ab999ff65944": {
       "id": "49d680e6ab999ff65944",
@@ -4956,7 +4945,7 @@
       "group": "agents",
       "published_at": "2026-11-23T11:34:16Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A59"
     },
     "8494fc241f9cb051775c": {
@@ -4968,7 +4957,7 @@
       "group": "technology",
       "published_at": "2026-11-23T04:31:32Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "006ec6f70f3a3a14004f": {
       "id": "006ec6f70f3a3a14004f",
@@ -4990,7 +4979,7 @@
       "group": "technology",
       "published_at": "2026-11-23T12:28:11Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "f13f84c3a7f531de4e45": {
       "id": "f13f84c3a7f531de4e45",
@@ -5001,7 +4990,7 @@
       "group": "technology",
       "published_at": "2026-11-23T01:50:23Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "66908d191493f637452b": {
       "id": "66908d191493f637452b",
@@ -5023,7 +5012,7 @@
       "group": "agents",
       "published_at": "2026-11-22T21:53:45Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5ce1aa137b1e60d8c41d": {
       "id": "5ce1aa137b1e60d8c41d",
@@ -5034,7 +5023,7 @@
       "group": "technology",
       "published_at": "2026-11-22T15:16:02Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "fc754db4cc11d7250cbc": {
       "id": "fc754db4cc11d7250cbc",
@@ -5045,7 +5034,7 @@
       "group": "technology",
       "published_at": "2026-11-22T15:42:40Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "81cd9abc832c543bda40": {
       "id": "81cd9abc832c543bda40",
@@ -5056,7 +5045,7 @@
       "group": "technology",
       "published_at": "2026-11-22T22:10:58Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "08469acdbeb8215ee314": {
       "id": "08469acdbeb8215ee314",
@@ -5067,7 +5056,7 @@
       "group": "technology",
       "published_at": "2026-11-22T15:35:24Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "7520a9894bd819864482": {
       "id": "7520a9894bd819864482",
@@ -5078,7 +5067,7 @@
       "group": "technology",
       "published_at": "2026-11-22T21:33:12Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "de725a12c37f9ced0893": {
       "id": "de725a12c37f9ced0893",
@@ -5089,7 +5078,7 @@
       "group": "technology",
       "published_at": "2026-11-22T20:15:59Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "aeba5d417890191594f7": {
       "id": "aeba5d417890191594f7",
@@ -5100,7 +5089,7 @@
       "group": "technology",
       "published_at": "2026-11-23T09:55:38Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "dcee74a69708ba689720": {
       "id": "dcee74a69708ba689720",
@@ -5111,7 +5100,7 @@
       "group": "technology",
       "published_at": "2026-11-22T12:19:46Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "4aa9e803d3d03d10ca8f": {
       "id": "4aa9e803d3d03d10ca8f",
@@ -5122,7 +5111,7 @@
       "group": "technology",
       "published_at": "2026-11-22T19:10:38Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "2b7514f0da8c836aa303": {
       "id": "2b7514f0da8c836aa303",
@@ -5133,7 +5122,7 @@
       "group": "technology",
       "published_at": "2026-11-22T19:51:46Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5b202f1ec0b7dd509708": {
       "id": "5b202f1ec0b7dd509708",
@@ -5144,7 +5133,7 @@
       "group": "technology",
       "published_at": "2026-11-23T03:34:29Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "58e4862efb5ddf9c1333": {
       "id": "58e4862efb5ddf9c1333",
@@ -5155,7 +5144,7 @@
       "group": "technology",
       "published_at": "2026-11-22T13:37:10Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "ed3928ae58d68edbe9ea": {
       "id": "ed3928ae58d68edbe9ea",
@@ -5166,7 +5155,7 @@
       "group": "technology",
       "published_at": "2026-11-23T08:51:50Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e4cd294231264a2f803f": {
       "id": "e4cd294231264a2f803f",
@@ -5199,7 +5188,7 @@
       "group": "technology",
       "published_at": "2026-11-23T04:51:48Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "21908a70d050f480e642": {
       "id": "21908a70d050f480e642",
@@ -5210,7 +5199,7 @@
       "group": "agents",
       "published_at": "2026-11-23T13:42:38Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "0f563cae8acd179f38eb": {
       "id": "0f563cae8acd179f38eb",
@@ -5221,7 +5210,7 @@
       "group": "agents",
       "published_at": "2026-11-22T22:18:48Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "3de3106f478e9e737195": {
       "id": "3de3106f478e9e737195",
@@ -5243,7 +5232,7 @@
       "group": "agents",
       "published_at": "2026-11-23T10:09:02Z",
       "discovered_at": "2026-11-23T22:55:44.320542+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A60"
     },
     "15ed117119215af8a3d2": {
@@ -6366,7 +6355,7 @@
       "group": "agents",
       "published_at": "2026-10-13T13:14:41+00:00",
       "discovered_at": "2026-11-23T23:04:08.866975+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "7cf21137c37e547b10a3": {
       "id": "7cf21137c37e547b10a3",
@@ -7425,7 +7414,7 @@
       "published_at": "2026-11-24T01:46:17+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
       "text_kind": "feed",
-      "ref": "A48"
+      "ref": "A92"
     },
     "5fdd743e62a38dec96bc": {
       "id": "5fdd743e62a38dec96bc",
@@ -7437,7 +7426,7 @@
       "published_at": "2026-11-24T06:44:18+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
       "text_kind": "feed",
-      "ref": "A36"
+      "ref": "A89"
     },
     "20e80028cf9841fc3a19": {
       "id": "20e80028cf9841fc3a19",
@@ -7448,8 +7437,7 @@
       "group": "agents",
       "published_at": "2026-11-24T03:50:24+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A42"
+      "text_kind": "feed"
     },
     "45a96695d7c0e997c987": {
       "id": "45a96695d7c0e997c987",
@@ -7460,8 +7448,7 @@
       "group": "agents",
       "published_at": "2026-11-24T01:16:44+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A50"
+      "text_kind": "feed"
     },
     "4f8703dad6fd43291d20": {
       "id": "4f8703dad6fd43291d20",
@@ -7472,8 +7459,7 @@
       "group": "agents",
       "published_at": "2026-11-24T01:13:47+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A51"
+      "text_kind": "feed"
     },
     "2d8f7043fb6cf84f476f": {
       "id": "2d8f7043fb6cf84f476f",
@@ -7484,8 +7470,7 @@
       "group": "agents",
       "published_at": "2026-11-24T00:34:15+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A52"
+      "text_kind": "feed"
     },
     "9566e4a73e7bad1a8e1a": {
       "id": "9566e4a73e7bad1a8e1a",
@@ -7496,8 +7481,7 @@
       "group": "agents",
       "published_at": "2026-11-24T03:15:47+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A46"
+      "text_kind": "feed"
     },
     "bfe39e5b176c7b576ee4": {
       "id": "bfe39e5b176c7b576ee4",
@@ -7509,7 +7493,7 @@
       "published_at": "2026-11-24T04:24:29+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
       "text_kind": "feed",
-      "ref": "A39"
+      "ref": "A90"
     },
     "cde2e4331c947b3b8676": {
       "id": "cde2e4331c947b3b8676",
@@ -7521,7 +7505,7 @@
       "published_at": "2026-11-24T03:45:57+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
       "text_kind": "feed",
-      "ref": "A44"
+      "ref": "A91"
     },
     "2f3ef0ead000ffc6df4c": {
       "id": "2f3ef0ead000ffc6df4c",
@@ -7532,8 +7516,7 @@
       "group": "agents",
       "published_at": "2026-11-23T23:40:49+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A54"
+      "text_kind": "feed"
     },
     "d26bd4b314a87a655180": {
       "id": "d26bd4b314a87a655180",
@@ -7544,8 +7527,7 @@
       "group": "agents",
       "published_at": "2026-11-23T00:37:20+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A64"
+      "text_kind": "feed"
     },
     "0ff2877103f30dc0bf7b": {
       "id": "0ff2877103f30dc0bf7b",
@@ -7556,7 +7538,7 @@
       "group": "technology",
       "published_at": "2026-11-24T00:02:52+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A12"
     },
     "d42171599ff148708470": {
@@ -7568,7 +7550,7 @@
       "group": "technology",
       "published_at": "2026-11-23T23:25:01+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A17"
     },
     "b8bb9b15845ecf137424": {
@@ -7580,7 +7562,7 @@
       "group": "technology",
       "published_at": "2026-11-23T23:14:10+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A21"
     },
     "eb18f771ae6b1036e964": {
@@ -7592,7 +7574,7 @@
       "group": "russia",
       "published_at": "2026-11-21T01:42:10+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e8a3bb74849db217d0bc": {
       "id": "e8a3bb74849db217d0bc",
@@ -7603,7 +7585,7 @@
       "group": "russia",
       "published_at": "2026-11-21T19:05:11+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5be2383c1d1f1e1d5157": {
       "id": "5be2383c1d1f1e1d5157",
@@ -7614,7 +7596,7 @@
       "group": "russia",
       "published_at": "2026-11-24T07:19:29+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A4"
     },
     "a4afd390f65f9fd88214": {
@@ -7626,7 +7608,7 @@
       "group": "russia",
       "published_at": "2026-11-24T06:51:30+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A9"
     },
     "1438f0a830813265b626": {
@@ -7638,7 +7620,7 @@
       "group": "russia",
       "published_at": "2026-11-24T06:28:44+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A14"
     },
     "462d77ebbeb5baca7da2": {
@@ -7650,7 +7632,7 @@
       "group": "russia",
       "published_at": "2026-11-24T05:57:14+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A18"
     },
     "b13c40155886757dc4c6": {
@@ -7662,7 +7644,7 @@
       "group": "russia",
       "published_at": "2026-11-24T05:44:13+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A22"
     },
     "df5845f9ca762499bfa2": {
@@ -7674,7 +7656,7 @@
       "group": "russia",
       "published_at": "2026-11-24T05:08:56+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A26"
     },
     "f0f6042620dda4b9f7eb": {
@@ -7686,7 +7668,7 @@
       "group": "russia",
       "published_at": "2026-11-24T05:06:53+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A30"
     },
     "c2d80d6c9b181b47f741": {
@@ -7699,7 +7681,7 @@
       "published_at": "2026-11-24T08:00:10+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
       "text_kind": "feed",
-      "ref": "A5"
+      "ref": "A30"
     },
     "15324c469cfe3fdd381e": {
       "id": "15324c469cfe3fdd381e",
@@ -7711,7 +7693,7 @@
       "published_at": "2026-11-24T05:00:06+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
       "text_kind": "feed",
-      "ref": "A10"
+      "ref": "A36"
     },
     "7f7cee5aba494695b5b7": {
       "id": "7f7cee5aba494695b5b7",
@@ -7723,7 +7705,7 @@
       "published_at": "2026-11-24T01:08:35+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
       "text_kind": "feed",
-      "ref": "A15"
+      "ref": "A42"
     },
     "75e464b17ca2b088c126": {
       "id": "75e464b17ca2b088c126",
@@ -7734,8 +7716,7 @@
       "group": "technology",
       "published_at": "2026-11-23T22:32:29Z",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A29"
+      "text_kind": "feed"
     },
     "7940fc39a2d4faf4c6f0": {
       "id": "7940fc39a2d4faf4c6f0",
@@ -7746,8 +7727,7 @@
       "group": "technology",
       "published_at": "2026-11-23T22:09:10Z",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A33"
+      "text_kind": "feed"
     },
     "f557e35ef1cb2fca0eea": {
       "id": "f557e35ef1cb2fca0eea",
@@ -7758,8 +7738,7 @@
       "group": "technology",
       "published_at": "2026-11-23T23:11:38Z",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A25"
+      "text_kind": "feed"
     },
     "568c13ba0cb898ad3a85": {
       "id": "568c13ba0cb898ad3a85",
@@ -7770,8 +7749,7 @@
       "group": "technology",
       "published_at": "2026-11-24T02:27:02Z",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A7"
+      "text_kind": "feed"
     },
     "c53cdc3cb7d0ee9b9e15": {
       "id": "c53cdc3cb7d0ee9b9e15",
@@ -7782,8 +7760,7 @@
       "group": "technology",
       "published_at": "2026-11-23T20:52:54Z",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A49"
+      "text_kind": "feed"
     },
     "abaec1388394bbeb4d61": {
       "id": "abaec1388394bbeb4d61",
@@ -7794,8 +7771,7 @@
       "group": "technology",
       "published_at": "2026-11-23T21:01:16Z",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A45"
+      "text_kind": "feed"
     },
     "43b64a52f4f53037cf39": {
       "id": "43b64a52f4f53037cf39",
@@ -7806,8 +7782,7 @@
       "group": "technology",
       "published_at": "2026-11-24T06:28:04Z",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
-      "ref": "A2"
+      "text_kind": "feed"
     },
     "6eec246671d6f9bd62fa": {
       "id": "6eec246671d6f9bd62fa",
@@ -7829,7 +7804,7 @@
       "group": "technology",
       "published_at": "2026-11-22T15:59:59Z",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "12166827fc29c9e60a26": {
       "id": "12166827fc29c9e60a26",
@@ -7840,7 +7815,7 @@
       "group": "technology",
       "published_at": "2026-11-22T17:32:41Z",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "a67aca4af9181859d862": {
       "id": "a67aca4af9181859d862",
@@ -7851,7 +7826,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 309760,
       "date_kind": "discovery",
       "ref": "A1"
@@ -7865,7 +7840,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 286284,
       "date_kind": "discovery",
       "ref": "A6"
@@ -7879,7 +7854,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 265735,
       "date_kind": "discovery",
       "ref": "A11"
@@ -7893,7 +7868,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 208230,
       "date_kind": "discovery"
     },
@@ -7906,7 +7881,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 197693,
       "date_kind": "discovery"
     },
@@ -7919,7 +7894,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 152660,
       "date_kind": "discovery"
     },
@@ -7932,7 +7907,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 149960,
       "date_kind": "discovery"
     },
@@ -7945,7 +7920,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 134941,
       "date_kind": "discovery"
     },
@@ -7958,7 +7933,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 121889,
       "date_kind": "discovery"
     },
@@ -7971,7 +7946,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 120812,
       "date_kind": "discovery"
     },
@@ -7984,7 +7959,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 119404,
       "date_kind": "discovery"
     },
@@ -7997,7 +7972,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 116489,
       "date_kind": "discovery"
     },
@@ -8010,7 +7985,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 109041,
       "date_kind": "discovery"
     },
@@ -8023,7 +7998,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 99259,
       "date_kind": "discovery"
     },
@@ -8036,7 +8011,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 94625,
       "date_kind": "discovery"
     },
@@ -8049,7 +8024,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 85408,
       "date_kind": "discovery",
       "ref": "A16"
@@ -8063,7 +8038,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 22490,
       "date_kind": "discovery",
       "ref": "A20"
@@ -8077,7 +8052,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 20424,
       "date_kind": "discovery",
       "ref": "A24"
@@ -8091,7 +8066,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 18179,
       "date_kind": "discovery",
       "ref": "A28"
@@ -8105,7 +8080,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 10401,
       "date_kind": "discovery",
       "ref": "A32"
@@ -8119,7 +8094,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 7634,
       "date_kind": "discovery"
     },
@@ -8132,7 +8107,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 7469,
       "date_kind": "discovery"
     },
@@ -8145,7 +8120,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 7427,
       "date_kind": "discovery"
     },
@@ -8158,7 +8133,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 7319,
       "date_kind": "discovery"
     },
@@ -8171,7 +8146,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 6437,
       "date_kind": "discovery"
     },
@@ -8184,7 +8159,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 6220,
       "date_kind": "discovery"
     },
@@ -8197,7 +8172,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 6189,
       "date_kind": "discovery"
     },
@@ -8210,7 +8185,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 5726,
       "date_kind": "discovery"
     },
@@ -8223,7 +8198,7 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 5668,
       "date_kind": "discovery"
     },
@@ -8236,8 +8211,2608 @@
       "group": "agents",
       "published_at": "2026-11-24T08:00:16.323628+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 5001,
+      "date_kind": "discovery"
+    },
+    "5020bac089b746ad3706": {
+      "id": "5020bac089b746ad3706",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.5",
+      "title": "0.174.0-alpha.5",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-25T01:11:35+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A56"
+    },
+    "b65bdd42b1e837e0bae1": {
+      "id": "b65bdd42b1e837e0bae1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.4",
+      "title": "0.174.0-alpha.4",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-24T23:01:51+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A62"
+    },
+    "3f91feb8f2aa316ce1bf": {
+      "id": "3f91feb8f2aa316ce1bf",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.3",
+      "title": "0.174.0-alpha.3",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-24T20:14:27+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A68"
+    },
+    "e2c2e0af508d83a029c0": {
+      "id": "e2c2e0af508d83a029c0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.2",
+      "title": "0.174.0-alpha.2",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-24T16:14:14+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A76"
+    },
+    "d1a8a8c302ae6a4a1fbc": {
+      "id": "d1a8a8c302ae6a4a1fbc",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "title": "v2.1.332",
+      "source": "Claude Code releases",
+      "source_id": "claude-code",
+      "group": "agents",
+      "published_at": "2026-11-25T01:32:14+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A52"
+    },
+    "0b260d07579db8478ef4": {
+      "id": "0b260d07579db8478ef4",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "title": "Three LLM inflection points in twelve months",
+      "source": "Simon Willison",
+      "source_id": "simon",
+      "group": "agents",
+      "published_at": "2026-11-24T23:02:07+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A59"
+    },
+    "2d9b2b8de4028adf7548": {
+      "id": "2d9b2b8de4028adf7548",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "source": "Simon Willison",
+      "source_id": "simon",
+      "group": "agents",
+      "published_at": "2026-11-24T16:53:59+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A72"
+    },
+    "ac2f786b30f6d45772c4": {
+      "id": "ac2f786b30f6d45772c4",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "source": "OpenAI News",
+      "source_id": "openai",
+      "group": "agents",
+      "published_at": "2026-11-24T13:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A84"
+    },
+    "7758c04a629331bf9638": {
+      "id": "7758c04a629331bf9638",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "title": "Searching for distant planets with Astra",
+      "source": "OpenAI News",
+      "source_id": "openai",
+      "group": "agents",
+      "published_at": "2026-11-24T11:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A88"
+    },
+    "7e14b56be67443085907": {
+      "id": "7e14b56be67443085907",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "title": "How Intentful uses dots to make more time for growth",
+      "source": "OpenAI News",
+      "source_id": "openai",
+      "group": "agents",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A93"
+    },
+    "89a905d5eae9fa3ef5a8": {
+      "id": "89a905d5eae9fa3ef5a8",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "source": "OpenAI News",
+      "source_id": "openai",
+      "group": "agents",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A94"
+    },
+    "a3c9028eefd69cfd15ff": {
+      "id": "a3c9028eefd69cfd15ff",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "source": "OpenAI News",
+      "source_id": "openai",
+      "group": "agents",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A95"
+    },
+    "0d108e7b71c406494d2f": {
+      "id": "0d108e7b71c406494d2f",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "source": "Google AI",
+      "source_id": "google-ai",
+      "group": "agents",
+      "published_at": "2026-11-24T16:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A80"
+    },
+    "927dd6b10beb1b9592b8": {
+      "id": "927dd6b10beb1b9592b8",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "title": "Nothing offers a full look at its AI earbuds and charging case",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-25T16:00:59+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A14"
+    },
+    "0c4f60e8a6166defb0a9": {
+      "id": "0c4f60e8a6166defb0a9",
+      "url": "https://www.theverge.com/gadgets/1023735/best-gifts-under-25-2026",
+      "title": "The Verge’s guide to affordable holiday gifts under $25",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-25T15:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A38"
+    },
+    "8309588c20e1138eb4c3": {
+      "id": "8309588c20e1138eb4c3",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-25T14:12:33+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A49"
+    },
+    "b831dbeefa036a187574": {
+      "id": "b831dbeefa036a187574",
+      "url": "https://www.theverge.com/gadgets/1040178/xteink-x4-classic-e-reader-black-friday-2026-deal-sale",
+      "title": "Xteink’s pocketable X4 Classic e-reader is down to just $55 for Black Friday",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-25T14:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A57"
+    },
+    "fc3699d37bd708781531": {
+      "id": "fc3699d37bd708781531",
+      "url": "https://www.theverge.com/entertainment/1041596/blade-runner-2099-interview-showrunner-silka-luisa",
+      "title": "‘It’s not for the timid’: Blade Runner 2099’s showrunner on adapting the series for TV",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-25T14:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A60"
+    },
+    "93052b5f65b287fffe90": {
+      "id": "93052b5f65b287fffe90",
+      "url": "https://www.theverge.com/tech/1041221/tapo-c825-security-indoor-2k-camera-video-calls-tracking-pan-tilt",
+      "title": "Tapo’s new indoor security camera includes a touchscreen for video calls",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-25T13:30:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A66"
+    },
+    "d7f8df890f989b59e608": {
+      "id": "d7f8df890f989b59e608",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+      "title": "Has vibe coding made open source the new normal for synths?",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-25T13:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "b74e12e389d11a6112f3": {
+      "id": "b74e12e389d11a6112f3",
+      "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
+      "title": "Microsoft declares ‘Code Red’ after huge Outlook outage",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-25T11:12:42+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "b260aefcebf2b187e437": {
+      "id": "b260aefcebf2b187e437",
+      "url": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+      "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-25T01:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "508b4d65dc568ac7499f": {
+      "id": "508b4d65dc568ac7499f",
+      "url": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
+      "title": "The Verge’s 2026 gift guide for dads",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-24T23:59:29+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "361ff3dcd8aee7d010d4": {
+      "id": "361ff3dcd8aee7d010d4",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-25T16:47:14+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A2"
+    },
+    "bd85725bcde7fc6d8349": {
+      "id": "bd85725bcde7fc6d8349",
+      "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/",
+      "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-25T16:33:45+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A8"
+    },
+    "83a906aa5894b936bc8a": {
+      "id": "83a906aa5894b936bc8a",
+      "url": "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/",
+      "title": "Lead azide detonation sends clouds over Iowa as questions of health risks swirl",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-25T15:35:17+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A20"
+    },
+    "1a604d5c888534c5e5ce": {
+      "id": "1a604d5c888534c5e5ce",
+      "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
+      "title": "A familiar Iranian hacking group has found a new way to cause chaos",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-25T14:29:43+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A44"
+    },
+    "5f071a5fc3a63b13a363": {
+      "id": "5f071a5fc3a63b13a363",
+      "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+      "title": "AI may soon change what it means to be a theoretical physicist",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-25T12:00:28+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "85a1920569177742d08a": {
+      "id": "85a1920569177742d08a",
+      "url": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
+      "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T22:50:11+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "6a53219e0430636a1113": {
+      "id": "6a53219e0430636a1113",
+      "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+      "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T22:36:28+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "d0e234682f9b6d75ce9b": {
+      "id": "d0e234682f9b6d75ce9b",
+      "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+      "title": "What's going on with the Riemann hypothesis?",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T20:34:53+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "ba433feb62053ad4b9fa": {
+      "id": "ba433feb62053ad4b9fa",
+      "url": "https://arstechnica.com/health/2026/11/measles-death-toll-rises-to-14-as-national-case-tally-nears-6000/",
+      "title": "Back-to-back measles deaths is our new reality; US tally now at 14",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T20:00:18+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "949a815f425dc11c130e": {
+      "id": "949a815f425dc11c130e",
+      "url": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
+      "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T18:47:57+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "48f2a5e1206d5c06616f": {
+      "id": "48f2a5e1206d5c06616f",
+      "url": "https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/",
+      "title": "Amazon discovers Falcon 9 and Ariane 6 can deliver when nobody else can",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T18:30:36+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "131a5534762c7eb512fa": {
+      "id": "131a5534762c7eb512fa",
+      "url": "https://arstechnica.com/science/2026/11/how-brewers-can-protect-beers-from-smoke-tainted-hops/",
+      "title": "How brewers can protect beers from smoke-tainted hops",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T18:18:37+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "84a94c9fa6cddfa049d2": {
+      "id": "84a94c9fa6cddfa049d2",
+      "url": "https://arstechnica.com/tech-policy/2026/11/kalshi-makes-difficult-decision-to-halt-utah-trading-after-losing-court-fights/",
+      "title": "Kalshi makes “difficult decision” to halt Utah trading after losing court fights",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T18:03:58+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "e612b5415dc5213a765e": {
+      "id": "e612b5415dc5213a765e",
+      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T17:34:34+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "372f138a352563b509a7": {
+      "id": "372f138a352563b509a7",
+      "url": "https://arstechnica.com/cars/2026/11/fake-gears-and-real-911-dna-driving-porsches-electric-718-boxster/",
+      "title": "Porsche 718 Boxster prototype drive: This electric roadster is real",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T16:58:20+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "8f94c03d42bb8a390ed1": {
+      "id": "8f94c03d42bb8a390ed1",
+      "url": "https://arstechnica.com/cars/2026/11/new-york-says-no-more-subscriptions-for-in-car-features-or-does-it/",
+      "title": "No more heated seat subscriptions for cars in New York from 2027",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T16:20:37+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "d153a6cb5c99a964a2e9": {
+      "id": "d153a6cb5c99a964a2e9",
+      "url": "https://arstechnica.com/space/2026/11/nasa-may-get-2-billion-boost-as-white-house-seeks-to-accelerate-artemis/",
+      "title": "NASA may get $2 billion boost as White House seeks to accelerate Artemis",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T16:12:46+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "66f282829dbe563653c4": {
+      "id": "66f282829dbe563653c4",
+      "url": "https://arstechnica.com/science/2026/11/homo-erectus-lived-in-the-rainforest-alongside-denisovans/",
+      "title": "Homo erectus lived in the rainforest alongside Denisovans",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T16:01:19+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "1881b895e965b0335c1d": {
+      "id": "1881b895e965b0335c1d",
+      "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T14:56:50+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "e97dd56116f464d70dd3": {
+      "id": "e97dd56116f464d70dd3",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-24T12:30:05+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "f09c7d99e35640ac48aa": {
+      "id": "f09c7d99e35640ac48aa",
+      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_campaign=rss&at_medium=RSS",
+      "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T12:21:49+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A33"
+    },
+    "c28d5ac3872430b135db": {
+      "id": "c28d5ac3872430b135db",
+      "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_campaign=rss&at_medium=RSS",
+      "title": "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T00:54:13+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A79"
+    },
+    "ac23cc697da758adb659": {
+      "id": "ac23cc697da758adb659",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_campaign=rss&at_medium=RSS",
+      "title": "Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T06:00:36+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A54"
+    },
+    "28366c256bc34d4f1ef4": {
+      "id": "28366c256bc34d4f1ef4",
+      "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_campaign=rss&at_medium=RSS",
+      "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T14:46:41+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A15"
+    },
+    "814c119a5cc419e2f6fd": {
+      "id": "814c119a5cc419e2f6fd",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_campaign=rss&at_medium=RSS",
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T03:44:07+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A58"
+    },
+    "7166755fd09968b82527": {
+      "id": "7166755fd09968b82527",
+      "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_campaign=rss&at_medium=RSS",
+      "title": "Thomas Markle charged in US for possessing child sex abuse images",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T01:40:42+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A69"
+    },
+    "2c10770a5828bb5cf702": {
+      "id": "2c10770a5828bb5cf702",
+      "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_campaign=rss&at_medium=RSS",
+      "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T16:20:14+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A3"
+    },
+    "2e11e2caa2effed768ce": {
+      "id": "2e11e2caa2effed768ce",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_campaign=rss&at_medium=RSS",
+      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T10:52:09+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A39"
+    },
+    "3305cc184663a180dba5": {
+      "id": "3305cc184663a180dba5",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_campaign=rss&at_medium=RSS",
+      "title": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T12:24:12+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A27"
+    },
+    "7c89c10302659136ffcc": {
+      "id": "7c89c10302659136ffcc",
+      "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_campaign=rss&at_medium=RSS",
+      "title": "Two children among six dead after plane crash off Mississippi coast",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T07:08:22+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A50"
+    },
+    "1574415970b25b18cfef": {
+      "id": "1574415970b25b18cfef",
+      "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_campaign=rss&at_medium=RSS",
+      "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T15:42:50+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A9"
+    },
+    "eec82a9a28ab89dcd708": {
+      "id": "eec82a9a28ab89dcd708",
+      "url": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno?at_campaign=rss&at_medium=RSS",
+      "title": "Solomon Islands ends controversial security pact with China for Australian treaty",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T03:15:12+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A64"
+    },
+    "1688862642f41e778692": {
+      "id": "1688862642f41e778692",
+      "url": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_campaign=rss&at_medium=RSS",
+      "title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T07:26:54+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A45"
+    },
+    "9d7afa1fa0df2b0bfe58": {
+      "id": "9d7afa1fa0df2b0bfe58",
+      "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_campaign=rss&at_medium=RSS",
+      "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T12:42:11+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A21"
+    },
+    "c3995ed96d0226e4098a": {
+      "id": "c3995ed96d0226e4098a",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_campaign=rss&at_medium=RSS",
+      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-24T15:35:53+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A87"
+    },
+    "db67aeec97db4d6edd9b": {
+      "id": "db67aeec97db4d6edd9b",
+      "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_campaign=rss&at_medium=RSS",
+      "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T03:28:37+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A61"
+    },
+    "726e216d75e937c0302a": {
+      "id": "726e216d75e937c0302a",
+      "url": "https://www.bbc.co.uk/news/videos/cknv4mq93gd2o?at_campaign=rss&at_medium=RSS",
+      "title": "Watch: Flock of turkeys chases woman on Massachusetts pavement",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-24T22:07:30+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A85"
+    },
+    "bd0c015a586be17e3048": {
+      "id": "bd0c015a586be17e3048",
+      "url": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_campaign=rss&at_medium=RSS",
+      "title": "Watch: Moment troops raid home and capture Mexican drug lord",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-24T09:09:41+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "60c5e6948b4770c3a5ec": {
+      "id": "60c5e6948b4770c3a5ec",
+      "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_campaign=rss&at_medium=RSS",
+      "title": "Cheers and applause as Jensen Huang returns to Nvidia office",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-24T01:21:41+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "04c37937c5ee63b7b404": {
+      "id": "04c37937c5ee63b7b404",
+      "url": "https://www.bbc.co.uk/news/videos/c51k9vp48d2vo?at_campaign=rss&at_medium=RSS",
+      "title": "First Lady Melania Trump welcomes this year's White House Christmas tree",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-23T18:49:19+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "ac9b4c74ae248913bb9d": {
+      "id": "ac9b4c74ae248913bb9d",
+      "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_campaign=rss&at_medium=RSS",
+      "title": "Ukraine shares video of strikes on Russian ships off Libya",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-23T11:34:10+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "56897c41f3da0291cef4": {
+      "id": "56897c41f3da0291cef4",
+      "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_campaign=rss&at_medium=RSS",
+      "title": "Trump's rescue of Nvidia's Huang brings political risks",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T01:03:05+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A71"
+    },
+    "f721caab46797c076eae": {
+      "id": "f721caab46797c076eae",
+      "url": "https://www.bbc.co.uk/news/articles/cqgkv8kp7145o?at_campaign=rss&at_medium=RSS",
+      "title": "These North Koreans say they were spied on, beaten and jailed for being Christian",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-24T23:03:59+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A83"
+    },
+    "1a52d039f027f843a023": {
+      "id": "1a52d039f027f843a023",
+      "url": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_campaign=rss&at_medium=RSS",
+      "title": "Is China behind a wave of AI fake videos targeting Taiwan?",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-24T23:05:11+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A81"
+    },
+    "d3a80bab6024fbaccafa": {
+      "id": "d3a80bab6024fbaccafa",
+      "url": "https://www.bbc.co.uk/news/articles/cmrrg749d02do?at_campaign=rss&at_medium=RSS",
+      "title": "Lies, a disguise and surfboard bags: How a jealous Sydney policeman tried to cover up double murder",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T01:51:43+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A67"
+    },
+    "49cbfd83dabfaddaa746": {
+      "id": "49cbfd83dabfaddaa746",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_campaign=rss&at_medium=RSS",
+      "title": "The rising cost of putting food on the table in India",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T01:02:13+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A73"
+    },
+    "61552cfe41f8321a0c4f": {
+      "id": "61552cfe41f8321a0c4f",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_campaign=rss&at_medium=RSS",
+      "title": "Clashing political visions reflect a divided Spain ahead of election",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T00:58:34+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A77"
+    },
+    "fcdc0a5d74e92c56e4c8": {
+      "id": "fcdc0a5d74e92c56e4c8",
+      "url": "https://www.bbc.co.uk/news/articles/crd6128y1qn1o?at_campaign=rss&at_medium=RSS",
+      "title": "Shot in the face at 15: The lives shattered by Cameroon's decade of conflict",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-25T01:00:36+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A75"
+    },
+    "3c4fbc7816f6155014e1": {
+      "id": "3c4fbc7816f6155014e1",
+      "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-students",
+      "title": "Guidance: Register of licensed sponsors: students",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-25T11:16:42+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "page",
+      "ref": "A4"
+    },
+    "925eefc2b1f64ecc25f7": {
+      "id": "925eefc2b1f64ecc25f7",
+      "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers",
+      "title": "Guidance: Register of licensed sponsors: workers",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-25T11:16:18+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "page",
+      "ref": "A10"
+    },
+    "da284d8d6a6f86ccf0c3": {
+      "id": "da284d8d6a6f86ccf0c3",
+      "url": "https://www.gov.uk/government/publications/chapter-8-appendix-fm-family-members",
+      "title": "Guidance: Chapter 08 – appendix FM family members: caseworker guidance",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-25T10:55:40+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "page",
+      "ref": "A16"
+    },
+    "bcbd32c2616201ca67bd": {
+      "id": "bcbd32c2616201ca67bd",
+      "url": "https://www.gov.uk/government/publications/innovator-appendix-w-workers",
+      "title": "Guidance: Innovator Founder: caseworker guidance",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-25T10:37:58+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "page",
+      "ref": "A22"
+    },
+    "cc92d31ca6d454f70d68": {
+      "id": "cc92d31ca6d454f70d68",
+      "url": "https://www.gov.uk/government/publications/lead-sponsor-applications-caseworker-guidance",
+      "title": "Guidance: Lead sponsor applications: caseworker guidance",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-25T10:33:17+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "page",
+      "ref": "A28"
+    },
+    "6010a6da623d01c6a37f": {
+      "id": "6010a6da623d01c6a37f",
+      "url": "https://www.gov.uk/guidance/using-the-uk-immigration-id-check-app",
+      "title": "Using the ‘UK Immigration: ID Check’ app",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-25T10:05:24+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "page",
+      "ref": "A34"
+    },
+    "9d9de5cbfad42f764234": {
+      "id": "9d9de5cbfad42f764234",
+      "url": "https://www.gov.uk/government/publications/syria-country-policy-and-information-notes",
+      "title": "Guidance: Syria: country policy and information notes",
+      "source": "UK Visas and Immigration",
+      "source_id": "ukvi",
+      "group": "uk",
+      "published_at": "2026-11-24T09:09:29+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "page",
+      "ref": "A40"
+    },
+    "1ed1177fa3289888879e": {
+      "id": "1ed1177fa3289888879e",
+      "url": "https://www.bbc.com/russian/articles/cmzxveplrxe7o?at_campaign=rss&at_medium=RSS",
+      "title": "Мои родные погибли на Донбассе. Мама винила в их гибели армию Зеленского, но правда оказалась сложнее",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-25T14:50:38+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A41"
+    },
+    "092c41173b4173223e18": {
+      "id": "092c41173b4173223e18",
+      "url": "https://www.bbc.com/russian/articles/c6vg29n9rx49o?at_campaign=rss&at_medium=RSS",
+      "title": "Украина — Венгрия: что изменила встреча Зеленского с Мадьяром?",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-25T14:12:04+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A51"
+    },
+    "1068f2cdbddac2f74273": {
+      "id": "1068f2cdbddac2f74273",
+      "url": "https://www.bbc.com/russian/articles/cm62p5r047zno?at_campaign=rss&at_medium=RSS",
+      "title": "США объявили о введении новых пошлин в отношении многих торговых партнеров. Самые высокие ставки коснутся Китая",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-25T15:23:34+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A17"
+    },
+    "b0572779c47ff760f8cd": {
+      "id": "b0572779c47ff760f8cd",
+      "url": "https://www.bbc.com/russian/articles/cv702r6690w5o?at_campaign=rss&at_medium=RSS",
+      "title": "Российское наступление на Доброполье и контрудары ВСУ. Что происходит на фронтах в Украине",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-25T10:46:24+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "0c6f461273c21aefd17e": {
+      "id": "0c6f461273c21aefd17e",
+      "url": "https://www.bbc.com/russian/articles/c6lykzmpvympo?at_campaign=rss&at_medium=RSS",
+      "title": "Суд арестовал губернатора Мурманской области Андрея Чибиса",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-25T14:00:24+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "7326e806f613e7aacabe": {
+      "id": "7326e806f613e7aacabe",
+      "url": "https://www.bbc.com/russian/articles/c9rkg6jjl0x3o?at_campaign=rss&at_medium=RSS",
+      "title": "Треть молодых британцев никогда не занимались сексом, но многие ведут интимную переписку и смотрят порно",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-25T11:21:10+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "7918b128cdda371a07e2": {
+      "id": "7918b128cdda371a07e2",
+      "url": "https://www.bbc.com/russian/articles/cm752r11gynwo?at_campaign=rss&at_medium=RSS",
+      "title": "Килмар Абрего-Гарсия улетел в Испанию, завершив многомесячную борьбу с администрацией Трампа против депортации",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-25T12:05:11+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "82bb39006f265bdecd09": {
+      "id": "82bb39006f265bdecd09",
+      "url": "https://www.bbc.com/russian/articles/cqlykx48d07vo?at_campaign=rss&at_medium=RSS",
+      "title": "Отцу Меган Маркл предъявлено обвинение в хранении изображений сексуального насилия над детьми",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-25T11:52:19+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "bc3210922187145306cd": {
+      "id": "bc3210922187145306cd",
+      "url": "https://www.bbc.com/russian/articles/cq143k44pe7xo?at_campaign=rss&at_medium=RSS",
+      "title": "Тысячи смертей за «избушку лесника». Сколько Россия потеряла в боях за небольшие украинские села",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-24T15:52:45+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "1d01b5197e36851e1186": {
+      "id": "1d01b5197e36851e1186",
+      "url": "https://www.bbc.com/russian/articles/cj3vgdx2009ko?at_campaign=rss&at_medium=RSS",
+      "title": "«Карточный домик рухнет». Как индустрия ИИ меняет Сан-Франциско и что будет с городом, если случится крах",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-24T20:51:11+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "98ec2a90aed4e24b518c": {
+      "id": "98ec2a90aed4e24b518c",
+      "url": "https://www.bbc.com/russian/podcasts/p076qqzl/p0ppsm3g?at_campaign=rss&at_medium=RSS",
+      "title": "Зачем Армении новая конституция",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "98f111b79016ad7c1cbe": {
+      "id": "98f111b79016ad7c1cbe",
+      "url": "https://www.bbc.com/russian/podcasts/p076qqzl/p0ppmlyv?at_campaign=rss&at_medium=RSS",
+      "title": "Как Украина потопила российский корвет «Меркурий»?",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "fcb7c169341351723b0c": {
+      "id": "fcb7c169341351723b0c",
+      "url": "https://www.bbc.com/russian/articles/ckd61gqwq25go?at_campaign=rss&at_medium=RSS",
+      "title": "Новая страница в отношениях Украины и Венгрии: Петер Мадьяр приехал в Закарпатье на встречу с Зеленским",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-24T19:15:37+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "23902bc50189cda8a269": {
+      "id": "23902bc50189cda8a269",
+      "url": "https://www.bbc.com/russian/articles/c6y97xelex4wo?at_campaign=rss&at_medium=RSS",
+      "title": "Подозреваемым в попытке ограбления поместья принца и принцессы Уэльских предъявлены обвинения",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-25T11:02:27+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "ae797823207a0b24147b": {
+      "id": "ae797823207a0b24147b",
+      "url": "https://www.bbc.com/russian/articles/crx20lx0q47eo?at_campaign=rss&at_medium=RSS",
+      "title": "Футбольный скандал в Африке: суд вернул Сенегалу титул победителя Кубка африканских наций. До этого его отдали Марокко",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-24T18:01:51+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "0722de81a27abb094311": {
+      "id": "0722de81a27abb094311",
+      "url": "https://www.bbc.com/russian/articles/cme397v0rpgxo?at_campaign=rss&at_medium=RSS",
+      "title": "Присяжные в США признали Huawei виновной в сговоре с целью кражи коммерческих секретов",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-25T03:47:28+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "8eebce48a8bf029b9fd9": {
+      "id": "8eebce48a8bf029b9fd9",
+      "url": "https://www.bbc.com/russian/articles/crgqx3qjl51qo?at_campaign=rss&at_medium=RSS",
+      "title": "Принц Уильям впервые приехал на Даунинг-стрит и обсудил с премьер-министром Энди Бернемом проблему бездомности в Британии",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-24T18:51:48+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "08eeadc6c195afc3ef31": {
+      "id": "08eeadc6c195afc3ef31",
+      "url": "https://www.bbc.com/russian/articles/cq70260dj9rxo?at_campaign=rss&at_medium=RSS",
+      "title": "Папа Франциск трижды видел дьявола. Об этом говорит его дневник",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-24T13:39:09+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "abb7b7b28b36ae61dca4": {
+      "id": "abb7b7b28b36ae61dca4",
+      "url": "https://www.bbc.com/russian/articles/c94gnk6nl2vko?at_campaign=rss&at_medium=RSS",
+      "title": "Возвращение Хуанга в Nvidia: триумф Трампа, ликование инвесторов и сложные вопросы у Конгресса",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-24T09:37:17+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "5dada47804ea7ed83ad1": {
+      "id": "5dada47804ea7ed83ad1",
+      "url": "https://www.bbc.com/russian/articles/cqrlgjg74057o?at_campaign=rss&at_medium=RSS",
+      "title": "Объявлен шорт-лист первой Букеровской премии для детей. В жюри — тоже дети",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-24T12:30:50+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "aef79a84537ff42c768c": {
+      "id": "aef79a84537ff42c768c",
+      "url": "https://www.bbc.com/russian/articles/crd9101gnynyo?at_campaign=rss&at_medium=RSS",
+      "title": "«Мы все сделали правильно». Зеленский подтвердил причастность Украины к атаке на сухогруз в Финском заливе",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-24T13:02:04+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "098a020df0ca92f2d4d2": {
+      "id": "098a020df0ca92f2d4d2",
+      "url": "https://meduza.io/news/2026/11/25/vlasti-chechni-otritsayut-chto-syn-kadyrova-ali-stal-grazhdaninom-serbii",
+      "title": "Власти Чечни отрицают, что сын Кадырова Али стал гражданином Сербии",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T16:41:59+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A5"
+    },
+    "fdd2abc58e509a986227": {
+      "id": "fdd2abc58e509a986227",
+      "url": "https://meduza.io/news/2026/11/25/v-velikobritanii-voennye-nachala-po-nocham-peremeschat-samolety-v-angary-iz-opaseniy-atak-dronov",
+      "title": "В Великобритании военные начали по ночам перемещать самолеты в ангары — из опасений атак дронов",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T16:11:28+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A11"
+    },
+    "52f69f809144c65e4b82": {
+      "id": "52f69f809144c65e4b82",
+      "url": "https://meduza.io/feature/2026/11/25/na-voyne-s-ukrainoy-pogibli-bolee-700-tysyach-rossiyskih-soldat-eto-chislo-prosto-ne-ukladyvaetsya-v-golove",
+      "title": "На войне с Украиной погибли более 700. Тысяч. Российских. Солдат. Это число просто не укладывается в голове. Например, это больше, чем все население Черногории или «великая армия» Наполеона",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T15:19:48+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A23"
+    },
+    "671af981e91a89094dc4": {
+      "id": "671af981e91a89094dc4",
+      "url": "https://meduza.io/news/2026/11/25/gosduma-uzhestochila-pravila-priema-v-vuzy-dlya-olimpiadnikov-teper-bez-ekzamenov-smogut-postupit-tolko-pobediteli-no-ne-prizery",
+      "title": "Призеры олимпиад (в отличие от детей погибших участников войны) больше не смогут поступать в российские вузы без экзаменов",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T15:06:27+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A29"
+    },
+    "422f0bcb3be2fe07d585": {
+      "id": "422f0bcb3be2fe07d585",
+      "url": "https://meduza.io/news/2026/11/25/ssha-planiruyut-vvesti-novye-poshliny-dlya-kitaya-i-stran-evrosoyuza",
+      "title": "США планируют ввести новые пошлины для Китая и стран Евросоюза",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T15:01:47+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A35"
+    },
+    "9587e89d419570c939e9": {
+      "id": "9587e89d419570c939e9",
+      "url": "https://meduza.io/news/2026/11/25/mintrans-rf-opublikoval-instruktsiyu-kak-teper-popast-v-krym-most-na-poluostrov-na-ney-izobrazhen-s-odnoy-arkoy-a-ne-s-dvumya",
+      "title": "Минтранс РФ опубликовал инструкцию, как теперь попасть в Крым. Мост на полуостров на ней изображен с одной аркой (а не с двумя)",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T14:32:15+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A46"
+    },
+    "5134866da9ce7435037a": {
+      "id": "5134866da9ce7435037a",
+      "url": "https://meduza.io/news/2026/11/25/vazhnye-istorii-v-2020-godu-suleyman-kerimov-cherez-deutsche-bank-vyvel-iz-rossii-v-shveytsariyu-bolee-milliarda-evro",
+      "title": "«Важные истории»: в 2020 году Сулейман Керимов через Deutsche Bank вывел из России в Швейцарию более миллиарда евро",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T14:06:39+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A55"
+    },
+    "cd317facbba4fe87a37b": {
+      "id": "cd317facbba4fe87a37b",
+      "url": "https://meduza.io/feature/2026/11/25/elsinor-drama-ob-aktere-kotoryy-igraet-gamleta-znaya-chto-skoro-umret",
+      "title": "«Эльсинор» — драма об актере, который играет Гамлета, зная, что скоро умрет. Для Эндрю Скотта, исполнившего главную роль, это веская заявка на «Оскар»",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T14:05:42+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "0fef004a8819373f5471": {
+      "id": "0fef004a8819373f5471",
+      "url": "https://meduza.io/news/2026/11/25/v-odnom-iz-zadaniy-shkolnogo-uchebnika-angliyskogo-yazyka-starlight-amerikanskie-dzhinsy-chipsy-i-coca-cola-zamenili-na-valenki-holodets-i-kvas",
+      "title": "В одном из заданий школьного учебника английского языка Starlight американские джинсы, чипсы и Coca-Cola заменили на валенки, холодец и квас",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T13:17:27+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "d2f3f6236a4bdfe3f562": {
+      "id": "d2f3f6236a4bdfe3f562",
+      "url": "https://meduza.io/news/2026/11/25/u-nas-bolshe-net-deneg-na-vse-merts-prizval-zhiteley-germanii-gotovitsya-k-sokrascheniyu-gosudarstvennyh-rashodov",
+      "title": "«У нас больше нет денег на все». Мерц призвал жителей Германии готовиться к сокращению государственных расходов",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T13:01:52+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "f4a16af0fa6821500812": {
+      "id": "f4a16af0fa6821500812",
+      "url": "https://meduza.io/feature/2026/11/25/stalin-na-fone-takoy-nadpisi-rossiyskie-znamenitosti-sfotografirovalis-v-kinoteatre-hudozhestvennyy",
+      "title": "Московская светская хроника: знаменитости фотографируются на фоне огромной надписи «СТАЛИН». Это снимки с премьеры нового мини-сериала Владимира Бортко — понятно о ком",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T12:57:00+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "743507201a02d9965f4a": {
+      "id": "743507201a02d9965f4a",
+      "url": "https://meduza.io/feature/2026/11/25/rossiyanka-mirra-andreeva-pozdravila-ukrainku-elinu-svitolinu-posle-togo-kak-pobedila-ee-na-tennisnom-turnire-cherez-neskolko-dney-ukrainka-nazvala-eto-provokatsiey",
+      "title": "Россиянка Мирра Андреева поздравила украинку Элину Свитолину после того, как победила ее на теннисном турнире. Через несколько дней украинка назвала это провокацией",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T12:30:18+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "f4b6c8d58e0b8567e2dd": {
+      "id": "f4b6c8d58e0b8567e2dd",
+      "url": "https://meduza.io/news/2026/11/25/bloomberg-polsha-predlozhila-nato-obsudit-vozmozhnost-sbivat-rossiyskie-rakety-nad-ukrainoy-esli-oni-letyat-k-territorii-alyansa",
+      "title": "Bloomberg: Польша предложила НАТО обсудить возможность сбивать российские ракеты над Украиной, если они летят к территории альянса",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T12:25:29+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "480eeb31076e70a52230": {
+      "id": "480eeb31076e70a52230",
+      "url": "https://meduza.io/news/2026/11/25/vladelets-russkogo-standarta-rustam-tariko-prodal-konkurs-miss-rossiya-on-provodil-ego-bolee-20-let",
+      "title": "Владелец «Русского стандарта» Рустам Тарико продал конкурс «Мисс Россия». Он проводил его более 20 лет",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T12:05:26+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "ce05b5189560eb7fcaf6": {
+      "id": "ce05b5189560eb7fcaf6",
+      "url": "https://meduza.io/feature/2026/11/25/tovarischa-mayora-mozhno-vezde-s-soboy-nosit",
+      "title": "«Товарища майора можно везде с собой носить!»: «Яндекс» представил нательный ИИ-гаджет, который круглосуточно слушает и записывает разговоры. В соцсетях объясняют, зачем он нужен",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T12:03:38+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "ad4ac8d05d85e567d0a3": {
+      "id": "ad4ac8d05d85e567d0a3",
+      "url": "https://meduza.io/feature/2026/11/25/v-11-regionah-rossii-reshili-snizit-kolichestvo-kesarevyh-secheniy-u-beremennyh",
+      "title": "В 11 регионах России решили снизить количество кесаревых сечений у беременных. Женщины рассказывают, что их пытаются отговорить от операции, даже когда к ней есть показания",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T11:44:20+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "c14056cd49feccbd946a": {
+      "id": "c14056cd49feccbd946a",
+      "url": "https://meduza.io/news/2026/11/25/kreml-vpervye-prokommentiroval-publikatsiyu-meduzy-o-tom-chto-na-voyne-pogibli-700-tysyach-rossiyskih-voennyh-i-prizval-verit-tolko-minoborony",
+      "title": "Кремль впервые высказался о статье «Медузы» о том, что на войне погибли 700 тысяч российских военных. И призвал верить только Минобороны (которое молчит о потерях с 2022-го)",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T11:10:46+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "005b1daf762e006f5de9": {
+      "id": "005b1daf762e006f5de9",
+      "url": "https://meduza.io/news/2026/11/25/minfin-rf-predlozhil-oblozhit-15-protsentnoy-poshlinoy-delikatesy-iz-nedruzhestvennyh-stran",
+      "title": "Минфин РФ предложил обложить 15-процентной пошлиной деликатесы из «недружественных стран»",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T11:03:32+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "95a445499ed02a55e5d2": {
+      "id": "95a445499ed02a55e5d2",
+      "url": "https://meduza.io/news/2026/11/25/glavu-ofisa-prezidenta-ukrainy-oshtrafuyut-na-3400-griven-68-evro-za-ispolzovanie-russkogo-yazyka",
+      "title": "Главу офиса президента Украины оштрафуют на 3400 гривен (68 евро) за использование русского языка",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T10:46:02+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "1b5fd64c46c1030517a1": {
+      "id": "1b5fd64c46c1030517a1",
+      "url": "https://meduza.io/news/2026/11/25/uehavshim-rossiyanam-iz-reestra-vragov-naroda-to-est-hodorkovskomu-shulman-akuninu-zapretili-pryzhki-s-parashyutom-v-sochi",
+      "title": "Уехавшим россиянам из реестра «врагов народа» (то есть Ходорковскому, Шульман, Акунину) запретили прыжки с парашютом в Сочи",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T10:23:25+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "7dc5c549a0c4a557ec8c": {
+      "id": "7dc5c549a0c4a557ec8c",
+      "url": "https://meduza.io/news/2026/11/25/arestovan-gubernator-murmanskoy-oblasti-andrey-chibis-ego-obvinili-v-rastrate-milliarda-rubley-i-poluchenii-vzyatki-v-vide-aerolodki",
+      "title": "Арестован губернатор Мурманской области Андрей Чибис. Его обвинили в растрате миллиарда рублей и получении взятки в виде аэролодки",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T10:06:23+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "d6b7a03289c4f53bf167": {
+      "id": "d6b7a03289c4f53bf167",
+      "url": "https://meduza.io/news/2026/11/25/osnovateli-xai-ilona-maska-sozdali-ii-startap-epochal-chtoby-predskazyvat-buduschee",
+      "title": "Основатели xAI Илона Маска создали ИИ-стартап Epochal, чтобы предсказывать будущее",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T09:36:46+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "c1e4a2814b1b4610dd06": {
+      "id": "c1e4a2814b1b4610dd06",
+      "url": "https://meduza.io/feature/2026/11/25/finansovaya-stabilnost-pri-putine-blestyasche-uderzhivaetsya-a-nabiullina-tvorit-chudesa-chubays-vystupil-s-pervoy-publichnoy-lektsiey-posle-nachala-voyny",
+      "title": "Финансовая стабильность при Путине «блестяще удерживается», а Набиуллина «творит чудеса»: Чубайс выступил с первой публичной лекцией после начала войны",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T09:05:40+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "2794aee379e5ef646b50": {
+      "id": "2794aee379e5ef646b50",
+      "url": "https://meduza.io/feature/2026/11/25/voyna",
+      "title": "Война. 1736-й день. США больше не будут предлагать России деловые сделки в обмен на мир в Украине. Вашингтон вернулся к подходу «земля в обмен на мир»",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T08:26:23+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "9a89de6a1c09f1ac2d6d": {
+      "id": "9a89de6a1c09f1ac2d6d",
+      "url": "https://meduza.io/feature/2026/11/25/ya-sovershil-neskolko-uzhasnyh-oshibok-glava-nvidia-dzhensen-huang-izvinilsya-pered-sotrudnikami-on-otritsaet-chto-za-ego-vozvrascheniem-v-kompaniyu-stoit-tramp",
+      "title": "«Я совершил несколько ужасных ошибок». Глава Nvidia Дженсен Хуанг извинился перед сотрудниками. Он отрицает, что за его возвращением в компанию стоит Трамп",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T07:41:27+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "3d6fab9546e6f15a87de": {
+      "id": "3d6fab9546e6f15a87de",
+      "url": "https://meduza.io/news/2026/11/25/sobchak-zayavila-chto-udalit-s-yutuba-vypuski-s-andreem-grigorievym-apollonovym-i-igorem-sinyakom-po-trebovaniyu-roskomnadzora",
+      "title": "Собчак по требованию Роскомнадзора удалила с ютуба выпуски с Андреем Григорьевым-Аполлоновым и Игорем Синяком",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T07:26:57+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "b04d57c5653a92dbfffd": {
+      "id": "b04d57c5653a92dbfffd",
+      "url": "https://meduza.io/news/2026/11/25/prisyazhnye-v-ssha-priznali-huawei-vinovnoy-v-otmyvanii-deneg-krazhe-kommercheskih-tayn-i-sotrudnichestve-s-iranom-i-severnoy-koreey",
+      "title": "Присяжные в США признали Huawei виновной в отмывании денег, краже коммерческих тайн и сотрудничестве с Ираном и Северной Кореей",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T07:10:45+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "c85f5a6e830c6b259c6c": {
+      "id": "c85f5a6e830c6b259c6c",
+      "url": "https://meduza.io/news/2026/11/25/lukashenko-predlozhil-zelenskomu-vmeste-poletet-v-moskvu-na-peregovory-s-putinym-ya-emu-chto-chemodan-chto-li-otvetil-zelenskiy",
+      "title": "Лукашенко предложил Зеленскому вместе полететь в Москву на переговоры с Путиным. «Я ему что, чемодан, что ли?» — ответил Зеленский",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T06:34:34+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "9f9668a3a04483846db4": {
+      "id": "9f9668a3a04483846db4",
+      "url": "https://meduza.io/news/2026/11/25/rossiyskie-filmy-ne-mogut-udovletvorit-zritelskiy-spros-kinoteatry-i-prokatchiki-vystupili-protiv-vvedeniya-kvot-na-zarubezhnoe-kino",
+      "title": "«Российские фильмы не могут удовлетворить зрительский спрос». Кинотеатры и прокатчики выступили против введения квот на зарубежное кино",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T06:20:57+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "c7ffb2aebb9a7101c899": {
+      "id": "c7ffb2aebb9a7101c899",
+      "url": "https://meduza.io/news/2026/11/25/nyt-tsru-i-esche-dva-razvedyvatelnyh-vedomstva-podverglis-vzlomu-hakery-ispolzovali-instrument-kotoryy-byl-sozdan-dlya-kiberzaschity",
+      "title": "ЦРУ и еще два разведывательных ведомства подверглись взлому. Хакеры использовали инструмент, который был создан для киберзащиты",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-25T05:53:52+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "9153c5f1386a39d22207": {
+      "id": "9153c5f1386a39d22207",
+      "url": "https://www.theguardian.com/world/live/2026/nov/25/ukraine-russia-energy-strikes-mark-rutte-donald-trump-friedrich-merz-germany-latest-news-updates",
+      "title": "‘Russia wants more than Ukraine,’ Germany’s Merz warns – as it happened",
+      "source": "The Guardian · Ukraine",
+      "source_id": "guardian-ukraine",
+      "group": "peace",
+      "published_at": "2026-11-25T16:20:53+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A6"
+    },
+    "f7be36771056aa599232": {
+      "id": "f7be36771056aa599232",
+      "url": "https://www.theguardian.com/news/audio/2026/nov/25/the-russian-armys-secret-death-toll-podcast",
+      "title": "The Russian army’s secret death toll – podcast",
+      "source": "The Guardian · Ukraine",
+      "source_id": "guardian-ukraine",
+      "group": "peace",
+      "published_at": "2026-11-25T03:00:03+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A12"
+    },
+    "8a1d4f5d0222e2c6fa22": {
+      "id": "8a1d4f5d0222e2c6fa22",
+      "url": "https://www.theguardian.com/world/2026/nov/25/ukraine-war-briefing-zelenskyy-and-hungary-pm-hail-new-era-of-cooperation-after-orban",
+      "title": "Ukraine war briefing: Zelenskyy and Hungary PM hail new era of cooperation after Orbán",
+      "source": "The Guardian · Ukraine",
+      "source_id": "guardian-ukraine",
+      "group": "peace",
+      "published_at": "2026-11-25T02:21:53+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A18"
+    },
+    "9c53e5c4c0b02d3724bc": {
+      "id": "9c53e5c4c0b02d3724bc",
+      "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
+      "title": "Italy expresses concern to Ukraine over Libya ship attacks – as it happened",
+      "source": "The Guardian · Ukraine",
+      "source_id": "guardian-ukraine",
+      "group": "peace",
+      "published_at": "2026-11-24T16:24:49+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A24"
+    },
+    "60ada8142edab33cbe64": {
+      "id": "60ada8142edab33cbe64",
+      "url": "https://news.ycombinator.com/item?id=50624497",
+      "title": "2035 came early",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T06:30:33Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "f885ab4b774a274aaeee": {
+      "id": "f885ab4b774a274aaeee",
+      "url": "https://news.ycombinator.com/item?id=50627340",
+      "title": "LLM agents work for their parent companies, not for you",
+      "source": "Hacker News · agents",
+      "source_id": "hn-agents",
+      "group": "agents",
+      "published_at": "2026-11-24T12:40:15Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A86"
+    },
+    "ad8d43dd484eb98aedd3": {
+      "id": "ad8d43dd484eb98aedd3",
+      "url": "https://news.ycombinator.com/item?id=50637220",
+      "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T01:19:26Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "c8e56de3c8e97875a23b": {
+      "id": "c8e56de3c8e97875a23b",
+      "url": "https://news.ycombinator.com/item?id=50638032",
+      "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T03:23:07Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "691110ebcd0a65d4d595": {
+      "id": "691110ebcd0a65d4d595",
+      "url": "https://news.ycombinator.com/item?id=50633922",
+      "title": "Ternary Bonsai 2.5 27B",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T20:08:03Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "872317eb93192051d307": {
+      "id": "872317eb93192051d307",
+      "url": "https://news.ycombinator.com/item?id=50627783",
+      "title": "GTA 6 Running on Windows",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T13:19:31Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "cd91e9f9413c550c3e5e": {
+      "id": "cd91e9f9413c550c3e5e",
+      "url": "https://news.ycombinator.com/item?id=50626578",
+      "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T11:13:55Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "4a14f77322e7c66a2864": {
+      "id": "4a14f77322e7c66a2864",
+      "url": "https://news.ycombinator.com/item?id=50627836",
+      "title": "Anthropic breaks below $83 IPO price",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T13:23:47Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "9d8ef44660a0fb71a30f": {
+      "id": "9d8ef44660a0fb71a30f",
+      "url": "https://news.ycombinator.com/item?id=50630809",
+      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+      "source": "Hacker News · Show HN AI",
+      "source_id": "hn-show",
+      "group": "agents",
+      "published_at": "2026-11-24T16:45:44Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A74"
+    },
+    "14c0338dcd28a8d76b13": {
+      "id": "14c0338dcd28a8d76b13",
+      "url": "https://news.ycombinator.com/item?id=50637686",
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T02:34:21Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "9e305cd78ee48795a702": {
+      "id": "9e305cd78ee48795a702",
+      "url": "https://news.ycombinator.com/item?id=50625384",
+      "title": "Quad9 pulled their DNS service from France",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T08:33:14Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "4c57175de244d4d881b5": {
+      "id": "4c57175de244d4d881b5",
+      "url": "https://news.ycombinator.com/item?id=50622638",
+      "title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T02:08:09Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "23c54b024fd9255bef9b": {
+      "id": "23c54b024fd9255bef9b",
+      "url": "https://news.ycombinator.com/item?id=50637890",
+      "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T03:04:37Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "f24df1cafbbe4b9bd66e": {
+      "id": "f24df1cafbbe4b9bd66e",
+      "url": "https://news.ycombinator.com/item?id=50637056",
+      "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T00:54:49Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "1d6754d3a6efbbc31600": {
+      "id": "1d6754d3a6efbbc31600",
+      "url": "https://news.ycombinator.com/item?id=50630309",
+      "title": "Tidal bans AI-generated music",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T16:12:38Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "cda17a535355751fcac5": {
+      "id": "cda17a535355751fcac5",
+      "url": "https://news.ycombinator.com/item?id=50634658",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T21:02:22Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "60ec4bff9c318c5c5026": {
+      "id": "60ec4bff9c318c5c5026",
+      "url": "https://news.ycombinator.com/item?id=50630462",
+      "title": "Jetty Pro",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T16:23:02Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "78c0936c86771e0db7be": {
+      "id": "78c0936c86771e0db7be",
+      "url": "https://news.ycombinator.com/item?id=50630594",
+      "title": "Active intrusion campaign against Check Point security management servers",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T16:32:17Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "51d91696e8e356a8f746": {
+      "id": "51d91696e8e356a8f746",
+      "url": "https://news.ycombinator.com/item?id=50626861",
+      "title": "Who in Washington owns and trades Nvidia stock",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T11:51:05Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "0a6a9cb7e75791e53055": {
+      "id": "0a6a9cb7e75791e53055",
+      "url": "https://news.ycombinator.com/item?id=50638503",
+      "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T04:31:48Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "86a5ad02d207ab37e4ec": {
+      "id": "86a5ad02d207ab37e4ec",
+      "url": "https://news.ycombinator.com/item?id=50631157",
+      "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T17:07:41Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "415d123c8c86ec21153e": {
+      "id": "415d123c8c86ec21153e",
+      "url": "https://news.ycombinator.com/item?id=50635271",
+      "title": "Heart attack and stroke risk detectable decades in advance",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T21:51:21Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "d3013083eab3acebce74": {
+      "id": "d3013083eab3acebce74",
+      "url": "https://news.ycombinator.com/item?id=50637874",
+      "title": "I've been drinking wine in my kitchen",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T03:02:10Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "dd40959b489199d6382e": {
+      "id": "dd40959b489199d6382e",
+      "url": "https://news.ycombinator.com/item?id=50642086",
+      "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T13:33:07Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A63"
+    },
+    "befc0982bbca99dec635": {
+      "id": "befc0982bbca99dec635",
+      "url": "https://news.ycombinator.com/item?id=50626413",
+      "title": "Worshipping at the altar of Brendan Gregg",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T10:50:14Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "6bc3297142c3bbd7e384": {
+      "id": "6bc3297142c3bbd7e384",
+      "url": "https://news.ycombinator.com/item?id=50624061",
+      "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T05:15:22Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "7fa185726c1174914622": {
+      "id": "7fa185726c1174914622",
+      "url": "https://news.ycombinator.com/item?id=50641171",
+      "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T11:34:25Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "6e6ab58c4cf396363a3b": {
+      "id": "6e6ab58c4cf396363a3b",
+      "url": "https://news.ycombinator.com/item?id=50629231",
+      "title": "A training engine for your local model, using your idle compute",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T15:03:40Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "eba2a4221f7187324ab5": {
+      "id": "eba2a4221f7187324ab5",
+      "url": "https://news.ycombinator.com/item?id=50631210",
+      "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T17:10:45Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "6b481e4f7501beedf7f8": {
+      "id": "6b481e4f7501beedf7f8",
+      "url": "https://news.ycombinator.com/item?id=50638320",
+      "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T04:03:33Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "05746818c5b174ed7c46": {
+      "id": "05746818c5b174ed7c46",
+      "url": "https://news.ycombinator.com/item?id=50638220",
+      "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T03:47:42Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "3db5a70ead76f6cbc0e0": {
+      "id": "3db5a70ead76f6cbc0e0",
+      "url": "https://news.ycombinator.com/item?id=50638478",
+      "title": "Taking over US Treasury subdomains for $3 each",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T04:27:55Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "bc3f1d765f8a9dca76eb": {
+      "id": "bc3f1d765f8a9dca76eb",
+      "url": "https://news.ycombinator.com/item?id=50623515",
+      "title": "Drone Maps of Salvage Yards",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T04:00:28Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "90df8da442e54abdac2e": {
+      "id": "90df8da442e54abdac2e",
+      "url": "https://news.ycombinator.com/item?id=50643129",
+      "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T15:14:32Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A26"
+    },
+    "f0463176deabd1a5fca8": {
+      "id": "f0463176deabd1a5fca8",
+      "url": "https://news.ycombinator.com/item?id=50622934",
+      "title": "Making a dumb TV just smart enough",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T02:46:54Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "07e38f2bc28c49c91438": {
+      "id": "07e38f2bc28c49c91438",
+      "url": "https://news.ycombinator.com/item?id=50632883",
+      "title": "Cloudflare hides shortcomings of the underlying infrastructure",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T19:03:55Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "d24293abbf053b595e43": {
+      "id": "d24293abbf053b595e43",
+      "url": "https://news.ycombinator.com/item?id=50633159",
+      "title": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T19:23:44Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "f970f90521f6f490deee": {
+      "id": "f970f90521f6f490deee",
+      "url": "https://news.ycombinator.com/item?id=50629106",
+      "title": "Splitting USB-C: USB 3 and USB 2 on one port",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T14:54:10Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "16e2a09a0be96dc3b6c4": {
+      "id": "16e2a09a0be96dc3b6c4",
+      "url": "https://news.ycombinator.com/item?id=50625953",
+      "title": "Just a Few Bugs",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T09:47:59Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "181094f0e0debba5f289": {
+      "id": "181094f0e0debba5f289",
+      "url": "https://news.ycombinator.com/item?id=50643065",
+      "title": "Rumors swirling that labs might have cracked Factoring in P",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T15:08:44Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A32"
+    },
+    "cf7333ed71c501bfcba3": {
+      "id": "cf7333ed71c501bfcba3",
+      "url": "https://news.ycombinator.com/item?id=50620721",
+      "title": "Freeing the iPod Nano 5G",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T23:03:13Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "28dcc7b8fe2f84033866": {
+      "id": "28dcc7b8fe2f84033866",
+      "url": "https://news.ycombinator.com/item?id=50625265",
+      "title": "Gödel Enigma",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T08:16:02Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "2e3a0f98b1156c788ba6": {
+      "id": "2e3a0f98b1156c788ba6",
+      "url": "https://news.ycombinator.com/item?id=50638647",
+      "title": "Treasury CIO is too busy vibecoding instead of doing his job #147",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T04:56:36Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "db7efb2fc9a68fc9d040": {
+      "id": "db7efb2fc9a68fc9d040",
+      "url": "https://news.ycombinator.com/item?id=50627726",
+      "title": "Getting old Java phones online again",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T13:14:37Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "b4452844368228c5fac9": {
+      "id": "b4452844368228c5fac9",
+      "url": "https://news.ycombinator.com/item?id=50634933",
+      "title": "An unclassified CIA system was breached in a cyberattack",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T21:24:27Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "01311dfb8a3fe8a36f74": {
+      "id": "01311dfb8a3fe8a36f74",
+      "url": "https://news.ycombinator.com/item?id=50642496",
+      "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T14:12:29Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A53"
+    },
+    "fba82c43ed532c0f1f3b": {
+      "id": "fba82c43ed532c0f1f3b",
+      "url": "https://news.ycombinator.com/item?id=50637891",
+      "title": "Macrohistory in Six Facts",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T03:04:46Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "b80bcbd6d5615f4197f6": {
+      "id": "b80bcbd6d5615f4197f6",
+      "url": "https://news.ycombinator.com/item?id=50628932",
+      "title": "Anthropic is below its IPO price",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T14:41:15Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "06a98f9a13053b7bf216": {
+      "id": "06a98f9a13053b7bf216",
+      "url": "https://news.ycombinator.com/item?id=50630245",
+      "title": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T16:08:29Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "d39dabf3d06d93381ccb": {
+      "id": "d39dabf3d06d93381ccb",
+      "url": "https://news.ycombinator.com/item?id=50638070",
+      "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-25T03:28:06Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "0d580cec06d77c2d5e38": {
+      "id": "0d580cec06d77c2d5e38",
+      "url": "https://news.ycombinator.com/item?id=50627079",
+      "title": "The Shapes of Rivers",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T12:14:25Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "5e15060c751b837c90a6": {
+      "id": "5e15060c751b837c90a6",
+      "url": "https://news.ycombinator.com/item?id=50622854",
+      "title": "Declare is a UI language for you and your AI",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T02:36:56Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "caff643830e99dba1919": {
+      "id": "caff643830e99dba1919",
+      "url": "https://news.ycombinator.com/item?id=50620250",
+      "title": "Levent Alpöge comments on his Riemann Hypothesis proof",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-23T22:22:56Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "2c3e76bd296a341c0238": {
+      "id": "2c3e76bd296a341c0238",
+      "url": "https://news.ycombinator.com/item?id=50621977",
+      "title": "Alcohol use reduces efficacy of immunotherapy by disrupting antitumor immunity",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T00:53:46Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "a23fc40bd40cf3ccfa4f": {
+      "id": "a23fc40bd40cf3ccfa4f",
+      "url": "https://news.ycombinator.com/item?id=50630423",
+      "title": "Camillo Sitte made the blueprint for beautiful cities",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-24T16:19:55Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed"
+    },
+    "0454d274d52a51b7140f": {
+      "id": "0454d274d52a51b7140f",
+      "url": "https://news.ycombinator.com/item?id=50632998",
+      "title": "Compiling web applications into verified operations for AI agents",
+      "source": "Hacker News · agents",
+      "source_id": "hn-agents",
+      "group": "agents",
+      "published_at": "2026-11-24T19:12:02Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A70"
+    },
+    "f13f50765ddb35d9b0c1": {
+      "id": "f13f50765ddb35d9b0c1",
+      "url": "https://news.ycombinator.com/item?id=50634426",
+      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "source": "Hacker News · Show HN AI",
+      "source_id": "hn-show",
+      "group": "agents",
+      "published_at": "2026-11-24T20:44:15Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A65"
+    },
+    "9d9655b18ecf8e9870d2": {
+      "id": "9d9655b18ecf8e9870d2",
+      "url": "https://news.ycombinator.com/item?id=50629936",
+      "title": "Show HN: Brickie – Deploy sandboxes in your own AWS account",
+      "source": "Hacker News · agents",
+      "source_id": "hn-agents",
+      "group": "agents",
+      "published_at": "2026-11-24T15:48:34Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A82"
+    },
+    "04fb07b474322a99595c": {
+      "id": "04fb07b474322a99595c",
+      "url": "https://news.ycombinator.com/item?id=50637995",
+      "title": "Show HN: Carry – Save every AI conversations as Markdown, in a folder you Own",
+      "source": "Hacker News · Show HN AI",
+      "source_id": "hn-show",
+      "group": "agents",
+      "published_at": "2026-11-25T03:19:02Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A48"
+    },
+    "6ce767ef8cf54e19e32c": {
+      "id": "6ce767ef8cf54e19e32c",
+      "url": "https://news.ycombinator.com/item?id=50630294",
+      "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
+      "source": "Hacker News · Show HN AI",
+      "source_id": "hn-show",
+      "group": "agents",
+      "published_at": "2026-11-24T16:11:52Z",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "ref": "A78"
+    },
+    "bcef9d16888c8d952bd3": {
+      "id": "bcef9d16888c8d952bd3",
+      "url": "https://github.com/affaan-m/ECC",
+      "title": "affaan-m/ECC",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 310567,
+      "date_kind": "discovery",
+      "ref": "A1"
+    },
+    "f346967a643dee47e7af": {
+      "id": "f346967a643dee47e7af",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "title": "deepseek-ai/deepseek-harness",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 286944,
+      "date_kind": "discovery",
+      "ref": "A7"
+    },
+    "512d05ceddf0b57be1a7": {
+      "id": "512d05ceddf0b57be1a7",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "title": "NousResearch/hermes-agent",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 266045,
+      "date_kind": "discovery",
+      "ref": "A13"
+    },
+    "47f44b67cbf349cae1e1": {
+      "id": "47f44b67cbf349cae1e1",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "title": "firecrawl/firecrawl",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 209729,
+      "date_kind": "discovery"
+    },
+    "1593d3b2465ec2361603": {
+      "id": "1593d3b2465ec2361603",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "title": "DietrichGebert/ponytail",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 198571,
+      "date_kind": "discovery"
+    },
+    "0c408a684aa06b310013": {
+      "id": "0c408a684aa06b310013",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "title": "Graphify-Labs/graphify",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 153245,
+      "date_kind": "discovery"
+    },
+    "68f9253c17122a40f48f": {
+      "id": "68f9253c17122a40f48f",
+      "url": "https://github.com/langchain-ai/langchain",
+      "title": "langchain-ai/langchain",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 149983,
+      "date_kind": "discovery"
+    },
+    "73bc2f10fd3f77ef2ee1": {
+      "id": "73bc2f10fd3f77ef2ee1",
+      "url": "https://github.com/stablyai/orca",
+      "title": "stablyai/orca",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 137615,
+      "date_kind": "discovery"
+    },
+    "4e1c1122581baff74f26": {
+      "id": "4e1c1122581baff74f26",
+      "url": "https://github.com/browser-use/browser-use",
+      "title": "browser-use/browser-use",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 122040,
+      "date_kind": "discovery"
+    },
+    "2cbb0be2c1d3be6cf47e": {
+      "id": "2cbb0be2c1d3be6cf47e",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "title": "Leonxlnx/taste-skill",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 121448,
+      "date_kind": "discovery"
+    },
+    "9db7169fbbe0328c930d": {
+      "id": "9db7169fbbe0328c930d",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "title": "thedotmack/claude-mem",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 119702,
+      "date_kind": "discovery"
+    },
+    "db5c78d9a7889d79b1a9": {
+      "id": "db5c78d9a7889d79b1a9",
+      "url": "https://github.com/paperclipai/paperclip",
+      "title": "paperclipai/paperclip",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 116970,
+      "date_kind": "discovery"
+    },
+    "ed370a081479aeee0529": {
+      "id": "ed370a081479aeee0529",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "title": "google-gemini/gemini-cli",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 109106,
+      "date_kind": "discovery"
+    },
+    "f7a1d26f63783f63ae85": {
+      "id": "f7a1d26f63783f63ae85",
+      "url": "https://github.com/tt-a1i/archify",
+      "title": "tt-a1i/archify",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 99837,
+      "date_kind": "discovery"
+    },
+    "d11dea1b179bba80882e": {
+      "id": "d11dea1b179bba80882e",
+      "url": "https://github.com/infiniflow/ragflow",
+      "title": "infiniflow/ragflow",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 94700,
+      "date_kind": "discovery"
+    },
+    "ff9029c40b5e52bbed94": {
+      "id": "ff9029c40b5e52bbed94",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "title": "Ebony-Vinyl/dsh-our-free-model",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 86995,
+      "date_kind": "discovery",
+      "ref": "A19"
+    },
+    "041bb618734a9590c557": {
+      "id": "041bb618734a9590c557",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "title": "google/elephant-goldfish-model",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 22955,
+      "date_kind": "discovery",
+      "ref": "A25"
+    },
+    "26d7380e52b5b3197ec8": {
+      "id": "26d7380e52b5b3197ec8",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "title": "lemomo-ai/lemo-opuscar",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 21009,
+      "date_kind": "discovery",
+      "ref": "A31"
+    },
+    "8e7c54fd549ef1988177": {
+      "id": "8e7c54fd549ef1988177",
+      "url": "https://github.com/BaaRai/ARTEX",
+      "title": "BaaRai/ARTEX",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 20298,
+      "date_kind": "discovery",
+      "ref": "A37"
+    },
+    "56972b4e6d7749ae8e4f": {
+      "id": "56972b4e6d7749ae8e4f",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "title": "kajisho5/ffmpeg-skill",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 10991,
+      "date_kind": "discovery",
+      "ref": "A43"
+    },
+    "870058095a1bddcc8d86": {
+      "id": "870058095a1bddcc8d86",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "title": "mdiri-ai/SoduWork",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 8062,
+      "date_kind": "discovery"
+    },
+    "e980cffde13439b44c00": {
+      "id": "e980cffde13439b44c00",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "title": "Human-Agent-Society/reef",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 7623,
+      "date_kind": "discovery"
+    },
+    "36575ac2b54b60f98e2d": {
+      "id": "36575ac2b54b60f98e2d",
+      "url": "https://github.com/Oldcircle/geo-sleuth",
+      "title": "Oldcircle/geo-sleuth",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 7541,
+      "date_kind": "discovery"
+    },
+    "b9a4754ed49187c12842": {
+      "id": "b9a4754ed49187c12842",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "title": "Louis-CFM/coucou",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 7456,
+      "date_kind": "discovery"
+    },
+    "a61734dd400405ff7033": {
+      "id": "a61734dd400405ff7033",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "title": "KKKKhazix/agent-autoloop",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 6543,
+      "date_kind": "discovery"
+    },
+    "50079c624edfeb613a98": {
+      "id": "50079c624edfeb613a98",
+      "url": "https://github.com/kuafuai/andee",
+      "title": "kuafuai/andee",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 6196,
+      "date_kind": "discovery"
+    },
+    "dc2cb86b3c5c5d1daa84": {
+      "id": "dc2cb86b3c5c5d1daa84",
+      "url": "https://github.com/vAPI-Network/vapi-network",
+      "title": "vAPI-Network/vapi-network",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 5861,
+      "date_kind": "discovery"
+    },
+    "55786de0d73dbd91f704": {
+      "id": "55786de0d73dbd91f704",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "title": "Leonxlnx/earshot",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 5773,
+      "date_kind": "discovery"
+    },
+    "fedc30066d4ef5c01528": {
+      "id": "fedc30066d4ef5c01528",
+      "url": "https://github.com/shinyobjectz/raea",
+      "title": "shinyobjectz/raea",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 5156,
+      "date_kind": "discovery"
+    },
+    "d2e24b8f0d016ee7f477": {
+      "id": "d2e24b8f0d016ee7f477",
+      "url": "https://github.com/expo/exact",
+      "title": "expo/exact",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-25T16:53:38.916072+00:00",
+      "discovered_at": "2026-11-25T16:53:38.916072+00:00",
+      "text_kind": "feed",
+      "stars": 5099,
       "date_kind": "discovery"
     }
   },
@@ -8346,6 +10921,28 @@
     "2d8f7043fb6cf84f476f": "2026-11-24",
     "0f19c958424827f4f811": "2026-11-24",
     "0216a8f18d8a22221b26": "2026-11-24",
-    "0ff2877103f30dc0bf7b": "2026-11-24"
+    "0ff2877103f30dc0bf7b": "2026-11-24",
+    "d1a8a8c302ae6a4a1fbc": "2026-11-25",
+    "0b260d07579db8478ef4": "2026-11-25",
+    "9d9655b18ecf8e9870d2": "2026-11-25",
+    "f13f50765ddb35d9b0c1": "2026-11-25",
+    "8309588c20e1138eb4c3": "2026-11-25",
+    "814c119a5cc419e2f6fd": "2026-11-25",
+    "56897c41f3da0291cef4": "2026-11-25",
+    "1a604d5c888534c5e5ce": "2026-11-25",
+    "db67aeec97db4d6edd9b": "2026-11-25",
+    "bd85725bcde7fc6d8349": "2026-11-25",
+    "2e11e2caa2effed768ce": "2026-11-25",
+    "01311dfb8a3fe8a36f74": "2026-11-25",
+    "1068f2cdbddac2f74273": "2026-11-25",
+    "422f0bcb3be2fe07d585": "2026-11-25",
+    "9587e89d419570c939e9": "2026-11-25",
+    "8a1d4f5d0222e2c6fa22": "2026-11-25",
+    "092c41173b4173223e18": "2026-11-25",
+    "52f69f809144c65e4b82": "2026-11-25",
+    "f09c7d99e35640ac48aa": "2026-11-25",
+    "bcbd32c2616201ca67bd": "2026-11-25",
+    "cc92d31ca6d454f70d68": "2026-11-25",
+    "6010a6da623d01c6a37f": "2026-11-25"
   }
 }
