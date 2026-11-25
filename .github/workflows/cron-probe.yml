@@ -1,0 +1,25 @@
+name: Temporary cron probe
+on:
+  schedule:
+    # Diagnostic only: 25 Nov 2026, 17:05 / 17:10 / 17:15 UTC. Remove after the test.
+    - cron: '5,10,15 17 25 11 *'
+permissions: {}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - name: Record a real scheduled trigger
+        env:
+          TRIGGER_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          print(json.dumps({
+              'event': os.environ['GITHUB_EVENT_NAME'],
+              'schedule': os.environ['TRIGGER_SCHEDULE'],
+              'started_at_utc': datetime.now(timezone.utc).isoformat(),
+              'sha': os.environ['GITHUB_SHA'],
+          }))
+          PY

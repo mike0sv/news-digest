@@ -34,6 +34,24 @@ jobs:
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
+      - name: Record trigger metadata
+        env:
+          TRIGGER_EVENT: ${{ github.event_name }}
+          TRIGGER_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          record = {
+              'event': os.environ['TRIGGER_EVENT'],
+              'schedule': os.environ.get('TRIGGER_SCHEDULE', ''),
+              'started_at_utc': datetime.now(timezone.utc).isoformat(),
+              'sha': os.environ['GITHUB_SHA'],
+          }
+          print('Trigger metadata: ' + json.dumps(record))
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as output:
+              output.write('## Trigger metadata\n```json\n' + json.dumps(record, indent=2) + '\n```\n')
+          PY
       - name: Prepare source articles
         id: prepare
         env:
