@@ -4,8 +4,10 @@ on:
     branches: [main]
     paths-ignore: ['data/**', 'README.md', 'tests/**']
   schedule:
-    # 08:17 Europe/London in winter and summer. The earlier winter run is a no-op.
-    - cron: '17 7,8 * * *'
+    # Primary 08:17 London, then recovery attempts if a trigger or job was missed.
+    # Existing issues and confirmed Telegram receipts make repeats idempotent.
+    - cron: '17,47 8-11 * * *'
+      timezone: 'Europe/London'
   workflow_dispatch:
     inputs:
       date:

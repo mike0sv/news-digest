@@ -282,6 +282,25 @@ class PipelineTests(unittest.TestCase):
             job = prepare(self.root, now=summer, scheduled=True)
             self.assertTrue(job['ready'])
 
+    def test_morning_recovery_creates_one_issue_in_winter_and_summer(self):
+        for month, hour in [(11,8),(7,7)]:
+            morning=NOW.replace(month=month,hour=hour,minute=17)
+            first_attempt=morning+timedelta(minutes=30)  # Primary trigger was missed.
+            item=article('recovery-'+str(month),published_at=morning.isoformat())
+            with patch('digest.pipeline.collect',return_value=([item],[{'ok':True}])) as fetch:
+                early=prepare(self.root,now=morning-timedelta(hours=1),scheduled=True)
+                self.assertFalse(early['ready']);fetch.assert_not_called()
+                job=prepare(self.root,now=first_attempt,scheduled=True)
+                self.assertTrue(job['ready'])
+                issue=generate_issue(self.root)
+                self.assertEqual(issue['date'],morning.date().isoformat())
+                self.assertEqual(len(issue['stories']),1)
+            with patch('digest.pipeline.collect') as fetch:
+                for delay in [60,210]:
+                    job=prepare(self.root,now=morning+timedelta(minutes=delay),scheduled=True)
+                    self.assertFalse(job['ready'])
+                fetch.assert_not_called()
+
     def test_all_source_failures_do_not_write_state(self):
         with patch('digest.pipeline.collect', return_value=([],[{'ok':False}])):
             with self.assertRaises(RuntimeError): prepare(self.root, now=NOW)
@@ -325,16 +344,36 @@ class PipelineTests(unittest.TestCase):
             deliver(self.root); deliver(self.root)
         self.assertEqual(post.call_count,1)
         self.assertEqual(read_json(self.root/'data/deliveries.json')[issue['id']]['message_id'],7)
+        self.assertNotIn('delivery_uncertain',read_json(self.root/'data/deliveries.json')[issue['id']])
 
-    def test_telegram_failure_does_not_mark_delivery(self):
+    def test_telegram_timeout_blocks_automatic_resend_without_marking_success(self):
         self.prepare(); issue=generate_issue(self.root)
         issue['provider']='gemini'
         issue['date']=datetime.now(timezone.utc).date().isoformat()
         issue['id']=issue['date']
         write_json(self.root/'data/issues'/f"{issue['id']}.json",issue)
-        with patch.dict('os.environ',{'TELEGRAM_BOT_TOKEN':'secret','TELEGRAM_CHAT_ID':'1'}), patch('digest.publish.post_json',side_effect=RuntimeError('timeout')):
+        with patch.dict('os.environ',{'TELEGRAM_BOT_TOKEN':'secret','TELEGRAM_CHAT_ID':'1'}), patch('digest.publish.post_json',side_effect=RuntimeError('timeout')) as post:
             with self.assertRaises(RuntimeError): deliver(self.root)
-        self.assertFalse((self.root/'data/deliveries.json').exists())
+            with self.assertRaisesRegex(RuntimeError,'uncertain outcome'): deliver(self.root)
+        self.assertEqual(post.call_count,1)
+        receipt=read_json(self.root/'data/deliveries.json')[issue['id']]
+        self.assertTrue(receipt['delivery_uncertain'])
+        self.assertNotIn('hash',receipt);self.assertNotIn('message_id',receipt)
+
+    def test_confirmed_telegram_rejection_can_be_retried(self):
+        self.prepare();issue=generate_issue(self.root)
+        issue.update(provider='gemini',date=datetime.now(timezone.utc).date().isoformat())
+        issue['id']=issue['date']
+        write_json(self.root/'data/issues'/f"{issue['id']}.json",issue)
+        with patch.dict('os.environ',{'TELEGRAM_BOT_TOKEN':'secret','TELEGRAM_CHAT_ID':'1'}), patch(
+                'digest.publish.post_json',side_effect=[{'ok':False},{'ok':True,'result':{'message_id':8}}]) as post:
+            with self.assertRaises(RuntimeError):deliver(self.root)
+            self.assertFalse(read_json(self.root/'data/deliveries.json')[issue['id']]['delivery_uncertain'])
+            deliver(self.root);deliver(self.root)
+        self.assertEqual(post.call_count,2)
+        receipt=read_json(self.root/'data/deliveries.json')[issue['id']]
+        self.assertEqual(receipt['message_id'],8)
+        self.assertNotIn('delivery_uncertain',receipt)
 
     def test_static_export_excludes_state_preferences_and_credentials(self):
         self.prepare(); generate_issue(self.root); build(self.root)

@@ -158,20 +158,36 @@ def deliver(root):
         previous = receipts.get(issue["id"], {})
         if previous.get("hash") == fingerprint:
             continue
+        if previous.get("delivery_uncertain") and not previous.get("message_id"):
+            raise RuntimeError("Previous Telegram send has an uncertain outcome; "
+                               "check the chat before clearing delivery_uncertain and retrying")
         method = "editMessageText" if previous.get("message_id") else "sendMessage"
         payload = {"chat_id": chat, "text": message, "parse_mode": "HTML",
                    "link_preview_options": ({"url": iv_url, "prefer_small_media": True}
                                             if iv_url else {"is_disabled": True})}
         if method == "editMessageText":
             payload["message_id"] = previous["message_id"]
+        else:
+            # A timeout may happen after Telegram accepted the message. Scheduled
+            # recovery must not blindly send it again. The workflow persists this
+            # record even when delivery fails; a hard runner crash can still lose it.
+            receipts[issue["id"]] = {**previous, "delivery_uncertain": True,
+                "attempted_at": datetime.now(timezone.utc).isoformat()}
+            write_json(receipts_path, receipts)
         response = post_json("https://api.telegram.org/bot" + token + "/" + method,
                              payload, {}, retries=0)
         if response.get("ok") is not True:
+            # A structured rejection confirms the send did not succeed. A later
+            # recovery can retry after the underlying problem has been corrected.
+            if response.get("ok") is False and method == "sendMessage":
+                receipts[issue["id"]]["delivery_uncertain"] = False
+                write_json(receipts_path, receipts)
             raise RuntimeError("Telegram did not confirm delivery")
         result = response.get("result")
         message_id = result["message_id"] if isinstance(result, dict) else previous["message_id"]
         receipts[issue["id"]] = {**previous,
             "sent_at": previous.get("sent_at", datetime.now(timezone.utc).isoformat()),
             "message_id": message_id, "hash": fingerprint}
+        receipts[issue["id"]].pop("delivery_uncertain", None)
         write_json(receipts_path, receipts)
         print(f"Delivered issue {issue['id']}.")
