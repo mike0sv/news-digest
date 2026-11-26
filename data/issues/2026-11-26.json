@@ -1,0 +1,521 @@
+{
+  "version": 1,
+  "id": "2026-11-26",
+  "date": "2026-11-26",
+  "created_at": "2026-11-26T16:33:20.559315+00:00",
+  "title": "Утренний обзор",
+  "intro": "Выпуск собран из материалов за 26 ноября и предыдущие дни: агентские инструменты и обсуждения, несколько технологических и мировых новостей и одна пенсионная новость из России. Переговорных новостей по существу в ленте не было, а иммиграционных изменений правил в этом выпуске нет.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "world",
+      "name": "Мир: главное",
+      "description": "Только крупные мировые события и существенные международные решения. Без риторики, курьезов и местной хроники; пустая группа допустима."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "langgraph-cli 0.4.44: деплой в BYOC data planes только с API-ключом",
+      "summary": "Вышла langgraph-cli 0.4.44: деплой в BYOC data planes теперь возможен только с API-ключом, а deploy list --json выводит url. В релиз также вошли исправление пустого списка secrets при обновлении деплоя и обновление зависимости opentelemetry-api.",
+      "why_it_matters": "Команды, которые разворачивают агентов LangGraph в собственном data plane, могут обойтись API-ключом без дополнительной настройки.",
+      "id": "fdab0dd9c9716dd3",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "b5192911b2bfdbd383b0",
+          "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.44",
+          "source": "LangGraph releases",
+          "title": "langgraph-cli==0.4.44",
+          "published_at": "2026-11-25T20:52:34+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "GPT-6.2 Astra по пересказу Уиллисона определил автора альбома эскизов 1808 года",
+      "summary": "Историк Марк Хамфрис, как цитирует Саймон Уиллисон, сообщил, что GPT-6.2 Astra почти без подсказок за 22 минуты установил автора анонимного альбома эскизов 1808 года из библиотеки Beinecke Library в Йеле, используя открытые источники. По его словам, модель нашла в бумажном архиве дневниковую ссылку, которую он затем проверил.",
+      "why_it_matters": "Это пример автономного исследовательского поиска агента с проверяемыми источниками, но пока это один отчёт пользователя, а не системная проверка.",
+      "id": "e529a00f0ec6a895",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "2d9b2b8de4028adf7548",
+          "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+          "source": "Simon Willison",
+          "title": "GPT 6.2 Astra Solves a Historical Mystery",
+          "published_at": "2026-11-24T16:53:59+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Пост на HN: пользователь говорит, что ИИ-агенты стали давать менее полезные результаты",
+      "summary": "Автор популярного поста на Hacker News (с 36 баллами и 26 комментариями на момент сбора) пишет, что после первых впечатлений модели, включая Opus 5.5 и Astra 6.2, стали требовать многократного уточнения и не всегда находят базовые факты. Это личный опыт без измерений, но он описывает ограничения агентов в исследовательских задачах.",
+      "why_it_matters": "Пост отражает распространённое среди разработчиков ощущение, что для исследований агенты дают меньше пользы, чем ожидалось, но это не замер качества.",
+      "id": "fa8920bbc74d4f4f",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "ac64a3fde082e22a8cc6",
+          "url": "https://news.ycombinator.com/item?id=50633601",
+          "source": "Hacker News · agents",
+          "title": "Ask HN: Am I the only one whose AI hype is cooling down a lot?",
+          "published_at": "2026-11-24T19:51:01Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "HN: разработчик говорит, что Anthropic обвинила его компанию в дистилляции моделей",
+      "summary": "Автор поста на Hacker News (458 баллов, 352 комментария) пишет, что Anthropic обвинила его компанию в использовании API для дистилляции и дала 24 часа на опровержение. По его словам, компания не обучает собственные модели, а API использует для регрессионных бенчмарков; позиция Anthropic в материале не приведена.",
+      "why_it_matters": "",
+      "id": "4e8181b235ee897f",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "9d8ef44660a0fb71a30f",
+          "url": "https://news.ycombinator.com/item?id=50630809",
+          "source": "Hacker News · Show HN AI",
+          "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+          "published_at": "2026-11-24T16:45:44Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "yetone/magpie: объединение подписок на ИИ-модели для агентов",
+      "summary": "Репозиторий yetone/magpie предлагает объединять подписки (Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code и др.) и использовать их в Claude Code, Codex и Claude Desktop, переходя к следующему плану, когда текущий исчерпан. Описание указывает Linux, macOS и Windows; независимых проверок в материале нет, а 41 957 звёзд на GitHub отражают внимание.",
+      "why_it_matters": "",
+      "id": "f96ed837534290ea",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "81d415ab1d7f2ed331cf",
+          "url": "https://github.com/yetone/magpie",
+          "source": "GitHub · emerging agent projects",
+          "title": "yetone/magpie",
+          "published_at": "2026-11-26T16:33:20.559315+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "lemo-opuscar: 99 стилей для создания фильмов кодом в Claude Code",
+      "summary": "Репозиторий lemomo-ai/lemo-opuscar содержит набор из 99 готовых стилей для создания видео кодом в Claude Code, и к каждому стилю приложен демо-фильм, по описанию созданный Claude Opus 5.5 без видеомодели. За сутки на GitHub +479 звёзд; это показатель интереса, а не проверенного качества.",
+      "why_it_matters": "",
+      "id": "14a5967a738f8749",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "33b30b3f2824f4fbfeb2",
+          "url": "https://github.com/lemomo-ai/lemo-opuscar",
+          "source": "GitHub · emerging agent projects",
+          "title": "lemomo-ai/lemo-opuscar",
+          "published_at": "2026-11-26T16:33:20.559315+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "По заголовку: Google продвигает MCP-серверы, но Gmail не отправляет письма",
+      "summary": "По заголовку статьи и обсуждению на Hacker News (92 балла, 105 комментариев), Google делает ставку на MCP-серверы для AI-агентов Workspace, однако через Gmail агент не может отправлять письма. Текст статьи в материале не приведён, поэтому объём ограничений неизвестен.",
+      "why_it_matters": "",
+      "id": "13bf5d014b427bde",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "ea1348c2855120ec208c",
+          "url": "https://news.ycombinator.com/item?id=50653477",
+          "source": "Hacker News · agents",
+          "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+          "published_at": "2026-11-26T09:44:23Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "SpaceX: одобрен план созвездия Starmind из миллиона спутников для ИИ-вычислений",
+      "summary": "По сообщению BBC, план SpaceX по выводу на орбиту созвездия Starmind из миллиона спутников получил одобрение; в тексте не сказано, какой орган его одобрил. Компания заявляет, что созвездие станет самым экономичным по стоимости и энергии способом удовлетворить растущий спрос на ИИ-вычисления.",
+      "why_it_matters": "",
+      "id": "ee41ba6aa597c981",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "5512f8ba8e11219205f0",
+          "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News · World",
+          "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+          "published_at": "2026-11-26T09:27:44+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Калифорнийский DMV запретил робotaxi Waymo выезжать на межштатные трассы штата",
+      "summary": "The Verge сообщает, что на прошлой неделе DMV Калифорнии запретило беспилотным автомобилям Waymo использовать все межштатные магистрали штата. Поводом стала серия инцидентов на фривеях, включая случай 6 ноября, когда беспилотник на I-280 пытался обогнать два патрульных автомобиля; также упоминаются проблемы в зонах дорожных работ.",
+      "why_it_matters": "Запрет лишает Waymo доступа ко всем межштатным магистралям Калифорнии, что ограничивает маршруты беспилотных такси.",
+      "id": "c6780b6179add07c",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "05cadaa4a6a3f7fe53f9",
+          "url": "https://www.theverge.com/transportation/1042151/waymo-highway-ban-ai-safety-recalls",
+          "source": "The Verge",
+          "title": "Waymo conquered city streets — why does it keep stumbling on freeways?",
+          "published_at": "2026-11-26T12:00:00+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "42 генпрокурора штатов США против продажи чатов пользователей Character.AI",
+      "summary": "Коалиция из 42 генпрокуроров штатов пытается помешать Character.AI продать пользовательские данные в ходе процедуры банкротства Chapter 11. По их утверждению, речь идёт о чатах более 21 млн американских аккаунтов, из них более 2,1 млн зарегистрированы на несовершеннолетних; это позиция истцов, а не решение суда.",
+      "why_it_matters": "",
+      "id": "e8a482e9d4d43c40",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "e51b021662e92d608165",
+          "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+          "source": "The Verge",
+          "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+          "published_at": "2026-11-26T09:54:40+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Опубликован текст соглашения Великобритании и ЕС с 10-летним пунктом о прекращении",
+      "summary": "По сообщению BBC, тексты договоров между Великобританией и ЕС опубликованы вместе с законопроектом, призванным ввести в действие большую часть соглашения. Соглашение содержит пункт о прекращении через 10 лет; о других положениях в материале сведений нет.",
+      "why_it_matters": "Пункт о прекращении через 10 лет задаёт срок, на который рассчитано соглашение.",
+      "id": "21022b13d576682f",
+      "group": "world",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "4d2c577c61990dcf80ef",
+          "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News · World",
+          "title": "New UK-EU treaty has 10-year termination clause",
+          "published_at": "2026-11-26T15:23:17+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Два итальянца погибли после иранского удара в Кувейте",
+      "summary": "По данным BBC, два итальянца, техники немецкой компании Rheinmetall, погибли после иранского удара в Кувейте, как сообщило МИД Италии. Обстоятельства удара и ответственность в материале подробно не описаны.",
+      "why_it_matters": "",
+      "id": "6c3a73074e3c2ede",
+      "group": "world",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "e277b380b4b606095f26",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News · World",
+          "title": "Two Italians killed after Iranian strike in Kuwait",
+          "published_at": "2026-11-26T16:27:09+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Госдума в первом чтении одобрила перевод накопительной пенсии в ПДС с 1 апреля 2027 года",
+      "summary": "Госдума в первом чтении одобрила законопроект, по которому накопительная часть пенсии, сформированная взносами работодателей в 2002–2014 годах, автоматически переводится в программу долгосрочных сбережений. Перевод планируется с 1 апреля 2027 года; законопроект ещё не принят окончательно.",
+      "why_it_matters": "Если закон примут, 6,6 трлн рублей пенсионных накоплений, включая 2,98 трлн «молчунов» под управлением ВЭБа, перейдут в ПДС.",
+      "id": "f2e92025bc5904f9",
+      "group": "russia",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "0b0f4a61faaf89e34133",
+          "url": "https://meduza.io/news/2026/11/26/gosduma-odobrila-v-pervom-chtenii-zakonoproekt-ob-avtomaticheskom-perevode-nakopitelnoy-chasti-pensii-v-programmu-dolgosrochnyh-sberezheniy",
+          "source": "Медуза",
+          "title": "Госдума одобрила в первом чтении законопроект об автоматическом переводе накопительной части пенсии в программу долгосрочных сбережений",
+          "published_at": "2026-11-26T15:20:33+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 2258,
+    "candidates": 91,
+    "selected": 13,
+    "sources_ok": 23,
+    "sources_total": 23
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1430,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-world",
+      "name": "BBC News · World",
+      "ok": true,
+      "count": 28,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 40,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 61,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 0,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": "github-agents",
+      "name": "GitHub · active agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "id": "github-new-agents",
+      "name": "GitHub · emerging agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 66263,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 14858,
+    "output_tokens_details": {
+      "thinking_tokens": 11416
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 66263,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 14858,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 66263,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 66263
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  }
+}

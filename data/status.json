@@ -1,5 +1,5 @@
 {
-  "last_success": "2026-11-25T16:53:38.916072+00:00",
+  "last_success": "2026-11-26T16:33:20.559315+00:00",
   "source_health": [
     {
       "id": "codex",
@@ -124,14 +124,14 @@
       "id": "hn-top",
       "name": "Hacker News · top stories",
       "ok": true,
-      "count": 67,
+      "count": 61,
       "error": null
     },
     {
       "id": "hn-agents",
       "name": "Hacker News · agents",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null
     },
     {
