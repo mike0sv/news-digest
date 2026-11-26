@@ -107,3 +107,5 @@ references against actual issue/story IDs. For data changes, inspect summaries a
 coverage, counts of important stories, chronological bounds and repeated stories.
 Verify the GitHub check and deployment runs after pushing. Do not claim Telegram Instant
 View was opened in a native client unless actually checked there.
+CI also validates all workflow files with checksum-pinned actionlint v1.7.12. This
+checks trigger syntax and expressions; it is not proof that GitHub scheduled an event.
