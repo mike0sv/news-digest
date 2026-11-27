@@ -35,8 +35,8 @@ Generated public issues live in `data/issues/`. `.runtime/` and `site/` are igno
   bodies into past issues. Clearly label incomplete retrospective coverage and HN hindsight.
 - Historical runs do not send Telegram messages. A dated run must preserve current state
   and source health. `--force` is explicit; normal reruns must be idempotent.
-- Morning schedule uses Europe/London directly: 08:17 primary, half-hour recovery
-  attempts through 11:47. GitHub can omit/delay all triggers; do not promise an SLA.
+- Daily schedule uses Europe/London directly: 00:49, with morning_hour=0 so the
+  application accepts overnight runs. GitHub can omit/delay triggers; do not promise an SLA.
   Retries must reuse the issue and confirmed receipt. A new send with an uncertain
   outcome blocks automatic resends until the chat is checked and receipt reconciled.
 - Successful push/manual runs and state=active do not validate scheduled triggers.

@@ -3,7 +3,7 @@
   "description": "Личный обзор новостей со ссылками на источники",
   "language": "Russian",
   "timezone": "Europe/London",
-  "morning_hour": 8,
+  "morning_hour": 0,
   "provider": "claude-cli",
   "model": "",
   "max_stories": 16,

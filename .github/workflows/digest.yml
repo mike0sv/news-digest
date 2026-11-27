@@ -4,9 +4,9 @@ on:
     branches: [main]
     paths-ignore: ['data/**', 'README.md', 'tests/**']
   schedule:
-    # Primary 08:17 London, then recovery attempts if a trigger or job was missed.
+    # Start at 00:49 London to leave room for GitHub scheduler delays before morning.
     # Existing issues and confirmed Telegram receipts make repeats idempotent.
-    - cron: '17,47 8-11 * * *'
+    - cron: '49 0 * * *'
       timezone: 'Europe/London'
   workflow_dispatch:
     inputs:

@@ -5,6 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
+from zoneinfo import ZoneInfo
 
 from digest import providers
 from digest.feeds import article_id, canonical_url, parse_feed, parse_html_source, plain_text
@@ -272,6 +273,7 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(issue['provider'], 'links')
 
     def test_schedule_observes_london_summer_time(self):
+        write_json(self.root/'config/settings.json', {**self.config, 'morning_hour': 8})
         # 07:17 UTC is 08:17 London in summer, but too early in winter.
         summer = NOW.replace(month=7,hour=7,minute=17)
         winter = NOW.replace(hour=7,minute=17)
@@ -283,6 +285,7 @@ class PipelineTests(unittest.TestCase):
             self.assertTrue(job['ready'])
 
     def test_morning_recovery_creates_one_issue_in_winter_and_summer(self):
+        write_json(self.root/'config/settings.json', {**self.config, 'morning_hour': 8})
         for month, hour in [(11,8),(7,7)]:
             morning=NOW.replace(month=month,hour=hour,minute=17)
             first_attempt=morning+timedelta(minutes=30)  # Primary trigger was missed.
@@ -299,6 +302,23 @@ class PipelineTests(unittest.TestCase):
                 for delay in [60,210]:
                     job=prepare(self.root,now=morning+timedelta(minutes=delay),scheduled=True)
                     self.assertFalse(job['ready'])
+                fetch.assert_not_called()
+
+    def test_overnight_schedule_uses_london_day_and_accepts_previous_day_news(self):
+        for month in [11, 7]:
+            local = datetime(2026, month, 23, 0, 49, tzinfo=ZoneInfo('Europe/London'))
+            now = local.astimezone(timezone.utc)
+            item = article('overnight-'+str(month),
+                           published_at=(now-timedelta(hours=5)).isoformat())
+            with patch('digest.pipeline.collect', return_value=([item], [{'ok':True}])):
+                job = prepare(self.root, now=now, scheduled=True)
+                self.assertTrue(job['ready'])
+                issue = generate_issue(self.root)
+            self.assertEqual(issue['date'], local.date().isoformat())
+            self.assertEqual(len(issue['stories']), 1)
+            with patch('digest.pipeline.collect') as fetch:
+                retry = prepare(self.root, now=now+timedelta(hours=8), scheduled=True)
+                self.assertFalse(retry['ready'])
                 fetch.assert_not_called()
 
     def test_all_source_failures_do_not_write_state(self):
