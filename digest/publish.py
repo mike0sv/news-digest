@@ -139,7 +139,14 @@ def deliver(root):
                 output.write("## Telegram: setup required\nAdd TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID repository secrets. No message was sent.\n")
         return
     receipts_path = root / "data/deliveries.json"
-    receipts = read_json(receipts_path, {})
+    all_receipts = read_json(receipts_path, {})
+    # Message IDs and delivery status belong to a destination, not just an issue.
+    # Keep legacy personal-chat receipts intact; never reuse them in a new channel.
+    destination = chat.strip()
+    if destination.startswith("@"):
+        destination = destination.lower()
+    destination_key = sha256(destination.encode()).hexdigest()
+    receipts = all_receipts.setdefault("destinations", {}).setdefault(destination_key, {})
     pages = read_json(root / "data/telegraph.json", {})
     # Do not unexpectedly send an entire old archive when Telegram is first enabled.
     issues = [read_json(path) for path in issue_files(root) if path.stem[:10] ==
@@ -173,7 +180,7 @@ def deliver(root):
             # record even when delivery fails; a hard runner crash can still lose it.
             receipts[issue["id"]] = {**previous, "delivery_uncertain": True,
                 "attempted_at": datetime.now(timezone.utc).isoformat()}
-            write_json(receipts_path, receipts)
+            write_json(receipts_path, all_receipts)
         response = post_json("https://api.telegram.org/bot" + token + "/" + method,
                              payload, {}, retries=0)
         if response.get("ok") is not True:
@@ -181,7 +188,7 @@ def deliver(root):
             # recovery can retry after the underlying problem has been corrected.
             if response.get("ok") is False and method == "sendMessage":
                 receipts[issue["id"]]["delivery_uncertain"] = False
-                write_json(receipts_path, receipts)
+                write_json(receipts_path, all_receipts)
             raise RuntimeError("Telegram did not confirm delivery")
         result = response.get("result")
         message_id = result["message_id"] if isinstance(result, dict) else previous["message_id"]
@@ -189,5 +196,5 @@ def deliver(root):
             "sent_at": previous.get("sent_at", datetime.now(timezone.utc).isoformat()),
             "message_id": message_id, "hash": fingerprint}
         receipts[issue["id"]].pop("delivery_uncertain", None)
-        write_json(receipts_path, receipts)
+        write_json(receipts_path, all_receipts)
         print(f"Delivered issue {issue['id']}.")

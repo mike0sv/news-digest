@@ -89,6 +89,9 @@ Generated public issues live in `data/issues/`. `.runtime/` and `site/` are igno
   Keep source collection/model steps read-only; grant write permissions only where needed.
 - Never commit secrets, raw model prompts, source full text or transient model responses.
   Bot may be shared: do not change polling/webhooks or consume `getUpdates`.
+- Telegram delivery receipts are scoped by a SHA-256 destination key under `destinations`.
+  Legacy top-level receipts remain historical only; a destination gets one fresh send on migration.
+  Changing `TELEGRAM_CHAT_ID` must never reuse another chat's message IDs.
 - Public site exports allowlisted archive data only. Render untrusted text via textContent
   or escaping. External URLs must be HTTP(S). Keep saved/read marks local to the browser.
 

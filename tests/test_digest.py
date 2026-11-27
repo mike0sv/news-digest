@@ -1,4 +1,5 @@
 from copy import deepcopy
+from hashlib import sha256
 from datetime import datetime, timedelta, timezone
 import json
 from pathlib import Path
@@ -97,6 +98,31 @@ class PipelineTests(unittest.TestCase):
         with patch('digest.pipeline.collect', return_value=(articles or [article()],
                    [{'id':'src','name':'Example','ok':True,'count':1,'error':None}])):
             return prepare(self.root, now=NOW, **kwargs)
+
+    def delivery_receipts(self, chat='1'):
+        key = sha256(chat.lower().encode()).hexdigest()
+        return read_json(self.root/'data/deliveries.json')['destinations'][key]
+
+    def test_switching_to_channel_sends_once_without_reusing_personal_message(self):
+        self.prepare(); issue = generate_issue(self.root)
+        issue.update(provider='gemini', date=datetime.now(timezone.utc).date().isoformat())
+        issue['id'] = issue['date']
+        write_json(self.root/'data/issues'/f"{issue['id']}.json", issue)
+        legacy = {issue['id']: {'message_id': 80, 'hash': 'legacy'}}
+        write_json(self.root/'data/deliveries.json', legacy)
+        with patch.dict('os.environ', {'TELEGRAM_BOT_TOKEN':'secret','TELEGRAM_CHAT_ID':'1'}), patch(
+                'digest.publish.post_json', return_value={'ok':True,'result':{'message_id':7}}) as post:
+            deliver(self.root)
+            with patch.dict('os.environ', {'TELEGRAM_CHAT_ID':'@news'}):
+                deliver(self.root); deliver(self.root)
+            with patch.dict('os.environ', {'TELEGRAM_CHAT_ID':'@NEWS'}):
+                deliver(self.root)
+            deliver(self.root)
+        self.assertEqual(post.call_count, 2)
+        self.assertEqual([c.args[1]['chat_id'] for c in post.call_args_list], ['1','@news'])
+        self.assertTrue(all(c.args[0].endswith('/sendMessage') for c in post.call_args_list))
+        self.assertEqual(read_json(self.root/'data/deliveries.json')[issue['id']], legacy[issue['id']])
+        self.assertEqual(self.delivery_receipts('@news')[issue['id']]['message_id'], 7)
 
     def test_importance_allows_zero_and_rejects_more_than_three(self):
         _, stories = validate_output(response(), [article()], self.config)
@@ -363,8 +389,8 @@ class PipelineTests(unittest.TestCase):
         with patch.dict('os.environ',{'TELEGRAM_BOT_TOKEN':'secret','TELEGRAM_CHAT_ID':'1'}), patch('digest.publish.post_json',return_value={'ok':True,'result':{'message_id':7}}) as post:
             deliver(self.root); deliver(self.root)
         self.assertEqual(post.call_count,1)
-        self.assertEqual(read_json(self.root/'data/deliveries.json')[issue['id']]['message_id'],7)
-        self.assertNotIn('delivery_uncertain',read_json(self.root/'data/deliveries.json')[issue['id']])
+        self.assertEqual(self.delivery_receipts()[issue['id']]['message_id'],7)
+        self.assertNotIn('delivery_uncertain',self.delivery_receipts()[issue['id']])
 
     def test_telegram_timeout_blocks_automatic_resend_without_marking_success(self):
         self.prepare(); issue=generate_issue(self.root)
@@ -376,7 +402,7 @@ class PipelineTests(unittest.TestCase):
             with self.assertRaises(RuntimeError): deliver(self.root)
             with self.assertRaisesRegex(RuntimeError,'uncertain outcome'): deliver(self.root)
         self.assertEqual(post.call_count,1)
-        receipt=read_json(self.root/'data/deliveries.json')[issue['id']]
+        receipt=self.delivery_receipts()[issue['id']]
         self.assertTrue(receipt['delivery_uncertain'])
         self.assertNotIn('hash',receipt);self.assertNotIn('message_id',receipt)
 
@@ -388,10 +414,10 @@ class PipelineTests(unittest.TestCase):
         with patch.dict('os.environ',{'TELEGRAM_BOT_TOKEN':'secret','TELEGRAM_CHAT_ID':'1'}), patch(
                 'digest.publish.post_json',side_effect=[{'ok':False},{'ok':True,'result':{'message_id':8}}]) as post:
             with self.assertRaises(RuntimeError):deliver(self.root)
-            self.assertFalse(read_json(self.root/'data/deliveries.json')[issue['id']]['delivery_uncertain'])
+            self.assertFalse(self.delivery_receipts()[issue['id']]['delivery_uncertain'])
             deliver(self.root);deliver(self.root)
         self.assertEqual(post.call_count,2)
-        receipt=read_json(self.root/'data/deliveries.json')[issue['id']]
+        receipt=self.delivery_receipts()[issue['id']]
         self.assertEqual(receipt['message_id'],8)
         self.assertNotIn('delivery_uncertain',receipt)
 
