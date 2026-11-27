@@ -1,0 +1,494 @@
+{
+  "version": 1,
+  "id": "2026-11-27",
+  "date": "2026-11-27",
+  "created_at": "2026-11-27T16:18:43.382144+00:00",
+  "title": "Утренний обзор",
+  "intro": "Сегодня в ленте мало событий с существенными последствиями. Главное: сообщения о скрытых инструкциях в официальном MCP-сервере Notion, новый плагин для dsh с бесплатным доступом к моделям, управление частью вычислений DeepMind агентами, а также новые детали о гарантиях безопасности для Киева в заявлениях Белого дома. Остальные сюжеты — технологические и мировые новости, а также решение о реестре «нежелательных» организаций в России.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "world",
+      "name": "Мир: главное",
+      "description": "Только крупные мировые события и существенные международные решения. Без риторики, курьезов и местной хроники; пустая группа допустима."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "Официальный MCP Notion, по сообщению, добавляет в контекст агента скрытые допродажи",
+      "summary": "Пост на Hacker News со ссылкой на обсуждение на Reddit (58 баллов, 22 комментария) утверждает, что официальный MCP-сервер Notion внедряет в контекст агента скрытые инструкции с предложениями апгрейда. Это заявление пользователей; независимой проверки и ответа Notion в материале нет.",
+      "why_it_matters": "Если утверждение подтвердится, подключение официального MCP может незаметно влиять на поведение агента, поэтому содержимое ответов инструментов стоит проверять.",
+      "id": "d2bdc26b3015e8d3",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "5f23420df21cf7b66c75",
+          "url": "https://news.ycombinator.com/item?id=50658093",
+          "source": "Hacker News · agents",
+          "title": "Notion's official MCP inject hidden upsell instructions into agent context",
+          "published_at": "2026-11-26T18:28:30Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Плагин dsh-our-free-model: бесплатный доступ к моделям в DeepSeek Harness",
+      "summary": "Репозиторий Ebony-Vinyl/dsh-our-free-model описывает плагин для dsh, который, по описанию, даёт доступ к DeepSeek V4.1 Flash и Kimi K3 без логина и API-ключа и без лимита. За сутки на GitHub +983 звезды; это показатель внимания, а описание условий доступности авторское и не проверено.",
+      "why_it_matters": "",
+      "id": "9ce059f59d5960a1",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "af7b2b6d8508fa2c9a59",
+          "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+          "source": "GitHub · emerging agent projects",
+          "title": "Ebony-Vinyl/dsh-our-free-model",
+          "published_at": "2026-11-27T16:18:43.382144+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "ИИ-агенты управляют частью вычислений DeepMind для экспериментов с Gemini",
+      "summary": "По заголовку и пересказу The Decoder, ИИ-агенты теперь контролируют часть вычислительных ресурсов DeepMind для экспериментов с Gemini, при этом рекурсивное самоулучшение, по тому же заголовку, остаётся далёким. Текст статьи в материале не приведён, поэтому объём доступа агентов и критерии неизвестны.",
+      "why_it_matters": "",
+      "id": "f6c56f0075e0274a",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "ffb004ed8d7a1835f92b",
+          "url": "https://news.ycombinator.com/item?id=50661218",
+          "source": "Hacker News · agents",
+          "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+          "published_at": "2026-11-27T00:03:18Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Облачная платформа ВВС США, по сообщению, взломана",
+      "summary": "По заголовку и ссылке на Sky News, облачная вычислительная платформа ВВС США подверглась взлому. Масштаб, сроки и подтверждение ведомства в материале не приведены; на Hacker News обсуждение набрало 149 баллов и 83 комментария.",
+      "why_it_matters": "",
+      "id": "768eae5d7d39e80b",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "18928fbb11d45d5fd6ab",
+          "url": "https://news.ycombinator.com/item?id=50666375",
+          "source": "Hacker News · top stories",
+          "title": "US Air Force's cloud computing platform hacked",
+          "published_at": "2026-11-27T12:54:11Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Препринт заявляет детерминированный субэкспоненциальный алгоритм для дискретного логарифма",
+      "summary": "По заголовку и ссылке на препринт eprint.iacr.org/2026/3020, авторы описывают детерминированный субэкспоненциальный алгоритм для задачи дискретного логарифма. Текст статьи в материале не приведён, поэтому корректность и последствия для криптографии не проверены; на Hacker News обсуждение набрало 154 балла.",
+      "why_it_matters": "",
+      "id": "426627d288d14e8c",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "f42c01358e4f13060c69",
+          "url": "https://news.ycombinator.com/item?id=50665968",
+          "source": "Hacker News · top stories",
+          "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
+          "published_at": "2026-11-27T12:08:51Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Intel: по материалам иска, Минторг США требовал от компании долю около 10%",
+      "summary": "Ars Technica, ссылаясь на внутренние заметки из федерального иска, пишет, что в августе 2025 года юрист Минторга США Дэвид Шапиро давил на финдиректора Intel, требуя передать правительству долю около 10% и предупреждая о последствиях отказа. Это версия из материалов иска, а не подтверждённое решение сторон.",
+      "why_it_matters": "",
+      "id": "af10f8639a08f39e",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "5967ff458b49c0316719",
+          "url": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
+          "source": "Ars Technica",
+          "title": "Intel faced a choice: Give Trump 10% or face the consequences",
+          "published_at": "2026-11-27T12:05:01+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Переговоры ЕС о бюджете застопорились, помощь Украине остаётся предметом спора",
+      "summary": "По сообщению BBC, лидеры ЕС не смогли согласовать разногласия по бюджету, и помощь Украине входит в число спорных вопросов; члены союза надеются завершить переговоры до конца года. Guardian ранее писал о спорах лидеров ЕС по помощи Украине на фоне опасений из-за возможной победы Ле Пен во Франции.",
+      "why_it_matters": "",
+      "id": "486a97cb49049e6f",
+      "group": "world",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "797c5042fa7841042f79",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News · World",
+          "title": "EU leaders fail to bridge budget splits as talks stall",
+          "published_at": "2026-11-27T06:11:55+00:00",
+          "text_kind": "feed"
+        },
+        {
+          "id": "8375d91514f568616ba0",
+          "url": "https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks",
+          "source": "The Guardian · Ukraine",
+          "title": "EU leaders wrestle over Ukraine aid as potential Le Pen victory sparks fear",
+          "published_at": "2026-11-26T17:51:17+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Венесуэла, по сообщению BBC, намерена отменить закон о запрете оппозиции на госдолжностях",
+      "summary": "По сообщению BBC, Венесуэла собирается отменить закон, который запрещает представителям оппозиции занимать государственные должности; критики называли закон инструментом политического преследования с момента его принятия два года назад. Дата отмены и механизм в материале не указаны.",
+      "why_it_matters": "",
+      "id": "81de43f640568fd5",
+      "group": "world",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "b4fb07f559e91f77f67b",
+          "url": "https://www.bbc.co.uk/news/articles/c58j4pw9xjrlo?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News · World",
+          "title": "Venezuela to scrap law that bars opposition from public office",
+          "published_at": "2026-11-27T05:35:10+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Военные Гвинеи-Бисау отложили возвращение к гражданскому правлению до 2028 года",
+      "summary": "По сообщению BBC, военное руководство Гвинеи-Бисау перенесло передачу власти гражданским до 2028 года. Год назад после переворота руководство обещало вернуться к гражданскому правлению в течение 12 месяцев; это объявленное решение военных, а не подтверждённый график выборов.",
+      "why_it_matters": "",
+      "id": "1ae728f58ffaf896",
+      "group": "world",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "8fa774ca5a62ad7ae50c",
+          "url": "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News · World",
+          "title": "Guinea-Bissau's military leaders delay return to civilian rule until 2028",
+          "published_at": "2026-11-27T08:58:08+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Архив независимых медиа RIMA признан «нежелательным» в России",
+      "summary": "По данным «Медузы», Минюст России включил архив независимых медиа RIMA в реестр «нежелательных» организаций по решению Генпрокуратуры от 12 ноября. В архиве, по описанию проекта, 172 источника и более девяти миллионов материалов.",
+      "why_it_matters": "",
+      "id": "61fc69a5ba6c9032",
+      "group": "russia",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "ea2ee3c41c60d602be63",
+          "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers",
+          "source": "UK Visas and Immigration",
+          "title": "Guidance: Register of licensed sponsors: workers",
+          "published_at": "2026-11-27T10:34:57+00:00",
+          "text_kind": "page"
+        }
+      ]
+    },
+    {
+      "title": "Белый дом: Кремль согласился обсудить гарантии безопасности для Киева по образцу статьи 5",
+      "summary": "После новой серии переговоров Белый дом заявляет о прогрессе и говорит, что Кремль согласился обсудить гарантии безопасности для Киева по образцу статьи 5 НАТО; по данным BBC Русская служба, эти заявления пока не подтверждены условиями. Ранее, 20 ноября, Джаред Кушнер передавал слова Трампа об открытости к гарантии по образцу НАТО; теперь речь идёт о согласии российской стороны обсуждать такие гарантии. Эксперты BBC сомневаются, что гарантии можно сделать одновременно надёжными для Украины, приемлемыми для России и выполнимыми для западных стран.",
+      "why_it_matters": "",
+      "id": "ff19eedc3bd05a68",
+      "group": "peace",
+      "is_update": true,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [
+        {
+          "issue_id": "2026-11-20",
+          "story_id": "8f32c0d250afb3b7",
+          "date": "2026-11-20",
+          "title": "Трамп «открыт» к гарантии обороны для Киева по типу НАТО, по словам Кушнера"
+        }
+      ],
+      "sources": [
+        {
+          "id": "6297c7c9c42f952d67fb",
+          "url": "https://www.bbc.com/russian/articles/c81dvx2ngx9no?at_campaign=rss&at_medium=RSS",
+          "source": "BBC News Русская служба",
+          "title": "США предлагают Украине гарантии «как в НАТО». Поможет ли это обеспечить мир с Россией?",
+          "published_at": "2026-11-27T13:48:20+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 2250,
+    "candidates": 84,
+    "selected": 11,
+    "sources_ok": 23,
+    "sources_total": 23
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1430,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-world",
+      "name": "BBC News · World",
+      "ok": true,
+      "count": 31,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 35,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 58,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 0,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 2,
+      "error": null
+    },
+    {
+      "id": "github-agents",
+      "name": "GitHub · active agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "id": "github-new-agents",
+      "name": "GitHub · emerging agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 69088,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 10359,
+    "output_tokens_details": {
+      "thinking_tokens": 7494
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 69088,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 10359,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 69088,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 69088
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  }
+}
