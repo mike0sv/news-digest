@@ -703,7 +703,7 @@
       "group": "agents",
       "published_at": "2026-11-16T23:57:26+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "3c506afcbc5020833108": {
       "id": "3c506afcbc5020833108",
@@ -714,7 +714,7 @@
       "group": "agents",
       "published_at": "2026-11-15T23:58:36+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "0139ca5c534e35bb8a1d": {
       "id": "0139ca5c534e35bb8a1d",
@@ -2289,39 +2289,6 @@
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
       "text_kind": "feed"
     },
-    "a8b8c31de898145e14c8": {
-      "id": "a8b8c31de898145e14c8",
-      "url": "https://openai.com/index/third-moment-research",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "source": "OpenAI News",
-      "source_id": "openai",
-      "group": "agents",
-      "published_at": "2026-10-14T07:00:00+00:00",
-      "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
-    },
-    "94ee28b93f9d2d830319": {
-      "id": "94ee28b93f9d2d830319",
-      "url": "https://openai.com/index/block-ai-powered-security",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "source": "OpenAI News",
-      "source_id": "openai",
-      "group": "agents",
-      "published_at": "2026-10-14T07:00:00+00:00",
-      "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
-    },
-    "200a5d3dd39c6bfb7a20": {
-      "id": "200a5d3dd39c6bfb7a20",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "title": "The EU’s next chapter in AI is agentic",
-      "source": "OpenAI News",
-      "source_id": "openai",
-      "group": "agents",
-      "published_at": "2026-10-14T00:00:00+00:00",
-      "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
-    },
     "d6fdac3c20f42b84f430": {
       "id": "d6fdac3c20f42b84f430",
       "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
@@ -3371,7 +3338,7 @@
     "b3ef974c07940ab07d30": {
       "id": "b3ef974c07940ab07d30",
       "url": "https://www.bbc.co.uk/russian/live/cmjrwvyj4jy8t?at_campaign=rss&at_medium=RSS",
-      "title": "Война в Украине: Киев вернул детей с оккупированных территорий при посредничестве Мелании Трамп",
+      "title": "Война в Украине: Минобороны России заявило об отражении массированной ночной атаки дронов",
       "source": "BBC News Русская служба",
       "source_id": "bbc-ru",
       "group": "russia",
@@ -3444,7 +3411,7 @@
       "group": "russia",
       "published_at": "2026-11-23T10:44:11+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "15f5b4e5a2b27dd4db14": {
       "id": "15f5b4e5a2b27dd4db14",
@@ -4104,7 +4071,7 @@
       "group": "peace",
       "published_at": "2026-11-23T18:06:26+00:00",
       "discovered_at": "2026-11-23T22:10:10.546926+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "97e5a541e8ca5f6487f3": {
       "id": "97e5a541e8ca5f6487f3",
@@ -6273,28 +6240,6 @@
       "group": "agents",
       "published_at": "2026-10-14T20:45:55+00:00",
       "discovered_at": "2026-11-23T23:04:08.866975+00:00",
-      "text_kind": "feed"
-    },
-    "0eb391dce20b60294973": {
-      "id": "0eb391dce20b60294973",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
-      "title": "0.163.0-alpha.11",
-      "source": "Codex releases",
-      "source_id": "codex",
-      "group": "agents",
-      "published_at": "2026-10-14T03:27:29+00:00",
-      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
-      "text_kind": "metadata"
-    },
-    "ec6309fef726054b9004": {
-      "id": "ec6309fef726054b9004",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10",
-      "title": "0.163.0-alpha.10",
-      "source": "Codex releases",
-      "source_id": "codex",
-      "group": "agents",
-      "published_at": "2026-10-13T19:04:12+00:00",
-      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
       "text_kind": "metadata"
     },
     "7cf21137c37e547b10a3": {
@@ -6492,17 +6437,6 @@
       "source_id": "claude-code",
       "group": "agents",
       "published_at": "2026-10-14T18:24:25+00:00",
-      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
-      "text_kind": "feed"
-    },
-    "fd1cb9e7836254598708": {
-      "id": "fd1cb9e7836254598708",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
-      "title": "v2.1.299",
-      "source": "Claude Code releases",
-      "source_id": "claude-code",
-      "group": "agents",
-      "published_at": "2026-10-14T02:49:42+00:00",
       "discovered_at": "2026-11-23T23:04:08.866975+00:00",
       "text_kind": "feed"
     },
@@ -6770,39 +6704,6 @@
       "discovered_at": "2026-11-23T23:04:08.866975+00:00",
       "text_kind": "feed"
     },
-    "b11d2093e49476980c16": {
-      "id": "b11d2093e49476980c16",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261014.g42c518220",
-      "title": "Release v0.65.0-nightly.20261014.g42c518220",
-      "source": "Gemini CLI releases",
-      "source_id": "gemini-cli",
-      "group": "agents",
-      "published_at": "2026-10-14T01:29:12+00:00",
-      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
-      "text_kind": "feed"
-    },
-    "dbb95ff3d456141d4895": {
-      "id": "dbb95ff3d456141d4895",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0",
-      "title": "Release v0.64.0",
-      "source": "Gemini CLI releases",
-      "source_id": "gemini-cli",
-      "group": "agents",
-      "published_at": "2026-10-13T20:44:46+00:00",
-      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
-      "text_kind": "feed"
-    },
-    "7f31d8b68723cf075dc9": {
-      "id": "7f31d8b68723cf075dc9",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-preview.0",
-      "title": "Release v0.65.0-preview.0",
-      "source": "Gemini CLI releases",
-      "source_id": "gemini-cli",
-      "group": "agents",
-      "published_at": "2026-10-13T20:27:55+00:00",
-      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
-      "text_kind": "feed"
-    },
     "d9dbdb581f79f750ac49": {
       "id": "d9dbdb581f79f750ac49",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.42",
@@ -7053,17 +6954,6 @@
       "source_id": "langgraph",
       "group": "agents",
       "published_at": "2026-10-14T16:11:12+00:00",
-      "discovered_at": "2026-11-23T23:04:08.866975+00:00",
-      "text_kind": "feed"
-    },
-    "54a119e2c7f63795edb2": {
-      "id": "54a119e2c7f63795edb2",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.34",
-      "title": "langgraph-cli==0.4.34",
-      "source": "LangGraph releases",
-      "source_id": "langgraph",
-      "group": "agents",
-      "published_at": "2026-10-13T21:18:10+00:00",
       "discovered_at": "2026-11-23T23:04:08.866975+00:00",
       "text_kind": "feed"
     },
@@ -7539,7 +7429,7 @@
       "group": "peace",
       "published_at": "2026-11-24T08:00:10+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "15324c469cfe3fdd381e": {
       "id": "15324c469cfe3fdd381e",
@@ -7550,7 +7440,7 @@
       "group": "peace",
       "published_at": "2026-11-24T05:00:06+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "7f7cee5aba494695b5b7": {
       "id": "7f7cee5aba494695b5b7",
@@ -7561,7 +7451,7 @@
       "group": "peace",
       "published_at": "2026-11-24T01:08:35+00:00",
       "discovered_at": "2026-11-24T08:00:16.323628+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "75e464b17ca2b088c126": {
       "id": "75e464b17ca2b088c126",
@@ -8416,7 +8306,7 @@
       "group": "technology",
       "published_at": "2026-11-24T20:34:53+00:00",
       "discovered_at": "2026-11-25T16:53:38.916072+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "ba433feb62053ad4b9fa": {
       "id": "ba433feb62053ad4b9fa",
@@ -9190,7 +9080,7 @@
       "group": "russia",
       "published_at": "2026-11-24T13:02:04+00:00",
       "discovered_at": "2026-11-25T16:53:38.916072+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "098a020df0ca92f2d4d2": {
       "id": "098a020df0ca92f2d4d2",
@@ -10646,8 +10536,7 @@
       "group": "agents",
       "published_at": "2026-11-26T04:36:47+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed",
-      "ref": "A72"
+      "text_kind": "feed"
     },
     "9af1b59be58229d3e17e": {
       "id": "9af1b59be58229d3e17e",
@@ -10658,8 +10547,7 @@
       "group": "agents",
       "published_at": "2026-11-25T19:35:37+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed",
-      "ref": "A76"
+      "text_kind": "feed"
     },
     "b5192911b2bfdbd383b0": {
       "id": "b5192911b2bfdbd383b0",
@@ -10682,7 +10570,7 @@
       "published_at": "2026-11-26T15:09:31+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
       "text_kind": "feed",
-      "ref": "A65"
+      "ref": "A71"
     },
     "7de39f044da3622e099c": {
       "id": "7de39f044da3622e099c",
@@ -10693,8 +10581,7 @@
       "group": "agents",
       "published_at": "2026-11-26T06:08:25+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed",
-      "ref": "A68"
+      "text_kind": "feed"
     },
     "e7f1c23cf7eb37255791": {
       "id": "e7f1c23cf7eb37255791",
@@ -10705,8 +10592,7 @@
       "group": "agents",
       "published_at": "2026-11-26T05:08:46+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed",
-      "ref": "A70"
+      "text_kind": "feed"
     },
     "2ada6bc927bcede3f5a7": {
       "id": "2ada6bc927bcede3f5a7",
@@ -10717,8 +10603,7 @@
       "group": "agents",
       "published_at": "2026-11-25T23:26:32+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed",
-      "ref": "A74"
+      "text_kind": "feed"
     },
     "e0577f40419a647d93e2": {
       "id": "e0577f40419a647d93e2",
@@ -10729,8 +10614,7 @@
       "group": "agents",
       "published_at": "2026-11-25T18:16:50+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed",
-      "ref": "A78"
+      "text_kind": "feed"
     },
     "4915fa3466d2d3bdc6a0": {
       "id": "4915fa3466d2d3bdc6a0",
@@ -11077,7 +10961,7 @@
       "group": "world",
       "published_at": "2026-11-26T12:33:23+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "88db9a20e58c8d643ad7": {
       "id": "88db9a20e58c8d643ad7",
@@ -11088,7 +10972,7 @@
       "group": "world",
       "published_at": "2026-11-26T16:21:19+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "efb432f4db1d7600adc2": {
       "id": "efb432f4db1d7600adc2",
@@ -11099,7 +10983,7 @@
       "group": "world",
       "published_at": "2026-11-26T09:49:42+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "00c54c0acf4de1880f45": {
       "id": "00c54c0acf4de1880f45",
@@ -11228,7 +11112,7 @@
       "group": "world",
       "published_at": "2026-11-26T06:01:58+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "c66caad2ed163958e4c4": {
       "id": "c66caad2ed163958e4c4",
@@ -11250,7 +11134,7 @@
       "group": "world",
       "published_at": "2026-11-26T00:23:27+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e9b5c484d04cebb6005d": {
       "id": "e9b5c484d04cebb6005d",
@@ -11285,7 +11169,7 @@
       "published_at": "2026-11-26T15:53:53+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
       "text_kind": "page",
-      "ref": "A16"
+      "ref": "A10"
     },
     "92b668f017e713979b3f": {
       "id": "92b668f017e713979b3f",
@@ -11296,8 +11180,8 @@
       "group": "uk",
       "published_at": "2026-11-26T12:55:47+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "metadata",
-      "ref": "A10"
+      "text_kind": "page",
+      "ref": "A16"
     },
     "5f1fefb450bcb4a2be2f": {
       "id": "5f1fefb450bcb4a2be2f",
@@ -11356,8 +11240,7 @@
       "group": "uk",
       "published_at": "2026-11-25T17:11:00+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "page",
-      "ref": "A40"
+      "text_kind": "feed"
     },
     "b738994c059d1582777a": {
       "id": "b738994c059d1582777a",
@@ -11390,7 +11273,7 @@
       "group": "russia",
       "published_at": "2026-11-26T15:06:58+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "abce60f0a4089bc6d29c": {
       "id": "abce60f0a4089bc6d29c",
@@ -11445,7 +11328,7 @@
       "group": "russia",
       "published_at": "2026-11-26T11:03:55+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "1908daedc3debe0c1cbe": {
       "id": "1908daedc3debe0c1cbe",
@@ -11456,7 +11339,7 @@
       "group": "russia",
       "published_at": "2026-11-25T20:32:04+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "7af985345eecf5a453ac": {
       "id": "7af985345eecf5a453ac",
@@ -11836,8 +11719,7 @@
       "group": "peace",
       "published_at": "2026-11-26T15:59:13+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed",
-      "ref": "A36"
+      "text_kind": "feed"
     },
     "8375d91514f568616ba0": {
       "id": "8375d91514f568616ba0",
@@ -11848,8 +11730,7 @@
       "group": "peace",
       "published_at": "2026-11-26T17:51:17+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed",
-      "ref": "A30"
+      "text_kind": "feed"
     },
     "7d0119fa79aad2481e38": {
       "id": "7d0119fa79aad2481e38",
@@ -11860,8 +11741,7 @@
       "group": "peace",
       "published_at": "2026-11-26T14:00:36+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed",
-      "ref": "A42"
+      "text_kind": "feed"
     },
     "9a604fdfd51f30df0f2a": {
       "id": "9a604fdfd51f30df0f2a",
@@ -11872,8 +11752,7 @@
       "group": "peace",
       "published_at": "2026-11-26T06:49:29+00:00",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed",
-      "ref": "A47"
+      "text_kind": "feed"
     },
     "8a8e3213ead2a3a97810": {
       "id": "8a8e3213ead2a3a97810",
@@ -11917,7 +11796,7 @@
       "group": "technology",
       "published_at": "2026-11-25T19:11:27Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "933beae9e56d89ed0533": {
       "id": "933beae9e56d89ed0533",
@@ -11928,7 +11807,7 @@
       "group": "technology",
       "published_at": "2026-11-25T17:18:26Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "bc12e3214c111e865c61": {
       "id": "bc12e3214c111e865c61",
@@ -11939,7 +11818,7 @@
       "group": "technology",
       "published_at": "2026-11-25T21:18:02Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "e693770d14feef87a615": {
       "id": "e693770d14feef87a615",
@@ -11950,7 +11829,7 @@
       "group": "technology",
       "published_at": "2026-11-25T21:48:10Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "3923094cc4756b9fa516": {
       "id": "3923094cc4756b9fa516",
@@ -11961,7 +11840,7 @@
       "group": "technology",
       "published_at": "2026-11-26T03:36:58Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "c94ce82a922f0a0d394a": {
       "id": "c94ce82a922f0a0d394a",
@@ -11972,7 +11851,7 @@
       "group": "technology",
       "published_at": "2026-11-25T20:38:00Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "0527bebc20735641c01e": {
       "id": "0527bebc20735641c01e",
@@ -11994,7 +11873,7 @@
       "group": "technology",
       "published_at": "2026-11-26T00:43:34Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "08af71ea67348199d64d": {
       "id": "08af71ea67348199d64d",
@@ -12005,7 +11884,7 @@
       "group": "technology",
       "published_at": "2026-11-26T00:40:00Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "04d955b56e4def0f9e98": {
       "id": "04d955b56e4def0f9e98",
@@ -12016,7 +11895,7 @@
       "group": "technology",
       "published_at": "2026-11-25T22:57:04Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "d13e0d9701fa2e5a534c": {
       "id": "d13e0d9701fa2e5a534c",
@@ -12060,7 +11939,7 @@
       "group": "technology",
       "published_at": "2026-11-25T20:35:39Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "ff56c57d57727fa5e333": {
       "id": "ff56c57d57727fa5e333",
@@ -12082,7 +11961,7 @@
       "group": "technology",
       "published_at": "2026-11-26T03:00:48Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "a1f1f6a22a368b282869": {
       "id": "a1f1f6a22a368b282869",
@@ -12093,7 +11972,7 @@
       "group": "technology",
       "published_at": "2026-11-25T22:15:34Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "af7164cfbbaafab1ccc6": {
       "id": "af7164cfbbaafab1ccc6",
@@ -12104,7 +11983,7 @@
       "group": "technology",
       "published_at": "2026-11-26T05:12:59Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "cd75ad7e4809fbc9dbab": {
       "id": "cd75ad7e4809fbc9dbab",
@@ -12115,7 +11994,7 @@
       "group": "technology",
       "published_at": "2026-11-25T20:35:50Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "19e44f7edbd5f11fa3e3": {
       "id": "19e44f7edbd5f11fa3e3",
@@ -12137,7 +12016,7 @@
       "group": "technology",
       "published_at": "2026-11-25T17:34:34Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "00b0009a41106f4c79f5": {
       "id": "00b0009a41106f4c79f5",
@@ -12148,7 +12027,7 @@
       "group": "technology",
       "published_at": "2026-11-26T06:32:48Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "126452f636366c2cc7c4": {
       "id": "126452f636366c2cc7c4",
@@ -12159,7 +12038,7 @@
       "group": "technology",
       "published_at": "2026-11-25T22:12:25Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "950623a26f985c6e4cc0": {
       "id": "950623a26f985c6e4cc0",
@@ -12181,7 +12060,7 @@
       "group": "technology",
       "published_at": "2026-11-26T05:37:51Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "725c5aa96e0388978e7d": {
       "id": "725c5aa96e0388978e7d",
@@ -12192,7 +12071,7 @@
       "group": "technology",
       "published_at": "2026-11-25T17:43:46Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "1af6bd9a2ffd71f9f490": {
       "id": "1af6bd9a2ffd71f9f490",
@@ -12225,7 +12104,7 @@
       "group": "technology",
       "published_at": "2026-11-26T04:59:56Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "4d94027ea63c712bfbaf": {
       "id": "4d94027ea63c712bfbaf",
@@ -12303,7 +12182,7 @@
       "group": "agents",
       "published_at": "2026-11-25T17:37:17Z",
       "discovered_at": "2026-11-26T16:33:20.559315+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A80"
     },
     "0f52c5ebc81e7cd4abf4": {
@@ -12726,7 +12605,7 @@
       "published_at": "2026-11-26T21:56:07+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A56"
+      "ref": "A67"
     },
     "08a3c52229b003f33f32": {
       "id": "08a3c52229b003f33f32",
@@ -12737,7 +12616,7 @@
       "group": "technology",
       "published_at": "2026-11-27T15:30:00+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A2"
     },
     "7c7af34bb6b58b31fa45": {
@@ -12749,7 +12628,7 @@
       "group": "technology",
       "published_at": "2026-11-27T15:15:28+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A8"
     },
     "9ca572dd04f874f06112": {
@@ -12761,20 +12640,20 @@
       "group": "technology",
       "published_at": "2026-11-27T14:30:00+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A14"
     },
     "328423d917a01424e683": {
       "id": "328423d917a01424e683",
       "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
-      "title": "The absolute best Black Friday deals we’ve found (so far)",
+      "title": "The absolute best Black Friday deals you can still get",
       "source": "The Verge",
       "source_id": "verge",
       "group": "technology",
-      "published_at": "2026-11-27T14:19:44+00:00",
+      "published_at": "2026-11-28T03:28:32+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A20"
+      "ref": "A8"
     },
     "1d140bb3b26b0663e87b": {
       "id": "1d140bb3b26b0663e87b",
@@ -12785,7 +12664,7 @@
       "group": "technology",
       "published_at": "2026-11-27T14:00:00+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A26"
     },
     "cf3eb807c0ae156f31c8": {
@@ -12797,7 +12676,7 @@
       "group": "technology",
       "published_at": "2026-11-27T14:00:00+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A32"
     },
     "5f771510f1c421a90334": {
@@ -12809,7 +12688,7 @@
       "group": "technology",
       "published_at": "2026-11-27T13:30:00+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A38"
     },
     "3ea649f1412eff00b01d": {
@@ -12821,7 +12700,7 @@
       "group": "technology",
       "published_at": "2026-11-27T13:00:00+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A44"
     },
     "a80f49e4644d2e1f996d": {
@@ -12833,7 +12712,7 @@
       "group": "technology",
       "published_at": "2026-11-27T12:30:00+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "fef1979c9c4cea72bdb0": {
       "id": "fef1979c9c4cea72bdb0",
@@ -12844,7 +12723,7 @@
       "group": "technology",
       "published_at": "2026-11-27T11:30:00+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5967ff458b49c0316719": {
       "id": "5967ff458b49c0316719",
@@ -12855,8 +12734,7 @@
       "group": "technology",
       "published_at": "2026-11-27T12:05:01+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A57"
+      "text_kind": "feed"
     },
     "84c08e61020b26f0f693": {
       "id": "84c08e61020b26f0f693",
@@ -12867,8 +12745,7 @@
       "group": "technology",
       "published_at": "2026-11-27T11:30:04+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A63"
+      "text_kind": "feed"
     },
     "bbfb1d37f2fb5fdab208": {
       "id": "bbfb1d37f2fb5fdab208",
@@ -12899,34 +12776,34 @@
       "source": "BBC News · World",
       "source_id": "bbc-world",
       "group": "world",
-      "published_at": "2026-11-27T09:07:48+00:00",
+      "published_at": "2026-11-27T18:00:40+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A58"
+      "ref": "A60"
     },
     "85176b19ca80062a404b": {
       "id": "85176b19ca80062a404b",
       "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_campaign=rss&at_medium=RSS",
-      "title": "John Simpson: Ukraine is bowed but still unbroken as freezing weather sets in",
+      "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
       "source": "BBC News · World",
       "source_id": "bbc-world",
       "group": "world",
-      "published_at": "2026-11-27T15:18:51+00:00",
+      "published_at": "2026-11-27T18:42:50+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A21"
+      "ref": "A57"
     },
     "8b5af438bcfe1dedfb4f": {
       "id": "8b5af438bcfe1dedfb4f",
       "url": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo?at_campaign=rss&at_medium=RSS",
-      "title": "Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+      "title": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
       "source": "BBC News · World",
       "source_id": "bbc-world",
       "group": "world",
-      "published_at": "2026-11-27T15:15:19+00:00",
+      "published_at": "2026-11-27T20:06:31+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A27"
+      "ref": "A53"
     },
     "440aa02d5fbf30c38179": {
       "id": "440aa02d5fbf30c38179",
@@ -12937,7 +12814,7 @@
       "group": "world",
       "published_at": "2026-11-27T06:03:39+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A75"
     },
     "b832fbf21d6e9e2cf4ca": {
@@ -12949,8 +12826,8 @@
       "group": "world",
       "published_at": "2026-11-27T15:54:15+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A9"
+      "text_kind": "metadata",
+      "ref": "A70"
     },
     "806ab771d3f39a78ff29": {
       "id": "806ab771d3f39a78ff29",
@@ -12961,8 +12838,8 @@
       "group": "world",
       "published_at": "2026-11-27T11:44:40+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A39"
+      "text_kind": "metadata",
+      "ref": "A73"
     },
     "112ce0f1d35d97a0016d": {
       "id": "112ce0f1d35d97a0016d",
@@ -12971,10 +12848,10 @@
       "source": "BBC News · World",
       "source_id": "bbc-world",
       "group": "world",
-      "published_at": "2026-11-27T15:38:13+00:00",
+      "published_at": "2026-11-27T16:53:46+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A15"
+      "ref": "A66"
     },
     "5de4f1c218c185d7bc0c": {
       "id": "5de4f1c218c185d7bc0c",
@@ -12985,8 +12862,8 @@
       "group": "world",
       "published_at": "2026-11-27T10:24:24+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A54"
+      "text_kind": "metadata",
+      "ref": "A76"
     },
     "811fbdaace28f49dc2c9": {
       "id": "811fbdaace28f49dc2c9",
@@ -12995,10 +12872,10 @@
       "source": "BBC News · World",
       "source_id": "bbc-world",
       "group": "world",
-      "published_at": "2026-11-27T16:06:37+00:00",
+      "published_at": "2026-11-27T17:19:31+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A3"
+      "ref": "A63"
     },
     "58ff7626ec9b3f77ac13": {
       "id": "58ff7626ec9b3f77ac13",
@@ -13010,7 +12887,7 @@
       "published_at": "2026-11-27T13:38:07+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A33"
+      "ref": "A72"
     },
     "c12acc00d7b231d082c1": {
       "id": "c12acc00d7b231d082c1",
@@ -13021,8 +12898,8 @@
       "group": "world",
       "published_at": "2026-11-27T11:22:02+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A45"
+      "text_kind": "metadata",
+      "ref": "A74"
     },
     "68e3ae2fb4f1ece9b2f8": {
       "id": "68e3ae2fb4f1ece9b2f8",
@@ -13034,7 +12911,7 @@
       "published_at": "2026-11-27T08:13:43+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A64"
+      "ref": "A77"
     },
     "86e51561acb5dc96e923": {
       "id": "86e51561acb5dc96e923",
@@ -13046,7 +12923,7 @@
       "published_at": "2026-11-27T07:28:10+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A67"
+      "ref": "A78"
     },
     "c5a28891fd684f760ca2": {
       "id": "c5a28891fd684f760ca2",
@@ -13057,7 +12934,7 @@
       "group": "world",
       "published_at": "2026-11-27T05:54:38+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A77"
     },
     "b4fb07f559e91f77f67b": {
@@ -13069,7 +12946,7 @@
       "group": "world",
       "published_at": "2026-11-27T05:35:10+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A79"
     },
     "797c5042fa7841042f79": {
@@ -13081,7 +12958,7 @@
       "group": "world",
       "published_at": "2026-11-27T06:11:55+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A69"
     },
     "0f2fa7f4c1b04efdccd5": {
@@ -13093,8 +12970,8 @@
       "group": "world",
       "published_at": "2026-11-27T10:39:31+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A50"
+      "text_kind": "metadata",
+      "ref": "A75"
     },
     "8fa774ca5a62ad7ae50c": {
       "id": "8fa774ca5a62ad7ae50c",
@@ -13105,7 +12982,7 @@
       "group": "world",
       "published_at": "2026-11-27T08:58:08+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A61"
     },
     "59b25d2b8e233edfb0e8": {
@@ -13128,8 +13005,7 @@
       "group": "world",
       "published_at": "2026-11-26T22:06:20+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A84"
+      "text_kind": "feed"
     },
     "6d694547ace81be5ffcc": {
       "id": "6d694547ace81be5ffcc",
@@ -13141,7 +13017,7 @@
       "published_at": "2026-11-27T06:09:31+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A71"
+      "ref": "A79"
     },
     "d3151c08b4d9a94afe08": {
       "id": "d3151c08b4d9a94afe08",
@@ -13152,7 +13028,7 @@
       "group": "world",
       "published_at": "2026-11-26T23:03:16+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A83"
     },
     "20483f433c207d563971": {
@@ -13164,7 +13040,7 @@
       "group": "world",
       "published_at": "2026-11-27T06:04:51+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A73"
     },
     "6fbf2480a7e2c0b58de8": {
@@ -13176,7 +13052,7 @@
       "group": "world",
       "published_at": "2026-11-27T00:47:43+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A82"
     },
     "d68f8578f2a68b73012f": {
@@ -13188,7 +13064,7 @@
       "group": "world",
       "published_at": "2026-11-27T00:48:11+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "ref": "A81"
     },
     "a257d7b5835316128fe1": {
@@ -13212,8 +13088,7 @@
       "group": "uk",
       "published_at": "2026-11-27T10:34:57+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "page",
-      "ref": "A10"
+      "text_kind": "feed"
     },
     "6297c7c9c42f952d67fb": {
       "id": "6297c7c9c42f952d67fb",
@@ -13224,8 +13099,7 @@
       "group": "russia",
       "published_at": "2026-11-27T13:48:20+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A55"
+      "text_kind": "feed"
     },
     "e962e8d2ff82aadb704d": {
       "id": "e962e8d2ff82aadb704d",
@@ -13236,8 +13110,7 @@
       "group": "russia",
       "published_at": "2026-11-27T14:42:24+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A35"
+      "text_kind": "feed"
     },
     "d79508eb2a2d150e780f": {
       "id": "d79508eb2a2d150e780f",
@@ -13314,7 +13187,7 @@
       "group": "russia",
       "published_at": "2026-11-26T16:34:19+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "bb544a1039f4018ad0be": {
       "id": "bb544a1039f4018ad0be",
@@ -13347,8 +13220,7 @@
       "group": "russia",
       "published_at": "2026-11-27T15:56:28+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A5"
+      "text_kind": "feed"
     },
     "fc6668b96e2d6e71b37e": {
       "id": "fc6668b96e2d6e71b37e",
@@ -13359,8 +13231,7 @@
       "group": "russia",
       "published_at": "2026-11-27T15:45:50+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A11"
+      "text_kind": "feed"
     },
     "bb080539a15148667c1a": {
       "id": "bb080539a15148667c1a",
@@ -13371,8 +13242,7 @@
       "group": "russia",
       "published_at": "2026-11-27T15:22:10+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A17"
+      "text_kind": "feed"
     },
     "f1e4df649d8b88e4b1f5": {
       "id": "f1e4df649d8b88e4b1f5",
@@ -13383,8 +13253,7 @@
       "group": "russia",
       "published_at": "2026-11-27T15:14:02+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A23"
+      "text_kind": "feed"
     },
     "07fbfc9a0f7fddfa7de7": {
       "id": "07fbfc9a0f7fddfa7de7",
@@ -13395,8 +13264,7 @@
       "group": "russia",
       "published_at": "2026-11-27T14:48:35+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A29"
+      "text_kind": "feed"
     },
     "aa05350328b0991a9b49": {
       "id": "aa05350328b0991a9b49",
@@ -13407,8 +13275,7 @@
       "group": "russia",
       "published_at": "2026-11-27T14:36:49+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A41"
+      "text_kind": "feed"
     },
     "1993a38e5c57c4865b0e": {
       "id": "1993a38e5c57c4865b0e",
@@ -13419,8 +13286,7 @@
       "group": "russia",
       "published_at": "2026-11-27T14:09:50+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A46"
+      "text_kind": "feed"
     },
     "b6bc8d8cd1ba285780e7": {
       "id": "b6bc8d8cd1ba285780e7",
@@ -13431,8 +13297,7 @@
       "group": "russia",
       "published_at": "2026-11-27T14:05:26+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A51"
+      "text_kind": "feed"
     },
     "130d5ae22b7e770b8e25": {
       "id": "130d5ae22b7e770b8e25",
@@ -13575,7 +13440,7 @@
       "group": "russia",
       "published_at": "2026-11-27T09:41:36+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "8cf87429a26d8d1b3a0e": {
       "id": "8cf87429a26d8d1b3a0e",
@@ -13586,7 +13451,7 @@
       "group": "russia",
       "published_at": "2026-11-27T09:20:51+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "150152c97f5379918894": {
       "id": "150152c97f5379918894",
@@ -13597,7 +13462,7 @@
       "group": "russia",
       "published_at": "2026-11-27T08:31:55+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "257c2c6e79e42dae670c": {
       "id": "257c2c6e79e42dae670c",
@@ -13608,7 +13473,7 @@
       "group": "russia",
       "published_at": "2026-11-27T07:55:21+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "cd84f3b09db76852c233": {
       "id": "cd84f3b09db76852c233",
@@ -13619,7 +13484,7 @@
       "group": "russia",
       "published_at": "2026-11-27T07:50:06+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "de96c78671dad74d1210": {
       "id": "de96c78671dad74d1210",
@@ -13630,7 +13495,7 @@
       "group": "russia",
       "published_at": "2026-11-27T07:00:55+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "b7369d11e1e05b36f824": {
       "id": "b7369d11e1e05b36f824",
@@ -13641,7 +13506,7 @@
       "group": "russia",
       "published_at": "2026-11-27T06:58:04+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "b828c8aca69b110d3f44": {
       "id": "b828c8aca69b110d3f44",
@@ -13652,7 +13517,7 @@
       "group": "russia",
       "published_at": "2026-11-27T06:28:20+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "03e12e9e2776e94696f3": {
       "id": "03e12e9e2776e94696f3",
@@ -13663,7 +13528,7 @@
       "group": "russia",
       "published_at": "2026-11-27T06:05:04+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "89f2d4717d8676285d64": {
       "id": "89f2d4717d8676285d64",
@@ -13674,19 +13539,19 @@
       "group": "russia",
       "published_at": "2026-11-27T05:37:43+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "f0a62b2b913b8363d018": {
       "id": "f0a62b2b913b8363d018",
       "url": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates",
-      "title": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – Europe live",
+      "title": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – as it happened",
       "source": "The Guardian · Ukraine",
       "source_id": "guardian-ukraine",
       "group": "peace",
-      "published_at": "2026-11-27T15:45:14+00:00",
+      "published_at": "2026-11-27T16:19:50+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A6"
+      "ref": "A30"
     },
     "8cb6ffe99a32b990e36a": {
       "id": "8cb6ffe99a32b990e36a",
@@ -13698,7 +13563,7 @@
       "published_at": "2026-11-27T08:33:08+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A12"
+      "ref": "A36"
     },
     "2472b5835d9af77f3c44": {
       "id": "2472b5835d9af77f3c44",
@@ -13710,7 +13575,7 @@
       "published_at": "2026-11-27T03:05:32+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A18"
+      "ref": "A41"
     },
     "b0fe5a4c56148e570a6a": {
       "id": "b0fe5a4c56148e570a6a",
@@ -13722,7 +13587,7 @@
       "published_at": "2026-11-26T18:53:47+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A24"
+      "ref": "A46"
     },
     "fc3218a4300b70599e20": {
       "id": "fc3218a4300b70599e20",
@@ -13738,7 +13603,7 @@
     "24b578309aa05f878823": {
       "id": "24b578309aa05f878823",
       "url": "https://news.ycombinator.com/item?id=50663595",
-      "title": "The group chat where your AI talks behind your back",
+      "title": "Group chat where your AI talks behind your back",
       "source": "Hacker News · top stories",
       "source_id": "hn-top",
       "group": "technology",
@@ -13810,7 +13675,7 @@
       "group": "technology",
       "published_at": "2026-11-26T07:33:12Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "4d70726dfd826b7727c0": {
       "id": "4d70726dfd826b7727c0",
@@ -13821,7 +13686,7 @@
       "group": "technology",
       "published_at": "2026-11-25T23:15:52Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5dd4c7d22174bc7c41e6": {
       "id": "5dd4c7d22174bc7c41e6",
@@ -13898,8 +13763,7 @@
       "group": "technology",
       "published_at": "2026-11-27T08:28:08Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A66"
+      "text_kind": "feed"
     },
     "528b2b9c8c6c68ac4653": {
       "id": "528b2b9c8c6c68ac4653",
@@ -13943,8 +13807,7 @@
       "group": "technology",
       "published_at": "2026-11-27T12:08:51Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A53"
+      "text_kind": "feed"
     },
     "34410e0d7f17901dbb8e": {
       "id": "34410e0d7f17901dbb8e",
@@ -13977,8 +13840,7 @@
       "group": "technology",
       "published_at": "2026-11-27T12:54:11Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A49"
+      "text_kind": "feed"
     },
     "028e2b61c8f1201adec8": {
       "id": "028e2b61c8f1201adec8",
@@ -14022,7 +13884,7 @@
       "group": "technology",
       "published_at": "2026-11-26T03:33:06Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "f32bed46676a1fba056f": {
       "id": "f32bed46676a1fba056f",
@@ -14033,7 +13895,7 @@
       "group": "technology",
       "published_at": "2026-11-26T04:32:26Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "09743abc54ca8110be73": {
       "id": "09743abc54ca8110be73",
@@ -14055,8 +13917,7 @@
       "group": "technology",
       "published_at": "2026-11-27T12:03:11Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A60"
+      "text_kind": "feed"
     },
     "da65f3364a6d4aaafe35": {
       "id": "da65f3364a6d4aaafe35",
@@ -14072,7 +13933,7 @@
     "69ba7ed4bebbdd3d7bac": {
       "id": "69ba7ed4bebbdd3d7bac",
       "url": "https://news.ycombinator.com/item?id=50662933",
-      "title": "\"What's Claude's Fursona?\" and Other Questions",
+      "title": "\"What's Claude's fursona?\" and other questions",
       "source": "Hacker News · top stories",
       "source_id": "hn-top",
       "group": "technology",
@@ -14089,7 +13950,7 @@
       "group": "technology",
       "published_at": "2026-11-25T17:18:15Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed"
+      "text_kind": "metadata"
     },
     "5f23420df21cf7b66c75": {
       "id": "5f23420df21cf7b66c75",
@@ -14100,8 +13961,7 @@
       "group": "agents",
       "published_at": "2026-11-26T18:28:30Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A59"
+      "text_kind": "feed"
     },
     "ffb004ed8d7a1835f92b": {
       "id": "ffb004ed8d7a1835f92b",
@@ -14112,8 +13972,7 @@
       "group": "agents",
       "published_at": "2026-11-27T00:03:18Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
-      "ref": "A52"
+      "text_kind": "feed"
     },
     "2a651ae3380a3dec79eb": {
       "id": "2a651ae3380a3dec79eb",
@@ -14125,7 +13984,7 @@
       "published_at": "2026-11-27T15:01:50Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A48"
+      "ref": "A61"
     },
     "743be50c28f444177fa4": {
       "id": "743be50c28f444177fa4",
@@ -14137,7 +13996,7 @@
       "published_at": "2026-11-26T18:14:53Z",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
       "text_kind": "feed",
-      "ref": "A62"
+      "ref": "A69"
     },
     "b5ba9a864fab2899d394": {
       "id": "b5ba9a864fab2899d394",
@@ -14148,7 +14007,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 311654,
       "date_kind": "discovery",
       "ref": "A1"
@@ -14162,7 +14021,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 287982,
       "date_kind": "discovery",
       "ref": "A7"
@@ -14176,7 +14035,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 266582,
       "date_kind": "discovery",
       "ref": "A13"
@@ -14190,7 +14049,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 211460,
       "date_kind": "discovery"
     },
@@ -14203,7 +14062,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 199847,
       "date_kind": "discovery"
     },
@@ -14216,7 +14075,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 154152,
       "date_kind": "discovery"
     },
@@ -14229,7 +14088,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 150084,
       "date_kind": "discovery"
     },
@@ -14242,7 +14101,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 142099,
       "date_kind": "discovery"
     },
@@ -14255,7 +14114,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 122235,
       "date_kind": "discovery"
     },
@@ -14268,7 +14127,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 122212,
       "date_kind": "discovery"
     },
@@ -14281,7 +14140,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 120145,
       "date_kind": "discovery"
     },
@@ -14294,7 +14153,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 117536,
       "date_kind": "discovery"
     },
@@ -14307,7 +14166,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 109237,
       "date_kind": "discovery"
     },
@@ -14320,7 +14179,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 100847,
       "date_kind": "discovery"
     },
@@ -14333,7 +14192,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 94832,
       "date_kind": "discovery"
     },
@@ -14346,7 +14205,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 88980,
       "date_kind": "discovery",
       "ref": "A19"
@@ -14360,7 +14219,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 42450,
       "date_kind": "discovery",
       "ref": "A25"
@@ -14374,7 +14233,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 23311,
       "date_kind": "discovery",
       "ref": "A31"
@@ -14388,7 +14247,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 23146,
       "date_kind": "discovery",
       "ref": "A37"
@@ -14402,7 +14261,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 21882,
       "date_kind": "discovery",
       "ref": "A43"
@@ -14416,7 +14275,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 11800,
       "date_kind": "discovery"
     },
@@ -14429,7 +14288,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 8702,
       "date_kind": "discovery"
     },
@@ -14442,7 +14301,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 7724,
       "date_kind": "discovery"
     },
@@ -14455,7 +14314,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 7612,
       "date_kind": "discovery"
     },
@@ -14468,7 +14327,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 7483,
       "date_kind": "discovery"
     },
@@ -14481,7 +14340,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 6709,
       "date_kind": "discovery"
     },
@@ -14494,7 +14353,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 5935,
       "date_kind": "discovery"
     },
@@ -14507,7 +14366,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 5926,
       "date_kind": "discovery"
     },
@@ -14520,7 +14379,7 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 5617,
       "date_kind": "discovery"
     },
@@ -14533,8 +14392,1185 @@
       "group": "agents",
       "published_at": "2026-11-27T16:18:43.382144+00:00",
       "discovered_at": "2026-11-27T16:18:43.382144+00:00",
-      "text_kind": "feed",
+      "text_kind": "metadata",
       "stars": 5350,
+      "date_kind": "discovery"
+    },
+    "cd7b3ffd63bc44ec8fd0": {
+      "id": "cd7b3ffd63bc44ec8fd0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.9",
+      "title": "0.174.0-alpha.9",
+      "source": "Codex releases",
+      "source_id": "codex",
+      "group": "agents",
+      "published_at": "2026-11-27T16:56:00+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A58"
+    },
+    "bedee2e9acb0a56aa261": {
+      "id": "bedee2e9acb0a56aa261",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "title": "datasette-charts 0.4a0",
+      "source": "Simon Willison",
+      "source_id": "simon",
+      "group": "agents",
+      "published_at": "2026-11-27T23:57:17+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A47"
+    },
+    "cb9c58904170486c8df4": {
+      "id": "cb9c58904170486c8df4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+      "title": "datasette-mcp 0.4",
+      "source": "Simon Willison",
+      "source_id": "simon",
+      "group": "agents",
+      "published_at": "2026-11-27T00:26:17+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A64"
+    },
+    "8ac90c21a0303d22ae09": {
+      "id": "8ac90c21a0303d22ae09",
+      "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+      "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-28T03:30:00+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A2"
+    },
+    "117a0da82d3c22700b74": {
+      "id": "117a0da82d3c22700b74",
+      "url": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
+      "title": "We found 60-odd Black Friday deals we love for $100 or less",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-28T01:30:00+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A32"
+    },
+    "ac0ee698ab46bb9b755d": {
+      "id": "ac0ee698ab46bb9b755d",
+      "url": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
+      "title": "This purple electric Chinese minivan can go up to 559 miles on a charge",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-28T00:02:49+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A38"
+    },
+    "9ec3f4b1096bc9cd9ff2": {
+      "id": "9ec3f4b1096bc9cd9ff2",
+      "url": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
+      "title": "The best Black Friday deals you can still get on AirPods, Macs, and other Apple gear",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-27T23:53:19+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A43"
+    },
+    "4ea89c18d9270ce42987": {
+      "id": "4ea89c18d9270ce42987",
+      "url": "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026",
+      "title": "The best robot vacuums we’ve tested are up to 60 percent off for Black Friday",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-27T23:32:17+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A48"
+    },
+    "2d2948e2a0107b3157be": {
+      "id": "2d2948e2a0107b3157be",
+      "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+      "title": "Sony’s 1000XM4C headphones are a Black Friday bargain at $198",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-27T23:32:00+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A52"
+    },
+    "cca3aa456dd100c7c22e": {
+      "id": "cca3aa456dd100c7c22e",
+      "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+      "title": "Yooka-Laylee’s free upgrade is skipping Xbox",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-27T23:30:32+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A56"
+    },
+    "784af34249468e80968b": {
+      "id": "784af34249468e80968b",
+      "url": "https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale",
+      "title": "Many of our favorite Blu-ray movies are over 50 percent off for Black Friday",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-27T23:30:00+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "796158dfffdeebe3449b": {
+      "id": "796158dfffdeebe3449b",
+      "url": "https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026",
+      "title": "The new iPad Mini is getting its first major discount for Black Friday",
+      "source": "The Verge",
+      "source_id": "verge",
+      "group": "technology",
+      "published_at": "2026-11-27T22:30:00+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "02ae5ce9e9ae4c4c3ec5": {
+      "id": "02ae5ce9e9ae4c4c3ec5",
+      "url": "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/",
+      "title": "The best Black Friday deals Ars could find",
+      "source": "Ars Technica",
+      "source_id": "ars",
+      "group": "technology",
+      "published_at": "2026-11-27T17:05:37+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "75f6d561d1004d2e7e86": {
+      "id": "75f6d561d1004d2e7e86",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_campaign=rss&at_medium=RSS",
+      "title": "Spanish PM and rivals rally supporters in final pitch for votes",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-27T21:55:53+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A49"
+    },
+    "a7c66395496d252aaf08": {
+      "id": "a7c66395496d252aaf08",
+      "url": "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_campaign=rss&at_medium=RSS",
+      "title": "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-28T04:13:45+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A15"
+    },
+    "6bcd85dfb7597a688248": {
+      "id": "6bcd85dfb7597a688248",
+      "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_campaign=rss&at_medium=RSS",
+      "title": "Eight killed in Peruvian military helicopter crash",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-28T04:19:16+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A9"
+    },
+    "efa27566770bf8d6d0da": {
+      "id": "efa27566770bf8d6d0da",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_campaign=rss&at_medium=RSS",
+      "title": "'Poison seller' Kenneth Law apologises in court to the families of his victims",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-28T00:56:55+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A27"
+    },
+    "f4cf35cc936ea2e6e6ed": {
+      "id": "f4cf35cc936ea2e6e6ed",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_campaign=rss&at_medium=RSS",
+      "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-28T07:31:14+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A3"
+    },
+    "fa2d72d573071fad7a94": {
+      "id": "fa2d72d573071fad7a94",
+      "url": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_campaign=rss&at_medium=RSS",
+      "title": "Severe Thanksgiving storms leave roads flooded and trees fallen",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-27T16:46:47+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A68"
+    },
+    "a9998ca690b4344ffcce": {
+      "id": "a9998ca690b4344ffcce",
+      "url": "https://www.bbc.co.uk/news/articles/cme3d4y094x7o?at_campaign=rss&at_medium=RSS",
+      "title": "Behind China's spectacular rise, voices who defied it say they are being drowned out",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-27T23:02:35+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A44"
+    },
+    "0a9ce43cbf857decdcc6": {
+      "id": "0a9ce43cbf857decdcc6",
+      "url": "https://www.bbc.co.uk/news/articles/cr9309nyg2vno?at_campaign=rss&at_medium=RSS",
+      "title": "A clinic is reassessing people with ADHD and autism diagnoses - but critics fear it could deepen stigma",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-28T00:05:17+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A39"
+    },
+    "f9e7de131db746a9e4ef": {
+      "id": "f9e7de131db746a9e4ef",
+      "url": "https://www.bbc.co.uk/news/articles/cj20q9pw0116o?at_campaign=rss&at_medium=RSS",
+      "title": "The Indian 'Tamasha queen' whose fans paid for a show that never happened",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-28T00:50:11+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A33"
+    },
+    "eaadb331e8f31159f7de": {
+      "id": "eaadb331e8f31159f7de",
+      "url": "https://www.bbc.co.uk/news/articles/cm3vg3lkrk03o?at_campaign=rss&at_medium=RSS",
+      "title": "Nigeria's 'ultimate hard man' who become an online meme",
+      "source": "BBC News · World",
+      "source_id": "bbc-world",
+      "group": "world",
+      "published_at": "2026-11-28T01:20:35+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A21"
+    },
+    "459c58b5c98e2d414d8f": {
+      "id": "459c58b5c98e2d414d8f",
+      "url": "https://www.bbc.com/russian/articles/cr1ewjlln51po?at_campaign=rss&at_medium=RSS",
+      "title": "Потерпел ли глобальный джихадизм поражение или просто изменил тактику?",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-28T08:00:55+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A5"
+    },
+    "8fcb2b292659975ab1b6": {
+      "id": "8fcb2b292659975ab1b6",
+      "url": "https://www.bbc.com/russian/articles/cq62p61kg3k4o?at_campaign=rss&at_medium=RSS",
+      "title": "Рекордный развод Потанина в Лондоне: что мы узнали за первую неделю суда",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-28T05:03:18+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A35"
+    },
+    "6453f1937935cb762f9d": {
+      "id": "6453f1937935cb762f9d",
+      "url": "https://www.bbc.com/russian/articles/cmvg24we5kljo?at_campaign=rss&at_medium=RSS",
+      "title": "«Я служил стране верой и правдой». Бывший глава полиции Италии в предсмертной записке отрицал связи с мафией",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-27T16:49:18+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "b905a0743e6007453d7b": {
+      "id": "b905a0743e6007453d7b",
+      "url": "https://www.bbc.com/russian/articles/cvkg5yklp3l0o?at_campaign=rss&at_medium=RSS",
+      "title": "Высший суд Канады оставил в силе большую часть закона Квебека о запрете религиозных символов для госслужащих",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-27T20:31:03+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A45"
+    },
+    "263a198184e95aab2cab": {
+      "id": "263a198184e95aab2cab",
+      "url": "https://www.bbc.com/russian/articles/crkgvjwxnkwxo?at_campaign=rss&at_medium=RSS",
+      "title": "В Министерстве труда и пенсий Великобритании расследуют «серьезный киберинцидент». Не исключаются действия злоумышленников",
+      "source": "BBC News Русская служба",
+      "source_id": "bbc-ru",
+      "group": "russia",
+      "published_at": "2026-11-27T17:51:45+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "12f5e3fcfd0580480a0b": {
+      "id": "12f5e3fcfd0580480a0b",
+      "url": "https://meduza.io/news/2026/11/28/telegram-razoslal-polzovatelyam-soobscheniya-s-prizyvom-srochno-obnovit-operatsionnuyu-sistemu-iphone-pavel-durov-predupredil-o-masshtabnyh-hakerskih-atakah",
+      "title": "Телеграм разослал пользователям айфонов сообщения с призывом срочно обновить операционную систему. Павел Дуров предупредил о масштабных хакерских атаках",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-28T07:40:09+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A11"
+    },
+    "e42de1bb8fb9084b7c59": {
+      "id": "e42de1bb8fb9084b7c59",
+      "url": "https://meduza.io/feature/2026/11/28/v-emigratsii-chasto-kazhetsya-chto-ty-delaesh-vse-ne-tak-i-ne-zasluzhivaesh-podderzhki",
+      "title": "В эмиграции часто кажется, что ты делаешь все не так — и не заслуживаешь поддержки. Как избавиться от вредной оптики и научиться самосостраданию? Отвечает психолог",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-28T07:31:48+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A17"
+    },
+    "a4d7fa2d156e9360162e": {
+      "id": "a4d7fa2d156e9360162e",
+      "url": "https://meduza.io/news/2026/11/28/ukrainskie-drony-atakovali-novoshahtinskiy-npz-v-rostovskoy-oblasti-na-podlete-k-moskve-sbity-bolee-120-bespilotnikov",
+      "title": "Украинские дроны атаковали Новошахтинский НПЗ в Ростовской области. На подлете к Москве сбиты более 120 беспилотников",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-28T06:52:41+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A23"
+    },
+    "66fa97e4c24f07c9db2e": {
+      "id": "66fa97e4c24f07c9db2e",
+      "url": "https://meduza.io/feature/2026/11/28/spustya-dva-goda-posle-razvoda-tatyana-kim-i-vladislav-bakalchuk-vypustili-po-knige-ob-istorii-wildberries",
+      "title": "Спустя два года после развода Татьяна Ким и Владислав Бакальчук выпустили по книге об истории Wildberries. Вместо честного рассказа о бизнесе бывшие супруги продолжают выяснять отношения — теперь на страницах мемуаров",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-28T06:00:04+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A29"
+    },
+    "dd50c8700d916de082bf": {
+      "id": "dd50c8700d916de082bf",
+      "url": "https://meduza.io/news/2026/11/27/v-sankt-peterburge-za-dva-dnya-vyyavili-tri-sluchaya-zarazheniya-ospoy-obezyan",
+      "title": "В Санкт-Петербурге за два дня выявили три случая заражения оспой обезьян",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-27T20:50:44+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A40"
+    },
+    "35f553efbaf466712c00": {
+      "id": "35f553efbaf466712c00",
+      "url": "https://meduza.io/news/2026/11/27/na-fronte-vpervye-pogib-voennyy-rodivshiysya-vo-vremya-prezidentstva-medvedeva-kogda-nachalas-voyna-emu-bylo-13-let",
+      "title": "На фронте впервые погиб военный, родившийся во время президентства Медведева. Когда началась война, ему было 13 лет",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-27T19:40:35+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A50"
+    },
+    "186162a570474ed248dc": {
+      "id": "186162a570474ed248dc",
+      "url": "https://meduza.io/news/2026/11/27/v-belarusi-zablokiruyut-spotify-vlasti-zayavili-chto-kompaniya-ne-vyplatila-dolgi-po-nalogam",
+      "title": "В Беларуси заблокируют Spotify. Власти заявили, что компания не выплатила долги по налогам",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-27T18:52:02+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A54"
+    },
+    "6a1b6ba6fac30dc4924f": {
+      "id": "6a1b6ba6fac30dc4924f",
+      "url": "https://meduza.io/news/2026/11/27/umer-byvshiy-glavnyy-narkolog-minzdrava-evgeniy-bryun-v-nachale-goda-ego-po-sostoyaniyu-zdorovya-dosrochno-osvobodili-iz-kolonii",
+      "title": "Умер бывший главный нарколог Минздрава Евгений Брюн. В начале года его по состоянию здоровья досрочно освободили из колонии",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-27T17:44:44+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "4e6cbd80eb8db4ec28a9": {
+      "id": "4e6cbd80eb8db4ec28a9",
+      "url": "https://meduza.io/news/2026/11/27/s-pomoschyu-rossiyskih-ii-mozhno-gotovit-geopoliticheskie-proryvy-zayavil-spetspredstavitel-putina-kirill-dmitriev-on-uchastvuet-v-peregovorah-s-ssha-po-ukraine",
+      "title": "С помощью российских ИИ можно готовить «геополитические прорывы», заявил спецпредставитель Путина Кирилл Дмитриев. Он участвует в переговорах с США по Украине",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-27T17:18:47+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "32ea017dfafd0d80f139": {
+      "id": "32ea017dfafd0d80f139",
+      "url": "https://meduza.io/news/2026/11/27/vazhnye-istorii-kompanii-svyazannye-s-deripaskoy-provodili-dengi-cherez-landromat-vengerskogo-banka-blizkogo-k-orbanu",
+      "title": "«Важные истории»: компании, связанные с Дерипаской, проводили деньги через «ландромат» венгерского банка, близкого к Орбану",
+      "source": "Медуза",
+      "source_id": "meduza",
+      "group": "russia",
+      "published_at": "2026-11-27T16:49:08+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "0f963c5fef1e132d277a": {
+      "id": "0f963c5fef1e132d277a",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/28/naza-you-can-see-everything-cannes-politics-war-cinema",
+      "title": "The radical clarity of NAZA makes You Can See Everything seem irrelevant | Charlotte Higgins",
+      "source": "The Guardian · Ukraine",
+      "source_id": "guardian-ukraine",
+      "group": "peace",
+      "published_at": "2026-11-28T08:00:34+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A6"
+    },
+    "6ab5d6559ff0df911d01": {
+      "id": "6ab5d6559ff0df911d01",
+      "url": "https://www.theguardian.com/world/2026/nov/28/yuri-football-together-russia-war-dead-ukraine",
+      "title": "Yuri and I used to play football together. Then I spotted his name among Russia’s war dead",
+      "source": "The Guardian · Ukraine",
+      "source_id": "guardian-ukraine",
+      "group": "peace",
+      "published_at": "2026-11-28T05:00:30+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A12"
+    },
+    "b100b514543253f3a9f8": {
+      "id": "b100b514543253f3a9f8",
+      "url": "https://www.theguardian.com/world/2026/nov/28/ukraine-war-briefing-zelenskyy-criticises-trump-for-calling-putin-his-friend-kyiv-deploys-new-laser-weapon",
+      "title": "Ukraine war briefing: Zelenskyy criticises Trump for calling Putin his ‘friend’; Kyiv deploys new laser weapon",
+      "source": "The Guardian · Ukraine",
+      "source_id": "guardian-ukraine",
+      "group": "peace",
+      "published_at": "2026-11-28T03:19:04+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A18"
+    },
+    "1c8ed0b731975bc1fe0e": {
+      "id": "1c8ed0b731975bc1fe0e",
+      "url": "https://www.theguardian.com/us-news/2026/nov/27/jared-kushner-interview-peril-putin-corporate-rival",
+      "title": "Jared Kushner’s 70-minute interview reveals naive bias in handling of Putin’s aggression",
+      "source": "The Guardian · Ukraine",
+      "source_id": "guardian-ukraine",
+      "group": "peace",
+      "published_at": "2026-11-27T16:49:59+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A24"
+    },
+    "b022a97fb52cd37feb72": {
+      "id": "b022a97fb52cd37feb72",
+      "url": "https://news.ycombinator.com/item?id=50668145",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T15:40:31Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "9e7afc97f1ffd4e05f95": {
+      "id": "9e7afc97f1ffd4e05f95",
+      "url": "https://news.ycombinator.com/item?id=50670757",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T19:31:01Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "128dce6719919585c367": {
+      "id": "128dce6719919585c367",
+      "url": "https://news.ycombinator.com/item?id=50670855",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T19:42:25Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "3547eca61e38a407fb68": {
+      "id": "3547eca61e38a407fb68",
+      "url": "https://news.ycombinator.com/item?id=50672565",
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T23:06:29Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A59"
+    },
+    "cad51f93c7be3e403de9": {
+      "id": "cad51f93c7be3e403de9",
+      "url": "https://news.ycombinator.com/item?id=50657346",
+      "title": "The Balatro Timeline",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-26T17:20:27Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "4fc390ccfec19e82e6fe": {
+      "id": "4fc390ccfec19e82e6fe",
+      "url": "https://news.ycombinator.com/item?id=50669765",
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T18:02:45Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "3f2585ad7a1568e2e837": {
+      "id": "3f2585ad7a1568e2e837",
+      "url": "https://news.ycombinator.com/item?id=50674218",
+      "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-28T03:19:20Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A14"
+    },
+    "8729d835a2ec78bab03f": {
+      "id": "8729d835a2ec78bab03f",
+      "url": "https://news.ycombinator.com/item?id=50667989",
+      "title": "False computer-checked proofs",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T15:26:09Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "7f8a36ff77abe7928d1d": {
+      "id": "7f8a36ff77abe7928d1d",
+      "url": "https://news.ycombinator.com/item?id=50669561",
+      "title": "I'm Scared of AI",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T17:45:31Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "8049543a87e82f9f7757": {
+      "id": "8049543a87e82f9f7757",
+      "url": "https://news.ycombinator.com/item?id=50657392",
+      "title": "First images of the impact of DART asteroid deflection experiment",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-26T17:24:37Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "c5a25c19398d1b595656": {
+      "id": "c5a25c19398d1b595656",
+      "url": "https://news.ycombinator.com/item?id=50666279",
+      "title": "New York and California age gating rules go into effect in the new year",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T12:43:40Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "258351a038b4a2a386bb": {
+      "id": "258351a038b4a2a386bb",
+      "url": "https://news.ycombinator.com/item?id=50673688",
+      "title": "Atari Homebrew Awards Cancelled",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-28T02:03:25Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A20"
+    },
+    "a1ee9b44963d6c64608b": {
+      "id": "a1ee9b44963d6c64608b",
+      "url": "https://news.ycombinator.com/item?id=50662313",
+      "title": "Citroën Hydraulic System",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T03:10:19Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "30bc70ee88ed4aa63ecd": {
+      "id": "30bc70ee88ed4aa63ecd",
+      "url": "https://news.ycombinator.com/item?id=50671301",
+      "title": "I am scared: Careless People – Sarah Wynn-Williams on living under a gag order",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T20:25:15Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "461d334cab80159212a5": {
+      "id": "461d334cab80159212a5",
+      "url": "https://news.ycombinator.com/item?id=50667744",
+      "title": "GPT 6.2 Astra solves a historical mystery",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T15:03:17Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "d0f07d3b86521f8192d7": {
+      "id": "d0f07d3b86521f8192d7",
+      "url": "https://news.ycombinator.com/item?id=50673521",
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-28T01:32:56Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A26"
+    },
+    "99018debd285c09b67e0": {
+      "id": "99018debd285c09b67e0",
+      "url": "https://news.ycombinator.com/item?id=50669673",
+      "title": "Show HN: DragDropMath – Learn math by feel",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T17:56:28Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "ad63b9a374f9f5f928ec": {
+      "id": "ad63b9a374f9f5f928ec",
+      "url": "https://news.ycombinator.com/item?id=50666436",
+      "title": "Mental Health Resources and Political Engagement",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T13:01:02Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "33d3ce6b38589faac61c": {
+      "id": "33d3ce6b38589faac61c",
+      "url": "https://news.ycombinator.com/item?id=50667371",
+      "title": "Rayshader 1.0: Exit the Matrix",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T14:30:20Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "a7692ff910139cbc0f4d": {
+      "id": "a7692ff910139cbc0f4d",
+      "url": "https://news.ycombinator.com/item?id=50672008",
+      "title": "9/UX: a Macintosh-inspired desktop for 9front",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T21:48:14Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A65"
+    },
+    "4a59e99bbffdf04c046f": {
+      "id": "4a59e99bbffdf04c046f",
+      "url": "https://news.ycombinator.com/item?id=50665488",
+      "title": "AI on brink of making online security useless, mathematicians fear",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T11:09:04Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "dd8420cf93fa4c00c5ca": {
+      "id": "dd8420cf93fa4c00c5ca",
+      "url": "https://news.ycombinator.com/item?id=50667062",
+      "title": "Making a 3D fantasy map like a 16th-Century atlas",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T14:02:52Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed"
+    },
+    "51fad13f2e3c99717884": {
+      "id": "51fad13f2e3c99717884",
+      "url": "https://news.ycombinator.com/item?id=50672521",
+      "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+      "source": "Hacker News · top stories",
+      "source_id": "hn-top",
+      "group": "technology",
+      "published_at": "2026-11-27T23:00:30Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A62"
+    },
+    "6787d15990c8961f0b61": {
+      "id": "6787d15990c8961f0b61",
+      "url": "https://news.ycombinator.com/item?id=50671651",
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "source": "Hacker News · AI coding",
+      "source_id": "hn-coding",
+      "group": "agents",
+      "published_at": "2026-11-27T21:07:34Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A51"
+    },
+    "4f4b7c0e72436bdca153": {
+      "id": "4f4b7c0e72436bdca153",
+      "url": "https://news.ycombinator.com/item?id=50671275",
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "source": "Hacker News · AI coding",
+      "source_id": "hn-coding",
+      "group": "agents",
+      "published_at": "2026-11-27T20:23:14Z",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "ref": "A55"
+    },
+    "4e3a8d6eb2086a263f14": {
+      "id": "4e3a8d6eb2086a263f14",
+      "url": "https://github.com/affaan-m/ECC",
+      "title": "affaan-m/ECC",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 312056,
+      "date_kind": "discovery",
+      "ref": "A1"
+    },
+    "4ace133d38ceaf106aee": {
+      "id": "4ace133d38ceaf106aee",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "title": "deepseek-ai/deepseek-harness",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 288185,
+      "date_kind": "discovery",
+      "ref": "A7"
+    },
+    "9f81666308abceea7dfa": {
+      "id": "9f81666308abceea7dfa",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "title": "NousResearch/hermes-agent",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 266648,
+      "date_kind": "discovery",
+      "ref": "A13"
+    },
+    "255bf6a8acbe9335dc03": {
+      "id": "255bf6a8acbe9335dc03",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "title": "firecrawl/firecrawl",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 211877,
+      "date_kind": "discovery"
+    },
+    "a48618107217cd62d13e": {
+      "id": "a48618107217cd62d13e",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "title": "DietrichGebert/ponytail",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 200338,
+      "date_kind": "discovery"
+    },
+    "387c94b7d827ef8bfbb8": {
+      "id": "387c94b7d827ef8bfbb8",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "title": "Graphify-Labs/graphify",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 154359,
+      "date_kind": "discovery"
+    },
+    "6a16350f8756ecccf1da": {
+      "id": "6a16350f8756ecccf1da",
+      "url": "https://github.com/langchain-ai/langchain",
+      "title": "langchain-ai/langchain",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 150094,
+      "date_kind": "discovery"
+    },
+    "94ce0f9807c5c1d259a0": {
+      "id": "94ce0f9807c5c1d259a0",
+      "url": "https://github.com/stablyai/orca",
+      "title": "stablyai/orca",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 142975,
+      "date_kind": "discovery"
+    },
+    "8b59fc0528f6acfb282f": {
+      "id": "8b59fc0528f6acfb282f",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "title": "Leonxlnx/taste-skill",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 122437,
+      "date_kind": "discovery"
+    },
+    "8f619eb2d4ac8f653b16": {
+      "id": "8f619eb2d4ac8f653b16",
+      "url": "https://github.com/browser-use/browser-use",
+      "title": "browser-use/browser-use",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 122259,
+      "date_kind": "discovery"
+    },
+    "87f780fecbe60c2342d8": {
+      "id": "87f780fecbe60c2342d8",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "title": "thedotmack/claude-mem",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 120281,
+      "date_kind": "discovery"
+    },
+    "7508583344e05e54ea56": {
+      "id": "7508583344e05e54ea56",
+      "url": "https://github.com/paperclipai/paperclip",
+      "title": "paperclipai/paperclip",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 117672,
+      "date_kind": "discovery"
+    },
+    "28e4d14b050f32ffaa10": {
+      "id": "28e4d14b050f32ffaa10",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "title": "google-gemini/gemini-cli",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 109267,
+      "date_kind": "discovery"
+    },
+    "7e644d831de1d37d571d": {
+      "id": "7e644d831de1d37d571d",
+      "url": "https://github.com/tt-a1i/archify",
+      "title": "tt-a1i/archify",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 101076,
+      "date_kind": "discovery"
+    },
+    "44d58d328addc62ee6ca": {
+      "id": "44d58d328addc62ee6ca",
+      "url": "https://github.com/infiniflow/ragflow",
+      "title": "infiniflow/ragflow",
+      "source": "GitHub · active agent projects",
+      "source_id": "github-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 94850,
+      "date_kind": "discovery"
+    },
+    "bc5c091b2c25fcb0ae77": {
+      "id": "bc5c091b2c25fcb0ae77",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "title": "Ebony-Vinyl/dsh-our-free-model",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 89449,
+      "date_kind": "discovery",
+      "ref": "A19"
+    },
+    "5c1dc08428d9c9cc2136": {
+      "id": "5c1dc08428d9c9cc2136",
+      "url": "https://github.com/yetone/magpie",
+      "title": "yetone/magpie",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 42666,
+      "date_kind": "discovery",
+      "ref": "A25"
+    },
+    "00a08d20d6500a46c649": {
+      "id": "00a08d20d6500a46c649",
+      "url": "https://github.com/BaaRai/ARTEX",
+      "title": "BaaRai/ARTEX",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 23893,
+      "date_kind": "discovery",
+      "ref": "A31"
+    },
+    "eb6b813db451cae6cf7d": {
+      "id": "eb6b813db451cae6cf7d",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "title": "google/elephant-goldfish-model",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 23461,
+      "date_kind": "discovery",
+      "ref": "A37"
+    },
+    "ace02b0271fb4b3f898f": {
+      "id": "ace02b0271fb4b3f898f",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "title": "lemomo-ai/lemo-opuscar",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 22118,
+      "date_kind": "discovery",
+      "ref": "A42"
+    },
+    "e21f7844791023eee311": {
+      "id": "e21f7844791023eee311",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "title": "kajisho5/ffmpeg-skill",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 12064,
+      "date_kind": "discovery"
+    },
+    "3050d1f0f9f76e2d2d21": {
+      "id": "3050d1f0f9f76e2d2d21",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "title": "mdiri-ai/SoduWork",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 8859,
+      "date_kind": "discovery"
+    },
+    "2aae4fda20fe5fcbc9ea": {
+      "id": "2aae4fda20fe5fcbc9ea",
+      "url": "https://github.com/Oldcircle/geo-sleuth",
+      "title": "Oldcircle/geo-sleuth",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 7755,
+      "date_kind": "discovery"
+    },
+    "7d134269067a0b07dc18": {
+      "id": "7d134269067a0b07dc18",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "title": "Human-Agent-Society/reef",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 7609,
+      "date_kind": "discovery"
+    },
+    "ea0bb3449281fc47f86c": {
+      "id": "ea0bb3449281fc47f86c",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "title": "Louis-CFM/coucou",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 7489,
+      "date_kind": "discovery"
+    },
+    "dff1539ea50c2cd37ba4": {
+      "id": "dff1539ea50c2cd37ba4",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "title": "KKKKhazix/agent-autoloop",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 6742,
+      "date_kind": "discovery"
+    },
+    "b96abd9dd91010019952": {
+      "id": "b96abd9dd91010019952",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "title": "Leonxlnx/earshot",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 5957,
+      "date_kind": "discovery"
+    },
+    "fec58bef9f061f31891d": {
+      "id": "fec58bef9f061f31891d",
+      "url": "https://github.com/vAPI-Network/vapi-network",
+      "title": "vAPI-Network/vapi-network",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 5945,
+      "date_kind": "discovery"
+    },
+    "26a60c2b25037f3af5d1": {
+      "id": "26a60c2b25037f3af5d1",
+      "url": "https://github.com/kuafuai/andee",
+      "title": "kuafuai/andee",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 5619,
+      "date_kind": "discovery"
+    },
+    "22258cbc8abca526efa3": {
+      "id": "22258cbc8abca526efa3",
+      "url": "https://github.com/shinyobjectz/raea",
+      "title": "shinyobjectz/raea",
+      "source": "GitHub · emerging agent projects",
+      "source_id": "github-new-agents",
+      "group": "agents",
+      "published_at": "2026-11-28T08:30:15.581650+00:00",
+      "discovered_at": "2026-11-28T08:30:15.581650+00:00",
+      "text_kind": "feed",
+      "stars": 5393,
       "date_kind": "discovery"
     }
   },
@@ -14690,6 +15726,13 @@
     "b4fb07f559e91f77f67b": "2026-11-27",
     "8fa774ca5a62ad7ae50c": "2026-11-27",
     "ea2ee3c41c60d602be63": "2026-11-27",
-    "6297c7c9c42f952d67fb": "2026-11-27"
+    "6297c7c9c42f952d67fb": "2026-11-27",
+    "4e3a8d6eb2086a263f14": "2026-11-28",
+    "6787d15990c8961f0b61": "2026-11-28",
+    "4f4b7c0e72436bdca153": "2026-11-28",
+    "3547eca61e38a407fb68": "2026-11-28",
+    "3f2585ad7a1568e2e837": "2026-11-28",
+    "12f5e3fcfd0580480a0b": "2026-11-28",
+    "d0f07d3b86521f8192d7": "2026-11-28"
   }
 }

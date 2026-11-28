@@ -1,0 +1,395 @@
+{
+  "version": 1,
+  "id": "2026-11-28",
+  "date": "2026-11-28",
+  "created_at": "2026-11-28T08:30:15.581650+00:00",
+  "title": "Утренний обзор",
+  "intro": "Сегодня в выпуске мало новых событий: большая часть материалов — распродажи, повторы вчерашних новостей и ранние публикации без подтверждённых данных. Ниже только то, что содержит конкретный новый факт, с указанием, чьё это заявление.",
+  "provider": "claude-cli",
+  "model": "haiku",
+  "groups": [
+    {
+      "id": "agents",
+      "name": "AI-агенты",
+      "description": "Главный приоритет. Подробные релизы, новые фичи флагманов, SDK и тренды агентской разработки."
+    },
+    {
+      "id": "technology",
+      "name": "Технологии",
+      "description": "Крупные глобальные технологические события. Отсеивать мелкие новости и рекламу."
+    },
+    {
+      "id": "world",
+      "name": "Мир: главное",
+      "description": "Только крупные мировые события и существенные международные решения. Без риторики, курьезов и местной хроники; пустая группа допустима."
+    },
+    {
+      "id": "uk",
+      "name": "Иммиграция в UK",
+      "description": "Визы, settlement/ILR, гражданство, изменения правил, сборов и сроков. Предпочитать GOV.UK."
+    },
+    {
+      "id": "russia",
+      "name": "Россия: главное",
+      "description": "Только самые важные новости России. Очень высокий порог включения."
+    },
+    {
+      "id": "peace",
+      "name": "Переговоры и урегулирование",
+      "description": "Российско-украинский конфликт: дипломатия, мирные инициативы, прекращение огня и существенные переговорные сдвиги."
+    }
+  ],
+  "stories": [
+    {
+      "title": "affaan-m/ECC: набор навыков и харнесс для Claude Code, Codex, Opencode и Cursor",
+      "summary": "Репозиторий описывает систему оптимизации агентского харнесса: skills, instincts, memory, безопасность и research-first разработку для Claude Code, Codex, Opencode и Cursor. По счётчику GitHub 312 056 звёзд, за сутки +402; это показатель внимания, а не проверенного качества.",
+      "why_it_matters": "",
+      "id": "b263d044e51c3f03",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "4e3a8d6eb2086a263f14",
+          "url": "https://github.com/affaan-m/ECC",
+          "source": "GitHub · active agent projects",
+          "title": "affaan-m/ECC",
+          "published_at": "2026-11-28T08:30:15.581650+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "SessionGraph: интерактивный граф всех сессий кодовых агентов",
+      "summary": "По заголовку и ссылке на sessiongraph.ai проект предлагает визуализировать сессии разных кодовых агентов в одном интерактивном графе. На Hacker News публикация набрала 50 баллов и 25 комментариев; возможности и поддерживаемые агенты в материале не описаны.",
+      "why_it_matters": "",
+      "id": "5f7930468de32de8",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "6787d15990c8961f0b61",
+          "url": "https://news.ycombinator.com/item?id=50671651",
+          "source": "Hacker News · AI coding",
+          "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+          "published_at": "2026-11-27T21:07:34Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Prospero: компактный нативный AI-харнесс для кода на ImGui",
+      "summary": "По заголовку и ссылке на репозиторий skeeto/prospero проект позиционируется как нативный AI-харнесс для программирования без лишних зависимостей, с интерфейсом на ImGui. На Hacker News публикация набрала 66 баллов и 22 комментария; функции и поддерживаемые модели в материале не описаны.",
+      "why_it_matters": "",
+      "id": "fd1d8afe80520c34",
+      "group": "agents",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "4f4b7c0e72436bdca153",
+          "url": "https://news.ycombinator.com/item?id=50671275",
+          "source": "Hacker News · AI coding",
+          "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+          "published_at": "2026-11-27T20:23:14Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Google: DeepCrossAttention заявлен как способ достичь сопоставимого качества модели до 3 раз быстрее",
+      "summary": "По ссылке на блог Google Research описаны улучшения residual connections в трансформерах; по заголовку HN, метод даёт сопоставимое качество модели до 3 раз быстрее. Это заявление авторов публикации: условия экспериментов и независимая проверка в материале не приведены. На Hacker News обсуждение набрало 346 баллов и 134 комментария.",
+      "why_it_matters": "",
+      "id": "bf1e8066b40ec33d",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "3547eca61e38a407fb68",
+          "url": "https://news.ycombinator.com/item?id=50672565",
+          "source": "Hacker News · top stories",
+          "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+          "published_at": "2026-11-27T23:06:29Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Unkernel: настоящее ядро Linux, скомпилированное в WebAssembly",
+      "summary": "По заголовку и ссылке unkernel.dev проект компилирует настоящее ядро Linux в WebAssembly. На Hacker News обсуждение набрало 229 баллов и 43 комментария; объём поддержки и ограничения в материале не указаны.",
+      "why_it_matters": "",
+      "id": "9234db7411dc57c5",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "3f2585ad7a1568e2e837",
+          "url": "https://news.ycombinator.com/item?id=50674218",
+          "source": "Hacker News · top stories",
+          "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+          "published_at": "2026-11-28T03:19:20Z",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Дуров заявил о массовом взломе пользователей iPhone; Telegram разослал предупреждения об обновлении iOS",
+      "summary": "По сообщению «Медузы», в ночь на 28 ноября Telegram разослал части пользователей айфонов призыв обновить iOS, не уточнив, какие версии считаются устаревшими. Павел Дуров написал, что пользователей iPhone «массово взламывают»; это его заявление, независимого подтверждения в материале нет.",
+      "why_it_matters": "",
+      "id": "accd4bde17834d7e",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "12f5e3fcfd0580480a0b",
+          "url": "https://meduza.io/news/2026/11/28/telegram-razoslal-polzovatelyam-soobscheniya-s-prizyvom-srochno-obnovit-operatsionnuyu-sistemu-iphone-pavel-durov-predupredil-o-masshtabnyh-hakerskih-atakah",
+          "source": "Медуза",
+          "title": "Телеграм разослал пользователям айфонов сообщения с призывом срочно обновить операционную систему. Павел Дуров предупредил о масштабных хакерских атаках",
+          "published_at": "2026-11-28T07:40:09+00:00",
+          "text_kind": "feed"
+        }
+      ]
+    },
+    {
+      "title": "Выселение после совета ИИ-ассистента арендодателя об отсрочке аренды",
+      "summary": "По заголовку HN-публикации со ссылкой на Substack, жильца выселили после того, как ИИ-ассистент арендодателя сообщил ей, что можно отложить платёж за аренду. Текст материала в выгрузке не приведён, поэтому детали случая и позиция арендодателя неизвестны.",
+      "why_it_matters": "",
+      "id": "aaca91b96ca85094",
+      "group": "technology",
+      "is_update": false,
+      "important": false,
+      "importance_reason": "",
+      "previous_stories": [],
+      "sources": [
+        {
+          "id": "d0f07d3b86521f8192d7",
+          "url": "https://news.ycombinator.com/item?id=50673521",
+          "source": "Hacker News · top stories",
+          "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+          "published_at": "2026-11-28T01:32:56Z",
+          "text_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fetched": 2241,
+    "candidates": 79,
+    "selected": 7,
+    "sources_ok": 23,
+    "sources_total": 23
+  },
+  "source_health": [
+    {
+      "id": "codex",
+      "name": "Codex releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph releases",
+      "ok": true,
+      "count": 100,
+      "error": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1430,
+      "error": null
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor changelog",
+      "ok": true,
+      "count": 5,
+      "error": null
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-world",
+      "name": "BBC News · World",
+      "ok": true,
+      "count": 22,
+      "error": null
+    },
+    {
+      "id": "ukvi",
+      "name": "UK Visas and Immigration",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-ru",
+      "name": "BBC News Русская служба",
+      "ok": true,
+      "count": 34,
+      "error": null
+    },
+    {
+      "id": "meduza",
+      "name": "Медуза",
+      "ok": true,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "guardian-ukraine",
+      "name": "The Guardian · Ukraine",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "hn-top",
+      "name": "Hacker News · top stories",
+      "ok": true,
+      "count": 57,
+      "error": null
+    },
+    {
+      "id": "hn-agents",
+      "name": "Hacker News · agents",
+      "ok": true,
+      "count": 4,
+      "error": null
+    },
+    {
+      "id": "hn-coding",
+      "name": "Hacker News · AI coding",
+      "ok": true,
+      "count": 2,
+      "error": null
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN AI",
+      "ok": true,
+      "count": 2,
+      "error": null
+    },
+    {
+      "id": "github-agents",
+      "name": "GitHub · active agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "id": "github-new-agents",
+      "name": "GitHub · emerging agent projects",
+      "ok": true,
+      "count": 15,
+      "error": null
+    }
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 72934,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 7740,
+    "output_tokens_details": {
+      "thinking_tokens": 6058
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 72934,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 7740,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 72934,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 72934
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  }
+}
